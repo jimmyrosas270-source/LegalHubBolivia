@@ -1,0 +1,5 @@
+salida/
+__pycache__/
+.DS_Store
+.wrangler/
+node_modules/

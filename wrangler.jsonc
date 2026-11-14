@@ -1,0 +1,11 @@
+// Publicación en Cloudflare (Worker con archivos estáticos).
+// "name" debe coincidir con el Worker de la vista previa para conservar la dirección.
+{
+  "name": "legalhubbolivia",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./salida",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

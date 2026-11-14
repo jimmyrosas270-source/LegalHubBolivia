@@ -1,0 +1,43 @@
+name: Construir y publicar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: publicar
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar herramientas de PDF
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Construir el sitio
+        run: python3 herramientas/construir.py
+
+      - name: Revisar el sitio
+        run: python3 herramientas/revisar.py salida
+
+      - name: Publicar en Cloudflare
+        if: ${{ env.CF_TOKEN != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
+
+      - name: Aviso si falta la clave de Cloudflare
+        if: ${{ env.CF_TOKEN == '' }}
+        run: echo "::warning::El sitio se construyó, pero no se publicó. Falta el secreto CLOUDFLARE_API_TOKEN (ver LEEME.md)."

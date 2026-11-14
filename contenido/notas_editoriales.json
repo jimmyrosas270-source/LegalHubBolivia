@@ -1,0 +1,25 @@
+{
+  "LEEME": "Notas propias del editor. No son texto legal. Se insertan al construir el sitio, debajo del texto del artículo, en la página indicada en 'ruta'. Para retirar una nota sin borrarla, cambia 'publicar' a false.",
+  "notas": [
+    {
+      "id": "lgt-art-8",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-8/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El archivo de origen marca este artículo como derogado parcialmente por el artículo 1 de la Ley 2089, promulgada el 05/05/2000, y precisa que se trata de una derogación implícita: la ley posterior no nombra este artículo, pero su contenido choca con una parte de él.",
+        "Por eso el texto se publica completo, tal como lo trae el archivo, sin tachar ni separar ninguna parte. Para saber qué parte dejó de regir hay que leer este artículo junto con la Ley 2089 en la Gaceta Oficial de Bolivia."
+      ]
+    },
+    {
+      "id": "lgt-art-57",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-57/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El archivo de origen indica que este artículo fue modificado por el artículo 3 de la Ley 6783, de 11/06/1947, de forma implícita: la ley posterior cambió la regla sin citar este artículo de manera expresa.",
+        "En esta página el artículo se muestra como lo ordena la fuente; los datos del cambio figuran aparte. El alcance exacto del cambio debe comprobarse leyendo la Ley 6783 y las normas laborales posteriores en la Gaceta Oficial de Bolivia."
+      ]
+    }
+  ]
+}

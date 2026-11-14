@@ -1,0 +1,59 @@
+/* Biblioteca PDF y visor · LegalHubBolivia */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.filtros{display:flex;flex-direction:column;gap:12px}
+.filtro{display:flex;align-items:center;gap:8px;background:#fff;border:1.5px solid var(--linea);border-radius:12px;padding:0 14px;height:50px;color:var(--verde);max-width:560px}
+.filtro:focus-within{border-color:var(--verde)}
+.filtro input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;color:var(--tinta)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip-f{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--linea);background:#fff;color:var(--tinta);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.chip-f[aria-pressed=true]{background:var(--verde);border-color:var(--verde);color:#fff}
+.estante{display:grid;gap:16px;grid-template-columns:1fr}
+.libro{background:#fff;border:1px solid var(--linea);border-radius:12px;padding:12px;display:grid;grid-template-columns:104px 1fr;gap:14px;align-items:start}
+.libro[hidden]{display:none}
+.libro-d{display:flex;flex-direction:column;gap:4px;min-width:0}
+.libro h2{font-size:17px;line-height:1.3;margin:4px 0 2px}
+.libro h2 a{color:var(--tinta);text-decoration:none}.libro h2 a:hover{color:var(--verde);text-decoration:underline}
+.libro-acc{display:flex;flex-wrap:wrap;gap:4px 16px;margin:6px 0 0}
+.libro-acc a{font-weight:600;line-height:36px}
+.tapa{position:relative;display:block;border:1px solid var(--linea);border-radius:6px;overflow:hidden;background:var(--papel);aspect-ratio:260/336;box-shadow:0 1px 3px rgba(22,33,28,.12)}
+.tapa img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.tapa span{position:absolute;left:6px;bottom:6px;display:inline-flex;align-items:center;gap:4px;background:var(--verde);color:#fff;font-size:12px;font-weight:700;padding:4px 8px;border-radius:999px}
+.tapa:hover{box-shadow:0 4px 14px rgba(22,33,28,.22)}
+.tapa.grande{width:200px;flex:none}
+.ficha-pdf{display:flex;flex-direction:column;gap:16px}
+.ficha-acc{display:flex;flex-direction:column;gap:14px;min-width:0;flex:1}
+.ficha-acc .btn svg{flex:none}
+.buscador button:disabled,.buscador input:disabled{opacity:.5;cursor:not-allowed}
+.nota small{color:var(--sec)}
+@media(min-width:560px){.ficha-pdf{flex-direction:row;align-items:flex-start}.libro{grid-template-columns:120px 1fr}}
+@media(min-width:900px){.estante{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1100px){.estante{grid-template-columns:repeat(3,minmax(0,1fr))}.libro{grid-template-columns:1fr;padding:14px}.libro .tapa{max-width:none}}
+
+/* visor */
+.lector-pag{height:100vh;height:100dvh;overflow:hidden;display:flex;flex-direction:column;background:#E9ECE8}
+.lector-barra{flex:none;display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px;background:#fff;border-bottom:1px solid var(--linea);padding:4px 8px;min-height:56px}
+.lector-tit{flex:1 1 160px;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+.lector-tit b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:15px}
+.lector-tit small{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lector-busca{display:none;order:3;flex:1 1 100%;align-items:center;gap:4px;border:1.5px solid var(--verde);border-radius:10px;padding:0 2px 0 10px;height:44px;color:var(--verde);background:#fff}
+.lector-busca.abierto{display:flex}
+.lector-busca input{flex:1;min-width:0;border:0;outline:0;font:inherit;font-size:16px;color:var(--tinta);background:transparent}
+.lector-busca .ico-btn{width:38px;height:38px}
+.conteo{font-size:13px;color:var(--sec);white-space:nowrap}
+.conteo.no{color:var(--rojo);font-weight:600}
+.lector-herr{display:flex;align-items:center;gap:2px}
+.pagnum{display:flex;align-items:center;gap:4px;font-size:14px;color:var(--sec);margin:0 4px}
+.pagnum input{width:52px;height:36px;border:1.5px solid var(--linea);border-radius:8px;text-align:center;font:inherit;font-size:15px;color:var(--tinta);-moz-appearance:textfield}
+.pagnum input::-webkit-inner-spin-button{-webkit-appearance:none}
+#lector{flex:1;position:relative;min-height:0}
+#visor-cont{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch}
+#visor-cont .pdfViewer .page{box-shadow:0 1px 4px rgba(22,33,28,.18);border:0;margin:12px auto}
+.carga{position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);background:#fff;border:1px solid var(--linea);border-radius:12px;padding:16px 20px;font-weight:600;box-shadow:0 4px 14px rgba(22,33,28,.15);text-align:center;max-width:90%}
+.carga[hidden]{display:none}
+.carga a{display:inline-block;margin-top:8px}
+@media(min-width:900px){
+.lector-barra{flex-wrap:nowrap;padding:6px 12px}
+.lector-busca{display:flex;order:0;flex:0 1 380px}
+.lector-tit{flex:1 1 auto}
+}
+@media print{.lector-barra,.franja{display:none}}

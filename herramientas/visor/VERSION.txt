@@ -1,0 +1,1 @@
+pdfjs-dist 6.2.108 (compilación legacy, para navegadores antiguos). Licencia Apache 2.0.
