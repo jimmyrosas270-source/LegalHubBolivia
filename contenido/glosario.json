@@ -119,6 +119,111 @@
    "ver": [
     "/guias/laboral/prima-anual/|Guía"
    ]
+  },
+  {
+   "termino": "Abandono de trabajo",
+   "definicion": "Ausencia prolongada del trabajador sin justificación. Puede ser causa de despido, pero antes el empleador debe dar la oportunidad de justificar.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/abandono-de-trabajo/|Guía",
+    "/preguntas/laboral/#p23|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Beneficios sociales",
+   "definicion": "Pagos que corresponden al trabajador al terminar la relación laboral, como la indemnización, el aguinaldo proporcional y las vacaciones no gozadas.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/calculo-del-finiquito/|Guía",
+    "/preguntas/laboral/#p12|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Caso fortuito",
+   "definicion": "Hecho imprevisible, ajeno a la voluntad de las partes, que afecta el trabajo normal.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/despido-por-fuerza-mayor/|Guía"
+   ]
+  },
+  {
+   "termino": "Despido indirecto",
+   "definicion": "Terminación de la relación laboral que resulta de una conducta del empleador, como bajar el sueldo, que obliga al trabajador a irse.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/rebaja-salarial-y-despido-indirecto/|Guía",
+    "/preguntas/laboral/#p22|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Despido injustificado",
+   "definicion": "Despido sin una causa que la ley reconozca. La Constitución lo prohíbe.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-49/|Artículo 49, Constitución Política del Estado",
+    "/guias/laboral/reincorporacion-o-beneficios-sociales/|Guía"
+   ]
+  },
+  {
+   "termino": "Duodécima",
+   "definicion": "Cada doceava parte de un pago anual. Sirve para calcular en proporción al tiempo trabajado.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/calculo-del-finiquito/|Guía"
+   ]
+  },
+  {
+   "termino": "Fuerza mayor",
+   "definicion": "Hecho externo e inevitable, como un incendio o un desastre natural. Según el criterio del Ministerio de Trabajo que cita la guía, no basta por sí solo para despedir.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/despido-por-fuerza-mayor/|Guía",
+    "/preguntas/laboral/#p25|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Inversión de la prueba",
+   "definicion": "Regla por la cual, en una disputa laboral, no es el trabajador quien debe probar todo: la Constitución la establece a su favor.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-48/|Artículo 48, Constitución Política del Estado",
+    "/preguntas/laboral/#p26|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Preaviso",
+   "definicion": "Aviso con anticipación de que el contrato de trabajo terminará, regulado en el artículo 12 de la Ley General del Trabajo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/preaviso-y-despido/|Guía",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-12/|Artículo 12, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Quinquenio",
+   "definicion": "Pago de la indemnización por tiempo de servicios que se consolida cada cinco años de trabajo continuo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/refrendo-del-finiquito/|Guía"
+   ]
+  },
+  {
+   "termino": "Refrendo",
+   "definicion": "Revisión y validación que hace el Ministerio de Trabajo del formulario único de finiquito.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/refrendo-del-finiquito/|Guía",
+    "/preguntas/laboral/#p18|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Reincorporación",
+   "definicion": "Regreso del trabajador a su puesto después de un despido injustificado.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/reincorporacion-o-beneficios-sociales/|Guía",
+    "/preguntas/laboral/#p21|Pregunta frecuente"
+   ]
   }
  ]
 }

@@ -23,6 +23,36 @@
         "Cambio posterior al texto de este artículo: el Decreto Supremo 3691 de 1954, artículo 27, dispuso que los beneficios anuales de los obreros, como el aguinaldo de Navidad y las primas, se calculen sobre la base de un mes de salario. Con ello, los 25 días que menciona este artículo para los obreros quedaron superados. El decreto está disponible en la Biblioteca.",
         "El alcance del cambio y la vigencia de estas reglas deben comprobarse en la Gaceta Oficial de Bolivia."
       ]
+    },
+    {
+      "id": "lgt-art-12",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-12/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "La aplicación de este artículo ha sido condicionada por la jurisprudencia constitucional. Según los materiales de apoyo, la Sentencia Constitucional 1262/2013 dispuso que, cuando el empleador despide con preaviso, el trabajador puede aceptarlo y cobrar sus beneficios sociales sin desahucio, o no aceptarlo y pedir su reincorporación. La Sentencia Constitucional Plurinacional 907/2016 generó dudas sobre ese alcance.",
+        "El texto del artículo se publica sin cambios. Para entender sus límites actuales hay que leerlo junto con esas sentencias, que no están publicadas en este sitio. Ver la guía «El preaviso y sus límites». Los datos de las sentencias deben comprobarse en una fuente oficial."
+      ]
+    },
+    {
+      "id": "lgt-art-13",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-13/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El artículo 8 del Reglamento de la Ley General del Trabajo regula la misma indemnización y no dice lo mismo que este artículo en dos puntos: descuenta los tres primeros meses de prueba, salvo en los contratos por tiempo determinado, y fija 15 años de servicio para que el empleado cobre aunque se retire voluntariamente, además de 8 años para el obrero.",
+        "Los materiales de apoyo señalan además que el Decreto Supremo 110 de 01/05/2009 cambió el tiempo mínimo de servicio y la forma de calcular las fracciones. El alcance de esos cambios y la vigencia de cada regla deben comprobarse en la Gaceta Oficial de Bolivia. Ver la guía «Cómo se calcula el finiquito»."
+      ]
+    },
+    {
+      "id": "reg-art-9",
+      "ruta": "/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-9/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El inciso d) de este artículo menciona la inasistencia injustificada de más de tres días consecutivos o más de seis en el mes. El inciso equivalente del artículo 16 de la Ley General del Trabajo fue derogado por una ley de 23/11/1944. Los materiales de apoyo indican que después el Decreto Supremo 1592 de 19/04/1949 restableció la inasistencia como causa de retiro cuando excede de seis días hábiles seguidos.",
+        "Por eso la cifra aplicable debe comprobarse en una fuente oficial. Ver la guía «El abandono de trabajo»."
+      ]
     }
   ]
 }
