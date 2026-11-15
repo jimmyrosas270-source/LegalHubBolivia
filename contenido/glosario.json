@@ -1,0 +1,124 @@
+{
+ "LEEME": "Términos del glosario. 'ver' es una lista de 'ruta | texto del enlace'.",
+ "terminos": [
+  {
+   "termino": "Abrogada",
+   "definicion": "Norma que dejó de regir por completo.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Derogada",
+   "definicion": "Norma que dejó de regir en parte o en artículos concretos.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Desactualizada",
+   "definicion": "El archivo del sitio puede no reflejar cambios posteriores.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Verificar",
+   "definicion": "Nadie ha confirmado todavía la vigencia del texto.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Vigente",
+   "definicion": "Norma cuyo texto está en vigor.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Vigente con modificaciones",
+   "definicion": "La norma rige, pero otra posterior cambió parte de su texto.",
+   "grupo": "Estados de vigencia",
+   "ver": []
+  },
+  {
+   "termino": "Desahucio",
+   "definicion": "Pago de tres sueldos cuando el empleador despide sin causa justificada y sin aviso previo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p9|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-12/|Artículo 12, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Finiquito",
+   "definicion": "Documento que liquida lo que se debe al trabajador al terminar la relación laboral.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p7|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Haber básico",
+   "definicion": "Sueldo pactado en el contrato, sin bonos ni pagos adicionales.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p3|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Indemnización por tiempo de servicios",
+   "definicion": "Un mes de sueldo por año trabajado cuando la salida no depende de la voluntad del trabajador.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p8|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-13/|Artículo 13, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Jornada efectiva",
+   "definicion": "Tiempo durante el cual el trabajador está a disposición del empleador.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/laboral/ley-general-del-trabajo/articulo-47/|Artículo 47, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Prima anual",
+   "definicion": "Pago anual a los trabajadores cuando la empresa cerró la gestión con utilidades.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/prima-anual/|Guía",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-57/|Artículo 57, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Salario indemnizable",
+   "definicion": "Promedio de los tres últimos meses de total ganado; base para indemnización y desahucio.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p6|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Salario mínimo nacional",
+   "definicion": "Monto más bajo que se puede pagar por jornada completa; lo fija cada año el Órgano Ejecutivo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p4|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Total ganado",
+   "definicion": "Todo lo que el trabajador cobra en el mes: haber básico, bonos, horas extras y otros pagos regulares.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p5|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Utilidades",
+   "definicion": "Ganancia de la empresa al cierre de la gestión, según su balance. De ellas depende la prima anual.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/prima-anual/|Guía"
+   ]
+  }
+ ]
+}

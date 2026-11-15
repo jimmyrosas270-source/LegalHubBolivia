@@ -57,3 +57,16 @@
 .lector-tit{flex:1 1 auto}
 }
 @media print{.lector-barra,.franja{display:none}}
+
+/* guías, preguntas y glosario */
+.guia>p,.guia>.lista{margin:0}.guia>h2{margin:12px 0 0}
+.lista{padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.lista li{line-height:1.6}
+.curiosidad{background:#FBF3DF;border-left:4px solid var(--ocre);border-radius:10px;padding:14px 16px;margin:16px 0}
+.curiosidad p{margin:6px 0 0}
+.preg{background:#fff;border:1px solid var(--linea);border-radius:12px;margin:10px 0}
+.preg summary{cursor:pointer;padding:14px 16px;font-weight:600;line-height:1.4;list-style-position:outside;margin-left:18px}
+.preg[open] summary{border-bottom:1px solid var(--linea)}
+.preg>div{padding:4px 16px 12px}
+.ver{margin:8px 0 0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px}
+.guia-rel{margin-bottom:16px}

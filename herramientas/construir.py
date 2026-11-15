@@ -322,6 +322,9 @@ for d in DOCS:
 # índice para el buscador general del sitio (lo usa /buscar/ si se amplía)
 escribe('biblioteca/indice.json', json.dumps([{'t': d['titulo'], 's': subtitulo(d), 'm': d['materia'], 'u': url(d)} for d in DOCS], ensure_ascii=False, separators=(',', ':')))
 
+# ---------------------------------------------------------------- 2b. guías, preguntas y glosario
+exec(open(os.path.join(HERR, 'editorial.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- 3. menú en las páginas de base
 ENLACE_NORM = re.compile(r'(<a href="/leyes/"[^>]*>Normativa</a>)')
 n_menu = 0
