@@ -24,7 +24,7 @@ La Constitución prohíbe el despido injustificado y protege la estabilidad labo
 
 1. **El trabajador acepta el preaviso.** Se retira y cobra sus beneficios sociales, pero sin el desahucio.
 2. **El trabajador no lo acepta.** Puede optar por la reincorporación. Para ello debe presentar el preaviso y hacer saber que no acepta el despido, porque no incurrió en ninguna causal del artículo 16 o del reglamento interno.
-3. **El empleador lo despide igual.** El trabajador puede pedir su reincorporación ante la Jefatura Departamental de Trabajo. Cuando se dictó la sentencia, el trámite era el del Decreto Supremo 28699 de 2006. Hoy el procedimiento es el de la Ley 1468 de 2022, que abrogó el Decreto Supremo 495 de 2010 y derogó parte del 28699. Ver [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/).
+3. **El empleador lo despide igual.** El trabajador puede pedir su reincorporación ante la Jefatura Departamental de Trabajo. Cuando se dictó la sentencia, el trámite era el del [Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/) de 2006 (artículo 10, parágrafo III). Hoy el procedimiento es el de la Ley 1468 de 2022, que abrogó el Decreto Supremo 495 de 2010 y derogó parte del 28699. Ver [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/).
 4. **El empleador no cumple la orden de reincorporación.** El trabajador puede acudir a la justicia constitucional.
 
 Quien acepta el preaviso y cobra sus beneficios no puede pedir después la reincorporación: ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/).

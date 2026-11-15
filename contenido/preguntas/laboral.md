@@ -67,11 +67,11 @@ Se multiplica el salario promedio indemnizable por los años completos de servic
 
 ### ¿Cómo se calcula el desahucio?
 
-El [Decreto Supremo 110](/biblioteca/decreto-supremo-110/) dice cuándo corresponde (retiro intempestivo), pero no fija el monto. Los materiales de apoyo indican tres veces el salario promedio indemnizable, según el Decreto Supremo 22138 de 21/02/1989, que no está publicado en este sitio. [VERIFICAR]
+El [Decreto Supremo 110](/biblioteca/decreto-supremo-110/) dice cuándo corresponde (retiro intempestivo), pero no fija el monto. El [Decreto Supremo 22138](/biblioteca/decreto-supremo-22138/) lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio. Las dos lecturas no coinciden. [VERIFICAR]
 
 ### ¿Cuánto tiempo tiene el empleador para pagar los beneficios sociales?
 
-Los materiales de apoyo señalan 15 días calendario desde la terminación de la relación laboral. Si se atrasa, debe pagar una multa del 30 % sobre el total y actualizar el monto por la UFV. [VERIFICAR]
+15 días calendario desde el despido. Pasado ese plazo, el monto se actualiza según la UFV, y si el empleador incumple, paga además una multa del 30 % del monto total en beneficio del trabajador ([Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/), artículo 9). El [Reglamento del refrendado](/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/) fija el mismo plazo de 15 días para el pago y el refrendo (artículo 7).
 
 ### ¿Qué hago si el finiquito pagó menos de lo que me corresponde?
 
@@ -79,7 +79,7 @@ Puedes reclamar la diferencia. Los derechos de los trabajadores no se pueden ren
 
 ### ¿Qué es el refrendo del finiquito y quién lo hace?
 
-Es la revisión y validación del formulario único de finiquito por el Ministerio de Trabajo, a través de sus Jefaturas Departamentales o Regionales, según la Resolución Ministerial 1104/2022. La Ley 1468 también lo reconoce como el documento que acredita el cobro de beneficios sociales (disposición final primera). Detalles en la guía [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/). [VERIFICAR]
+Es la revisión y validación del formulario único de finiquito por el Ministerio de Trabajo, a través de sus Jefaturas Departamentales o Regionales. El [Reglamento aprobado por la Resolución Ministerial 1104/22](/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/) lo establece como requisito para que el formulario tenga validez (artículo 2). La Ley 1468 lo reconoce como el documento que acredita el cobro de beneficios sociales. Detalles en la guía [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/).
 
 ### ¿Qué es el preaviso?
 
@@ -95,7 +95,7 @@ No en la vía administrativa. La [Ley 1468](/biblioteca/ley-1468/) dispone que q
 
 ### ¿Pueden bajarme el sueldo?
 
-Según los materiales de apoyo, el Decreto Supremo 3770 de 09/01/2019 prohíbe la rebaja unilateral de sueldos como forma de terminar la relación laboral, y admite una rebaja solo con acuerdo del trabajador debidamente justificado. Ese decreto no está publicado en este sitio. Ver [Rebaja salarial y despido indirecto](/guias/laboral/rebaja-salarial-y-despido-indirecto/). [VERIFICAR]
+El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/), de 9 de enero de 2019, prohíbe a las empresas sujetas a la Ley General del Trabajo aplicar el retiro indirecto por rebaja de sueldos o salarios (artículo 2). Si el trabajador considera vulnerado su derecho a la estabilidad por una rebaja anunciada, puede acudir al Ministerio de Trabajo, que conminará la reincorporación y la reposición de la remuneración anterior, salvo acuerdo de las partes debidamente justificado (artículo 3). Ver [Rebaja salarial y despido indirecto](/guias/laboral/rebaja-salarial-y-despido-indirecto/).
 
 ### ¿Cuántos días de falta se consideran abandono de trabajo?
 
@@ -136,3 +136,15 @@ Es la indemnización que se consolida cada cinco años de trabajo continuo. Si d
 ### ¿Qué pasa si el trabajador no avisa que renuncia?
 
 No pierde su indemnización por tiempo de servicios, pero el empleador puede descontarle el sueldo o salario correspondiente a los plazos del preaviso ([Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/), artículo 2).
+
+### ¿Dónde se refrenda el finiquito y qué pasa si el trabajo queda lejos de una Jefatura?
+
+Ante la Jefatura Departamental o Regional de Trabajo de la localidad donde trabajó la persona, o la más cercana al lugar de trabajo. Si queda a más de 100 kilómetros de cualquier Jefatura, el empleador puede, por su cuenta y costo, certificar ante notario la firma del trabajador, y solo así se exceptúa su presencia ([Reglamento del refrendado](/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/), artículos 8 y 9).
+
+### ¿Qué pasa si el trabajador opta por los beneficios sociales en lugar de la reincorporación?
+
+El empleador debe pagarlos, junto con los demás derechos que correspondan, en el plazo de 15 días calendario ([Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/), artículos 9 y 10, parágrafos I y II). Con el cobro efectivo, acreditado con el finiquito refrendado, ya no se puede pedir la reincorporación en la vía administrativa ([Ley 1468](/biblioteca/ley-1468/), disposición final primera).
+
+### ¿Pueden pedir mi reincorporación si me bajaron el sueldo?
+
+El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/) (artículo 3) prevé que el trabajador acuda al Ministerio de Trabajo, que conminará al empleador a reincorporarlo y a reponer su remuneración anterior. Cuál procedimiento se aplica hoy, el de ese decreto o el de la Ley 1468, debe confirmarlo un profesional. [VERIFICAR]

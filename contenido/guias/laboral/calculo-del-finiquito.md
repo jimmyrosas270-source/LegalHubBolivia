@@ -12,6 +12,8 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-9/ | Artículo 9 | Reglamento de la Ley General del Trabajo
 - /biblioteca/decreto-supremo-110/ | Decreto Supremo 110 (PDF) | Artículos 1 a 4
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículos 4 a 6 y 11
+- /biblioteca/decreto-supremo-22138/ | Decreto Supremo 22138 (PDF) | Artículo 1
+- /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículo 9
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 ---
 ## Qué es el finiquito
@@ -24,7 +26,7 @@ Un finiquito no es definitivo si pagó de menos: los derechos de los trabajadore
 
 El Decreto Supremo 110, de 1 de mayo de 2009, garantiza la indemnización por tiempo de servicios a quien cumplió más de 90 días de trabajo continuo y fue retirado intempestivamente o presentó su renuncia voluntaria (artículos 1 y 2). Texto completo en la Biblioteca: [Decreto Supremo 110](/biblioteca/decreto-supremo-110/).
 
-Las normas más antiguas hablaban de períodos distintos: el Decreto Supremo 1592 exigía ocho años de servicio para cobrar en caso de retiro voluntario (artículo 4), y el artículo 13 de la Ley General del Trabajo y el artículo 8 de su Reglamento fijan 8 y 15 años. Como el Decreto Supremo 110 abroga las disposiciones contrarias, en principio esos tiempos quedaron superados para la indemnización. [VERIFICAR]
+Las normas más antiguas hablaban de períodos distintos para el retiro voluntario: ocho años en el artículo 13 de la Ley General del Trabajo y en el Decreto Supremo 1592 (artículo 4), ocho o quince años en el artículo 8 del Reglamento, y cinco años en el Decreto Supremo 22138 de 1989, que cita el Decreto Supremo 11478 de 1974. Como el Decreto Supremo 110 abroga las disposiciones contrarias, en principio esos tiempos quedaron superados para la indemnización. [VERIFICAR]
 
 !! Sobre el período de prueba de tres meses, las normas no coinciden: el Reglamento de 1943 (artículo 8) descuenta los tres primeros meses, mientras que el artículo 13 de la Ley General del Trabajo y el artículo 5 del Decreto Supremo 1592 lo incluyen en el tiempo de servicios. Confirma cuál regla se aplica antes de calcular. [VERIFICAR]
 
@@ -40,7 +42,7 @@ Las normas más antiguas hablaban de períodos distintos: el Decreto Supremo 159
 ## Qué pagos lo componen
 
 - **Indemnización por tiempo de servicios.** Un sueldo por cada año de trabajo continuo, o la parte proporcional a los meses trabajados si no se completó el año (Decreto Supremo 110, artículo 2, parágrafo I; artículo 13 de la Ley General del Trabajo).
-- **Desahucio.** Corresponde al trabajador retirado intempestivamente; no corresponde a quien se retira voluntariamente (Decreto Supremo 110, artículo 3).
+- **Desahucio.** Corresponde al trabajador retirado intempestivamente; no corresponde a quien se retira voluntariamente (Decreto Supremo 110, artículo 3). El Decreto Supremo 22138 (artículo 1) lo describe, junto con la indemnización, como los únicos beneficios sociales que la ley impone en caso de despido.
 - **Aguinaldo proporcional.** La parte del aguinaldo que corresponde al tiempo trabajado en el año.
 - **Vacaciones no gozadas.** Los días de descanso que el trabajador no llegó a tomar.
 - **Prima anual.** Solo si la empresa tuvo utilidades en la gestión (ver [La prima anual](/guias/laboral/prima-anual/)).
@@ -59,7 +61,7 @@ Aquí van solo las fórmulas. Los montos de ejemplo se omiten a propósito, porq
 2. Meses sueltos × salario promedio indemnizable ÷ 12.
 3. Días sueltos: el Decreto Supremo 110 solo habla de proporción por meses. Los materiales de apoyo dividen el salario entre 365 por cada día suelto. [VERIFICAR]
 
-**Desahucio.** El Decreto Supremo 110 dice cuándo corresponde, pero no fija el monto. Los materiales de apoyo indican tres veces el salario promedio indemnizable, según el artículo 1 del Decreto Supremo 22138 de 21/02/1989, que no está publicado en este sitio. [VERIFICAR]
+**Desahucio.** El Decreto Supremo 110 dice cuándo corresponde, pero no fija el monto. El Decreto Supremo 22138, de 21 de febrero de 1989, lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio indemnizable. Las dos lecturas no coinciden, así que el monto debe confirmarlo un profesional. [VERIFICAR]
 
 **Aguinaldo proporcional.** Salario ÷ 12 × meses trabajados en el año, más la parte de los días sueltos. Los materiales de apoyo indican que exige más de tres meses de relación laboral. [VERIFICAR]
 
@@ -71,7 +73,9 @@ Los derechos que el trabajador adquiere cada cinco años se acumulan. Si despué
 
 ## Plazo para pagar
 
-Los materiales de apoyo señalan que los beneficios sociales deben pagarse dentro de los 15 días calendario siguientes a la terminación de la relación laboral. Si el empleador se atrasa, deberá pagar una multa del 30 % sobre el total y actualizar el monto según la UFV (Unidad de Fomento de Vivienda). [VERIFICAR]
+En caso de despido, el empleador debe pagar el finiquito (sueldos devengados, indemnización y los demás derechos que correspondan) en el plazo impostergable de 15 días calendario. Pasado ese plazo, el monto se actualiza según la variación de la UFV (Unidad de Fomento de la Vivienda) desde el despido hasta el día anterior al pago. Si el empleador incumple, paga además una multa del 30 % del monto total, incluido el mantenimiento de valor, en beneficio del trabajador (Decreto Supremo 28699, artículo 9). Texto en la Biblioteca: [Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/).
+
+El Reglamento del refrendado fija el mismo plazo de 15 días calendario, desde la conclusión de la relación laboral, para el pago y el refrendo del formulario, y 30 días para el quinquenio (artículo 7). Ver [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/).
 
 ## Si el pago no llega o llega incompleto
 

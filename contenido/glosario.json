@@ -152,10 +152,11 @@
   },
   {
    "termino": "Despido indirecto",
-   "definicion": "Terminación de la relación laboral que resulta de una conducta del empleador, como bajar el sueldo, que obliga al trabajador a irse.",
+   "definicion": "Terminación de la relación laboral que resulta de una conducta del empleador, como bajar el sueldo, que lleva al trabajador a irse. El Decreto Supremo 3770 prohíbe el retiro indirecto por rebaja de sueldos.",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/rebaja-salarial-y-despido-indirecto/|Guía",
+    "/biblioteca/decreto-supremo-3770/|Decreto Supremo 3770",
     "/preguntas/laboral/#p22|Pregunta frecuente"
    ]
   },
@@ -220,7 +221,8 @@
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/refrendo-del-finiquito/|Guía",
-    "/preguntas/laboral/#p18|Pregunta frecuente"
+    "/preguntas/laboral/#p18|Pregunta frecuente",
+    "/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/|Reglamento del refrendado"
    ]
   },
   {
@@ -267,6 +269,15 @@
    "ver": [
     "/biblioteca/decreto-supremo-1592/|Artículo 6, Decreto Supremo 1592",
     "/preguntas/laboral/#p30|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Formulario único de finiquito",
+   "definicion": "Documento donde constan los derechos laborales que deben pagarse al trabajador. Tiene validez cuando lo refrenda el Ministerio de Trabajo y es el medio idóneo para acreditar el pago.",
+   "grupo": "Laboral",
+   "ver": [
+    "/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/|Artículo 2, Reglamento del refrendado",
+    "/guias/laboral/refrendo-del-finiquito/|Guía"
    ]
   }
  ]

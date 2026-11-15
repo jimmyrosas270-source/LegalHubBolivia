@@ -10,12 +10,15 @@ articulos:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Disposición final primera
+- /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículo 10
 ---
 ## El punto de partida
 
 La Constitución prohíbe el despido injustificado y manda al Estado proteger la estabilidad laboral (artículo 49, parágrafo III). Entre los temas que deja a la ley, menciona expresamente la reincorporación (artículo 49, parágrafo II). Un despido es injustificado cuando no responde a una causa que la ley reconozca o cuando no se siguió el procedimiento previsto.
 
 ## Las dos opciones
+
+El Decreto Supremo 28699 ya preveía esta alternativa: cuando el trabajador es despedido por causas distintas a las del artículo 16 de la Ley General del Trabajo, puede optar por el pago de los beneficios sociales o por su reincorporación (artículo 10, parágrafos I y II). Los parágrafos de ese artículo que regulaban el trámite de reincorporación (desde el III) fueron derogados por la Ley 1468.
 
 Ante un despido injustificado, el trabajador puede:
 
