@@ -245,3 +245,19 @@ if os.path.isfile(ruta_glo):
         f'<div class="cont pag estrecha">{migas([("Inicio", "/"), ("Glosario", "")])}<h1>Glosario legal</h1><p class="entrada">Términos en lenguaje claro. Definiciones {REVISION.lower()}.</p><nav class="abc" aria-label="Índice alfabético">{abc}</nav>{"".join(secs)}{alerta()}</div>', 'Glosario'))
 
 print(f'Editorial: {len(GUIAS)} guía(s), {sum(p["n"] for p in PREG)} pregunta(s) frecuente(s), {N_GLOSARIO} término(s) de glosario.')
+
+# ------------------------------------------------ páginas sueltas (legales, contacto)
+dir_pag = os.path.join(CONT, 'paginas')
+N_PAG = 0
+if os.path.isdir(dir_pag):
+    for fn in sorted(os.listdir(dir_pag)):
+        if not fn.endswith('.md'):
+            continue
+        meta, cuerpo = leer_md(os.path.join(dir_pag, fn))
+        ruta = meta.get('ruta') or f'/{fn[:-3]}/'
+        tit = meta.get('titulo') or fn[:-3]
+        act = f'<p class="sec">Última actualización: {E(meta["actualizada"])}</p>' if meta.get('actualizada') else ''
+        escribe(html_de(ruta), pagina(tit, meta.get('descripcion', tit),
+            f'<div class="cont pag estrecha guia">{migas([("Inicio", "/"), (tit, "")])}<h1>{E(tit)}</h1>{act}\n{md_html(cuerpo)}</div>'))
+        N_PAG += 1
+    print(f'Páginas sueltas: {N_PAG}.')

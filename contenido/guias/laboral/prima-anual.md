@@ -26,15 +26,18 @@ Según el texto del artículo 57 de la Ley General del Trabajo publicado en este
 
 El Reglamento pone un límite al conjunto: la suma de todas las primas no puede pasar del 25 % de las utilidades netas. Si ese 25 % no alcanza para pagar a todos, se reparte en proporción (artículo 49 del Reglamento).
 
+> El Decreto Supremo 229 de 1944 mandaba pagar el beneficio antes del 25 de diciembre: en esa época, aguinaldo y prima eran casi el mismo pago.
+
 > La primera versión de la Ley General del Trabajo pedía una prima «no inferior» a un mes para empleados y a quince días para obreros. Una ley de 1947 la cambió por montos fijos y la separó del aguinaldo.
 
 ## Quiénes la reciben
 
-- Quien trabajó todo el año sin interrupción recibe la prima completa.
-- Quien trabajó más de tres meses, pero no el año completo, la recibe en proporción al tiempo trabajado.
-- Quien no pasó de tres meses de servicio no la recibe.
+El tiempo mínimo de trabajo aparece en dos normas que no dicen lo mismo:
 
-Así lo dice el artículo 48 del Reglamento. Los materiales de apoyo mencionan una regla posterior que, para obreros, bajaría el mínimo a un mes calendario de trabajo (Decreto Supremo 228 de 21/11/1944). [VERIFICAR]
+- **Reglamento de la Ley General del Trabajo, de 1943 (artículo 48):** la prima completa es para quien trabajó todo el año sin interrupción; quien trabajó más de tres meses la recibe en proporción; quien no pasó de tres meses no la recibe. No distingue entre empleados y obreros.
+- **Decreto Supremo 229, de 21/12/1944 (artículo 3):** exige más de tres meses a los empleados y más de un mes calendario a los obreros; si el tiempo es menor a un año, se paga en proporción.
+
+El Decreto Supremo 229 es posterior y por eso suele aplicarse su regla. Hay que tener en cuenta que se dictó para un beneficio que llamaba «aguinaldo o prima anual», cuando los dos pagos todavía no estaban separados. Ante la duda, la Constitución manda interpretar las normas laborales con el principio de protección del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)), lo que favorece la regla de un mes para obreros. [VERIFICAR]
 
 Los días de baja por enfermedad no se descuentan del tiempo computado (artículo 49 del Reglamento).
 
@@ -45,7 +48,7 @@ Dentro de los treinta días siguientes a la aprobación del balance de la empres
 ## Cuándo no corresponde
 
 - Si la empresa no tuvo utilidades en la gestión y puede demostrarlo con su balance.
-- Si el trabajador fue retirado por una de las causas de despido justificado del artículo 16 de la Ley General del Trabajo o del artículo 9 del Reglamento, según los materiales de apoyo. [VERIFICAR]
+- Si el trabajador fue retirado por una de las faltas del artículo 16 de la Ley General del Trabajo, salvo los incisos d) y f), que ya estaban derogados en 1944 (artículo 4 del Decreto Supremo 229). [VERIFICAR]
 
 ## Cómo se calcula
 
