@@ -9,6 +9,7 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-48/ | Artículo 48 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-49/ | Artículo 49 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-50/ | Artículo 50 | Reglamento de la Ley General del Trabajo
+- /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículo 27
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
 ---
 ## Qué es
@@ -19,10 +20,10 @@ La Constitución deja a la ley la regulación de las primas y de los sistemas de
 
 ## Cuánto corresponde
 
-Según el texto del artículo 57 de la Ley General del Trabajo publicado en este sitio:
+- **Empleados:** un mes de sueldo (artículo 57 de la Ley General del Trabajo).
+- **Obreros:** un mes de salario. El artículo 57 habla de 25 días de salario, pero el Decreto Supremo 3691 de 1954 dispuso que los beneficios anuales de los obreros, como el aguinaldo y las primas, se calculen desde entonces sobre un mes de salario (artículo 27). [VERIFICAR]
 
-- **Empleados:** un mes de sueldo.
-- **Obreros:** 25 días de salario.
+> Los «25 días de salario» de los obreros correspondían a los días que trabajaban en el mes, porque los domingos no se pagaban. En 1954, el mismo Decreto Supremo 3691 creó el salario dominical y pasó a calcular el salario mensual sobre 30 días; desde entonces el aguinaldo y la prima de los obreros se calculan sobre un mes completo.
 
 El Reglamento pone un límite al conjunto: la suma de todas las primas no puede pasar del 25 % de las utilidades netas. Si ese 25 % no alcanza para pagar a todos, se reparte en proporción (artículo 49 del Reglamento).
 

@@ -167,6 +167,8 @@ for g in GUIAS:
 {alerta("Información general. No sustituye asesoría profesional. Los datos marcados [VERIFICAR CON FUENTE OFICIAL] deben confirmarse en la publicación oficial.")}</div>''', 'Guías'))
     for item in arts:
         ruta = item.split('|')[0].strip()
+        if not ruta.startswith('/leyes/'):
+            continue
         insertar_en_articulo(ruta, f'data-guia="{g["slug"]}"',
                              f'<section class="tarjeta guia-rel" data-guia="{g["slug"]}"><h2>Explicado en lenguaje claro</h2><a class="fila" href="{url_guia(g)}"><span><b>{E(g["titulo"])}</b><small>Guía · {E(g["materia"])}</small></span>{ico("chev")}</a></section>',
                              f'Guía «{g["titulo"]}»')
