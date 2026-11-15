@@ -27,9 +27,9 @@ Es todo lo que el trabajador cobra en el mes: haber básico, bonos (antigüedad,
 
 ### ¿Qué es el salario indemnizable?
 
-Es el promedio de los tres últimos meses de total ganado y sirve de base para calcular la indemnización y el desahucio. Incluye las horas extras, el trabajo nocturno, los feriados y las comisiones, siempre que se paguen con regularidad.
+Es el promedio del total ganado en los tres últimos meses, y para quien cobra a jornal, el promedio de los últimos treinta días ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 2, parágrafo III). Sirve de base para calcular la indemnización y el desahucio.
 
-No incluye aguinaldos, primas anuales, viáticos, gastos de representación, premios ni otros pagos ocasionales. Los materiales de apoyo citan el Decreto Supremo 1592 de 19/04/1949. [VERIFICAR]
+Incluye las comisiones y participaciones, las horas extras, el trabajo nocturno y el trabajo en feriados, siempre que se paguen con regularidad. No incluye los aguinaldos ni las primas anuales establecidos por ley, ni los bagajes, viáticos y otros gastos que causa la ejecución del trabajo ([Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/), artículo 11).
 
 ### ¿Qué es el finiquito?
 
@@ -37,13 +37,13 @@ Es el documento donde se liquidan los pagos que corresponden al trabajador al te
 
 ### ¿Qué es la indemnización por tiempo de servicios?
 
-Es el pago de un mes de sueldo por cada año de trabajo continuo, o la parte proporcional si no se completó el año, cuando el trabajador sale por causas ajenas a su voluntad ([artículo 13](/leyes/laboral/ley-general-del-trabajo/articulo-13/) de la Ley General del Trabajo). Es independiente del desahucio.
+Es la compensación al desgaste físico y psíquico del trabajo: un sueldo por cada año de trabajo continuo, o la parte proporcional a los meses trabajados si no se completó el año ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 2; [artículo 13](/leyes/laboral/ley-general-del-trabajo/articulo-13/) de la Ley General del Trabajo). Es independiente del desahucio.
 
-!! Normas posteriores cambiaron el tiempo mínimo de trabajo exigido para cobrarla. Confirma la regla vigente antes de calcular. [VERIFICAR]
+El decreto la garantiza después de más de 90 días de trabajo continuo, tanto en caso de retiro intempestivo como de renuncia voluntaria (artículo 1).
 
 ### ¿Qué es el desahucio?
 
-Es el pago de tres sueldos que corresponde cuando el empleador despide sin causa justificada y sin dar el aviso previo que exige la ley ([artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/) de la Ley General del Trabajo). No procede si el retiro se debe a una de las causas del [artículo 16](/leyes/laboral/ley-general-del-trabajo/articulo-16/).
+Es el pago que corresponde al trabajador retirado intempestivamente. No corresponde a quien se retira voluntariamente ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 3). El [artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/) de la Ley General del Trabajo regula el aviso previo y el [artículo 16](/leyes/laboral/ley-general-del-trabajo/articulo-16/) enumera las causas por las que no hay desahucio ni indemnización.
 
 ### ¿Cuántas horas puede durar la jornada de trabajo?
 
@@ -55,7 +55,7 @@ No. Son pagos distintos. La prima solo se paga si la empresa tuvo utilidades. M�
 
 ### ¿Desde cuándo corresponden los beneficios sociales?
 
-Los materiales de apoyo indican que se consolidan después de más de 90 días de trabajo continuo (Decreto Supremo 110 de 01/05/2009). Los artículos más antiguos de la Ley General del Trabajo y de su Reglamento hablan de un período de prueba de tres meses y no coinciden entre sí. [VERIFICAR]
+La indemnización por tiempo de servicios corresponde a quien cumplió más de 90 días de trabajo continuo ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículos 1 y 2). Las normas más antiguas hablaban de períodos distintos, como los ocho años del Decreto Supremo 1592 para el retiro voluntario. Como el Decreto Supremo 110 abroga las disposiciones contrarias, esos tiempos en principio quedaron superados. [VERIFICAR]
 
 ### ¿Qué datos necesito para calcular mi finiquito?
 
@@ -63,11 +63,11 @@ Cinco: la fecha exacta de ingreso y de salida, el salario promedio indemnizable,
 
 ### ¿Cómo se calcula la indemnización?
 
-Se multiplica el salario promedio indemnizable por los años completos de servicio. Por los meses sueltos se suma ese salario dividido entre 12 por cada mes, y por los días sueltos, dividido entre 365 por cada día ([artículo 13](/leyes/laboral/ley-general-del-trabajo/articulo-13/) de la Ley General del Trabajo y, según los materiales de apoyo, el Decreto Supremo 110 de 2009). [VERIFICAR]
+Se multiplica el salario promedio indemnizable por los años completos de servicio. Por los meses sueltos se suma ese salario dividido entre 12 por cada mes ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 2; [artículo 13](/leyes/laboral/ley-general-del-trabajo/articulo-13/) de la Ley General del Trabajo). El decreto no menciona los días sueltos: los materiales de apoyo los calculan dividiendo entre 365. [VERIFICAR]
 
 ### ¿Cómo se calcula el desahucio?
 
-Son tres veces el salario promedio indemnizable. Solo se paga si el empleador despidió sin causa justificada y sin el aviso previo que exige el [artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/). Los materiales de apoyo citan el Decreto Supremo 22138 de 21/02/1989. [VERIFICAR]
+El [Decreto Supremo 110](/biblioteca/decreto-supremo-110/) dice cuándo corresponde (retiro intempestivo), pero no fija el monto. Los materiales de apoyo indican tres veces el salario promedio indemnizable, según el Decreto Supremo 22138 de 21/02/1989, que no está publicado en este sitio. [VERIFICAR]
 
 ### ¿Cuánto tiempo tiene el empleador para pagar los beneficios sociales?
 
@@ -79,7 +79,7 @@ Puedes reclamar la diferencia. Los derechos de los trabajadores no se pueden ren
 
 ### ¿Qué es el refrendo del finiquito y quién lo hace?
 
-Es la revisión y validación del formulario único de finiquito por el Ministerio de Trabajo, a través de sus Jefaturas Departamentales o Regionales, según la Resolución Ministerial 1104/2022. Detalles en la guía [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/). [VERIFICAR]
+Es la revisión y validación del formulario único de finiquito por el Ministerio de Trabajo, a través de sus Jefaturas Departamentales o Regionales, según la Resolución Ministerial 1104/2022. La Ley 1468 también lo reconoce como el documento que acredita el cobro de beneficios sociales (disposición final primera). Detalles en la guía [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/). [VERIFICAR]
 
 ### ¿Qué es el preaviso?
 
@@ -87,23 +87,23 @@ Es el aviso con anticipación de que el contrato de trabajo terminará. El [art�
 
 ### ¿Me pueden despedir solo avisando con anticipación?
 
-No siempre. La Sentencia Constitucional 1262/2013, según los materiales de apoyo, dice que el trabajador puede aceptar el preaviso y cobrar sus beneficios sin desahucio, o no aceptarlo y pedir su reincorporación. Hay una sentencia posterior que generó dudas. Ver la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
+No siempre. La Sentencia Constitucional 1262/2013, según los materiales de apoyo, dice que el trabajador puede aceptar el preaviso y cobrar sus beneficios sin desahucio, o no aceptarlo y pedir su reincorporación. Una sentencia posterior generó dudas. Ver la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
 
 ### ¿Puedo cobrar mis beneficios sociales y después pedir mi reincorporación?
 
-Según el Auto Supremo 176/2022, de 26 de abril, no: aceptar el finiquito muestra que el trabajador decidió no volver, y ya no puede pedir la reincorporación ni los salarios posteriores. Ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/). [VERIFICAR]
+No en la vía administrativa. La [Ley 1468](/biblioteca/ley-1468/) dispone que quien ya cobró efectivamente sus beneficios sociales no puede pedir su reincorporación ante el Ministerio de Trabajo, y que el cobro se acredita con el finiquito refrendado (disposición final primera). El Auto Supremo 176/2022, de 26 de abril, según los materiales de apoyo, fue en el mismo sentido. Ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/). [VERIFICAR]
 
 ### ¿Pueden bajarme el sueldo?
 
-Según los materiales de apoyo, el Decreto Supremo 3770 de 09/01/2019 prohíbe la rebaja unilateral de sueldos como forma de terminar la relación laboral, y admite una rebaja solo con acuerdo del trabajador debidamente justificado. Ver [Rebaja salarial y despido indirecto](/guias/laboral/rebaja-salarial-y-despido-indirecto/). [VERIFICAR]
+Según los materiales de apoyo, el Decreto Supremo 3770 de 09/01/2019 prohíbe la rebaja unilateral de sueldos como forma de terminar la relación laboral, y admite una rebaja solo con acuerdo del trabajador debidamente justificado. Ese decreto no está publicado en este sitio. Ver [Rebaja salarial y despido indirecto](/guias/laboral/rebaja-salarial-y-despido-indirecto/). [VERIFICAR]
 
 ### ¿Cuántos días de falta se consideran abandono de trabajo?
 
-Las normas no coinciden: el Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes, y los materiales de apoyo citan más de seis días hábiles seguidos (Decreto Supremo 1592 de 1949). Además, el empleador debe dar antes la oportunidad de justificar la falta. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+Las normas no dicen lo mismo. El Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) dice que la inasistencia o el abandono injustificado de más de seis días hábiles seguidos interrumpe la continuidad del servicio. Y la [Ley 1468](/biblioteca/ley-1468/) considera despido sin causa el que se funda en inasistencia de más de seis días laborales continuos sin haber dado al trabajador la oportunidad de justificarla. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
 
 ### ¿Pueden despedirme por faltar por enfermedad?
 
-Las ausencias justificadas no son abandono. Los materiales de apoyo dan como ejemplos la baja médica acreditada por el seguro de salud público, las causas ajenas a la voluntad del trabajador y la enfermedad o accidente grave de un menor a su cargo. [VERIFICAR]
+Las ausencias justificadas no son abandono, y la Ley 1468 exige que el empleador dé antes al trabajador la oportunidad de justificar la falta. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) (artículo 6) cuenta como tiempo de servicios, sin interrumpir su continuidad, los períodos de enfermedad previstos en la Ley General del Trabajo, entre otros. Los materiales de apoyo añaden como ejemplos la baja médica del seguro de salud público y la enfermedad o accidente grave de un menor a cargo del trabajador. [VERIFICAR]
 
 ### ¿Pueden despedirme por un incendio, un bloqueo o una crisis de la empresa?
 
@@ -111,4 +111,28 @@ Según el criterio del Ministerio de Trabajo que citan los materiales de apoyo (
 
 ### ¿Quién debe probar que el despido fue justificado?
 
-La Constitución establece la inversión de la prueba a favor del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/), parágrafo II). Los materiales de apoyo entienden que, ante una disputa, quien despide debe demostrar que hubo una causa legal. [VERIFICAR]
+La Constitución establece la inversión de la prueba a favor del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/), parágrafo II). En el procedimiento de reincorporación, la [Ley 1468](/biblioteca/ley-1468/) dice que el empleador debe probar en la audiencia que no vulneró los derechos laborales (artículo 9), y que si no asiste se presume la vulneración (artículo 10).
+
+### ¿Cuánto tiempo tengo para denunciar un despido injustificado ante el Ministerio de Trabajo?
+
+Hasta tres meses, contados desde el hecho. Vencido ese plazo, el trabajador conserva sus derechos y puede acudir a la judicatura laboral ([Ley 1468](/biblioteca/ley-1468/), artículo 6).
+
+### ¿Cómo es el trámite de reincorporación en el Ministerio de Trabajo?
+
+Se presenta la denuncia ante un Inspector de Trabajo, que cita al empleador a una audiencia; luego informa y el Jefe Departamental o Regional emite una resolución. La ley fija plazos cortos para cada paso y prevé un recurso de revisión. Resumen paso a paso en la guía [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/) y texto completo en la [Ley 1468](/biblioteca/ley-1468/).
+
+### ¿Qué pasa si el empleador no cumple la resolución que ordena la reincorporación?
+
+El Ministerio remite los antecedentes al juez laboral para su ejecución, y el trabajador también puede pedirla directamente dentro de 10 días hábiles desde que se le notificó. El juez puede ordenar retención de fondos, embargo y remate de bienes ([Ley 1468](/biblioteca/ley-1468/), artículo 14).
+
+### ¿Qué se cuenta como tiempo de servicios?
+
+El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) (artículo 6) incluye, entre otros, los períodos de enfermedad previstos en la Ley General del Trabajo, las vacaciones anuales, el descanso antes y después del parto, las licencias del empleador, las interrupciones por causas ajenas al trabajador, el servicio militar obligatorio y el tiempo de un lock-out o una huelga declarada conforme a la ley.
+
+### ¿Qué es el quinquenio?
+
+Es la indemnización que se consolida cada cinco años de trabajo continuo. Si después el trabajador pierde sus beneficios por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 de su Reglamento, la pérdida solo afecta al quinquenio vigente, no a los anteriores ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 4).
+
+### ¿Qué pasa si el trabajador no avisa que renuncia?
+
+No pierde su indemnización por tiempo de servicios, pero el empleador puede descontarle el sueldo o salario correspondiente a los plazos del preaviso ([Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/), artículo 2).

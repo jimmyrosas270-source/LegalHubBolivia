@@ -9,6 +9,7 @@ articulos:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-46/ | Artículo 46 | Constitución Política del Estado
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
+- /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículos 1, 4 y 6
 ---
 ## Qué es el despido indirecto
 
@@ -28,13 +29,12 @@ Recuerda que los derechos laborales son irrenunciables y que es nulo el acuerdo 
 
 ## Qué puede hacer el trabajador
 
-Los materiales de apoyo describen dos caminos que no se excluyen: el administrativo y el judicial. Los dos están previstos en la ley de restitución de derechos laborales, que ellos citan como Ley 1468 de 03/10/2022. [VERIFICAR]
+La Ley 1468 (en la Biblioteca: [Ley 1468](/biblioteca/ley-1468/)) protege, entre otros derechos, el pago de la remuneración o salario (artículo 1). Para ese derecho prevé una Resolución de Cumplimiento de Pago de Remuneración o Salario (artículo 4) y un plazo de hasta tres meses, desde el hecho, para denunciar ante el Ministerio de Trabajo. Vencido ese plazo, el trabajador conserva sus derechos y puede acudir a la judicatura laboral (artículo 6). Cómo es el trámite está en la guía [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/).
 
-- **Vía administrativa:** una denuncia ante el Ministerio de Trabajo, dentro de los tres meses de ocurrido el hecho. [VERIFICAR]
-- **Vía judicial:** si pasó ese plazo, acudir a la judicatura laboral para pedir que el salario vuelva al monto anterior. [VERIFICAR]
+La ley habla de la falta de pago del salario y no menciona expresamente la rebaja salarial. Los materiales de apoyo la tratan como un caso incluido, y eso debe confirmarlo un profesional. [VERIFICAR]
 
 Los sueldos devengados y no pagados son imprescriptibles (artículo 48, parágrafo IV). Para el primer reclamo, ver la pregunta [¿Dónde reclamo primero?](/preguntas/laboral/#p1).
 
-!! Los plazos y el número de la ley de restitución se toman de materiales de apoyo. Confírmalos en la fuente oficial antes de actuar. [VERIFICAR]
+!! El Decreto Supremo 3770 no está publicado en este sitio y lo que se dice de él se toma de materiales de apoyo. Confírmalo en la fuente oficial antes de actuar. [VERIFICAR]
 
 > La Constitución reconoce el derecho a una remuneración o salario justo, equitativo y satisfactorio (artículo 46, parágrafo I, numeral 1). No fija una regla expresa contra la rebaja: esa prohibición viene de normas de menor rango, como el decreto citado.

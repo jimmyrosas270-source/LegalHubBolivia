@@ -5,6 +5,8 @@ publico: Trabajadores y empleadores del sector privado
 actualizada: 15/11/2026
 resumen: Faltar al trabajo no siempre justifica un despido. Esta guía explica cuándo la ausencia es abandono, qué plazos se mencionan en las normas, qué ausencias están justificadas y qué debe hacer el empleador antes de despedir.
 articulos:
+- /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículos 6 y 7
+- /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículo 5
 - /leyes/laboral/ley-general-del-trabajo/articulo-16/ | Artículo 16 | Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-9/ | Artículo 9 | Reglamento de la Ley General del Trabajo
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
@@ -13,15 +15,16 @@ articulos:
 
 Es faltar al trabajo sin justificación durante un tiempo prolongado. Si es una causa válida de retiro, el empleador puede terminar el contrato sin pagar indemnización ni desahucio. Como el despido afecta muchos derechos a la vez, los tribunales piden aplicar estas reglas con la mayor rigurosidad, porque la Constitución manda interpretar las normas laborales a favor de la protección del trabajador (artículo 48, parágrafo II).
 
-## Cuántos días: las normas no coinciden
+## Cuántos días: las normas no dicen lo mismo
 
-Tres textos hablan del tema, y no dicen lo mismo:
+Tres textos hablan del tema, y cada uno cuenta distinto:
 
-- **Reglamento de la Ley General del Trabajo (1943, artículo 9, inciso d):** más de tres días consecutivos o más de seis en el mes, sin justificación.
-- **Artículo 16 de la Ley General del Trabajo:** el inciso sobre inasistencia injustificada (más de tres días) fue derogado por una ley del 23/11/1944. Por eso el texto actual del artículo no la menciona.
-- **Decreto Supremo 1592 de 19/04/1949 (artículo 7):** según los materiales de apoyo, restableció la inasistencia como causa de retiro cuando pasa de seis días hábiles seguidos, sin otros pagos de beneficios. [VERIFICAR]
+- **Reglamento de la Ley General del Trabajo (1943, artículo 9, inciso d):** más de tres días consecutivos o más de seis en el mes, sin justificación. Con esa causa no hay desahucio ni indemnización.
+- **Artículo 16 de la Ley General del Trabajo:** el inciso sobre inasistencia injustificada fue derogado por una ley del 23/11/1944. Por eso el texto actual del artículo no la menciona.
+- **Decreto Supremo 1592 (artículo 7):** trata la continuidad del servicio, no el despido. Dice que interrumpen la continuidad la inasistencia o el abandono injustificado que exceden de seis días hábiles seguidos. Texto en la Biblioteca: [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/).
+- **Ley 1468 (artículo 5, inciso b):** cuando el despido se funda en inasistencia injustificada de más de seis días laborales continuos y el empleador no dio al trabajador la oportunidad de justificarla, se considera despido sin causa justificada.
 
-!! Los materiales de apoyo manejan los seis días hábiles seguidos como cifra de referencia, pero las normas más antiguas dicen otra cosa. Confirma en la fuente oficial cuál regla rige en tu caso. [VERIFICAR]
+!! El Reglamento de 1943 habla de tres días y la Ley 1468 y el Decreto Supremo 1592 hablan de seis. Qué cifra aplica a la causa de despido del Reglamento es algo que debe confirmar un profesional con la fuente oficial. [VERIFICAR]
 
 ## Dos tipos de abandono
 
@@ -32,13 +35,13 @@ Según una línea jurisprudencial del Tribunal Supremo de Justicia que resumen l
 
 ## El despido por inasistencia necesita una oportunidad previa
 
-Una ley posterior de restitución de derechos laborales considera despido sin causa justificada el que el empleador hace por inasistencia injustificada de más de seis días laborables continuos, sin haber dado al trabajador la oportunidad de justificar. Los materiales de apoyo la citan con los números 281/2021 y 283/2021. [VERIFICAR]
-
-En la práctica, antes de despedir el empleador debe dar al trabajador la posibilidad de explicar por qué faltó.
+Según el artículo 5, inciso b, de la Ley 1468, el empleador que despide por inasistencia de más de seis días laborales continuos debe haber dado antes al trabajador la oportunidad de justificarla; si no lo hizo, el despido se considera sin causa justificada. El trabajador puede entonces reclamar su reincorporación ante el Ministerio de Trabajo (ver [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/)).
 
 ## Ausencias que se consideran justificadas
 
-Los materiales de apoyo dan esta lista como ejemplos, no como una lista cerrada: [VERIFICAR]
+La ley no trae una lista cerrada de ausencias justificadas. El Decreto Supremo 1592 (artículo 6) enumera períodos que se cuentan como tiempo de servicios y que no interrumpen la continuidad, como las enfermedades previstas en la Ley General del Trabajo, las vacaciones, el descanso por maternidad, las licencias del empleador, las interrupciones por causas ajenas a la voluntad del trabajador y el tiempo de un lock-out o de una huelga declarada conforme a la ley.
+
+Los materiales de apoyo añaden estos ejemplos, que no vienen de las normas publicadas en este sitio: [VERIFICAR]
 
 - La enfermedad o baja médica acreditada por el seguro de salud público.
 - La ausencia por causas ajenas a la voluntad del trabajador, como fuerza mayor, caso fortuito, o el tiempo que dura un paro (lock-out) o una huelga declarada conforme a la ley.

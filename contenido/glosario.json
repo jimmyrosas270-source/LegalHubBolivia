@@ -39,10 +39,11 @@
   },
   {
    "termino": "Desahucio",
-   "definicion": "Pago de tres sueldos cuando el empleador despide sin causa justificada y sin aviso previo.",
+   "definicion": "Pago que corresponde al trabajador retirado intempestivamente; no corresponde a quien se retira voluntariamente.",
    "grupo": "Laboral",
    "ver": [
     "/preguntas/laboral/#p9|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-110/|Artículo 3, Decreto Supremo 110",
     "/leyes/laboral/ley-general-del-trabajo/articulo-12/|Artículo 12, Ley General del Trabajo"
    ]
   },
@@ -64,10 +65,11 @@
   },
   {
    "termino": "Indemnización por tiempo de servicios",
-   "definicion": "Un mes de sueldo por año trabajado cuando la salida no depende de la voluntad del trabajador.",
+   "definicion": "Un sueldo por cada año de trabajo continuo, o la parte proporcional a los meses trabajados; corresponde después de más de 90 días de trabajo continuo.",
    "grupo": "Laboral",
    "ver": [
     "/preguntas/laboral/#p8|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-110/|Artículo 2, Decreto Supremo 110",
     "/leyes/laboral/ley-general-del-trabajo/articulo-13/|Artículo 13, Ley General del Trabajo"
    ]
   },
@@ -90,10 +92,12 @@
   },
   {
    "termino": "Salario indemnizable",
-   "definicion": "Promedio de los tres últimos meses de total ganado; base para indemnización y desahucio.",
+   "definicion": "Promedio del total ganado en los tres últimos meses (treinta días para quien cobra a jornal); base para indemnización y desahucio.",
    "grupo": "Laboral",
    "ver": [
-    "/preguntas/laboral/#p6|Pregunta frecuente"
+    "/preguntas/laboral/#p6|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-110/|Decreto Supremo 110",
+    "/biblioteca/decreto-supremo-1592/|Artículo 11, Decreto Supremo 1592"
    ]
   },
   {
@@ -122,7 +126,7 @@
   },
   {
    "termino": "Abandono de trabajo",
-   "definicion": "Ausencia prolongada del trabajador sin justificación. Puede ser causa de despido, pero antes el empleador debe dar la oportunidad de justificar.",
+   "definicion": "Ausencia prolongada del trabajador sin justificación. Antes de despedir por inasistencia, el empleador debe dar la oportunidad de justificar (Ley 1468).",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/abandono-de-trabajo/|Guía",
@@ -157,10 +161,11 @@
   },
   {
    "termino": "Despido injustificado",
-   "definicion": "Despido sin una causa que la ley reconozca. La Constitución lo prohíbe.",
+   "definicion": "Despido sin una causa que la ley reconozca. La Constitución lo prohíbe; la Ley 1468 define el despido sin causa justificada en su artículo 5.",
    "grupo": "Laboral",
    "ver": [
     "/leyes/constitucional/constitucion-politica-del-estado/articulo-49/|Artículo 49, Constitución Política del Estado",
+    "/biblioteca/ley-1468/|Artículo 5, Ley 1468",
     "/guias/laboral/reincorporacion-o-beneficios-sociales/|Guía"
    ]
   },
@@ -201,9 +206,11 @@
   },
   {
    "termino": "Quinquenio",
-   "definicion": "Pago de la indemnización por tiempo de servicios que se consolida cada cinco años de trabajo continuo.",
+   "definicion": "Indemnización por tiempo de servicios que se consolida cada cinco años de trabajo continuo. Si se pierde por una causa legal, solo se pierde el quinquenio vigente.",
    "grupo": "Laboral",
    "ver": [
+    "/preguntas/laboral/#p31|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-110/|Artículo 4, Decreto Supremo 110",
     "/guias/laboral/refrendo-del-finiquito/|Guía"
    ]
   },
@@ -218,11 +225,48 @@
   },
   {
    "termino": "Reincorporación",
-   "definicion": "Regreso del trabajador a su puesto después de un despido injustificado.",
+   "definicion": "Regreso del trabajador a su puesto después de un despido sin causa justificada. Se pide ante el Ministerio de Trabajo por el procedimiento de la Ley 1468.",
    "grupo": "Laboral",
    "ver": [
-    "/guias/laboral/reincorporacion-o-beneficios-sociales/|Guía",
+    "/guias/laboral/restitucion-de-derechos-laborales/|Guía",
+    "/biblioteca/ley-1468/|Ley 1468",
     "/preguntas/laboral/#p21|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Retiro intempestivo",
+   "definicion": "Retiro del trabajador por decisión del empleador, sin el aviso previo. Da lugar al pago del desahucio.",
+   "grupo": "Laboral",
+   "ver": [
+    "/biblioteca/decreto-supremo-110/|Decreto Supremo 110",
+    "/preguntas/laboral/#p9|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Resolución de restitución de derechos laborales",
+   "definicion": "Resolución del Ministerio de Trabajo que ordena reincorporar al trabajador, cumplir el pago del salario o respetar el fuero sindical. Es de cumplimiento inmediato.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/restitucion-de-derechos-laborales/|Guía",
+    "/biblioteca/ley-1468/|Artículo 4, Ley 1468"
+   ]
+  },
+  {
+   "termino": "Recurso de revisión",
+   "definicion": "Impugnación que cualquiera de las partes puede presentar, en cinco días hábiles, contra la resolución del Jefe Departamental o Regional de Trabajo. No suspende su ejecución.",
+   "grupo": "Laboral",
+   "ver": [
+    "/biblioteca/ley-1468/|Artículo 13, Ley 1468",
+    "/guias/laboral/restitucion-de-derechos-laborales/|Guía"
+   ]
+  },
+  {
+   "termino": "Tiempo de servicios",
+   "definicion": "Tiempo que se cuenta para la indemnización. Incluye vacaciones, enfermedad, descanso por maternidad y otras interrupciones previstas en el Decreto Supremo 1592.",
+   "grupo": "Laboral",
+   "ver": [
+    "/biblioteca/decreto-supremo-1592/|Artículo 6, Decreto Supremo 1592",
+    "/preguntas/laboral/#p30|Pregunta frecuente"
    ]
   }
  ]
