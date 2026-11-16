@@ -279,6 +279,120 @@
     "/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/|Artículo 2, Reglamento del refrendado",
     "/guias/laboral/refrendo-del-finiquito/|Guía"
    ]
+  },
+  {
+   "termino": "Aguinaldo",
+   "definicion": "Pago anual obligatorio de un mes de sueldo o salario, que se hace a fin de año. Si se trabajó menos de un año, se paga por duodécimas.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/aguinaldos/|Guía",
+    "/preguntas/laboral/#p43|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-3691/|Artículo 27, Decreto Supremo 3691"
+   ]
+  },
+  {
+   "termino": "Pago doble del aguinaldo",
+   "definicion": "Sanción para el empleador que no paga el aguinaldo a tiempo: debe pagarlo dos veces. Lo aplicó el Tribunal Supremo en el Auto Supremo 496/2022.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/aguinaldos/|Guía",
+    "/preguntas/laboral/#p45|Pregunta frecuente",
+    "/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112|Auto Supremo 496/2022"
+   ]
+  },
+  {
+   "termino": "Segundo aguinaldo «Esfuerzo por Bolivia»",
+   "definicion": "Aguinaldo adicional que se paga solo en el año en que el crecimiento de la economía supera el 4,5 %, según el Decreto Supremo 1802 de 2013.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/aguinaldos/|Guía",
+    "/preguntas/laboral/#p47|Pregunta frecuente",
+    "/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136|Auto Supremo 484/2022"
+   ]
+  },
+  {
+   "termino": "Bono de antigüedad",
+   "definicion": "Pago adicional al haber básico que crece con los años de servicio continuo. Se calcula con un porcentaje de la escala aplicado a un monto base.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/bono-de-antiguedad/|Guía",
+    "/preguntas/laboral/#p38|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Empresa productiva",
+   "definicion": "Empresa que crea o transforma bienes materiales, o que obtiene ganancias con un aparato productivo. Para el bono de antigüedad, la base de cálculo es mayor que en las no productivas.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/bono-de-antiguedad/|Guía",
+    "/preguntas/laboral/#p40|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Bono de producción",
+   "definicion": "Pago adicional que la empresa hace a sus trabajadores cuando la producción supera una meta. No se paga si no se supera.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/bono-de-produccion-y-de-frontera/|Guía",
+    "/preguntas/laboral/#p61|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Subsidio de frontera",
+   "definicion": "Pago adicional para trabajadores asignados a lugares dentro de los cincuenta kilómetros de las fronteras internacionales. Sustituyó al bono de zona, región o frontera.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/bono-de-produccion-y-de-frontera/|Guía",
+    "/preguntas/laboral/#p62|Pregunta frecuente"
+   ]
+  },
+  {
+   "termino": "Recargo",
+   "definicion": "Pago adicional sobre la hora ordinaria por trabajar horas extras, de noche, en domingo o en feriado.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/horas-extras-y-trabajo-nocturno/|Guía",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-55/|Artículo 55, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Hora extraordinaria",
+   "definicion": "Hora que se trabaja por encima de la jornada ordinaria. Se paga con un recargo del 100 %, y la Inspección del Trabajo puede permitir hasta 2 por día.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/horas-extras-y-trabajo-nocturno/|Guía",
+    "/preguntas/laboral/#p49|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-50/|Artículo 50, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Trabajo nocturno",
+   "definicion": "El que se hace entre las 20:00 y las 06:00. La jornada nocturna no puede pasar de 7 horas y se paga con un recargo de entre 25 % y 50 %.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/horas-extras-y-trabajo-nocturno/|Guía",
+    "/preguntas/laboral/#p52|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-46/|Artículo 46, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Salario dominical",
+   "definicion": "Pago de un jornal por el domingo no trabajado que reciben los obreros que cumplieron su horario semanal completo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/domingos-y-feriados/|Guía",
+    "/preguntas/laboral/#p57|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-3691/|Artículo 23, Decreto Supremo 3691"
+   ]
+  },
+  {
+   "termino": "Trabajo de igual valor",
+   "definicion": "Trabajos parecidos en funciones, esfuerzo, habilidad y responsabilidad, hechos en condiciones comparables. La Constitución garantiza a las mujeres la misma remuneración que a los hombres por un trabajo de igual valor.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/igualdad-salarial/|Guía",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-48/|Artículo 48, Constitución Política del Estado"
+   ]
   }
  ]
 }

@@ -45,13 +45,13 @@ Las normas más antiguas hablaban de períodos distintos para el retiro voluntar
 
 - **Indemnización por tiempo de servicios.** Un sueldo por cada año de trabajo continuo, o la parte proporcional a los meses trabajados si no se completó el año (Decreto Supremo 110, artículo 2, parágrafo I; artículo 13 de la Ley General del Trabajo).
 - **Desahucio.** Corresponde al trabajador retirado intempestivamente; no corresponde a quien se retira voluntariamente (Decreto Supremo 110, artículo 3). El Decreto Supremo 22138 (artículo 1) lo describe, junto con la indemnización, como los únicos beneficios sociales que la ley impone en caso de despido.
-- **Aguinaldo proporcional.** La parte del aguinaldo que corresponde al tiempo trabajado en el año.
+- **Aguinaldo proporcional.** La parte del aguinaldo que corresponde al tiempo trabajado en el año. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/).
 - **Vacaciones no gozadas.** Los días de descanso que el trabajador no llegó a tomar.
 - **Prima anual.** Solo si la empresa tuvo utilidades en la gestión (ver [La prima anual](/guias/laboral/prima-anual/)).
 
 ## Qué entra en el salario indemnizable
 
-El Decreto Supremo 1592 (artículo 11) dice que comprende todas las retribuciones en dinero que recibe el trabajador, incluidas las comisiones y participaciones, y los pagos por horas extraordinarias, trabajo nocturno y trabajo en feriados, siempre que tengan carácter regular. No comprende los aguinaldos ni las primas anuales establecidos por ley, ni los bagajes, viáticos y otros gastos que causa la ejecución del trabajo.
+El Decreto Supremo 1592 (artículo 11) dice que comprende todas las retribuciones en dinero que recibe el trabajador, incluidas las comisiones y participaciones, y los pagos por horas extraordinarias, trabajo nocturno y trabajo en feriados, siempre que tengan carácter regular. No comprende los aguinaldos ni las primas anuales establecidos por ley, ni los bagajes, viáticos y otros gastos que causa la ejecución del trabajo. Más detalle en [Horas extras y trabajo nocturno](/guias/laboral/horas-extras-y-trabajo-nocturno/), [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/) y [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/).
 
 ## Cómo se calcula cada pago
 

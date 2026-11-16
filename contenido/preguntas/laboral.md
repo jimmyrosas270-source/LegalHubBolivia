@@ -156,3 +156,107 @@ La [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) 
 ### Si me despiden por faltar más de seis días, ¿pierdo la indemnización?
 
 Según la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3), la sanción de perder desahucio e indemnización no se aplica a la inasistencia injustificada de más de seis días hábiles, y tampoco a los quinquenios consolidados. Eso deja sin efecto la consecuencia que decía el Reglamento de 1943. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+
+### ¿Qué es el bono de antigüedad y desde cuándo se cobra?
+
+Es un pago adicional al haber básico por los años de servicio continuo. Según los materiales de apoyo, se cobra desde los dos años de trabajo y lo regula el artículo 60 del Decreto Supremo 21060, que todavía no está en la Biblioteca. Ver la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+
+### ¿Cuánto es el bono de antigüedad?
+
+Es un porcentaje que sube con los años (según los materiales de apoyo, de 5 % con 2 a 4 años hasta 50 % desde 25 años) aplicado a una base: tres salarios mínimos nacionales en empresas productivas y uno en empresas no productivas, entidades sin fines de lucro y administración pública. La escala completa está en la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+
+### ¿Qué diferencia hay entre empresa productiva y no productiva para el bono de antigüedad?
+
+Define la base de cálculo: tres salarios mínimos para la productiva y uno para la no productiva. Según los materiales de apoyo, es productiva la que crea o transforma bienes materiales, o vende servicios convertidos en productos; es no productiva la que presta solo servicios intangibles. La ley no lo define con precisión y hay una lectura que lleva siempre a tres salarios mínimos. Ver [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+
+### ¿Puedo reclamar el bono de antigüedad si ya dejé de trabajar?
+
+Sí. Los derechos laborales y los beneficios sociales no pagados son imprescriptibles y no se pueden renunciar ([Constitución](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/), artículo 48). En el juicio, quien debe probar que pagó es el empleador ([Código Procesal del Trabajo](/leyes/laboral/codigo-procesal-del-trabajo/articulo-66/), artículo 66).
+
+### ¿Necesito el certificado de años de servicio para cobrar el bono de antigüedad?
+
+Según los materiales de apoyo, no siempre: si el trabajo fue continuo en una sola entidad y otras pruebas muestran la antigüedad, no sería indispensable; sí haría falta para sumar años de distintas instituciones. [VERIFICAR]
+
+### ¿Qué es el aguinaldo de Navidad y cuánto corresponde?
+
+Es un pago anual obligatorio de un mes de sueldo o salario. Si se trabajó menos de un año se paga por duodécimas. El Tribunal Supremo lo describe como un derecho que se adquiere con más de 90 días de trabajo. Ver la guía [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/).
+
+### ¿Hasta cuándo debe pagarse el aguinaldo?
+
+El resumen del Auto Supremo 496/2022 habla del 20 de diciembre como plazo máximo. Los materiales de apoyo mencionan el 25, con pago entre el 20 y el 21, según resolución ministerial de cada año. Las dos fuentes no coinciden: revisa la resolución del año. [VERIFICAR]
+
+### ¿Qué pasa si el aguinaldo se paga tarde?
+
+El empleador que no lo paga a tiempo debe pagar el doble. Así lo aplicó el Tribunal Supremo en el [Auto Supremo 496/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112) (resumen publicado por el Tribunal), basado en una ley de 1944 que todavía no está en la Biblioteca. [VERIFICAR]
+
+### ¿Puedo cobrar la multa del aguinaldo aunque no la haya pedido en mi demanda?
+
+En el caso resumido en el [Auto Supremo 496/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112), el Tribunal consideró que la multa es una consecuencia de no pagar a tiempo y confirmó que se aplicara aunque la trabajadora no la hubiera pedido. El artículo 202, inciso c, del [Código Procesal del Trabajo](/leyes/laboral/codigo-procesal-del-trabajo/articulo-202/) va en un sentido parecido: la sentencia debe incluir lo que el trabajador no reclamó y apareció en el proceso. Es un caso concreto, no una regla para todos.
+
+### ¿Qué es el segundo aguinaldo «Esfuerzo por Bolivia»?
+
+Es un aguinaldo adicional creado por el Decreto Supremo 1802 de 2013 para trabajadores públicos y privados. Se paga solo en el año en que el crecimiento de la economía supera el 4,5 %. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
+
+### ¿El segundo aguinaldo se paga todos los años?
+
+No. Según el [Auto Supremo 484/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136) (resumen del Tribunal), depende de que el crecimiento informado por el Instituto Nacional de Estadística supere el 4,5 %. En el caso resumido no se alcanzó en 2017 ni en 2019, y por eso no correspondía pagarlo en esos años. Para el año en curso, revisa fuentes oficiales. [VERIFICAR]
+
+### ¿Cuánto se paga por una hora extra?
+
+Las horas extraordinarias se pagan con un recargo del 100 %: cada una vale el doble de una hora ordinaria ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-55/), artículo 55). Sobre qué sueldo se calcula el artículo no lo dice. Ver [Horas extras y trabajo nocturno](/guias/laboral/horas-extras-y-trabajo-nocturno/). [VERIFICAR]
+
+### ¿Cuántas horas extras se pueden trabajar por día?
+
+La Inspección del Trabajo puede conceder, a petición del empleador, permisos para horas extraordinarias hasta un máximo de 2 por día ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-50/), artículo 50). El empleador debe llevar un registro especial de esas horas ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-41/), artículo 41).
+
+### ¿Se pagan las horas que uso para corregir mis errores?
+
+No se consideran horas extraordinarias ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-50/), artículo 50).
+
+### ¿Qué es el trabajo nocturno y cuánto es el recargo?
+
+Es el que se hace entre las 20:00 y las 06:00. Se paga con un recargo de entre 25 % y 50 % según los casos ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-55/), artículo 55). Los materiales de apoyo dan la escala de un decreto de 1944 que no está en el sitio: 25 % en comercios y oficinas, 30 % en industrias y fábricas, 40 % para mujeres mayores de 18 años y 50 % entre medianoche y las 06:00 en minería y actividades peligrosas. Ver [Horas extras y trabajo nocturno](/guias/laboral/horas-extras-y-trabajo-nocturno/). [VERIFICAR]
+
+### ¿Cuánto puede durar un turno de noche?
+
+La jornada nocturna no puede pasar de 7 horas ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-46/), artículo 46). Solo puede extenderse por fuerza mayor y en lo indispensable (artículo 47).
+
+### ¿Cuánto se paga si trabajo un domingo?
+
+Los domingos cuentan como feriados ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-41/), artículo 41), así que el trabajo en domingo se paga con un recargo del 100 % (artículo 55). Para los obreros que cumplieron su horario semanal completo, el [Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/) (artículo 23) habla de una remuneración triple. Si un empleado cobra también el triple, debe confirmarse. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Cuánto se paga si trabajo un feriado?
+
+La Ley y el Reglamento hablan de un recargo del 100 % o de un día de descanso a cambio ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/), artículo 31). Los materiales de apoyo hablan de un pago triple, que no coincide con esos textos. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Quién decide si me dan un día de descanso o me pagan el feriado trabajado?
+
+Según el artículo 31 del [Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/), la elección es del empleador: compensar con un día de descanso en la misma semana o pagar con un recargo del 100 % sobre el salario normal. Se refiere a quienes trabajan en una de las actividades que pueden funcionar en feriado.
+
+### ¿Qué es el salario dominical?
+
+Es el pago de un jornal por el domingo no trabajado que reciben los obreros que cumplieron su horario semanal completo ([Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/), artículo 23). No es lo mismo que el pago por trabajar un domingo.
+
+### ¿Se puede pagar el sueldo en dólares?
+
+La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (artículo 53) dice que los pagos se hacen «precisamente en moneda de curso legal». Los materiales de apoyo citan un decreto de 1965 y una guía del Ministerio de Trabajo según los cuales un pacto expreso podría permitir otra moneda en el sector privado, pero esas normas no están en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
+
+### ¿Cada cuánto debe pagarse el sueldo?
+
+Cada 15 días como máximo a los obreros y cada mes como máximo a los empleados y domésticos, en día de trabajo y en el lugar de la faena ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/), artículo 53).
+
+### ¿Los hombres y las mujeres deben cobrar lo mismo?
+
+La Constitución garantiza a las mujeres la misma remuneración que a los hombres por un trabajo de igual valor, en el ámbito público y en el privado ([artículo 48, parágrafo V](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)). La Ley General del Trabajo prohíbe hacer diferencias de salario por sexo ([artículo 52](/leyes/laboral/ley-general-del-trabajo/articulo-52/)). Ver [Igualdad salarial entre mujeres y hombres](/guias/laboral/igualdad-salarial/).
+
+### ¿Qué es el bono de producción?
+
+Es un pago adicional cuando la producción supera una meta. No es un derecho adquirido: solo se paga si en esa gestión se supera la meta. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+
+### ¿Qué es el bono o subsidio de frontera?
+
+Según los materiales de apoyo, es un pago del 20 % que reciben los trabajadores asignados a lugares dentro de los cincuenta kilómetros de las fronteras internacionales; sustituyó al bono de zona, región o frontera. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+
+### ¿La prima anual se calcula con el último sueldo o con el de cada año?
+
+Según el [Auto Supremo 162/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120) (resumen del Tribunal), con el salario de cada gestión, no con el último sueldo ni con el promedio indemnizable. Ver [La prima anual](/guias/laboral/prima-anual/).

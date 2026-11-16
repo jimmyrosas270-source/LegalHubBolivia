@@ -2,7 +2,7 @@
 titulo: La prima anual (prima de utilidades)
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 15/11/2026
+actualizada: 16/11/2026
 resumen: Es un pago adicional, una vez al año, que reciben los trabajadores cuando la empresa cerró la gestión con ganancias. No depende de la voluntad del empleador: si hay utilidades, debe pagarse.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-57/ | Artículo 57 | Ley General del Trabajo
@@ -11,6 +11,7 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-50/ | Artículo 50 | Reglamento de la Ley General del Trabajo
 - /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículo 27
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
+- /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120 | Auto Supremo 162/2022 | Resúmenes de Jurisprudencia TSJ 2022
 ---
 ## Qué es
 
@@ -55,11 +56,24 @@ Dentro de los treinta días siguientes a la aprobación del balance de la empres
 
 Para estimar el monto se necesitan tres datos:
 
-1. El salario de referencia: normalmente el total ganado de octubre, noviembre y diciembre; si la persona se retiró antes del cierre, el promedio que se usó en su finiquito.
+1. El salario de referencia **de cada gestión**. El Auto Supremo 162/2022 (ver más abajo) dice que la prima de cada año se calcula con el salario que la persona tenía en ese año, y no con el último sueldo ni con el promedio indemnizable. Los materiales de apoyo proponen, para la gestión en curso, el total ganado de octubre, noviembre y diciembre y, si la persona se retiró antes del cierre, el promedio que se usó en su finiquito. [VERIFICAR]
 2. Los días trabajados en el año.
 3. El monto total a repartir, que sale de las utilidades netas del balance.
 
 !! Los materiales de apoyo señalan que la prima está sujeta a la retención del RC-IVA (13 %). Confirma la regla tributaria vigente antes de calcular el monto neto. [VERIFICAR]
+
+## Si la prima de años anteriores no se pagó
+
+El Auto Supremo 162/2022, de 16 de marzo, de la Sala Social y Administrativa Primera del Tribunal Supremo de Justicia, resolvió el reclamo de una trabajadora por las primas de varios años. Se toma del resumen publicado por el Tribunal, no del texto completo. Ver [la ficha en la revista](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120).
+
+- **Quién debe pagarla.** Una cooperativa que cobra por el servicio que presta y obtiene ganancias debe dar a sus empleados y obreros la prima de un mes, como cualquier otra empresa, cuando hay utilidades (Ley General del Trabajo, artículo 57; Decreto Supremo 3691, artículo 27).
+- **Es una obligación, no un favor.** El Tribunal la describe como un derecho del trabajador que nace cuando la empresa tiene utilidades en esa gestión y que el empleador no puede dar o negar a su gusto.
+- **Se paga por cada año.** Por eso debe calcularse con el salario de cada gestión y no con el promedio de los tres últimos sueldos. El tribunal anterior se había equivocado al usar ese promedio para todos los años.
+- **Se prueba con los balances.** Lo que decide si hay prima es si la empresa tuvo utilidades en cada gestión, según sus balances (Reglamento, artículo 50). En el caso resumido no había copias legalizadas por el Servicio de Impuestos Nacionales; el Tribunal tomó en cuenta los balances que llevaban el sello de esa institución, con base en la libre apreciación de la prueba (Código Procesal del Trabajo, artículo 3, inciso j).
+- **Si falta la prueba del sueldo de algún año,** el Tribunal aplicó el principio de favorabilidad al trabajador; el resumen no detalla qué monto usó.
+- **Resultado.** Casó en parte el auto de vista, es decir, corrigió el cálculo.
+
+!! Un auto resuelve un caso concreto. Sirve de guía, pero no garantiza el mismo resultado en otro caso.
 
 ## Descuentos y seguridad social
 
