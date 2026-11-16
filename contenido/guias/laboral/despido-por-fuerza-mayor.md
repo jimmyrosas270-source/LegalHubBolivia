@@ -5,6 +5,7 @@ publico: Trabajadores y empleadores del sector privado
 actualizada: 15/11/2026
 resumen: Un incendio, un bloqueo o una crisis no son, por sí solos, causa para despedir. Esta guía explica el criterio del Ministerio de Trabajo, qué puede reclamar el trabajador y qué casos de cierre prevé la Ley General del Trabajo.
 articulos:
+- /biblioteca/resolucion-ministerial-431-21/ | Resolución Ministerial 431/21 (PDF) | Artículo cuarto
 - /leyes/laboral/ley-general-del-trabajo/articulo-14/ | Artículo 14 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-15/ | Artículo 15 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-16/ | Artículo 16 | Ley General del Trabajo
@@ -18,7 +19,7 @@ Son hechos externos, imprevisibles o inevitables que afectan el funcionamiento d
 
 ## El criterio administrativo
 
-Los materiales de apoyo señalan que la Resolución Ministerial 431/21 sentó el criterio de que no es válido despedir invocando fuerza mayor o caso fortuito, porque no son causas legales de retiro. Fuera de las causas que la ley prevé, el despido se considera ilegal. [VERIFICAR]
+La Resolución Ministerial 431/21 (30 de abril de 2021) dispone, en su artículo cuarto, que la fuerza mayor y el caso fortuito no constituyen causales legales de retiro. Antes, en su artículo tercero, ratifica que los trabajadores no pueden ser despedidos sin una causa legal previa y debidamente justificada, conforme al artículo 16 de la Ley General del Trabajo y al artículo 9 de su Reglamento. Texto en la Biblioteca: [Resolución Ministerial 431/21](/biblioteca/resolucion-ministerial-431-21/).
 
 Ese criterio se apoya en reglas que sí están en la Constitución:
 
@@ -39,7 +40,7 @@ Las situaciones de cierre o pérdida no están ignoradas por la ley. Hay que lee
 - **Clausura por liquidación o muerte del propietario:** corresponde la indemnización, y en caso de muerte la obligación pasa a los herederos (artículo 15).
 - **Conflicto colectivo tramitado conforme a la ley:** el contrato se considera suspendido y no roto (artículo 10 del Reglamento).
 
-!! Estos artículos y la Resolución Ministerial 431/21 no se han comparado entre sí en este sitio. Un cierre definitivo debe cumplir sus propios requisitos legales: invocar fuerza mayor no basta. Antes de actuar, confirma el procedimiento vigente. [VERIFICAR]
+!! Los artículos 14 y 15 de la Ley General del Trabajo y la Resolución Ministerial 431/21 no se han comparado entre sí en este sitio. Un cierre definitivo debe cumplir sus propios requisitos legales: invocar fuerza mayor no basta. Antes de actuar, confirma el procedimiento vigente. [VERIFICAR]
 
 ## Para el empleador
 

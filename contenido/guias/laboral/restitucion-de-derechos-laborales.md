@@ -6,6 +6,8 @@ actualizada: 15/11/2026
 resumen: La Ley 1468 de 2022 creó un procedimiento especial para pedir la reincorporación, el pago de salarios adeudados o el cumplimiento del fuero sindical. Esta guía resume quién puede reclamar, en qué plazo, cómo es el trámite y qué pasa si el empleador no cumple.
 articulos:
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículos 1 a 15 y disposiciones finales
+- /biblioteca/resolucion-ministerial-635-24/ | Resolución Ministerial 635/24 (PDF) | Artículos primero a séptimo
+- /biblioteca/resolucion-ministerial-868-10/ | Resolución Ministerial 868/10 (PDF) | Artículos 1 a 6
 - /leyes/laboral/ley-general-del-trabajo/articulo-16/ | Artículo 16 | Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-9/ | Artículo 9 | Reglamento de la Ley General del Trabajo
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
@@ -54,6 +56,18 @@ El Ministerio remite los antecedentes al juez laboral para su ejecución, y el t
 
 La ley dispone que el trabajador que ya cobró efectivamente sus beneficios sociales no puede pedir su reincorporación en la vía administrativa. El documento que acredita ese cobro es el formulario de finiquito refrendado por el Ministerio de Trabajo. No se considera pagado lo que el empleador intenta cumplir con una demanda de consignación, con un depósito de fondos en custodia o con un abono en la cuenta del trabajador sin su autorización (disposición final primera). Ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/).
 
-!! Esta guía resume la ley y no la reemplaza: los plazos y requisitos exactos están en el texto de la Biblioteca. El Ministerio debía emitir un protocolo de actuación y un formulario de denuncia (artículo 7 y disposición transitoria tercera); consulta en la Jefatura de Trabajo cómo se aplican hoy. [VERIFICAR]
+## El protocolo del Ministerio (Resolución Ministerial 635/24)
 
-> Antes de esta ley, los reclamos de reincorporación se tramitaban por el Decreto Supremo 28699 de 2006. La Ley 1468 abrogó el Decreto Supremo 495 de 2010, que lo modificaba, y derogó parte del 28699 (artículos 10, parágrafos III a V, y 13).
+La Resolución Ministerial 635/24, de 3 de junio de 2024, aprobó el nuevo «Protocolo de actuación para la aplicación de la Ley 1468», con seis capítulos y 35 artículos, que forma parte de la resolución como anexo. Deja sin efecto la Resolución Ministerial 1377/22, que contenía el protocolo anterior. Los trámites iniciados con el protocolo anterior y que aún no llegaron al recurso de revisión siguen su curso con el nuevo (artículos primero, tercero y séptimo). Texto en la Biblioteca: [Resolución Ministerial 635/24](/biblioteca/resolucion-ministerial-635-24/).
+
+!! El archivo que tiene este sitio trae la resolución, pero no el anexo con los 35 artículos del protocolo. Lo que el protocolo dice sobre formularios y pasos no puede resumirse aquí hasta contar con ese texto. [VERIFICAR]
+
+## El procedimiento anterior (Resolución Ministerial 868/10)
+
+Antes de la Ley 1468, la Resolución Ministerial 868/10, de 26 de octubre de 2010, reglamentaba la reincorporación según el Decreto Supremo 0495: una audiencia ante el Inspector de Trabajo y una conminatoria de reincorporación en tres días hábiles. También decía que quien optaba por el pago de beneficios sociales no podía pedir su reincorporación (artículo 4). Texto en la Biblioteca: [Resolución Ministerial 868/10](/biblioteca/resolucion-ministerial-868-10/).
+
+La Resolución Ministerial 635/24 (artículo segundo) mantiene la vigencia de la 868/10 solo para las denuncias de acoso laboral cuyas víctimas sean varones, mientras se emita una reglamentación especial.
+
+!! Esta guía resume la ley y no la reemplaza: los plazos y requisitos exactos están en el texto de la Biblioteca. Consulta en la Jefatura de Trabajo cómo se aplican hoy el formulario de denuncia y el protocolo. [VERIFICAR]
+
+> Antes de esta ley, los reclamos de reincorporación se tramitaban por el Decreto Supremo 28699 de 2006. La Ley 1468 abrogó el [Decreto Supremo 0495](/biblioteca/decreto-supremo-0495/) de 2010, que lo modificaba, y derogó parte del 28699 (artículos 10, parágrafos III a V, y 13).

@@ -7,6 +7,7 @@ resumen: Bajar el sueldo al trabajador puede empujarlo a irse sin que haya un de
 articulos:
 - /biblioteca/decreto-supremo-3770/ | Decreto Supremo 3770 (PDF) | Artículos 1 a 3
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículos 1, 4 y 6
+- /biblioteca/resolucion-ministerial-635-24/ | Resolución Ministerial 635/24 (PDF) | Artículos primero y séptimo
 - /leyes/laboral/ley-general-del-trabajo/articulo-13/ | Artículo 13 | Ley General del Trabajo
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-46/ | Artículo 46 | Constitución Política del Estado
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
@@ -36,7 +37,9 @@ La excepción que prevé el decreto es el acuerdo de las partes debidamente just
 
 El camino que señala el decreto es acudir al Ministerio de Trabajo (artículo 3). Después, la Ley 1468 creó un procedimiento especial ante el Ministerio para restituir, entre otros derechos, el pago de la remuneración o salario, con un plazo de hasta tres meses desde el hecho para denunciar y la vía de la judicatura laboral una vez vencido ese plazo (artículos 1 y 6). Cómo es el trámite está en la guía [Reclamo de reincorporación ante el Ministerio de Trabajo](/guias/laboral/restitucion-de-derechos-laborales/).
 
-!! La Ley 1468 habla de la falta de pago del salario y no menciona expresamente la rebaja salarial. Si hoy el trámite de una rebaja se rige por el artículo 3 del Decreto Supremo 3770 o por la Ley 1468, debe confirmarlo un profesional. [VERIFICAR]
+Los materiales de apoyo del sitio indican que hoy el trámite administrativo por rebaja salarial unilateral se sigue por el procedimiento de la Ley 1468, aplicado junto con el derecho que reconoce el artículo 3 del Decreto Supremo 3770: este fija el derecho (reincorporación y reposición del salario anterior) y la Ley 1468 las reglas del trámite. También indican que la Resolución Ministerial 635/24 sería el protocolo operativo, y que, si pasan los tres meses de la vía administrativa, queda la vía judicial. [VERIFICAR]
+
+!! Lo que se pudo comprobar con los textos de la Biblioteca es que la Ley 1468 (artículos 1 y 6) regula la restitución del pago de la remuneración o salario, con el plazo de tres meses, y que la Resolución Ministerial 635/24 aprueba el protocolo de esa ley. Ninguno de los dos textos menciona expresamente la rebaja salarial, y el anexo del protocolo no está en el sitio. Por eso, que el trámite de una rebaja se rija hoy por la Ley 1468 y su protocolo debe confirmarlo un profesional con la fuente oficial. [VERIFICAR]
 
 Los sueldos devengados y no pagados son imprescriptibles (artículo 48, parágrafo IV, de la Constitución). Para el primer reclamo, ver la pregunta [¿Dónde reclamo primero?](/preguntas/laboral/#p1).
 

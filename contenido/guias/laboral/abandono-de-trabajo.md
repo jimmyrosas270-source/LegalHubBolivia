@@ -7,24 +7,31 @@ resumen: Faltar al trabajo no siempre justifica un despido. Esta guía explica c
 articulos:
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículos 6 y 7
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículo 5
+- /biblioteca/resolucion-ministerial-447-09/ | Resolución Ministerial 447/09 (PDF) | Artículo 3
 - /leyes/laboral/ley-general-del-trabajo/articulo-16/ | Artículo 16 | Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-9/ | Artículo 9 | Reglamento de la Ley General del Trabajo
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 ---
 ## Qué es
 
-Es faltar al trabajo sin justificación durante un tiempo prolongado. Si es una causa válida de retiro, el empleador puede terminar el contrato sin pagar indemnización ni desahucio. Como el despido afecta muchos derechos a la vez, los tribunales piden aplicar estas reglas con la mayor rigurosidad, porque la Constitución manda interpretar las normas laborales a favor de la protección del trabajador (artículo 48, parágrafo II).
+Es faltar al trabajo sin justificación durante un tiempo prolongado. Si es una causa válida de retiro, el empleador puede terminar el contrato. Si aun así se pierde o no el pago de la indemnización y el desahucio depende de la causa (ver más abajo la Resolución Ministerial 447/09). Como el despido afecta muchos derechos a la vez, los tribunales piden aplicar estas reglas con la mayor rigurosidad, porque la Constitución manda interpretar las normas laborales a favor de la protección del trabajador (artículo 48, parágrafo II).
 
 ## Cuántos días: las normas no dicen lo mismo
 
 Tres textos hablan del tema, y cada uno cuenta distinto:
 
-- **Reglamento de la Ley General del Trabajo (1943, artículo 9, inciso d):** más de tres días consecutivos o más de seis en el mes, sin justificación. Con esa causa no hay desahucio ni indemnización.
+- **Reglamento de la Ley General del Trabajo (1943, artículo 9, inciso d):** más de tres días consecutivos o más de seis en el mes, sin justificación. El texto del Reglamento dice que con esa causa no hay desahucio ni indemnización, pero ver el siguiente apartado.
 - **Artículo 16 de la Ley General del Trabajo:** el inciso sobre inasistencia injustificada fue derogado por una ley del 23/11/1944. Por eso el texto actual del artículo no la menciona.
 - **Decreto Supremo 1592 (artículo 7):** trata la continuidad del servicio, no el despido. Dice que interrumpen la continuidad la inasistencia o el abandono injustificado que exceden de seis días hábiles seguidos. Texto en la Biblioteca: [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/).
 - **Ley 1468 (artículo 5, inciso b):** cuando el despido se funda en inasistencia injustificada de más de seis días laborales continuos y el empleador no dio al trabajador la oportunidad de justificarla, se considera despido sin causa justificada.
 
 !! El Reglamento de 1943 habla de tres días y la Ley 1468 y el Decreto Supremo 1592 hablan de seis. Qué cifra aplica a la causa de despido del Reglamento es algo que debe confirmar un profesional con la fuente oficial. [VERIFICAR]
+
+## ¿Se pierde la indemnización?
+
+El artículo 3 de la Resolución Ministerial 447/09 dice que la sanción de no pagar desahucio ni indemnización, prevista en el artículo 16 de la Ley General del Trabajo y en el artículo 9 del Reglamento, se aplica a todas las causales de esos artículos, **salvo** la renuncia voluntaria y la inasistencia injustificada de más de seis días hábiles. La resolución explica que esas dos causales fueron derogadas por la ley del 23 de noviembre de 1944. Además, la sanción tampoco se aplica a los quinquenios consolidados, sea cual fuere la causa de la conclusión. Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
+
+!! Según esa resolución, la inasistencia injustificada por más de seis días hábiles no hace perder la indemnización ni el desahucio. Esto choca con lo que dice el Reglamento de 1943. Cuál prevalece en un caso concreto debe confirmarlo un profesional con la fuente oficial. [VERIFICAR]
 
 ## Dos tipos de abandono
 

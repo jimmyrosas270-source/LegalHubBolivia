@@ -87,7 +87,7 @@ Es el aviso con anticipación de que el contrato de trabajo terminará. El [art�
 
 ### ¿Me pueden despedir solo avisando con anticipación?
 
-No siempre. La Sentencia Constitucional 1262/2013, según los materiales de apoyo, dice que el trabajador puede aceptar el preaviso y cobrar sus beneficios sin desahucio, o no aceptarlo y pedir su reincorporación. Una sentencia posterior generó dudas. Ver la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
+No siempre. La [Sentencia Constitucional Plurinacional 1262/2013](/biblioteca/sentencia-constitucional-plurinacional-1262-2013/) dice que el trabajador puede aceptar el preaviso y cobrar sus beneficios sin desahucio, o no aceptarlo y pedir su reincorporación. La [Sentencia 907/2016](/biblioteca/sentencia-constitucional-plurinacional-0907-2016/) aclaró que el preaviso no quedó sin valor por la sentencia anterior, lo que generó dudas. Ver la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
 
 ### ¿Puedo cobrar mis beneficios sociales y después pedir mi reincorporación?
 
@@ -99,7 +99,7 @@ El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/), de 9 de enero de 2
 
 ### ¿Cuántos días de falta se consideran abandono de trabajo?
 
-Las normas no dicen lo mismo. El Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) dice que la inasistencia o el abandono injustificado de más de seis días hábiles seguidos interrumpe la continuidad del servicio. Y la [Ley 1468](/biblioteca/ley-1468/) considera despido sin causa el que se funda en inasistencia de más de seis días laborales continuos sin haber dado al trabajador la oportunidad de justificarla. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+Las normas no dicen lo mismo. El Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes. Además, la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3) dice que la inasistencia injustificada de más de seis días hábiles no hace perder la indemnización ni el desahucio. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) dice que la inasistencia o el abandono injustificado de más de seis días hábiles seguidos interrumpe la continuidad del servicio. Y la [Ley 1468](/biblioteca/ley-1468/) considera despido sin causa el que se funda en inasistencia de más de seis días laborales continuos sin haber dado al trabajador la oportunidad de justificarla. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
 
 ### ¿Pueden despedirme por faltar por enfermedad?
 
@@ -107,7 +107,7 @@ Las ausencias justificadas no son abandono, y la Ley 1468 exige que el empleador
 
 ### ¿Pueden despedirme por un incendio, un bloqueo o una crisis de la empresa?
 
-Según el criterio del Ministerio de Trabajo que citan los materiales de apoyo (Resolución Ministerial 431/21), la fuerza mayor y el caso fortuito no son causas legales de despido. La Ley General del Trabajo sí regula la quiebra y la clausura ([artículos 14 y 15](/leyes/laboral/ley-general-del-trabajo/articulo-14/)). Ver [Despido por fuerza mayor](/guias/laboral/despido-por-fuerza-mayor/). [VERIFICAR]
+No solo por eso. La [Resolución Ministerial 431/21](/biblioteca/resolucion-ministerial-431-21/) (artículo cuarto) dice que la fuerza mayor y el caso fortuito no son causales legales de retiro. La Ley General del Trabajo sí regula la quiebra y la clausura ([artículos 14 y 15](/leyes/laboral/ley-general-del-trabajo/articulo-14/)). Ver [Despido por fuerza mayor](/guias/laboral/despido-por-fuerza-mayor/). [VERIFICAR]
 
 ### ¿Quién debe probar que el despido fue justificado?
 
@@ -148,3 +148,11 @@ El empleador debe pagarlos, junto con los demás derechos que correspondan, en e
 ### ¿Pueden pedir mi reincorporación si me bajaron el sueldo?
 
 El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/) (artículo 3) prevé que el trabajador acuda al Ministerio de Trabajo, que conminará al empleador a reincorporarlo y a reponer su remuneración anterior. Cuál procedimiento se aplica hoy, el de ese decreto o el de la Ley 1468, debe confirmarlo un profesional. [VERIFICAR]
+
+### Renuncié y no me pagan mi indemnización, ¿qué hago?
+
+La [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) dice que, si ya cumpliste más de 90 días de trabajo, el empleador debe pagarte la indemnización y los demás derechos en 15 días calendario desde que terminó la relación (artículo 1). Si no paga, el monto se actualiza por UFV y se suma una multa del 30 %. Puedes acudir a la Jefatura de Trabajo, que emite una conminatoria de pago para cumplirla al tercer día hábil desde su notificación (artículo 2). Ver [Cómo se calcula el finiquito](/guias/laboral/calculo-del-finiquito/). [VERIFICAR]
+
+### Si me despiden por faltar más de seis días, ¿pierdo la indemnización?
+
+Según la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3), la sanción de perder desahucio e indemnización no se aplica a la inasistencia injustificada de más de seis días hábiles, y tampoco a los quinquenios consolidados. El Reglamento de 1943 dice otra cosa, así que un profesional debe confirmar cuál se aplica en tu caso. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]

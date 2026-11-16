@@ -14,6 +14,8 @@ articulos:
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículos 4 a 6 y 11
 - /biblioteca/decreto-supremo-22138/ | Decreto Supremo 22138 (PDF) | Artículo 1
 - /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículo 9
+- /biblioteca/resolucion-ministerial-447-09/ | Resolución Ministerial 447/09 (PDF) | Artículos 1 a 3
+- /biblioteca/decreto-ley-16187/ | Decreto Ley 16187 (PDF) | Artículo 4
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 ---
 ## Qué es el finiquito
@@ -34,7 +36,7 @@ Las normas más antiguas hablaban de períodos distintos para el retiro voluntar
 
 1. **Fecha de ingreso y fecha de salida.** Se necesita el día exacto de cada una. El Decreto Supremo 1592 cuenta el tiempo desde la última contratación hasta el día en que termina el servicio (artículo 5).
 2. **Salario promedio indemnizable.** Es el promedio del total ganado de los tres últimos meses antes de la salida. Para quien cobra a jornal, el promedio de los últimos treinta días (Decreto Supremo 110, artículo 2, parágrafo III). Ver la pregunta [¿Qué es el salario indemnizable?](/preguntas/laboral/#p6).
-3. **Causa de la salida.** No es lo mismo una renuncia que un retiro intempestivo. De eso depende si se paga el desahucio. Si hay una causa del artículo 16 de la Ley General del Trabajo, no hay desahucio ni indemnización.
+3. **Causa de la salida.** No es lo mismo una renuncia que un retiro intempestivo. De eso depende si se paga el desahucio. Si hay una causa del artículo 16 de la Ley General del Trabajo, el texto de la ley dice que no hay desahucio ni indemnización, pero la Resolución Ministerial 447/09 (artículo 3) limita esa sanción: no se aplica a la renuncia voluntaria, a la inasistencia injustificada de más de seis días hábiles ni a los quinquenios consolidados. [VERIFICAR]
 4. **Tiempo de servicios.** Según el Decreto Supremo 1592 (artículo 6), cuentan como tiempo de servicios los períodos de enfermedad previstos en la Ley General del Trabajo, las vacaciones, el descanso por maternidad, las licencias del empleador, las interrupciones por causas ajenas al trabajador, el servicio militar obligatorio y el tiempo de un lock-out o una huelga declarada conforme a la ley.
 5. **Vacaciones no gozadas.** Solo cuentan si el trabajador ya cumplió más de un año de servicio. [VERIFICAR]
 6. **Pagos ya recibidos.** Aguinaldos, quinquenios o anticipos ya pagados se restan para no pagar dos veces lo mismo.
@@ -67,13 +69,21 @@ Aquí van solo las fórmulas. Los montos de ejemplo se omiten a propósito, porq
 
 !! Esta guía sirve para entender la liquidación, no para fijar el monto exacto de un caso. Los pagos reales dependen de la causa de salida, de los pagos previos y de las normas aplicables.
 
+## Si el trabajador renuncia
+
+La Resolución Ministerial 447/09, de 8 de julio de 2009, define el retiro voluntario como la manifestación escrita o verbal del trabajador de terminar la relación laboral, sin importar el motivo. Si ya cumplió más de 90 días de trabajo, el empleador debe pagar la indemnización y los demás derechos en 15 días calendario desde la conclusión de la relación (artículo 1). Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
+
+## Contratos a plazo fijo
+
+El Decreto Ley 16187, de 16 de febrero de 1979 (artículo 4), dice que las indemnizaciones pagadas al terminar contratos a plazo fijo para ocupaciones permanentes se consideran un anticipo de la liquidación final, siempre que no haya habido ninguna interrupción entre un contrato y otro; la fecha original es la de la primera contratación. Texto en la Biblioteca: [Decreto Ley 16187](/biblioteca/decreto-ley-16187/). [VERIFICAR]
+
 ## Quinquenio
 
 Los derechos que el trabajador adquiere cada cinco años se acumulan. Si después pierde sus beneficios por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 de su Reglamento, la pérdida solo afecta al quinquenio vigente y no a los anteriores (Decreto Supremo 110, artículo 4).
 
 ## Plazo para pagar
 
-En caso de despido, el empleador debe pagar el finiquito (sueldos devengados, indemnización y los demás derechos que correspondan) en el plazo impostergable de 15 días calendario. Pasado ese plazo, el monto se actualiza según la variación de la UFV (Unidad de Fomento de la Vivienda) desde el despido hasta el día anterior al pago. Si el empleador incumple, paga además una multa del 30 % del monto total, incluido el mantenimiento de valor, en beneficio del trabajador (Decreto Supremo 28699, artículo 9). Texto en la Biblioteca: [Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/).
+En caso de despido, el empleador debe pagar el finiquito (sueldos devengados, indemnización y los demás derechos que correspondan) en el plazo impostergable de 15 días calendario. Pasado ese plazo, el monto se actualiza según la variación de la UFV (Unidad de Fomento de la Vivienda) desde el despido hasta el día anterior al pago. Si el empleador incumple, paga además una multa del 30 % del monto total, incluido el mantenimiento de valor, en beneficio del trabajador (Decreto Supremo 28699, artículo 9). Para el retiro voluntario, la Resolución Ministerial 447/09 (artículos 1 y 2) prevé la misma actualización por UFV y la misma multa del 30 %, y dice que la Jefatura de Trabajo emite una conminatoria de pago que debe cumplirse al tercer día hábil desde su notificación. Texto en la Biblioteca: [Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/).
 
 El Reglamento del refrendado fija el mismo plazo de 15 días calendario, desde la conclusión de la relación laboral, para el pago y el refrendo del formulario, y 30 días para el quinquenio (artículo 7). Ver [El refrendo del finiquito](/guias/laboral/refrendo-del-finiquito/).
 
