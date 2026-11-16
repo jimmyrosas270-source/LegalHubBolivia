@@ -91,7 +91,7 @@ No siempre. La [Sentencia Constitucional Plurinacional 1262/2013](/biblioteca/se
 
 ### ¿Puedo cobrar mis beneficios sociales y después pedir mi reincorporación?
 
-No en la vía administrativa. La [Ley 1468](/biblioteca/ley-1468/) dispone que quien ya cobró efectivamente sus beneficios sociales no puede pedir su reincorporación ante el Ministerio de Trabajo, y que el cobro se acredita con el finiquito refrendado (disposición final primera). El Auto Supremo 176/2022, de 26 de abril, según los materiales de apoyo, fue en el mismo sentido. Ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/). [VERIFICAR]
+No en la vía administrativa. La [Ley 1468](/biblioteca/ley-1468/) dispone que quien ya cobró efectivamente sus beneficios sociales no puede pedir su reincorporación ante el Ministerio de Trabajo, y que el cobro se acredita con el finiquito refrendado (disposición final primera). En un juicio laboral, el [Auto Supremo 176/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=134), de 26 de abril, fue en el mismo sentido: según el resumen del Tribunal Supremo de Justicia, la reincorporación y el cobro de beneficios se excluyen entre sí. Ver [Reincorporación o beneficios sociales](/guias/laboral/reincorporacion-o-beneficios-sociales/).
 
 ### ¿Pueden bajarme el sueldo?
 

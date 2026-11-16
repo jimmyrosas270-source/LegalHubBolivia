@@ -226,7 +226,7 @@ def construir_seccion(S):
         try:
             info = herramienta('pdfinfo', ruta)
             paginas = int(re.search(r'^Pages:\s+(\d+)', info, re.M).group(1))
-            texto = herramienta('pdftotext', '-l', '5', ruta, '-')
+            texto = herramienta('pdftotext', '-l', '20', ruta, '-')  # 20: las revistas abren con varias páginas en imagen
         except Exception as e:
             ERRORES.append(f'«{archivo}» no se pudo leer como PDF ({e.__class__.__name__}). Revisa que no esté dañado ni protegido.')
             continue

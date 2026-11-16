@@ -2,7 +2,7 @@
 titulo: Reincorporación o beneficios sociales: hay que elegir
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 15/11/2026
+actualizada: 16/11/2026
 resumen: Cuando el despido es injustificado, el trabajador puede pedir volver a su puesto o cobrar sus beneficios sociales. La Ley 1468 impide pedir la reincorporación administrativa a quien ya cobró, y un auto supremo de 2022 va en el mismo sentido.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-12/ | Artículo 12 | Ley General del Trabajo
@@ -11,6 +11,7 @@ articulos:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Disposición final primera
 - /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículo 10
+- /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=134 | Auto Supremo 176/2022 | Resúmenes de Jurisprudencia TSJ 2022
 ---
 ## El punto de partida
 
@@ -33,11 +34,14 @@ Además, no se considera cumplido el pago de beneficios sociales cuando el emple
 
 ## También lo dice la jurisprudencia
 
-El Auto Supremo 176/2022, de 26 de abril, del Tribunal Supremo de Justicia, resolvió el caso de un trabajador que demandó su reincorporación después de haber aceptado el pago de sus beneficios sociales mediante un finiquito. Según los materiales de apoyo, el Tribunal entendió que:
+El Auto Supremo 176/2022, de 26 de abril, de la Sala Social y Administrativa Primera del Tribunal Supremo de Justicia, resolvió el caso de un trabajador que demandó judicialmente su reincorporación después de haber firmado un finiquito y cobrado sus beneficios sociales. Según el resumen que publicó el propio Tribunal ([Resúmenes de Jurisprudencia TSJ 2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=134)), se entendió que:
 
-- Aceptar el finiquito y cobrar los beneficios demuestra que el trabajador decidió no volver.
-- Por eso ya no puede pedir la reincorporación.
-- Tampoco puede reclamar los salarios de los meses posteriores que no trabajó. [VERIFICAR]
+- La reincorporación y el pago de los beneficios sociales son opciones del trabajador, pero se excluyen entre sí: elegir una descarta la otra.
+- Cobrar los beneficios muestra la intención de no volver; por eso ya no procede la reincorporación.
+- Correspondía al empleador probar el pago, y lo hizo con el finiquito firmado por el trabajador y los comprobantes del depósito.
+- La ficha del auto añade que, si el trabajador optó por cobrar sus beneficios, no se le pueden pagar salarios por los meses no trabajados.
+
+El Tribunal anuló (casó) la resolución de segunda instancia que había admitido la reincorporación. El caso es anterior a la Ley 1468 y se resolvió con el artículo 10 del Decreto Supremo 28699.
 
 ## Qué significa en la práctica
 
@@ -46,6 +50,6 @@ El Auto Supremo 176/2022, de 26 de abril, del Tribunal Supremo de Justicia, reso
 - Un finiquito que pagó de menos sigue siendo reclamable en lo que falte (artículo 48, parágrafo III, de la Constitución).
 - Si el despido se hizo con preaviso, rigen además las reglas de la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/).
 
-!! La ley se refiere expresamente a la vía administrativa. Lo que decidió el Auto Supremo 176/2022 se toma de materiales de apoyo y los criterios judiciales pueden variar entre casos. Verifica el texto del auto y consulta con un profesional antes de decidir. [VERIFICAR]
+!! La Ley 1468 se refiere expresamente a la vía administrativa; el Auto Supremo 176/2022 se dictó en un juicio laboral. Lo dicho del auto sale del resumen publicado por el Tribunal, no del texto completo, y los criterios judiciales pueden variar entre casos. Consulta con un profesional antes de decidir.
 
 > La Ley 1468 no deja que el empleador se libre del reclamo solo depositando el dinero en custodia o presentando una demanda de consignación. Para ella, el pago cuenta cuando el trabajador lo cobra.
