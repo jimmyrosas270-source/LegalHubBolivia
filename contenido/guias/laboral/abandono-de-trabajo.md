@@ -29,9 +29,11 @@ Tres textos hablan del tema, y cada uno cuenta distinto:
 
 ## ¿Se pierde la indemnización?
 
-El artículo 3 de la Resolución Ministerial 447/09 dice que la sanción de no pagar desahucio ni indemnización, prevista en el artículo 16 de la Ley General del Trabajo y en el artículo 9 del Reglamento, se aplica a todas las causales de esos artículos, **salvo** la renuncia voluntaria y la inasistencia injustificada de más de seis días hábiles. La resolución explica que esas dos causales fueron derogadas por la ley del 23 de noviembre de 1944. Además, la sanción tampoco se aplica a los quinquenios consolidados, sea cual fuere la causa de la conclusión. Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
+El artículo 3 de la Resolución Ministerial 447/09 dice que la sanción de no pagar desahucio ni indemnización, prevista en el artículo 16 de la Ley General del Trabajo y en el artículo 9 del Reglamento, se aplica a todas las causales de esos artículos, **salvo** la renuncia voluntaria y la inasistencia injustificada de más de seis días hábiles. La resolución explica que esas dos causales fueron derogadas por la ley del 23 de noviembre de 1944. Además, la sanción tampoco se aplica a los quinquenios consolidados, sea cual fuere la causa de la conclusión.
 
-!! Según esa resolución, la inasistencia injustificada por más de seis días hábiles no hace perder la indemnización ni el desahucio. Esto choca con lo que dice el Reglamento de 1943. Cuál prevalece en un caso concreto debe confirmarlo un profesional con la fuente oficial. [VERIFICAR]
+Por eso el inciso d) del artículo 9 del Reglamento, que habla de inasistencia de más de tres días consecutivos o más de seis en el mes, ya no produce esa consecuencia: la resolución la deja sin efecto en lo que toca al pago de desahucio e indemnización. Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
+
+!! El texto del Reglamento de 1943 se conserva sin cambios en el sitio. Cómo se aplica hoy ese inciso, por ejemplo con las cifras de tres y de seis días, debe confirmarlo un profesional con la fuente oficial. [VERIFICAR]
 
 ## Dos tipos de abandono
 

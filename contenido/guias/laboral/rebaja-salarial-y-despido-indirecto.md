@@ -7,6 +7,7 @@ resumen: Bajar el sueldo al trabajador puede empujarlo a irse sin que haya un de
 articulos:
 - /biblioteca/decreto-supremo-3770/ | Decreto Supremo 3770 (PDF) | Artículos 1 a 3
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículos 1, 4 y 6
+- /biblioteca/protocolo-de-actuacion-de-la-ley-1468/ | Protocolo de la Ley 1468 (RM 635/24) | Artículos 3 y 8
 - /biblioteca/resolucion-ministerial-635-24/ | Resolución Ministerial 635/24 (PDF) | Artículos primero y séptimo
 - /leyes/laboral/ley-general-del-trabajo/articulo-13/ | Artículo 13 | Ley General del Trabajo
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-46/ | Artículo 46 | Constitución Política del Estado
@@ -39,7 +40,13 @@ El camino que señala el decreto es acudir al Ministerio de Trabajo (artículo 3
 
 Los materiales de apoyo del sitio indican que hoy el trámite administrativo por rebaja salarial unilateral se sigue por el procedimiento de la Ley 1468, aplicado junto con el derecho que reconoce el artículo 3 del Decreto Supremo 3770: este fija el derecho (reincorporación y reposición del salario anterior) y la Ley 1468 las reglas del trámite. También indican que la Resolución Ministerial 635/24 sería el protocolo operativo, y que, si pasan los tres meses de la vía administrativa, queda la vía judicial. [VERIFICAR]
 
-!! Lo que se pudo comprobar con los textos de la Biblioteca es que la Ley 1468 (artículos 1 y 6) regula la restitución del pago de la remuneración o salario, con el plazo de tres meses, y que la Resolución Ministerial 635/24 aprueba el protocolo de esa ley. Ninguno de los dos textos menciona expresamente la rebaja salarial, y el anexo del protocolo no está en el sitio. Por eso, que el trámite de una rebaja se rija hoy por la Ley 1468 y su protocolo debe confirmarlo un profesional con la fuente oficial. [VERIFICAR]
+Lo que muestran los textos de la Biblioteca:
+
+- El Protocolo de la Ley 1468 (artículo 3, numeral 2) incluye entre los casos protegidos el «despido indirecto», y su artículo 16, parágrafo III, dice que en ese caso la resolución es de reincorporación laboral. Ver [Protocolo de la Ley 1468](/biblioteca/protocolo-de-actuacion-de-la-ley-1468/).
+- El plazo para denunciar es de tres meses calendario, contados desde la comunicación verbal o la notificación escrita del hecho que vulnera el derecho (artículo 8, parágrafo I). Si la denuncia llega tarde, se rechaza, pero queda la vía de la judicatura laboral (artículo 8, parágrafo III).
+- Ni la Ley 1468 ni el Protocolo mencionan expresamente la rebaja salarial ni el Decreto Supremo 3770.
+
+!! Que una rebaja salarial entre hoy en el «despido indirecto» del Protocolo, y que se tramite por la Ley 1468 junto con el artículo 3 del Decreto Supremo 3770, es una lectura razonable de esos textos, pero no está dicha de forma expresa. Debe confirmarla un profesional con la fuente oficial. [VERIFICAR]
 
 Los sueldos devengados y no pagados son imprescriptibles (artículo 48, parágrafo IV, de la Constitución). Para el primer reclamo, ver la pregunta [¿Dónde reclamo primero?](/preguntas/laboral/#p1).
 

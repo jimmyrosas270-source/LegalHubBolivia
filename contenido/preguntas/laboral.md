@@ -99,7 +99,7 @@ El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/), de 9 de enero de 2
 
 ### ¿Cuántos días de falta se consideran abandono de trabajo?
 
-Las normas no dicen lo mismo. El Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes. Además, la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3) dice que la inasistencia injustificada de más de seis días hábiles no hace perder la indemnización ni el desahucio. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) dice que la inasistencia o el abandono injustificado de más de seis días hábiles seguidos interrumpe la continuidad del servicio. Y la [Ley 1468](/biblioteca/ley-1468/) considera despido sin causa el que se funda en inasistencia de más de seis días laborales continuos sin haber dado al trabajador la oportunidad de justificarla. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+Las normas no dicen lo mismo. El Reglamento de 1943 habla de más de tres días consecutivos o más de seis en el mes. Además, la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3) dice que la inasistencia injustificada de más de seis días hábiles no hace perder la indemnización ni el desahucio, con lo que esa consecuencia del Reglamento ya no se aplica. El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) dice que la inasistencia o el abandono injustificado de más de seis días hábiles seguidos interrumpe la continuidad del servicio. Y la [Ley 1468](/biblioteca/ley-1468/) considera despido sin causa el que se funda en inasistencia de más de seis días laborales continuos sin haber dado al trabajador la oportunidad de justificarla. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
 
 ### ¿Pueden despedirme por faltar por enfermedad?
 
@@ -147,7 +147,7 @@ El empleador debe pagarlos, junto con los demás derechos que correspondan, en e
 
 ### ¿Pueden pedir mi reincorporación si me bajaron el sueldo?
 
-El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/) (artículo 3) prevé que el trabajador acuda al Ministerio de Trabajo, que conminará al empleador a reincorporarlo y a reponer su remuneración anterior. Cuál procedimiento se aplica hoy, el de ese decreto o el de la Ley 1468, debe confirmarlo un profesional. [VERIFICAR]
+El [Decreto Supremo 3770](/biblioteca/decreto-supremo-3770/) (artículo 3) prevé que el trabajador acuda al Ministerio de Trabajo, que conminará al empleador a reincorporarlo y a reponer su remuneración anterior. El [Protocolo de la Ley 1468](/biblioteca/protocolo-de-actuacion-de-la-ley-1468/) (artículo 3) incluye el despido indirecto entre los casos que se tramitan ante el Ministerio, con plazo de tres meses desde que se comunica la rebaja (artículo 8). Que una rebaja se tramite hoy por esa vía junto con el decreto debe confirmarlo un profesional. [VERIFICAR]
 
 ### Renuncié y no me pagan mi indemnización, ¿qué hago?
 
@@ -155,4 +155,4 @@ La [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) 
 
 ### Si me despiden por faltar más de seis días, ¿pierdo la indemnización?
 
-Según la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3), la sanción de perder desahucio e indemnización no se aplica a la inasistencia injustificada de más de seis días hábiles, y tampoco a los quinquenios consolidados. El Reglamento de 1943 dice otra cosa, así que un profesional debe confirmar cuál se aplica en tu caso. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+Según la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/) (artículo 3), la sanción de perder desahucio e indemnización no se aplica a la inasistencia injustificada de más de seis días hábiles, y tampoco a los quinquenios consolidados. Eso deja sin efecto la consecuencia que decía el Reglamento de 1943. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
