@@ -333,11 +333,12 @@
   },
   {
    "termino": "Bono de producción",
-   "definicion": "Pago adicional que la empresa hace a sus trabajadores cuando la producción supera una meta. No se paga si no se supera.",
+   "definicion": "Remuneración adicional por un esfuerzo productivo adicional para superar una meta de producción; se paga al margen del sueldo y nunca se consolida a él.",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/bono-de-produccion-y-de-frontera/|Guía",
-    "/preguntas/laboral/#p61|Pregunta frecuente"
+    "/preguntas/laboral/#p61|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-19464/|Artículo 1, Decreto Supremo 19464"
    ]
   },
   {
@@ -347,7 +348,8 @@
    "ver": [
     "/guias/laboral/bono-de-produccion-y-de-frontera/|Guía",
     "/preguntas/laboral/#p62|Pregunta frecuente",
-    "/biblioteca/decreto-supremo-21137/|Artículo 12, Decreto Supremo 21137"
+    "/biblioteca/decreto-supremo-21137/|Artículo 12, Decreto Supremo 21137",
+    "/biblioteca/decreto-supremo-20030/|Bono de Frontera, Decreto Supremo 20030"
    ]
   },
   {
@@ -407,6 +409,15 @@
     "/guias/laboral/domingos-y-feriados/|Guía",
     "/preguntas/laboral/#p65|Pregunta frecuente",
     "/leyes/laboral/ley-general-del-trabajo/articulo-48/|Artículo 48, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Total ganado",
+   "definicion": "En los decretos de 1983, la suma del sueldo o salario mensual y de los bonos y componentes que no se consolidaron al sueldo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p68|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-19518/|Artículo 1, Decreto Supremo 19518"
    ]
   }
  ]

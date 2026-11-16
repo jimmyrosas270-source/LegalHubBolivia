@@ -5,6 +5,7 @@ publico: Trabajadores y empleadores del sector privado
 actualizada: 15/11/2026
 resumen: Faltar al trabajo no siempre justifica un despido. Esta guía explica cuándo la ausencia es abandono, qué plazos se mencionan en las normas, qué ausencias están justificadas y qué debe hacer el empleador antes de despedir.
 articulos:
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-2/ | Artículo 2 | Ley de 23 de noviembre de 1944
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículos 6 y 7
 - /biblioteca/ley-1468/ | Ley 1468 (PDF) | Artículo 5
 - /biblioteca/resolucion-ministerial-447-09/ | Resolución Ministerial 447/09 (PDF) | Artículo 3
@@ -21,7 +22,7 @@ Es faltar al trabajo sin justificación durante un tiempo prolongado. Si es una 
 Tres textos hablan del tema, y cada uno cuenta distinto:
 
 - **Reglamento de la Ley General del Trabajo (1943, artículo 9, inciso d):** más de tres días consecutivos o más de seis en el mes, sin justificación. El texto del Reglamento dice que con esa causa no hay desahucio ni indemnización, pero ver el siguiente apartado.
-- **Artículo 16 de la Ley General del Trabajo:** el inciso sobre inasistencia injustificada fue derogado por una ley del 23/11/1944. Por eso el texto actual del artículo no la menciona.
+- **Ley de 23 de noviembre de 1944 (artículo 2):** derogó los incisos d) y f) del artículo 16 del «Código del Trabajo», que trataban del desahucio y la indemnización por inasistencia injustificada de más de tres días y por retiro voluntario del trabajador. Por eso el texto actual del artículo 16 de la Ley General del Trabajo no los menciona. Texto: [Ley de 23 de noviembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/).
 - **Decreto Supremo 1592 (artículo 7):** trata la continuidad del servicio, no el despido. Dice que interrumpen la continuidad la inasistencia o el abandono injustificado que exceden de seis días hábiles seguidos. Texto en la Biblioteca: [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/).
 - **Ley 1468 (artículo 5, inciso b):** cuando el despido se funda en inasistencia injustificada de más de seis días laborales continuos y el empleador no dio al trabajador la oportunidad de justificarla, se considera despido sin causa justificada.
 
@@ -29,7 +30,7 @@ Tres textos hablan del tema, y cada uno cuenta distinto:
 
 ## ¿Se pierde la indemnización?
 
-El artículo 3 de la Resolución Ministerial 447/09 dice que la sanción de no pagar desahucio ni indemnización, prevista en el artículo 16 de la Ley General del Trabajo y en el artículo 9 del Reglamento, se aplica a todas las causales de esos artículos, **salvo** la renuncia voluntaria y la inasistencia injustificada de más de seis días hábiles. La resolución explica que esas dos causales fueron derogadas por la ley del 23 de noviembre de 1944. Además, la sanción tampoco se aplica a los quinquenios consolidados, sea cual fuere la causa de la conclusión.
+El artículo 3 de la Resolución Ministerial 447/09 dice que la sanción de no pagar desahucio ni indemnización, prevista en el artículo 16 de la Ley General del Trabajo y en el artículo 9 del Reglamento, se aplica a todas las causales de esos artículos, **salvo** la renuncia voluntaria y la inasistencia injustificada de más de seis días hábiles. La resolución explica que esas dos causales fueron derogadas por la ley del 23 de noviembre de 1944. El texto de esa ley (artículo 2) deroga los incisos d) y f) del artículo 16 y habla de inasistencia de más de tres días, no de seis; la resolución habla de seis días hábiles. Cuál es la cifra aplicable debe confirmarse. [VERIFICAR] Además, la sanción tampoco se aplica a los quinquenios consolidados, sea cual fuere la causa de la conclusión.
 
 Por eso el inciso d) del artículo 9 del Reglamento, que habla de inasistencia de más de tres días consecutivos o más de seis en el mes, ya no produce esa consecuencia: la resolución la deja sin efecto en lo que toca al pago de desahucio e indemnización. Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
 

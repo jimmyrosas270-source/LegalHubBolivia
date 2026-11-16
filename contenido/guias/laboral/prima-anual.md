@@ -10,6 +10,12 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-49/ | Artículo 49 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-50/ | Artículo 50 | Reglamento de la Ley General del Trabajo
 - /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículo 27
+- /biblioteca/ley-de-11-de-junio-de-1947/ | Ley de 11 de junio de 1947 (PDF) | Artículos 3 y 4
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-27-de-diciembre-de-1943/articulo-1/ | Artículo 1 | Decreto Supremo de 27 de diciembre de 1943
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-27-de-diciembre-de-1943/articulo-6/ | Artículo 6 | Decreto Supremo de 27 de diciembre de 1943
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-22-de-noviembre-de-1945/articulo-1/ | Artículo 1 | Ley de 22 de noviembre de 1945
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-3/ | Artículo 3 | Decreto de 21 de diciembre de 1944
+- /biblioteca/decreto-supremo-24067/ | Decreto Supremo 24067 (PDF) | Artículo 15
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120 | Auto Supremo 162/2022 | Resúmenes de Jurisprudencia TSJ 2022
 ---
@@ -28,29 +34,31 @@ La Constitución deja a la ley la regulación de las primas y de los sistemas de
 
 El Reglamento pone un límite al conjunto: la suma de todas las primas no puede pasar del 25 % de las utilidades netas. Si ese 25 % no alcanza para pagar a todos, se reparte en proporción (artículo 49 del Reglamento).
 
-> El Decreto Supremo 229 de 1944 mandaba pagar el beneficio antes del 25 de diciembre: en esa época, aguinaldo y prima eran casi el mismo pago.
+> El decreto de 21 de diciembre de 1944, que reglamentó la ley del aguinaldo, mandaba pagar «antes del 25 de diciembre» y hablaba de «aguinaldo o prima anual»: en esa época los dos pagos eran casi lo mismo. La [ley de 11 de junio de 1947](/biblioteca/ley-de-11-de-junio-de-1947/leer/) los separó (artículo 3).
 
-> La primera versión de la Ley General del Trabajo pedía una prima «no inferior» a un mes para empleados y a quince días para obreros. Una ley de 1947 la cambió por montos fijos y la separó del aguinaldo.
+> Antes de la Ley General del Trabajo, un decreto de 27 de diciembre de 1943, que una ley de noviembre de 1945 elevó a ley, ya pedía una prima «no inferior» a un mes de sueldo para empleados y a 15 días de salario para obreros, con tope del 25 % de las utilidades. El Reglamento de 1943 (artículo 48) repite esas cifras; la ley de 1947 las cambió por «un mes de sueldo y 25 días de salario» (artículo 3). Textos: [decreto de 1943](/leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-27-de-diciembre-de-1943/) y [ley de 1945](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-22-de-noviembre-de-1945/).
 
 ## Quiénes la reciben
 
-El tiempo mínimo de trabajo aparece en dos normas que no dicen lo mismo:
+El tiempo mínimo de trabajo se lee en tres textos:
 
 - **Reglamento de la Ley General del Trabajo, de 1943 (artículo 48):** la prima completa es para quien trabajó todo el año sin interrupción; quien trabajó más de tres meses la recibe en proporción; quien no pasó de tres meses no la recibe. No distingue entre empleados y obreros.
-- **Decreto Supremo 229, de 21/12/1944 (artículo 3):** exige más de tres meses a los empleados y más de un mes calendario a los obreros; si el tiempo es menor a un año, se paga en proporción.
+- **Decreto de 21 de diciembre de 1944 (artículo 3):** exige más de tres meses a los empleados y más de un mes calendario a los obreros; si el tiempo es menor a un año, se paga en proporción. Se escribió para el aguinaldo, cuando los dos pagos todavía no estaban separados.
+- **Ley de 11 de junio de 1947 (artículo 3):** dice que el pago de la prima, distinto del aguinaldo, se ajusta a los artículos 48, 49 y 50 del Reglamento de 1943.
 
-El Decreto Supremo 229 es posterior y por eso suele aplicarse su regla. Hay que tener en cuenta que se dictó para un beneficio que llamaba «aguinaldo o prima anual», cuando los dos pagos todavía no estaban separados. Ante la duda, la Constitución manda interpretar las normas laborales con el principio de protección del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)), lo que favorece la regla de un mes para obreros. [VERIFICAR]
+Como la ley de 1947 manda aplicar a la prima esos tres artículos del Reglamento, la regla de tiempo mínimo de la prima es la del artículo 48, y la del decreto de 1944 queda para el aguinaldo. Para los obreros, el Reglamento no hace distinción. Ante la duda, la Constitución manda interpretar las normas laborales con el principio de protección del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)). [VERIFICAR]
 
 Los días de baja por enfermedad no se descuentan del tiempo computado (artículo 49 del Reglamento).
 
 ## Cuándo se paga
 
-Dentro de los treinta días siguientes a la aprobación del balance de la empresa (artículo 49 del Reglamento). El balance aprobado es el documento que prueba si hubo utilidades (artículo 50 del Reglamento).
+Dentro de los treinta días siguientes a la aprobación del balance de la empresa (artículo 49 del Reglamento). El decreto de 1943 fijaba otro plazo: noventa días desde que se practican los balances anuales, es decir, el 1 de abril del año siguiente (artículo 6). Cuál de los dos rige hoy debe confirmarse. [VERIFICAR] El balance aprobado es el documento que prueba si hubo utilidades (artículo 50 del Reglamento).
 
 ## Cuándo no corresponde
 
-- Si la empresa no tuvo utilidades en la gestión y puede demostrarlo con su balance.
-- Si el trabajador fue retirado por una de las faltas del artículo 16 de la Ley General del Trabajo, salvo los incisos d) y f), que ya estaban derogados en 1944 (artículo 4 del Decreto Supremo 229). [VERIFICAR]
+- Si la empresa no tuvo utilidades en la gestión y puede demostrarlo con su balance. La ley de 1945, sin embargo, dice que las empresas que no llenan las formalidades contables para determinar utilidades pagan válidamente la prima aunque aleguen pérdidas (artículo 2). [VERIFICAR]
+- El decreto de 21 de diciembre de 1944 (artículo 4), escrito para el aguinaldo, excluye a quienes fueron retirados por las faltas del artículo 16 de la Ley General del Trabajo, salvo los incisos d) y f), derogados por la ley del 23 de noviembre de 1944. Si esa exclusión alcanza también a la prima no está dicho en los textos. [VERIFICAR]
+- En las empresas públicas, en 1995, el Decreto Supremo 24067 (artículo 15) exigió un dictamen de auditoría externa sobre las utilidades de 1994 y no más de un sueldo mensual por trabajador. Son reglas de esa gestión. [VERIFICAR]
 
 ## Cómo se calcula
 

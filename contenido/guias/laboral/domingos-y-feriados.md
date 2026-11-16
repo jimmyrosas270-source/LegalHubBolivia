@@ -13,6 +13,9 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/ | Artículo 31 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-48/ | Artículo 48 | Ley General del Trabajo
 - /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículos 22 a 25
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-1/ | Artículo 1 | Ley de 29 de diciembre de 1944 (feriados y duelos)
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-2/ | Artículo 2 | Ley de 29 de diciembre de 1944 (feriados y duelos)
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-3/ | Artículo 3 | Ley de 29 de diciembre de 1944 (feriados y duelos)
 ---
 ## La regla: descanso
 
@@ -57,6 +60,18 @@ La misma aclaración recuerda que el triple del domingo nace del Decreto Supremo
 El domingo trabajado y el salario dominical son cosas distintas. El **salario dominical** es el pago de un jornal por el domingo no trabajado, que reciben los obreros que cumplieron su horario semanal completo (Decreto Supremo 3691, artículo 23). Para ese cómputo no se consideran faltas las ausencias justificadas del artículo 25: incapacidad temporal por accidente, enfermedad o maternidad, descanso por parto, vacaciones, feriados por ley o contrato, interrupciones ajenas al trabajador y ausencias autorizadas por el empleador. El **domingo trabajado** es el pago por haber trabajado ese día.
 
 > Desde abril de 1954, los obreros tienen un salario semanal de siete días corridos: el salario diario se multiplica por siete (Decreto Supremo 3691, artículo 22).
+
+## El pago del feriado no trabajado (obreros)
+
+La [ley de 29 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/) regula otra cosa: el salario de los feriados y duelos nacionales para los obreros, trabajen o no ese día. Según su texto:
+
+- Quien da trabajo, incluso una entidad de derecho público, debe pagar a sus obreros el salario correspondiente a los feriados y duelos nacionales, con la sola excepción de los domingos (artículo 1).
+- Tienen derecho los obreros que trabajaron para el mismo empleador tres días consecutivos de los diez anteriores al feriado, y los que trabajaron la víspera y siguen los dos días después (artículo 2).
+- Se paga un día de salario; a destajo, el promedio de los seis días anteriores, o de los que se hayan trabajado si son menos, siempre que no sean menos de tres (artículo 3).
+- Si el feriado cae en la vacación anual, se paga igualmente (artículo 4).
+- La sanción es una multa equivalente al quíntuplo de los salarios no pagados, además de devolver lo debido (artículo 5).
+
+Esta ley habla de obreros y no menciona a los empleados. Cómo se combina con el recargo del artículo 55 de la Ley General del Trabajo y con el artículo 31 del Reglamento, y si sigue vigente, debe confirmarse. [VERIFICAR]
 
 ## Qué días son feriados
 

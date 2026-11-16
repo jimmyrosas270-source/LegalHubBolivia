@@ -64,7 +64,7 @@
       "estado_revision": "Pendiente de revisión legal humana",
       "texto": [
         "El texto dice que los pagos se hacen «precisamente en moneda de curso legal». La Ley 901 (en la Biblioteca) dio al boliviano poder liberatorio ilimitado para toda clase de obligaciones y salvó las normas contractuales de los Códigos Civil y de Comercio (artículo 6).",
-        "Los materiales de apoyo del editor discuten si un pacto expreso podría permitir pagar en otra moneda en el sector privado, y citan para ello un decreto supremo de 1965 (el 7182), que no está en el sitio, y una guía de derechos laborales del Ministerio de Trabajo de octubre de 2020. Esa es una interpretación, no una regla escrita en este artículo.",
+        "Los materiales de apoyo del editor discuten si un pacto expreso podría permitir pagar en otra moneda en el sector privado. Para ello citan el Decreto Ley 7182, de 23 de mayo de 1965, que está en la Biblioteca: su artículo 7 prohíbe con carácter general el pago de sueldos en moneda extranjera en el territorio nacional y manda al sector público pagar en pesos bolivianos, y el artículo 8 exceptúa al personal extranjero con contrato celebrado en el exterior. Citan también una guía de derechos laborales del Ministerio de Trabajo de octubre de 2020, que no está en el sitio. Eso es una interpretación, no una regla escrita en este artículo.",
         "Ver la guía «Cómo, cuándo y en qué moneda debe pagarse el salario». Qué moneda puede pactarse debe confirmarse con un profesional y con el texto de las normas citadas."
       ]
     },
@@ -76,7 +76,7 @@
       "texto": [
         "Este artículo fija solo los porcentajes: 100 % de recargo para las horas extraordinarias y los feriados, y entre 25 % y 50 % para el trabajo nocturno «según los casos», sin decir cuáles son esos casos.",
         "Otras normas del sitio lo completan: el artículo 41 de esta Ley considera feriados todos los domingos; el artículo 50 permite hasta 2 horas extraordinarias por día con permiso de la Inspección del Trabajo; el artículo 31 del Reglamento deja al empleador la elección entre un día de descanso y el pago del recargo en feriados; y el Decreto Supremo 3691 (artículo 23, en la Biblioteca) habla de una remuneración triple para el obrero que trabaja en domingo después de cumplir su horario semanal.",
-        "La escala del recargo nocturno según el tipo de establecimiento está en el Decreto Supremo 0090, de 24 de abril de 1944 (en la Biblioteca): 25 %, 30 %, 40 % para mujeres mayores de 18 años y 50 % entre las 00:00 y las 06:00 en labores nocivas y peligrosas.",
+        "La escala del recargo nocturno según el tipo de establecimiento está en el Decreto Supremo 0090, de 24 de abril de 1944 (en la Biblioteca): 25 %, 30 %, 40 % para mujeres mayores de 18 años y 50 % entre las 00:00 y las 06:00 en labores nocivas y peligrosas. El decreto de 22 de enero de 1944, al que remite para el trabajo nocturno de mujeres, está en las normas históricas del sitio.",
         "Ver las guías «Horas extras y trabajo nocturno» y «Trabajo en domingos y feriados»."
       ]
     },
@@ -88,6 +88,97 @@
       "texto": [
         "Este artículo permite que el trabajo por equipos pase de las 8 horas diarias y de las 48 semanales, siempre que el promedio de horas de tres semanas no exceda la jornada máxima. Una aclaración recibida por el editor entiende que dentro de un ciclo válido el descanso semanal no está atado al domingo y que el domingo trabajado no se paga triple. Ese efecto no lo dice el artículo y debe confirmarse con un profesional.",
         "Ver la guía «Trabajo en domingos y feriados»."
+      ]
+    },
+    {
+      "id": "cmp-lgt-art-16",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-16/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El texto publicado de este artículo no trae los incisos d) y f). La Ley de 23 de noviembre de 1944 (artículo 2) los derogó: trataban del desahucio y la indemnización por inasistencia injustificada de más de tres días y por retiro voluntario del trabajador. Texto de esa ley en las normas históricas del sitio.",
+        "Ver la guía «El abandono de trabajo» y la Resolución Ministerial 447/09 (artículo 3), que habla de seis días hábiles y no de tres."
+      ]
+    },
+    {
+      "id": "cmp-1943-dic27-art1",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-27-de-diciembre-de-1943/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Este decreto fija la prima anual en no menos de un mes de sueldo para empleados y 15 días de salario para obreros. El Reglamento de 1943 (artículo 48) repite esas cifras. La Ley de 11 de junio de 1947 (artículo 3, en la Biblioteca) la fijó en «un mes de sueldo y 25 días de salario». Ver la guía «La prima anual»."
+      ]
+    },
+    {
+      "id": "cmp-1945-nov22-art1",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/ley-de-22-de-noviembre-de-1945/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "La palabra «gumíferos» figura así en el archivo del editor; los artículos siguientes de la misma ley hablan de trabajadores gomeros. Se publica tal como está en la fuente."
+      ]
+    },
+    {
+      "id": "cmp-1944-ene22-art4",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-22-de-enero-de-1944/articulo-4/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Este decreto es transitorio: se dictó «mientras dure la actual contienda bélica» y se refiere sobre todo a empresas mineras. El recargo nocturno del 40 % para mujeres que cita el Decreto Supremo 0090 de 1944 remite a este decreto. Si sigue vigente debe confirmarse. Ver la guía «Horas extras y trabajo nocturno»."
+      ]
+    },
+    {
+      "id": "cmp-1944-abr24-art4",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-24-de-abril-de-1944/articulo-4/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El texto de este artículo en el archivo del editor difiere en algunas palabras del Decreto Supremo 0090 de 1944 que está en la Biblioteca como PDF: este trae «molinos de minerales» y «ensacadura»; el PDF dice «hornos de calcinación de minerales» y «ensecadura». Los porcentajes (25, 30, 40 y 50 %) coinciden en ambos."
+      ]
+    },
+    {
+      "id": "cmp-1944-nov23-art2",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-2/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Esta ley habla de inasistencia injustificada de «más de tres días». La Resolución Ministerial 447/09 (artículo 3) se refiere a esa derogación y habla de más de seis días hábiles. Cuál es la cifra aplicable debe confirmarse. Ver la guía «El abandono de trabajo»."
+      ]
+    },
+    {
+      "id": "cmp-1944-dic18-art1",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/ley-de-18-de-diciembre-de-1944/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El texto coincide en lo sustancial con la Ley de 18 de diciembre de 1944 que está en la Biblioteca como PDF, que además trae las firmas y la promulgación. Hay diferencias de redacción menores: por ejemplo, «transgresión» y «trasgresión» en el artículo 2, y «trabajan» y «trabajen» en el artículo 4."
+      ]
+    },
+    {
+      "id": "cmp-1944-dic21-art1",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "La Ley de 11 de junio de 1947 (artículo 1, en la Biblioteca) elevó a ley este artículo con una redacción distinta: dice «en calidad de aguinaldo», sin «o prima anual». También modificó el artículo 5 (artículo 2 de la ley de 1947). Aquí se publica el texto original del decreto, tal como está en el archivo del editor."
+      ]
+    },
+    {
+      "id": "cmp-1944-dic21-art3",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-3/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Este artículo fija un tiempo mínimo para el aguinaldo: más de tres meses para empleados y más de un mes calendario para obreros. La Ley de 1947 no lo menciona. El Decreto Supremo 1802 (2013) habla de un mínimo de tres meses seguidos para el aguinaldo y el segundo aguinaldo. Ver la guía «El aguinaldo de Navidad y el segundo aguinaldo»."
+      ]
+    },
+    {
+      "id": "cmp-1944-dic29-fer-art1",
+      "ruta": "/leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Esta ley habla de obreros y excluye los domingos. Para el trabajo en feriados, la Ley General del Trabajo (artículo 55) y el Reglamento (artículos 29 a 31) fijan un recargo del 100 % o un descanso compensatorio. Cómo se combinan estas normas, y si esta ley sigue vigente, debe confirmarse. Ver la guía «Trabajo en domingos y feriados»."
       ]
     }
   ]

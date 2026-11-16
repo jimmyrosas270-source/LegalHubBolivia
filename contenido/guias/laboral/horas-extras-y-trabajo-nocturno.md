@@ -14,6 +14,9 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-37/ | Artículo 37 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-41/ | Artículo 41 | Reglamento de la Ley General del Trabajo
 - /biblioteca/decreto-supremo-0090-de-1944/ | Decreto Supremo 0090 de 1944 (PDF) | Recargo nocturno
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-22-de-enero-de-1944/articulo-3/ | Artículo 3 | Decreto Supremo de 22 de enero de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-22-de-enero-de-1944/articulo-4/ | Artículo 4 | Decreto Supremo de 22 de enero de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-24-de-abril-de-1944/articulo-4/ | Artículo 4 | Decreto de 24 de abril de 1944
 - /biblioteca/decreto-supremo-21137/ | Decreto Supremo 21137 (PDF) | Artículo 14
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
 ---
@@ -53,10 +56,10 @@ La escala está en el [Decreto Supremo 0090, de 24 de abril de 1944](/biblioteca
 
 - Establecimientos comerciales, oficinas y labores discontinuas o que solo exigen la presencia del trabajador, como la vigilancia: 25 % (artículo 1).
 - Establecimientos industriales y fabriles: 30 % (artículo 2).
-- Mujeres mayores de 18 años que trabajen de noche en las condiciones previstas por un decreto de 22 de enero de 1944: 40 % (artículo 3).
+- Mujeres mayores de 18 años que trabajen de noche en las condiciones previstas por el [decreto de 22 de enero de 1944](/leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-22-de-enero-de-1944/): 40 % (artículo 3).
 - Entre las 00:00 y las 06:00, en galerías subterráneas, hornos de calcinación de minerales, secadura de minerales y otras labores particularmente nocivas y peligrosas: 50 % (artículo 4).
 
-El decreto de 22 de enero de 1944 al que remite el artículo 3 no está en la Biblioteca. Además, el artículo 60 de la Ley General del Trabajo dice que las mujeres y los menores de 18 años solo pueden trabajar durante el día, salvo enfermería, servicio doméstico y otras labores que se determinen. Cómo convive esa regla con el recargo del 40 % para mujeres del decreto de 1944 debe confirmarse en las normas originales. [VERIFICAR]
+El decreto de 22 de enero de 1944 al que remite el artículo 3 ya está en el sitio, dentro de las [normas que modifican la Ley General del Trabajo](/leyes/laboral/normas-que-modifican-la-lgt/decreto-supremo-de-22-de-enero-de-1944/). Es un decreto transitorio, dictado «mientras dure la actual contienda bélica»: permitió que las empresas mineras emplearan a mujeres mayores de 18 años en trabajos nocturnos ligeros (artículo 1), prohibió su empleo, incluso de día, en galerías subterráneas, hornos, molinos y otros trabajos peligrosos o insalubres, y también dijo que el trabajo nocturno de las mujeres lleva un salario adicional del 40 % y que las horas que pasen de la jornada de 40 horas para mujeres son extraordinarias, con recargo del 100 % (artículo 4). Si esas reglas siguen vigentes hoy debe confirmarse. [VERIFICAR] Además, el artículo 60 de la Ley General del Trabajo dice que las mujeres y los menores de 18 años solo pueden trabajar durante el día, salvo enfermería, servicio doméstico y otras labores que se determinen. Cómo convive esa regla con el recargo del 40 % para mujeres del decreto de 1944 debe confirmarse en las normas originales. [VERIFICAR]
 
 ## Turnos nocturnos de más de 7 horas
 

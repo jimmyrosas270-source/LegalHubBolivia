@@ -5,6 +5,7 @@ publico: Trabajadores y empleadores del sector privado
 actualizada: 15/11/2026
 resumen: El finiquito suma lo que el empleador debe pagar cuando termina la relación laboral. Esta guía explica qué datos hacen falta, qué pagos lo componen y con qué fórmula se calcula cada uno.
 articulos:
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-1/ | Artículo 1 | Ley de 23 de noviembre de 1944
 - /leyes/laboral/ley-general-del-trabajo/articulo-12/ | Artículo 12 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-13/ | Artículo 13 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-16/ | Artículo 16 | Ley General del Trabajo
@@ -30,7 +31,7 @@ El Decreto Supremo 110, de 1 de mayo de 2009, garantiza la indemnización por ti
 
 Las normas más antiguas hablaban de períodos distintos para el retiro voluntario: ocho años en el artículo 13 de la Ley General del Trabajo y en el Decreto Supremo 1592 (artículo 4), ocho o quince años en el artículo 8 del Reglamento, y cinco años en el Decreto Supremo 22138 de 1989, que cita el Decreto Supremo 11478 de 1974. Como el Decreto Supremo 110 abroga las disposiciones contrarias, en principio esos tiempos quedaron superados para la indemnización. [VERIFICAR]
 
-!! Sobre el período de prueba de tres meses, las normas no coinciden: el Reglamento de 1943 (artículo 8) descuenta los tres primeros meses, mientras que el artículo 13 de la Ley General del Trabajo y el artículo 5 del Decreto Supremo 1592 lo incluyen en el tiempo de servicios. Confirma cuál regla se aplica antes de calcular. [VERIFICAR]
+!! Sobre el período de prueba de tres meses, las normas no coinciden: el Reglamento de 1943 (artículo 8) descuenta los tres primeros meses, mientras que el artículo 13 de la Ley General del Trabajo y el artículo 5 del Decreto Supremo 1592 lo incluyen en el tiempo de servicios. Confirma cuál regla se aplica antes de calcular. [VERIFICAR] La ley de 23 de noviembre de 1944 (artículo 1) dispone que, para el desahucio, la indemnización y el retiro forzoso o voluntario, el tiempo de servicios se cuenta desde la fecha de contratación, verbal o escrita, incluyendo los meses que se reputan de prueba. [VERIFICAR]
 
 ## Datos que debes reunir
 

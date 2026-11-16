@@ -183,7 +183,7 @@ Es un pago anual obligatorio de un mes de sueldo o salario ([Ley de 18 de diciem
 
 ### ¿Hasta cuándo debe pagarse el aguinaldo?
 
-La ley de 1944 dice «antes del 25 de diciembre» (art. 1). El plazo que se exige en la práctica es el 20 de diciembre: el resumen del Auto Supremo 496/2022 lo toma como plazo máximo y los materiales de apoyo dicen que lo fija cada año un instructivo del Ministerio de Trabajo. Para evitar sanciones, lo seguro es pagar hasta el 20. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
+La ley de 1944 dice «antes del 25 de diciembre» (art. 1). El plazo que se exige en la práctica es el 20 de diciembre: el [Decreto Supremo 28448](/biblioteca/decreto-supremo-28448/leer/) lo fija para el sector público y recuerda que para las empresas privadas ya estaba señalado el 20; el resumen del Auto Supremo 496/2022 también lo toma como plazo máximo. Para evitar sanciones, lo seguro es pagar hasta el 20. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
 
 ### ¿Qué pasa si el aguinaldo se paga tarde?
 
@@ -239,7 +239,7 @@ Es el pago de un jornal por el domingo no trabajado que reciben los obreros que 
 
 ### ¿Se puede pagar el sueldo en dólares?
 
-La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (art. 53) dice que los pagos se hacen «precisamente en moneda de curso legal». La [Ley 901](/biblioteca/ley-901/leer/) (art. 6) da al boliviano poder liberatorio ilimitado para obligaciones públicas y privadas, y salva las normas contractuales de los Códigos Civil y de Comercio. Los materiales de apoyo citan un decreto de 1965 y una guía del Ministerio de Trabajo según los cuales un pacto expreso podría permitir otra moneda en el sector privado, pero esas fuentes no están en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
+La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (art. 53) dice que los pagos se hacen «precisamente en moneda de curso legal», y la [Ley 901](/biblioteca/ley-901/leer/) (art. 6) da al boliviano poder liberatorio ilimitado, salvando las normas contractuales de los Códigos Civil y de Comercio. El [Decreto Ley 7182, de 1965](/biblioteca/decreto-ley-7182/leer/#page=2) (art. 7) prohíbe con carácter general el pago de sueldos en moneda extranjera dentro del territorio nacional y manda al sector público pagar en pesos bolivianos; su alcance en el sector privado y su vigencia deben confirmarse. Los materiales de apoyo citan además una guía del Ministerio de Trabajo que no está en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
 
 ### ¿Cada cuánto debe pagarse el sueldo?
 
@@ -251,11 +251,11 @@ La Constitución garantiza a las mujeres la misma remuneración que a los hombre
 
 ### ¿Qué es el bono de producción?
 
-Es un pago adicional cuando la producción supera una meta, según los decretos de 1983 que citan los materiales de apoyo. El [Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3) (1985) suprimió los bonos adicionales y eliminó en el sector público el de producción que no sea a destajo, así que su vigencia debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+Es una remuneración adicional por un esfuerzo productivo adicional para superar una meta de producción. Se paga al margen del sueldo y no se consolida a él ([Decreto Supremo 19464](/biblioteca/decreto-supremo-19464/leer/), art. 1). Se paga en proporción a lo que se supere la meta: si se supera 10 %, el bono es el 10 % del sueldo ([Decreto Supremo 19518](/biblioteca/decreto-supremo-19518/leer/#page=2), art. 3). El [Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3) (1985) suprimió los bonos adicionales y, en el sector público, el de producción que no sea a destajo; en 1995 el [Decreto Supremo 24067](/biblioteca/decreto-supremo-24067/leer/#page=3) lo permitió en empresas públicas con condiciones. Su vigencia hoy debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
 
 ### ¿Qué es el bono o subsidio de frontera?
 
-Es un pago del 20 % del salario mensual para trabajadores cuyo lugar de trabajo está dentro de los cincuenta kilómetros lineales de las fronteras internacionales. Sustituyó al bono de zona, región o frontera ([Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3), art. 12). El texto dice que lo cobran los trabajadores del sector público y que rige también para las empresas privadas: cómo se aplica a estas debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+El [Decreto Supremo 20030](/biblioteca/decreto-supremo-20030/leer/) (10 de febrero de 1984) instituyó el Bono de Frontera del 50 % del salario mínimo mensual para funcionarios públicos que trabajan hasta cincuenta kilómetros lineales de la frontera. El art. 12 del [Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3) (1985) lo sustituyó por un subsidio de frontera del 20 % del salario mensual. El texto dice que lo cobran los trabajadores del sector público y que rige también para las empresas privadas: cómo se aplica a estas debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
 
 ### ¿La prima anual se calcula con el último sueldo o con el de cada año?
 
@@ -268,3 +268,19 @@ Según una aclaración recibida por el editor, en dos casos: cuando el empleador
 ### ¿Qué es el trabajo por equipos?
 
 Es el que se organiza en ciclos de trabajo y de descanso. El artículo 48 de la [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-48/) permite pasar de 8 horas diarias y de 48 semanales si el promedio de tres semanas no excede la jornada máxima. Eso permite esquemas como 12 días de 12 horas o 18 días de 8 horas, cuya aplicación debe confirmarse en cada caso. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Se paga el feriado a los obreros aunque no trabajen ese día?
+
+Según la [ley de 29 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/), quien da trabajo debe pagar a sus obreros el salario de los feriados y duelos nacionales, menos los domingos, si trabajaron tres días consecutivos de los diez anteriores al feriado (o la víspera y los dos días siguientes). La sanción es una multa del quíntuplo de lo no pagado. Habla de obreros, no de empleados. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Quién no cobra el aguinaldo?
+
+Según los textos de 1944, no lo cobran los empleados con contrato que cobran en moneda extranjera, salvo pacto en contrario ([ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/), art. 3), ni quienes fueron retirados por las faltas del artículo 16 de la Ley General del Trabajo, salvo los incisos d) y f) ([decreto de 21 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-4/), art. 4). Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
+
+### ¿Qué significa «total ganado»?
+
+En los decretos de 1983 es la suma del sueldo o salario mensual (el haber básico con los bonos que se consolidaron) y de los bonos y componentes que no se consolidaron, como el de antigüedad, las horas extraordinarias y los recargos nocturnos ([Decreto Supremo 19518](/biblioteca/decreto-supremo-19518/leer/), art. 1). Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/).
+
+### ¿Qué pasó con los incisos d) y f) del artículo 16 de la Ley General del Trabajo?
+
+Una [ley de 23 de noviembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-2/) (art. 2) los derogó: trataban del desahucio y la indemnización por inasistencia injustificada de más de tres días y por retiro voluntario. Por eso el artículo 16 publicado no los trae. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]

@@ -5,6 +5,7 @@ publico: Trabajadores y empleadores del sector privado
 actualizada: 16/11/2026
 resumen: Es un pago adicional al sueldo por los años de trabajo continuo. Esta guía explica cómo se calcula, qué cambia entre empresas productivas y no productivas y cómo reclamarlo si no se pagó. La escala y las bases salen de decretos que están en la Biblioteca; lo que falta confirmar es qué es una empresa productiva.
 articulos:
+- /biblioteca/decreto-supremo-24067/ | Decreto Supremo 24067 (PDF) | Artículos 8 y 11
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-3/ | Artículo 3 | Código Procesal del Trabajo
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-66/ | Artículo 66 | Código Procesal del Trabajo
@@ -46,7 +47,7 @@ La fórmula, entonces, es: porcentaje de la escala × base. Por ejemplo, con 10 
 
 ## Empresa productiva y no productiva
 
-Los decretos usan la expresión «empresas productivas» sin definirla. Los materiales de apoyo reúnen dos autos supremos (AS 050/2014 y AS 033/2019), que no están en el sitio, con estos criterios: [VERIFICAR]
+Los decretos de 1992 y 1993 usan la expresión «empresas productivas» sin definirla. El Decreto Supremo 24067 (1995, artículo 11) solo define «empresas» para el sector público: las entidades con patrimonio propio, autonomía de gestión administrativa y financiera y creadas legalmente como tales, productoras de bienes o proveedoras de servicios, cuyo bono se calcula sobre tres salarios mínimos nacionales y con la escala del Decreto Supremo 21060. Los materiales de apoyo reúnen dos autos supremos (AS 050/2014 y AS 033/2019), que no están en el sitio, con estos criterios: [VERIFICAR]
 
 - Una empresa es **productiva** cuando crea o transforma bienes materiales, o cuando obtiene ganancias con un aparato productivo, incluso si lo que vende es un servicio convertido en un producto con componentes físicos o tecnológicos (los autos lo llaman «servucto»).
 - Es **no productiva** la que presta solo servicios intangibles, sin transformar nada ni generar un producto.
@@ -66,6 +67,6 @@ Como se paga cada mes, el bono forma parte del total ganado. El Decreto Supremo 
 - **Quién prueba.** En el juicio social, la carga de la prueba corresponde al empleador (Código Procesal del Trabajo, artículos 3 inciso h, 66 y 150). Si dice que pagó, tiene que mostrar planillas o registros de pago; el trabajador no debe probar que no cobró.
 - **Con qué se prueba.** El juez valora la prueba con amplia libertad (Código Procesal del Trabajo, artículo 3, inciso j): planillas, contratos, registros internos o testigos pueden servir para mostrar el tiempo trabajado.
 - **Lo que no se pidió.** La sentencia también debe incluir lo que el trabajador no reclamó en la demanda y que apareció en el proceso con relación directa al caso (Código Procesal del Trabajo, artículo 202, inciso c).
-- **Certificado de años de servicio.** Los materiales de apoyo dicen que la jurisprudencia no lo exige siempre: no haría falta cuando el trabajo fue continuo en una sola entidad y otras pruebas muestran la antigüedad, pero sí cuando se quieren sumar años de distintas instituciones. [VERIFICAR]
+- **Certificado de años de servicio.** En el sector público, el Decreto Supremo 24067 (artículo 8) exigió presentar el certificado o calificación de años de servicio otorgado por el Ministerio de Hacienda para acreditar el derecho al bono. Para el sector privado, los materiales de apoyo dicen que la jurisprudencia no lo exige siempre: no haría falta cuando el trabajo fue continuo en una sola entidad y otras pruebas muestran la antigüedad, pero sí cuando se quieren sumar años de distintas instituciones. [VERIFICAR]
 
 La primera instancia para reclamar es el Ministerio de Trabajo. Ver la pregunta [¿Dónde reclamo primero?](/preguntas/laboral/#p1).

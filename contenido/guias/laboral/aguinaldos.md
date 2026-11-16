@@ -6,6 +6,14 @@ actualizada: 16/11/2026
 resumen: El aguinaldo es un pago anual obligatorio. La ley dice que debe pagarse antes del 25 de diciembre, y en la práctica el plazo exigido es el 20. Si no se paga, la ley manda pagarlo doble. El segundo aguinaldo «Esfuerzo por Bolivia» no se paga todos los años: depende de cuánto haya crecido la economía.
 articulos:
 - /biblioteca/ley-de-18-de-diciembre-de-1944/ | Ley de 18 de diciembre de 1944 (PDF) | Artículos 1 a 3
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-18-de-diciembre-de-1944/articulo-1/ | Artículo 1 | Ley de 18 de diciembre de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/ley-de-18-de-diciembre-de-1944/articulo-2/ | Artículo 2 | Ley de 18 de diciembre de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-2/ | Artículo 2 | Decreto de 21 de diciembre de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-3/ | Artículo 3 | Decreto de 21 de diciembre de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-4/ | Artículo 4 | Decreto de 21 de diciembre de 1944
+- /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-5/ | Artículo 5 | Decreto de 21 de diciembre de 1944
+- /biblioteca/ley-de-11-de-junio-de-1947/ | Ley de 11 de junio de 1947 (PDF) | Artículos 1 y 2
+- /biblioteca/decreto-supremo-28448/ | Decreto Supremo 28448 (PDF) | Artículo único
 - /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículo 27
 - /biblioteca/decreto-supremo-1802/ | Decreto Supremo 1802 (PDF) | Segundo aguinaldo
 - /biblioteca/decreto-supremo-21137/ | Decreto Supremo 21137 (PDF) | Artículo 9
@@ -19,15 +27,16 @@ articulos:
 ---
 ## Qué es el aguinaldo de Navidad
 
-Es un pago que el empleador hace una vez al año, a fin de año. Lo creó como obligación la [Ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/): toda empresa comercial o industrial, o cualquier otro negocio, debe dar a sus empleados un mes de sueldo y a sus obreros 25 días de salario (artículo 1). El Decreto Supremo 21137 (artículo 9) lo mantuvo cuando suprimió otros pagos adicionales.
+Es un pago que el empleador hace una vez al año, a fin de año. Lo creó como obligación la [Ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/): toda empresa comercial o industrial, o cualquier otro negocio, debe dar a sus empleados un mes de sueldo y a sus obreros 25 días de salario (artículo 1). Un decreto reglamentario de [21 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/) completó sus reglas, y la [Ley de 11 de junio de 1947](/biblioteca/ley-de-11-de-junio-de-1947/leer/) elevó a ley dos de sus artículos (el 1, que repite el plazo, y el 5, sobre los aguinaldos no cobrados) y separó el aguinaldo de la prima anual (artículo 3). El Decreto Supremo 21137 (artículo 9) lo mantuvo cuando suprimió otros pagos adicionales.
 
 ## Cuánto corresponde
 
 - **Un mes de sueldo o salario.** La ley de 1944 hablaba de 25 días de salario para los obreros; el Decreto Supremo 3691 (1954, artículo 27) dispuso que los beneficios anuales de los obreros, como el aguinaldo y las primas, se calculen sobre la base de un mes de salario.
 - **Si se trabajó menos de un año,** se paga por duodécimas, en proporción al tiempo trabajado.
-- **Tiempo mínimo.** Para pagar las duodécimas se cuentan solo los servicios prestados en una misma entidad, empresa o institución, pública o privada, durante un mínimo de tres meses seguidos en la gestión, e incluye a quienes se incorporaron hasta el 1 de octubre (Decreto Supremo 1802, artículo adicional único). Ese artículo se refiere al aguinaldo de Navidad y al segundo aguinaldo. Los materiales de apoyo hablan de «un año continuo», lo que no coincide con el decreto.
-- **Excepción en la ley de 1944.** El aguinaldo de esa ley no alcanza a los empleados con contrato que cobran en moneda extranjera, salvo que se haya estipulado lo contrario (artículo 3).
-- **Base de cálculo.** Los materiales de apoyo indican que se calcula sobre el promedio del total ganado de los tres últimos meses y que no admite descuentos. Los textos de la Biblioteca no lo precisan. [VERIFICAR]
+- **Tiempo mínimo.** Hay dos textos. El decreto de 1944 (artículo 3) da derecho a los empleados con más de tres meses de trabajo y a los obreros con más de un mes calendario, y paga en proporción si se trabajó menos de un año. Para el pago por duodécimas, el Decreto Supremo 1802 (artículo adicional único) cuenta solo los servicios en una misma entidad, empresa o institución, pública o privada, durante un mínimo de tres meses seguidos en la gestión, e incluye a quienes se incorporaron hasta el 1 de octubre; ese artículo se refiere al aguinaldo de Navidad y al segundo aguinaldo. El resumen del Auto Supremo 496/2022 habla de más de 90 días. Los materiales de apoyo dicen «un año continuo», lo que no coincide con ninguno. Cuál aplica a un caso concreto debe confirmarse. [VERIFICAR]
+- **Aguinaldo no cobrado.** Los aguinaldos que no se cobraron se consideran sueldos o salarios impagos para el decreto-ley de 7 de junio de 1937 (decreto de 1944, artículo 5, en la redacción de la ley de 1947, artículo 2).
+- **Base de cálculo.** El decreto de 1944 (artículo 2) toma el último sueldo o salario; para quien trabaja a destajo, el promedio de lo pagado en los últimos tres meses si es empleado y de 75 días si es obrero. Los materiales de apoyo proponen el promedio del total ganado de los tres últimos meses y dicen que no admite descuentos: eso no está en los textos de la Biblioteca. [VERIFICAR]
+- **Quién no lo cobra.** Los empleados con contrato que cobran en moneda extranjera, salvo pacto en contrario (ley de 1944, artículo 3; decreto de 1944, artículo 7), y quienes fueron retirados por las faltas del artículo 16 de la Ley General del Trabajo, con excepción de los incisos d) y f), derogados por una ley del 23 de noviembre de 1944 (decreto de 1944, artículo 4). [VERIFICAR]
 
 No hay que confundirlo con la prima anual: son pagos distintos y la prima solo se paga si la empresa tuvo utilidades. Ver [La prima anual](/guias/laboral/prima-anual/).
 
@@ -36,7 +45,7 @@ No hay que confundirlo con la prima anual: son pagos distintos y la prima solo s
 Hay dos fechas y las dos tienen respaldo:
 
 - **Antes del 25 de diciembre.** Es lo que dice el artículo 1 de la ley de 1944.
-- **20 de diciembre.** Es el plazo que se exige en la práctica. El resumen del Auto Supremo 496/2022 lo toma como plazo máximo de cada gestión, y los materiales de apoyo explican que cada año el Ministerio de Trabajo emite un instructivo que fija esa fecha. La diferencia viene de que una fecha sale de la ley y la otra de una disposición administrativa que reglamenta su cumplimiento. [VERIFICAR]
+- **20 de diciembre.** Es el plazo que se exige en la práctica. El [Decreto Supremo 28448, de 22 de noviembre de 2005](/biblioteca/decreto-supremo-28448/leer/), lo fija para el pago al personal en funciones del sector público y, en sus considerandos, recuerda que el plazo para los trabajadores de las empresas privadas ya estaba señalado el 20 de diciembre. El resumen del Auto Supremo 496/2022 también lo toma como plazo máximo, y los materiales de apoyo explican que cada año el Ministerio de Trabajo emite un instructivo con esa fecha. La diferencia con la ley viene de que una fecha sale de la ley y la otra de disposiciones que reglamentan su cumplimiento. [VERIFICAR]
 - Los mismos materiales señalan que quien paga entre el 21 y el 24 de diciembre podría defenderse en juicio invocando el texto de la ley, pero que, para evitar sanciones administrativas, multas y litigios, la fecha segura es el 20; también que las planillas de respaldo se presentan al Ministerio hasta fines de diciembre. Esos puntos no están en los textos de la Biblioteca. [VERIFICAR]
 
 ## Si no se paga: pago doble
@@ -49,7 +58,7 @@ El Auto Supremo 496/2022, de 15 de agosto, de la Sala Social y Administrativa Pr
 - Como en todo juicio laboral, la prueba del pago le correspondía al empleador (Código Procesal del Trabajo, artículos 3 inciso h, 66 y 150).
 - La empresa se quejó de que la multa no había sido pedida en la demanda. El Tribunal respondió que la sanción es una consecuencia de no pagar a tiempo y que correspondía aplicarla aunque no se hubiera solicitado. Es una idea parecida a la del artículo 202, inciso c, del Código Procesal del Trabajo, que obliga a incluir en la sentencia lo que el trabajador no reclamó y apareció en el proceso.
 - El recurso de la empresa fue declarado infundado.
-- Los precedentes que cita el resumen: la ley de 18 de diciembre de 1944 (artículo 1), la ley de 11 de junio de 1947 y el Decreto Supremo 28448, de 22 de noviembre de 2005. De esos tres, solo la ley de 1944 está en la Biblioteca. [VERIFICAR]
+- Los precedentes que cita el resumen están los tres en la Biblioteca: la [ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/) (artículo 1), la [ley de 11 de junio de 1947](/biblioteca/ley-de-11-de-junio-de-1947/leer/) y el [Decreto Supremo 28448](/biblioteca/decreto-supremo-28448/leer/), de 22 de noviembre de 2005.
 
 !! Un auto resuelve un caso concreto. Que el Tribunal haya aplicado el pago doble en ese caso no garantiza el mismo resultado en otro; depende de los hechos y de la prueba.
 
@@ -69,4 +78,4 @@ El Auto Supremo 484/2022, de 15 de agosto, también de la Sala Social y Administ
 
 La conclusión práctica es que no es un derecho automático de cada año. Para saber si corresponde en una gestión hay que mirar el crecimiento informado por el instituto y si el Ejecutivo emitió la disposición respectiva. Para el año en curso, esa comprobación debe hacerse en fuentes oficiales. [VERIFICAR]
 
-> Hasta 1947 el aguinaldo y la prima eran casi el mismo pago. Una ley de ese año los separó: desde entonces el aguinaldo se paga siempre y la prima solo si hubo utilidades.
+> Hasta 1947 el aguinaldo y la prima eran casi el mismo pago. Una ley de ese año los separó: desde entonces el aguinaldo se paga siempre y la prima solo si hubo utilidades. Esa misma ley dejó dicho que cobrar el aguinaldo o la prima no convierte a los trabajadores en socios de la empresa (artículo 4).

@@ -488,6 +488,9 @@ for _s in SECCIONES:
 DOCS = SECC['biblioteca']
 DOCS_JUR = SECC['jurisprudencia']
 
+# ---------------------------------------------------------------- 2a. normas por artículos propias (contenido/normas/)
+exec(open(os.path.join(HERR, 'normas.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- 2b. guías, preguntas y glosario
 exec(open(os.path.join(HERR, 'editorial.py'), encoding='utf-8').read())
 
