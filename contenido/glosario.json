@@ -287,7 +287,8 @@
    "ver": [
     "/guias/laboral/aguinaldos/|Guía",
     "/preguntas/laboral/#p43|Pregunta frecuente",
-    "/biblioteca/decreto-supremo-3691/|Artículo 27, Decreto Supremo 3691"
+    "/biblioteca/decreto-supremo-3691/|Artículo 27, Decreto Supremo 3691",
+    "/biblioteca/ley-de-18-de-diciembre-de-1944/|Ley de 18 de diciembre de 1944"
    ]
   },
   {
@@ -307,7 +308,8 @@
    "ver": [
     "/guias/laboral/aguinaldos/|Guía",
     "/preguntas/laboral/#p47|Pregunta frecuente",
-    "/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136|Auto Supremo 484/2022"
+    "/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136|Auto Supremo 484/2022",
+    "/biblioteca/decreto-supremo-1802/|Decreto Supremo 1802"
    ]
   },
   {
@@ -316,7 +318,8 @@
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/bono-de-antiguedad/|Guía",
-    "/preguntas/laboral/#p38|Pregunta frecuente"
+    "/preguntas/laboral/#p38|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-21060/|Artículo 60, Decreto Supremo 21060"
    ]
   },
   {
@@ -339,11 +342,12 @@
   },
   {
    "termino": "Subsidio de frontera",
-   "definicion": "Pago adicional para trabajadores asignados a lugares dentro de los cincuenta kilómetros de las fronteras internacionales. Sustituyó al bono de zona, región o frontera.",
+   "definicion": "Pago del 20 % del salario mensual para trabajadores cuyo lugar de trabajo está dentro de los cincuenta kilómetros lineales de las fronteras internacionales. Sustituyó al bono de zona, región o frontera.",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/bono-de-produccion-y-de-frontera/|Guía",
-    "/preguntas/laboral/#p62|Pregunta frecuente"
+    "/preguntas/laboral/#p62|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-21137/|Artículo 12, Decreto Supremo 21137"
    ]
   },
   {
@@ -372,7 +376,8 @@
    "ver": [
     "/guias/laboral/horas-extras-y-trabajo-nocturno/|Guía",
     "/preguntas/laboral/#p52|Pregunta frecuente",
-    "/leyes/laboral/ley-general-del-trabajo/articulo-46/|Artículo 46, Ley General del Trabajo"
+    "/leyes/laboral/ley-general-del-trabajo/articulo-46/|Artículo 46, Ley General del Trabajo",
+    "/biblioteca/decreto-supremo-0090-de-1944/|Decreto Supremo 0090 de 1944"
    ]
   },
   {
@@ -392,6 +397,16 @@
    "ver": [
     "/guias/laboral/igualdad-salarial/|Guía",
     "/leyes/constitucional/constitucion-politica-del-estado/articulo-48/|Artículo 48, Constitución Política del Estado"
+   ]
+  },
+  {
+   "termino": "Trabajo por equipos",
+   "definicion": "Trabajo organizado en ciclos de trabajo y descanso. La Ley General del Trabajo permite pasar de 8 horas diarias y 48 semanales si el promedio de tres semanas no excede la jornada máxima.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/domingos-y-feriados/|Guía",
+    "/preguntas/laboral/#p65|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-48/|Artículo 48, Ley General del Trabajo"
    ]
   }
  ]

@@ -13,6 +13,8 @@ articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-60/ | Artículo 60 | Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-37/ | Artículo 37 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-41/ | Artículo 41 | Reglamento de la Ley General del Trabajo
+- /biblioteca/decreto-supremo-0090-de-1944/ | Decreto Supremo 0090 de 1944 (PDF) | Recargo nocturno
+- /biblioteca/decreto-supremo-21137/ | Decreto Supremo 21137 (PDF) | Artículo 14
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
 ---
 ## La jornada ordinaria
@@ -39,20 +41,22 @@ Las horas extraordinarias se pagan con un recargo del 100 % (Ley General del Tra
 
 Sobre qué sueldo se calcula, el artículo 55 no lo dice. Los materiales de apoyo señalan que se calcula sobre el haber básico del mes. Para el trabajo en feriados, en cambio, el Reglamento (artículo 31) habla de recargo sobre el «salario normal». Cuál es la base correcta de las horas extras debe confirmarse. [VERIFICAR]
 
+Para las empresas y entidades reguladas por la Ley General del Trabajo, el artículo 14 del [Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=4) dispuso que las horas extraordinarias se pagan solo por el trabajo efectivamente realizado por encima de la jornada mensual completa, aplicando el artículo 46 de la Ley y el artículo 36 del Reglamento, y suprimió el pago de horas fijas de sobretiempo.
+
 Si las horas extras se pagan con regularidad, forman parte del salario indemnizable (Decreto Supremo 1592, artículo 11). Ver [Cómo se calcula el finiquito](/guias/laboral/calculo-del-finiquito/).
 
 ## Trabajo nocturno
 
 El artículo 55 de la Ley General del Trabajo fija un recargo de entre el 25 % y el 50 % para el trabajo nocturno hecho en las mismas condiciones que el diurno, «según los casos», sin decir cuáles son esos casos.
 
-Los materiales de apoyo toman la escala de un decreto de 24 de junio de 1944, que todavía no está en la Biblioteca: [VERIFICAR]
+La escala está en el [Decreto Supremo 0090, de 24 de abril de 1944](/biblioteca/decreto-supremo-0090-de-1944/leer/):
 
-- Establecimientos comerciales y oficinas: 25 %.
-- Establecimientos industriales y fábricas: 30 %.
-- Mujeres mayores de 18 años: 40 %.
-- Entre las 00:00 y las 06:00, en minería y en actividades nocivas o peligrosas: 50 %.
+- Establecimientos comerciales, oficinas y labores discontinuas o que solo exigen la presencia del trabajador, como la vigilancia: 25 % (artículo 1).
+- Establecimientos industriales y fabriles: 30 % (artículo 2).
+- Mujeres mayores de 18 años que trabajen de noche en las condiciones previstas por un decreto de 22 de enero de 1944: 40 % (artículo 3).
+- Entre las 00:00 y las 06:00, en galerías subterráneas, hornos de calcinación de minerales, secadura de minerales y otras labores particularmente nocivas y peligrosas: 50 % (artículo 4).
 
-El artículo 60 de la Ley General del Trabajo dice que las mujeres y los menores de 18 años solo pueden trabajar durante el día, salvo enfermería, servicio doméstico y otras labores que se determinen. Cómo convive esa regla con el recargo del 40 % para mujeres que cita el decreto debe confirmarse en las normas originales. [VERIFICAR]
+El decreto de 22 de enero de 1944 al que remite el artículo 3 no está en la Biblioteca. Además, el artículo 60 de la Ley General del Trabajo dice que las mujeres y los menores de 18 años solo pueden trabajar durante el día, salvo enfermería, servicio doméstico y otras labores que se determinen. Cómo convive esa regla con el recargo del 40 % para mujeres del decreto de 1944 debe confirmarse en las normas originales. [VERIFICAR]
 
 ## Turnos nocturnos de más de 7 horas
 

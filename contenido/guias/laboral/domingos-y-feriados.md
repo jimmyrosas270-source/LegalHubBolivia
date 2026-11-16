@@ -3,7 +3,7 @@ titulo: Trabajo en domingos y feriados
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
 actualizada: 16/11/2026
-resumen: Los domingos y los feriados son días de descanso. Solo algunas actividades pueden trabajar en ellos, y quien lo hace recibe un recargo del 100 % o un día de descanso a cambio. Esta guía explica la regla, el salario dominical y los puntos en que los textos no coinciden.
+resumen: Los domingos y los feriados son días de descanso. Solo algunas actividades pueden trabajar en ellos, y quien lo hace recibe un recargo del 100 % o un día de descanso a cambio. Esta guía explica la regla, el salario dominical, los dos casos en que el domingo no se paga triple y los puntos en que los textos no coinciden.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-41/ | Artículo 41 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-42/ | Artículo 42 | Ley General del Trabajo
@@ -11,6 +11,7 @@ articulos:
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-29/ | Artículo 29 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-30/ | Artículo 30 | Reglamento de la Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/ | Artículo 31 | Reglamento de la Ley General del Trabajo
+- /leyes/laboral/ley-general-del-trabajo/articulo-48/ | Artículo 48 | Ley General del Trabajo
 - /biblioteca/decreto-supremo-3691/ | Decreto Supremo 3691 (PDF) | Artículos 22 a 25
 ---
 ## La regla: descanso
@@ -39,6 +40,17 @@ Los materiales de apoyo hablan de un pago triple por el feriado trabajado cuando
 **Domingos.** Como los domingos cuentan como feriados (Ley, artículo 41), el trabajo en domingo se paga con el recargo del 100 %. Para los obreros, el Decreto Supremo 3691 (artículo 23) añade que el derecho al salario dominical no afecta el pago doble del artículo 55 por trabajar en domingo, de modo que el obrero que cumplió su horario semanal completo tiene derecho a una remuneración triple por ese domingo. Ese artículo habla de obreros; el artículo 24 del mismo decreto solo extiende a los empleados particulares el artículo 21, que trata de las faltas. Por eso, que un empleado cobre también el triple por un domingo, como afirman los materiales de apoyo, debe confirmarse. [VERIFICAR]
 
 !! Los materiales de apoyo no son coherentes sobre quién recibe el recargo: en un pasaje dicen que el artículo 55 no se aplica a las actividades permitidas y en otro que el trabajador de una actividad no permitida puede pedir el pago triple. El artículo 31 del Reglamento prevé el recargo o el descanso para quienes trabajan en una actividad permitida. Qué pasa con quien trabaja en un día de descanso fuera de esas actividades debe confirmarse. [VERIFICAR]
+
+## Cuándo el domingo no se paga triple
+
+El pago triple no es automático. Según una aclaración que recibió el editor, hay dos situaciones en las que no corresponde: [VERIFICAR]
+
+1. **El empleador da un descanso sustituto.** Si dispone trabajo en domingo pero otorga otro día de descanso, no corresponde el triple. Es lo que prevé el artículo 31 del Reglamento: compensar con descanso en otro día de la semana en curso, a elección del empleador. La aclaración añade que, si las partes pactaron un «banco de horas», los descansos pueden acumularse y devolverse como descansos o, pasado un plazo, en dinero. Ese banco de horas no figura en el texto del artículo 31, así que debe confirmarse.
+2. **Trabajo por equipos.** El artículo 48 de la Ley General del Trabajo permite que, cuando el trabajo se hace por equipos, se pase de las 8 horas diarias y de las 48 semanales siempre que el promedio de horas de tres semanas no exceda de la jornada máxima. La aclaración lo resume como un tope de 144 horas por ciclo de tres semanas (3 × 48) y cita esquemas como 12 días de 12 horas o 18 días de 8 horas. Dentro de un esquema válido, el descanso semanal no desaparece, pero se reorganiza dentro del ciclo y deja de estar atado al domingo; por eso el domingo pierde su tratamiento especial.
+
+Según la misma aclaración, estos esquemas suelen tener dificultades en el refrendado ante el Ministerio de Trabajo, porque los inspectores no aplican un criterio uniforme. También dice que el derecho al descanso semanal de un día, en lo posible el domingo, se apoya en los convenios 14 y 106 de la Organización Internacional del Trabajo, que Bolivia habría ratificado. Ni el refrendado de estos esquemas ni esos convenios figuran en los textos de la Biblioteca. [VERIFICAR]
+
+La misma aclaración recuerda que el triple del domingo nace del Decreto Supremo 3691 como un beneficio para obreros que cumplieron su horario semanal completo, y que el artículo 29 del Reglamento solo dice que los domingos son feriados, sin hablar de triple. Ambos puntos coinciden con el texto de esos artículos.
 
 ## Qué es el salario dominical
 

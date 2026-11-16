@@ -159,15 +159,15 @@ Según la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-44
 
 ### ¿Qué es el bono de antigüedad y desde cuándo se cobra?
 
-Es un pago adicional al haber básico por los años de servicio continuo. Según los materiales de apoyo, se cobra desde los dos años de trabajo y lo regula el artículo 60 del Decreto Supremo 21060, que todavía no está en la Biblioteca. Ver la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+Es un pago adicional al salario por los años de servicio. La escala empieza a los 2 años de trabajo (5 %) y está en el artículo 60 del [Decreto Supremo 21060](/biblioteca/decreto-supremo-21060/leer/#page=14). Ver la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/).
 
 ### ¿Cuánto es el bono de antigüedad?
 
-Es un porcentaje que sube con los años (según los materiales de apoyo, de 5 % con 2 a 4 años hasta 50 % desde 25 años) aplicado a una base: tres salarios mínimos nacionales en empresas productivas y uno en empresas no productivas, entidades sin fines de lucro y administración pública. La escala completa está en la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+Es un porcentaje que sube con los años, de 5 % con 2 a 4 años hasta 50 % desde 25 años ([Decreto Supremo 21060](/biblioteca/decreto-supremo-21060/leer/#page=14), art. 60), aplicado a una base: un salario mínimo nacional ([Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=4), art. 13) y, en las empresas productivas, tres ([Decreto Supremo 23474](/biblioteca/decreto-supremo-23474/leer/)). La escala completa está en la guía [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/).
 
 ### ¿Qué diferencia hay entre empresa productiva y no productiva para el bono de antigüedad?
 
-Define la base de cálculo: tres salarios mínimos para la productiva y uno para la no productiva. Según los materiales de apoyo, es productiva la que crea o transforma bienes materiales, o vende servicios convertidos en productos; es no productiva la que presta solo servicios intangibles. La ley no lo define con precisión y hay una lectura que lleva siempre a tres salarios mínimos. Ver [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+Define la base de cálculo: tres salarios mínimos para la empresa productiva, y uno para las demás. Los decretos no definen «empresa productiva». Según los materiales de apoyo, es productiva la que crea o transforma bienes materiales, o vende servicios convertidos en productos; es no productiva la que presta solo servicios intangibles, y hay una lectura que lleva siempre a tres salarios mínimos. Ver [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
 
 ### ¿Puedo reclamar el bono de antigüedad si ya dejé de trabajar?
 
@@ -179,15 +179,15 @@ Según los materiales de apoyo, no siempre: si el trabajo fue continuo en una so
 
 ### ¿Qué es el aguinaldo de Navidad y cuánto corresponde?
 
-Es un pago anual obligatorio de un mes de sueldo o salario. Si se trabajó menos de un año se paga por duodécimas. El Tribunal Supremo lo describe como un derecho que se adquiere con más de 90 días de trabajo. Ver la guía [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/).
+Es un pago anual obligatorio de un mes de sueldo o salario ([Ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/); para obreros, [Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/), art. 27). Si se trabajó menos de un año se paga por duodécimas, y para eso se exige un mínimo de tres meses seguidos en la misma entidad ([Decreto Supremo 1802](/biblioteca/decreto-supremo-1802/leer/), artículo adicional único). Ver la guía [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/).
 
 ### ¿Hasta cuándo debe pagarse el aguinaldo?
 
-El resumen del Auto Supremo 496/2022 habla del 20 de diciembre como plazo máximo. Los materiales de apoyo mencionan el 25, con pago entre el 20 y el 21, según resolución ministerial de cada año. Las dos fuentes no coinciden: revisa la resolución del año. [VERIFICAR]
+La ley de 1944 dice «antes del 25 de diciembre» (art. 1). El plazo que se exige en la práctica es el 20 de diciembre: el resumen del Auto Supremo 496/2022 lo toma como plazo máximo y los materiales de apoyo dicen que lo fija cada año un instructivo del Ministerio de Trabajo. Para evitar sanciones, lo seguro es pagar hasta el 20. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
 
 ### ¿Qué pasa si el aguinaldo se paga tarde?
 
-El empleador que no lo paga a tiempo debe pagar el doble. Así lo aplicó el Tribunal Supremo en el [Auto Supremo 496/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112) (resumen publicado por el Tribunal), basado en una ley de 1944 que todavía no está en la Biblioteca. [VERIFICAR]
+La ley de 1944 castiga el incumplimiento con el pago del doble (art. 2). Así lo aplicó el Tribunal Supremo en el [Auto Supremo 496/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112) (resumen publicado por el Tribunal). Qué pasa con quien paga entre el 21 y el 24 de diciembre se explica en la guía [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
 
 ### ¿Puedo cobrar la multa del aguinaldo aunque no la haya pedido en mi demanda?
 
@@ -195,11 +195,11 @@ En el caso resumido en el [Auto Supremo 496/2022](/jurisprudencia/resumenes-de-j
 
 ### ¿Qué es el segundo aguinaldo «Esfuerzo por Bolivia»?
 
-Es un aguinaldo adicional creado por el Decreto Supremo 1802 de 2013 para trabajadores públicos y privados. Se paga solo en el año en que el crecimiento de la economía supera el 4,5 %. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
+Es un aguinaldo adicional creado por el [Decreto Supremo 1802, de 20 de noviembre de 2013](/biblioteca/decreto-supremo-1802/leer/), para trabajadores públicos y privados. Se paga solo en la gestión en que el crecimiento anual del PIB supera el 4,5 %. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/).
 
 ### ¿El segundo aguinaldo se paga todos los años?
 
-No. Según el [Auto Supremo 484/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136) (resumen del Tribunal), depende de que el crecimiento informado por el Instituto Nacional de Estadística supere el 4,5 %. En el caso resumido no se alcanzó en 2017 ni en 2019, y por eso no correspondía pagarlo en esos años. Para el año en curso, revisa fuentes oficiales. [VERIFICAR]
+No. Según el decreto (art. 5), se mide el crecimiento de los doce meses anteriores a septiembre, que informa el Instituto Nacional de Estadística en octubre. En el [Auto Supremo 484/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136) (resumen del Tribunal) no se alcanzó el 4,5 % en 2017 ni en 2019, y por eso no correspondía pagarlo en esos años. Para el año en curso, revisa fuentes oficiales. [VERIFICAR]
 
 ### ¿Cuánto se paga por una hora extra?
 
@@ -215,7 +215,7 @@ No se consideran horas extraordinarias ([Ley General del Trabajo](/leyes/laboral
 
 ### ¿Qué es el trabajo nocturno y cuánto es el recargo?
 
-Es el que se hace entre las 20:00 y las 06:00. Se paga con un recargo de entre 25 % y 50 % según los casos ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-55/), artículo 55). Los materiales de apoyo dan la escala de un decreto de 1944 que no está en el sitio: 25 % en comercios y oficinas, 30 % en industrias y fábricas, 40 % para mujeres mayores de 18 años y 50 % entre medianoche y las 06:00 en minería y actividades peligrosas. Ver [Horas extras y trabajo nocturno](/guias/laboral/horas-extras-y-trabajo-nocturno/). [VERIFICAR]
+Es el que se hace entre las 20:00 y las 06:00. Se paga con un recargo de entre 25 % y 50 % según los casos ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-55/), art. 55). El [Decreto Supremo 0090 de 1944](/biblioteca/decreto-supremo-0090-de-1944/leer/) da la escala: 25 % en comercios, oficinas y labores discontinuas o de vigilancia; 30 % en industrias y fábricas; 40 % para mujeres mayores de 18 años en las condiciones de otro decreto de enero de 1944; y 50 % entre las 00:00 y las 06:00 en labores nocivas y peligrosas. Ver [Horas extras y trabajo nocturno](/guias/laboral/horas-extras-y-trabajo-nocturno/).
 
 ### ¿Cuánto puede durar un turno de noche?
 
@@ -223,7 +223,7 @@ La jornada nocturna no puede pasar de 7 horas ([Ley General del Trabajo](/leyes/
 
 ### ¿Cuánto se paga si trabajo un domingo?
 
-Los domingos cuentan como feriados ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-41/), artículo 41), así que el trabajo en domingo se paga con un recargo del 100 % (artículo 55). Para los obreros que cumplieron su horario semanal completo, el [Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/) (artículo 23) habla de una remuneración triple. Si un empleado cobra también el triple, debe confirmarse. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+Los domingos cuentan como feriados ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-41/), artículo 41), así que el trabajo en domingo se paga con un recargo del 100 % (artículo 55). Para los obreros que cumplieron su horario semanal completo, el [Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/) (artículo 23) habla de una remuneración triple. Si un empleado cobra también el triple, debe confirmarse, y hay casos en que no corresponde: ver [¿Cuándo el domingo trabajado no se paga triple?](/preguntas/laboral/#p64). Más detalle en [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
 
 ### ¿Cuánto se paga si trabajo un feriado?
 
@@ -239,7 +239,7 @@ Es el pago de un jornal por el domingo no trabajado que reciben los obreros que 
 
 ### ¿Se puede pagar el sueldo en dólares?
 
-La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (artículo 53) dice que los pagos se hacen «precisamente en moneda de curso legal». Los materiales de apoyo citan un decreto de 1965 y una guía del Ministerio de Trabajo según los cuales un pacto expreso podría permitir otra moneda en el sector privado, pero esas normas no están en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
+La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (art. 53) dice que los pagos se hacen «precisamente en moneda de curso legal». La [Ley 901](/biblioteca/ley-901/leer/) (art. 6) da al boliviano poder liberatorio ilimitado para obligaciones públicas y privadas, y salva las normas contractuales de los Códigos Civil y de Comercio. Los materiales de apoyo citan un decreto de 1965 y una guía del Ministerio de Trabajo según los cuales un pacto expreso podría permitir otra moneda en el sector privado, pero esas fuentes no están en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
 
 ### ¿Cada cuánto debe pagarse el sueldo?
 
@@ -251,12 +251,20 @@ La Constitución garantiza a las mujeres la misma remuneración que a los hombre
 
 ### ¿Qué es el bono de producción?
 
-Es un pago adicional cuando la producción supera una meta. No es un derecho adquirido: solo se paga si en esa gestión se supera la meta. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+Es un pago adicional cuando la producción supera una meta, según los decretos de 1983 que citan los materiales de apoyo. El [Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3) (1985) suprimió los bonos adicionales y eliminó en el sector público el de producción que no sea a destajo, así que su vigencia debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
 
 ### ¿Qué es el bono o subsidio de frontera?
 
-Según los materiales de apoyo, es un pago del 20 % que reciben los trabajadores asignados a lugares dentro de los cincuenta kilómetros de las fronteras internacionales; sustituyó al bono de zona, región o frontera. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
+Es un pago del 20 % del salario mensual para trabajadores cuyo lugar de trabajo está dentro de los cincuenta kilómetros lineales de las fronteras internacionales. Sustituyó al bono de zona, región o frontera ([Decreto Supremo 21137](/biblioteca/decreto-supremo-21137/leer/#page=3), art. 12). El texto dice que lo cobran los trabajadores del sector público y que rige también para las empresas privadas: cómo se aplica a estas debe confirmarse. Ver [Bono de producción y bono de zona o frontera](/guias/laboral/bono-de-produccion-y-de-frontera/). [VERIFICAR]
 
 ### ¿La prima anual se calcula con el último sueldo o con el de cada año?
 
 Según el [Auto Supremo 162/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120) (resumen del Tribunal), con el salario de cada gestión, no con el último sueldo ni con el promedio indemnizable. Ver [La prima anual](/guias/laboral/prima-anual/).
+
+### ¿Cuándo el domingo trabajado no se paga triple?
+
+Según una aclaración recibida por el editor, en dos casos: cuando el empleador da un día de descanso sustituto en la misma semana ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/), art. 31) y cuando el trabajo se organiza por equipos en un ciclo válido ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-48/), art. 48). Además, el triple sale del [Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/) y se refiere a obreros que cumplieron su horario semanal completo. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Qué es el trabajo por equipos?
+
+Es el que se organiza en ciclos de trabajo y de descanso. El artículo 48 de la [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-48/) permite pasar de 8 horas diarias y de 48 semanales si el promedio de tres semanas no excede la jornada máxima. Eso permite esquemas como 12 días de 12 horas o 18 días de 8 horas, cuya aplicación debe confirmarse en cada caso. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
