@@ -1,7 +1,8 @@
 """Construye el sitio de LegalHubBolivia en la carpeta salida/.
 
 1. Copia sitio_base/ (las normas publicadas por artículos) tal como está.
-2. Genera la Biblioteca PDF a partir de biblioteca/pdf/ y biblioteca/catalogo.csv:
+2. Genera la Biblioteca PDF (biblioteca/pdf/ + catalogo.csv) y la sección Jurisprudencia
+   (jurisprudencia/pdf/ + catalogo.csv, revistas por año):
    portada, ficha, visor con buscador interno y descarga.
 3. Añade el enlace «Biblioteca» al menú de las páginas de sitio_base/.
 4. Inserta las notas editoriales de contenido/notas_editoriales.json.
@@ -44,7 +45,7 @@ def ico(n, s=22):
 
 
 MARCA = '<svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5B44"/><path d="M40 0h10v24l-5-5-5 5z" fill="#E0B04A"/><path d="M14 24h18M14 34h36M14 44h26" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none"/></svg>'
-NAV = [('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
+NAV = [('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudencia', '/jurisprudencia/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
 PIE = [('Aviso legal', '/legal/aviso-legal/'), ('Privacidad', '/legal/privacidad/'), ('Términos', '/legal/terminos/'), ('Cookies', '/legal/cookies/'), ('Contacto', '/contacto/'), ('Historial de cambios', '/cambios/')]
 ESTADOS = {'vigente': ('Vigente', 'vig'), 'con modificaciones': ('Con modificaciones', 'mod'), 'vigente con modificaciones': ('Con modificaciones', 'mod'),
            'verificar': ('Verificar', 'ver'), 'desactualizada': ('Desactualizada', 'des'), 'derogada': ('Derogada', 'der'), 'abrogada': ('Abrogada', 'abr')}
@@ -152,13 +153,13 @@ shutil.copytree(os.path.join(HERR, 'visor'), os.path.join(OUT, 'visor'), ignore=
 if not hay_base:
     AVISOS.append('sitio_base/ está vacío: se publica solo la Biblioteca con una portada provisional.')
 
-# ---------------------------------------------------------------- 2. biblioteca
+# ---------------------------------------------------------------- 2. secciones de PDF (Biblioteca y Jurisprudencia)
 def herramienta(*args):
     return subprocess.run(args, capture_output=True, text=True, check=True).stdout
 
 
-def leer_catalogo():
-    ruta = os.path.join(BIB, 'catalogo.csv')
+def leer_catalogo(carpeta):
+    ruta = os.path.join(carpeta, 'catalogo.csv')
     if not os.path.isfile(ruta):
         return []
     texto = open(ruta, encoding='utf-8-sig').read()
@@ -173,118 +174,153 @@ def leer_catalogo():
     return filas
 
 
-pdfs = sorted(f for f in os.listdir(os.path.join(BIB, 'pdf')) if f.lower().endswith('.pdf'))
-catalogo = {f['archivo']: f for f in leer_catalogo()}
-for archivo, f in catalogo.items():
-    if archivo not in pdfs:
-        AVISOS.append(f'catalogo.csv, línea {f["_linea"]}: «{archivo}» no está en biblioteca/pdf/; no se publica hasta que se suba.')
-
-DOCS, usados = [], set()
-for archivo in pdfs:
-    f = catalogo.get(archivo, {})
-    if not f:
-        AVISOS.append(f'«{archivo}» no tiene fila en catalogo.csv: se publica con el nombre del archivo y estado «Verificar».')
-    ruta = os.path.join(BIB, 'pdf', archivo)
-    mb = os.path.getsize(ruta) / 1048576
-    if mb > MAX_MB:
-        ERRORES.append(f'«{archivo}» pesa {mb:.1f} MB; el máximo es {MAX_MB} MB. Comprímelo o divídelo.')
-        continue
-    try:
-        info = herramienta('pdfinfo', ruta)
-        paginas = int(re.search(r'^Pages:\s+(\d+)', info, re.M).group(1))
-        texto = herramienta('pdftotext', '-l', '5', ruta, '-')
-    except Exception as e:
-        ERRORES.append(f'«{archivo}» no se pudo leer como PDF ({e.__class__.__name__}). Revisa que no esté dañado ni protegido.')
-        continue
-    titulo = f.get('titulo') or os.path.splitext(archivo)[0].replace('_', ' ').replace('-', ' ').strip()
-    s = slug(f.get('slug') or titulo)
-    while s in usados:
-        s += '-2'
-    usados.add(s)
-    est = (f.get('estado') or 'verificar').lower()
-    if est not in ESTADOS:
-        AVISOS.append(f'«{archivo}»: estado «{f.get("estado")}» no reconocido; se usa «Verificar».')
-        est = 'verificar'
-    DOCS.append({'archivo': archivo, 'slug': s, 'titulo': titulo, 'tipo': f.get('tipo', ''), 'numero': f.get('numero', ''),
-                 'fecha': f.get('fecha', ''), 'materia': f.get('materia') or 'Otras', 'estado': est,
-                 'descripcion': f.get('descripcion', ''), 'revisado': f.get('revisado') or HOY, 'version': f.get('version') or '1',
-                 'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200})
-    os.makedirs(os.path.join(OUT, 'biblioteca', 'archivos'), exist_ok=True)
-    os.makedirs(os.path.join(OUT, 'biblioteca', 'portadas'), exist_ok=True)
-    shutil.copy(ruta, os.path.join(OUT, 'biblioteca', 'archivos', s + '.pdf'))
-    subprocess.run(['pdftoppm', '-f', '1', '-l', '1', '-singlefile', '-scale-to', '520', '-jpeg', '-jpegopt', 'quality=82',
-                    ruta, os.path.join(OUT, 'biblioteca', 'portadas', s)], check=True)
-
 ORDEN_MATERIAS = ['Constitucional', 'Laboral', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Familia', 'Administrativa', 'Tributaria', 'Comercial', 'Otras']
-DOCS.sort(key=lambda d: (ORDEN_MATERIAS.index(d['materia']) if d['materia'] in ORDEN_MATERIAS else 99, d['materia'], d['titulo'].lower()))
-
-
-def subtitulo(d):
-    partes = [x for x in (' '.join(p for p in (d['tipo'], f"N.º {d['numero']}" if d['numero'] else '') if p), d['fecha']) if x]
-    return ' · '.join(partes)
 
 
 def tam(mb):
     return f'{mb:.1f} MB'.replace('.', ',') if mb >= 1 else f'{max(1, round(mb * 1024))} KB'
 
 
-def url(d, sub=''):
-    return f'/biblioteca/{d["slug"]}/{sub}'
+def anio_de(d):
+    m = re.search(r'(?:1[89]|20)\d\d', d['fecha'])
+    return m.group(0) if m else 'Sin año'
 
 
-def pdf_url(d):
-    return f'/biblioteca/archivos/{d["slug"]}.pdf'
+JUR = os.path.join(RAIZ, 'jurisprudencia')
+SECCIONES = [
+    {'ruta': 'biblioteca', 'carpeta': BIB, 'nombre': 'Biblioteca', 'sing': 'documento', 'plur': 'documentos', 'con_estado': True, 'agrupa': 'materia',
+     'desc': 'Normas bolivianas completas en PDF: léelas en línea, busca dentro del texto o descárgalas.',
+     'entrada': 'Normas completas en PDF. Toca la portada para leerlas en línea, busca dentro del texto o descárgalas.',
+     'vacio': 'Todavía no hay documentos en la Biblioteca. Aparecerán aquí cuando se suban.',
+     'aviso': 'Los documentos de la Biblioteca no son publicaciones oficiales. Verifica siempre en la Gaceta Oficial de Bolivia.',
+     'fuente': FUENTE, 'filtro': 'Filtrar por nombre, número o materia', 'tipo_def': 'Documento'},
+    {'ruta': 'jurisprudencia', 'carpeta': JUR, 'nombre': 'Jurisprudencia', 'sing': 'revista', 'plur': 'revistas', 'con_estado': False, 'agrupa': 'anio',
+     'desc': 'Revistas y compilaciones de jurisprudencia boliviana por año: léelas en línea, busca dentro del texto o descárgalas.',
+     'entrada': 'Revistas jurisprudenciales con las sentencias y autos más relevantes de cada año. Toca la portada para leerlas en línea, busca dentro del texto (por ejemplo, el número de una sentencia) o descárgalas.',
+     'vacio': 'Todavía no hay revistas de jurisprudencia. Aparecerán aquí cuando se suban.',
+     'aviso': 'Las revistas se publican tal como las entrega el editor y no son publicaciones oficiales de este sitio. Verifica cada sentencia o auto en la fuente oficial antes de citarlo.',
+     'fuente': 'Publicación jurisprudencial tomada del archivo del editor. Verifique en la publicación oficial.', 'filtro': 'Filtrar por nombre, año o número', 'tipo_def': 'Revista'},
+]
+SECC = {}
 
 
-def tarjeta(d):
-    sub = subtitulo(d)
-    return (f'<article class="libro" data-materia="{E(d["materia"])}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"]).lower())}">'
-            f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor"><img src="/biblioteca/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>'
-            f'<div class="libro-d"><div class="entre"><span class="etq">{E(d["materia"])}</span>{tag(d["estado"])}</div>'
-            f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
-            f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
-            f'<p class="libro-acc"><a href="{url(d, "leer/")}">Leer</a><a href="{pdf_url(d)}" download="{d["slug"]}.pdf">Descargar</a><a href="{url(d)}">Ficha</a></p></div></article>')
+def construir_seccion(S):
+    carpeta, ruta_s = S['carpeta'], S['ruta']
+    pdf_dir = os.path.join(carpeta, 'pdf')
+    pdfs = sorted(f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')) if os.path.isdir(pdf_dir) else []
+    catalogo = {f['archivo']: f for f in leer_catalogo(carpeta)}
+    for archivo, f in catalogo.items():
+        if archivo not in pdfs:
+            AVISOS.append(f'{ruta_s}/catalogo.csv, línea {f["_linea"]}: «{archivo}» no está en {ruta_s}/pdf/; no se publica hasta que se suba.')
 
+    DOCS, usados = [], set()
+    for archivo in pdfs:
+        f = catalogo.get(archivo, {})
+        if not f:
+            AVISOS.append(f'«{archivo}» no tiene fila en {ruta_s}/catalogo.csv: se publica con el nombre del archivo.')
+        ruta = os.path.join(pdf_dir, archivo)
+        mb = os.path.getsize(ruta) / 1048576
+        if mb > MAX_MB:
+            ERRORES.append(f'«{archivo}» pesa {mb:.1f} MB; el máximo es {MAX_MB} MB. Comprímelo o divídelo.')
+            continue
+        try:
+            info = herramienta('pdfinfo', ruta)
+            paginas = int(re.search(r'^Pages:\s+(\d+)', info, re.M).group(1))
+            texto = herramienta('pdftotext', '-l', '5', ruta, '-')
+        except Exception as e:
+            ERRORES.append(f'«{archivo}» no se pudo leer como PDF ({e.__class__.__name__}). Revisa que no esté dañado ni protegido.')
+            continue
+        titulo = f.get('titulo') or os.path.splitext(archivo)[0].replace('_', ' ').replace('-', ' ').strip()
+        sl = slug(f.get('slug') or titulo)
+        while sl in usados:
+            sl += '-2'
+        usados.add(sl)
+        est = (f.get('estado') or 'verificar').lower()
+        if est not in ESTADOS:
+            AVISOS.append(f'«{archivo}»: estado «{f.get("estado")}» no reconocido; se usa «Verificar».')
+            est = 'verificar'
+        DOCS.append({'archivo': archivo, 'slug': sl, 'titulo': titulo, 'tipo': f.get('tipo', ''), 'numero': f.get('numero', ''),
+                     'fecha': f.get('fecha', ''), 'materia': f.get('materia') or ('Varias' if S['agrupa'] == 'anio' else 'Otras'), 'estado': est,
+                     'descripcion': f.get('descripcion', ''), 'revisado': f.get('revisado') or HOY, 'version': f.get('version') or '1',
+                     'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200})
+        os.makedirs(os.path.join(OUT, ruta_s, 'archivos'), exist_ok=True)
+        os.makedirs(os.path.join(OUT, ruta_s, 'portadas'), exist_ok=True)
+        shutil.copy(ruta, os.path.join(OUT, ruta_s, 'archivos', sl + '.pdf'))
+        subprocess.run(['pdftoppm', '-f', '1', '-l', '1', '-singlefile', '-scale-to', '520', '-jpeg', '-jpegopt', 'quality=82',
+                        ruta, os.path.join(OUT, ruta_s, 'portadas', sl)], check=True)
 
-materias = []
-for d in DOCS:
-    if d['materia'] not in materias:
-        materias.append(d['materia'])
-chips = ''.join(f'<button type="button" class="chip-f" data-m="{E(m)}" aria-pressed="false">{E(m)}</button>' for m in materias)
-if DOCS:
-    lista = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o materia" aria-label="Filtrar documentos"></label>'
-             f'<div class="chips" role="group" aria-label="Materias"><button type="button" class="chip-f" data-m="" aria-pressed="true">Todas</button>{chips}</div></div>'
-             f'<p id="cuenta" class="sec" role="status" aria-live="polite">{len(DOCS)} {"documento" if len(DOCS) == 1 else "documentos"}</p>'
-             f'<div class="estante">{"".join(tarjeta(d) for d in DOCS)}</div><div id="nada" class="vacio" hidden>Ningún documento coincide con el filtro.</div>')
-else:
-    lista = '<div class="vacio">Todavía no hay documentos en la Biblioteca. Aparecerán aquí cuando se suban.</div>'
-escribe('biblioteca/index.html', pagina('Biblioteca', 'Normas bolivianas completas en PDF: léelas en línea, busca dentro del texto o descárgalas.',
-        f'''<div class="cont pag">{migas([("Inicio", "/"), ("Biblioteca", "/biblioteca/")])}<h1>Biblioteca</h1>
-<p class="entrada">Normas completas en PDF. Toca la portada para leerlas en línea, busca dentro del texto o descárgalas.</p>{lista}{alerta("Los documentos de la Biblioteca no son publicaciones oficiales. Verifica siempre en la Gaceta Oficial de Bolivia.")}</div>''',
-        'Biblioteca', scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
+    for d in DOCS:
+        d['grupo'] = d['materia'] if S['agrupa'] == 'materia' else anio_de(d)
+    if S['agrupa'] == 'materia':
+        DOCS.sort(key=lambda d: (ORDEN_MATERIAS.index(d['materia']) if d['materia'] in ORDEN_MATERIAS else 99, d['materia'], d['titulo'].lower()))
+    else:
+        # años de más reciente a más antiguo; «Sin año» al final
+        DOCS.sort(key=lambda d: (d['grupo'] == 'Sin año', -int(d['grupo']) if d['grupo'].isdigit() else 0, d['titulo'].lower()))
 
-for d in DOCS:
-    sub = subtitulo(d)
-    filas = [('Estado', tag(d['estado'])), ('Materia', E(d['materia']))]
-    if sub:
-        filas.append(('Norma', E(sub)))
-    filas += [('Páginas', str(d['paginas'])), ('Archivo', f'PDF, {tam(d["mb"])}'),
-              ('Búsqueda dentro del texto', 'Disponible' if d['con_texto'] else 'No disponible: el PDF es una imagen escaneada'),
-              ('Última revisión', E(d['revisado'])), ('Versión', E(d['version'])), ('Fuente', FUENTE)]
-    sobre = '<section class="tarjeta sobre"><h2>Sobre este documento</h2><dl>' + ''.join(f'<dt>{k}</dt><dd>{v}</dd>' for k, v in filas) + '</dl></section>'
-    desc = (f'<aside class="explica"><span class="etq">Descripción · no es texto legal</span><p>{E(d["descripcion"])}</p><small>Pendiente de revisión legal humana</small></aside>'
-            if d['descripcion'] else '')
-    escaneado = '' if d['con_texto'] else alerta('Este PDF es una imagen escaneada: se puede leer y descargar, pero el buscador interno no encuentra palabras.')
-    escribe(f'biblioteca/{d["slug"]}/index.html', pagina(d['titulo'], f'{d["titulo"]}{" · " + sub if sub else ""}. Texto completo en PDF: leer en línea, buscar y descargar.',
-            f'''<div class="cont pag">{migas([("Inicio", "/"), ("Biblioteca", "/biblioteca/"), (d["titulo"], "")])}
+    def subtitulo(d):
+        partes = [x for x in (' '.join(p for p in (d['tipo'], f"N.º {d['numero']}" if d['numero'] else '') if p), d['fecha']) if x]
+        return ' · '.join(partes)
+
+    def url(d, sub=''):
+        return f'/{ruta_s}/{d["slug"]}/{sub}'
+
+    def pdf_url(d):
+        return f'/{ruta_s}/archivos/{d["slug"]}.pdf'
+
+    def tarjeta(d):
+        sub = subtitulo(d)
+        return (f'<article class="libro" data-materia="{E(d["grupo"])}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"] + " " + d["grupo"]).lower())}">'
+                f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>'
+                f'<div class="libro-d"><div class="entre"><span class="etq">{E(d["grupo"])}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
+                f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
+                f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
+                f'<p class="libro-acc"><a href="{url(d, "leer/")}">Leer</a><a href="{pdf_url(d)}" download="{d["slug"]}.pdf">Descargar</a><a href="{url(d)}">Ficha</a></p></div></article>')
+
+    grupos = []
+    for d in DOCS:
+        if d['grupo'] not in grupos:
+            grupos.append(d['grupo'])
+    chips = ''.join(f'<button type="button" class="chip-f" data-m="{E(m)}" aria-pressed="false">{E(m)}</button>' for m in grupos)
+    etq_grupos = 'Materias' if S['agrupa'] == 'materia' else 'Años'
+    if DOCS:
+        lista = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="{S["filtro"]}" aria-label="Filtrar {S["plur"]}"></label>'
+                 f'<div class="chips" role="group" aria-label="{etq_grupos}"><button type="button" class="chip-f" data-m="" aria-pressed="true">Todas</button>{chips}</div></div>'
+                 f'<p id="cuenta" class="sec" role="status" aria-live="polite">{len(DOCS)} {S["sing"] if len(DOCS) == 1 else S["plur"]}</p>'
+                 f'<div class="estante">{"".join(tarjeta(d) for d in DOCS)}</div><div id="nada" class="vacio" hidden>Ninguna coincidencia con el filtro.</div>')
+    else:
+        lista = f'<div class="vacio">{S["vacio"]}</div>'
+    escribe(f'{ruta_s}/index.html', pagina(S['nombre'], S['desc'],
+            f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")])}<h1>{S["nombre"]}</h1>
+<p class="entrada">{S["entrada"]}</p>{lista}{alerta(S["aviso"])}</div>''',
+            S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
+
+    for d in DOCS:
+        sub = subtitulo(d)
+        filas = []
+        if S['con_estado']:
+            filas.append(('Estado', tag(d['estado'])))
+        filas.append(('Materia', E(d['materia'])))
+        if S['agrupa'] == 'anio':
+            filas.append(('Año', E(d['grupo'])))
+        if sub:
+            filas.append(('Publicación' if S['agrupa'] == 'anio' else 'Norma', E(sub)))
+        filas += [('Páginas', str(d['paginas'])), ('Archivo', f'PDF, {tam(d["mb"])}'),
+                  ('Búsqueda dentro del texto', 'Disponible' if d['con_texto'] else 'No disponible: el PDF es una imagen escaneada'),
+                  ('Última revisión', E(d['revisado'])), ('Versión', E(d['version'])), ('Fuente', S['fuente'])]
+        sobre = '<section class="tarjeta sobre"><h2>Sobre este documento</h2><dl>' + ''.join(f'<dt>{k}</dt><dd>{v}</dd>' for k, v in filas) + '</dl></section>'
+        desc = (f'<aside class="explica"><span class="etq">Descripción · no es texto legal</span><p>{E(d["descripcion"])}</p><small>Pendiente de revisión legal humana</small></aside>'
+                if d['descripcion'] else '')
+        escaneado = '' if d['con_texto'] else alerta('Este PDF es una imagen escaneada: se puede leer y descargar, pero el buscador interno no encuentra palabras.')
+        escribe(f'{ruta_s}/{d["slug"]}/index.html', pagina(d['titulo'], f'{d["titulo"]}{" · " + sub if sub else ""}. Texto completo en PDF: leer en línea, buscar y descargar.',
+                f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/"), (d["titulo"], "")])}
 <div class="dos"><div>
-<div class="entre"><span class="etq">{E(d["tipo"] or "Documento")} · PDF</span>{tag(d["estado"])}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
-<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor"><img src="/biblioteca/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>
+<div class="entre"><span class="etq">{E(d["tipo"] or S["tipo_def"])} · PDF</span>{tag(d["estado"]) if S["con_estado"] else ""}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
+<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>
 <div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a><a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a></p>
 <form class="buscador" action="{url(d, "leer/")}" method="get" role="search">{ico("search", 20)}<input type="search" name="buscar" placeholder="Buscar dentro de este documento" aria-label="Buscar dentro de este documento"{'' if d['con_texto'] else ' disabled'}><button type="submit"{'' if d['con_texto'] else ' disabled'}>Buscar</button></form>{escaneado}</div></div>
 {desc}</div>
-<aside>{sobre}{alerta()}</aside></div></div>''', 'Biblioteca'))
-    escribe(f'biblioteca/{d["slug"]}/leer/index.html', f'''<!doctype html>
+<aside>{sobre}{alerta()}</aside></div></div>''', S['nombre']))
+        escribe(f'{ruta_s}/{d["slug"]}/leer/index.html', f'''<!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
@@ -319,8 +355,16 @@ for d in DOCS:
 </html>
 ''')
 
-# índice para el buscador general del sitio (lo usa /buscar/ si se amplía)
-escribe('biblioteca/indice.json', json.dumps([{'t': d['titulo'], 's': subtitulo(d), 'm': d['materia'], 'u': url(d)} for d in DOCS], ensure_ascii=False, separators=(',', ':')))
+    # índice para el buscador general del sitio (lo usa /buscar/ si se amplía)
+    escribe(f'{ruta_s}/indice.json', json.dumps([{'t': d['titulo'], 's': subtitulo(d), 'm': d['materia'], 'u': url(d)} for d in DOCS], ensure_ascii=False, separators=(',', ':')))
+    SECC[ruta_s] = DOCS
+    return DOCS
+
+
+for _s in SECCIONES:
+    construir_seccion(_s)
+DOCS = SECC['biblioteca']
+DOCS_JUR = SECC['jurisprudencia']
 
 # ---------------------------------------------------------------- 2b. guías, preguntas y glosario
 exec(open(os.path.join(HERR, 'editorial.py'), encoding='utf-8').read())
@@ -330,16 +374,16 @@ ENLACE_NORM = re.compile(r'(<a href="/leyes/"[^>]*>Normativa</a>)')
 n_menu = 0
 nota_paginas = {}
 for dp, _, fs in os.walk(OUT):
-    if dp.startswith(os.path.join(OUT, 'biblioteca')) or dp.startswith(os.path.join(OUT, 'visor')):
+    if dp.startswith((os.path.join(OUT, 'biblioteca'), os.path.join(OUT, 'jurisprudencia'), os.path.join(OUT, 'visor'))):
         continue
     for fn in fs:
         if not fn.endswith('.html'):
             continue
         p = os.path.join(dp, fn)
         doc = open(p, encoding='utf-8').read()
-        if 'href="/biblioteca/"' in doc:
+        if 'href="/jurisprudencia/"' in doc:
             continue
-        nuevo = ENLACE_NORM.sub(r'\1<a href="/biblioteca/">Biblioteca</a>', doc)
+        nuevo = ENLACE_NORM.sub(r'\1<a href="/biblioteca/">Biblioteca</a><a href="/jurisprudencia/">Jurisprudencia</a>', doc)
         if nuevo != doc:
             n_menu += 1
             open(p, 'w', encoding='utf-8').write(nuevo)
@@ -385,14 +429,17 @@ if CONF.get('abierto_a_buscadores'):
 else:
     escribe('robots.txt', 'User-agent: *\nDisallow: /\n')
     cab_robots = '/*\n  X-Robots-Tag: noindex, nofollow\n'
-escribe('_headers', cab_robots + '/visor/*\n  Cache-Control: public, max-age=604800\n/biblioteca/portadas/*\n  Cache-Control: public, max-age=86400\n')
+escribe('_headers', cab_robots + '/visor/*\n  Cache-Control: public, max-age=604800\n/biblioteca/portadas/*\n  Cache-Control: public, max-age=86400\n/jurisprudencia/portadas/*\n  Cache-Control: public, max-age=86400\n')
 
 # ---------------------------------------------------------------- informe
 total = sum(len(fs) for _, _, fs in os.walk(OUT))
 print(f'Biblioteca: {len(DOCS)} documento(s) publicados.')
 for d in DOCS:
     print(f'  - {d["titulo"]} → /biblioteca/{d["slug"]}/ ({d["paginas"]} págs., {tam(d["mb"])}, texto buscable: {"sí" if d["con_texto"] else "NO"})')
-print(f'Menú «Biblioteca» añadido a {n_menu} página(s) de sitio_base. Notas editoriales insertadas: {n_notas}.')
+print(f'Jurisprudencia: {len(DOCS_JUR)} revista(s) publicadas.')
+for d in DOCS_JUR:
+    print(f'  - {d["titulo"]} → /jurisprudencia/{d["slug"]}/ ({d["paginas"]} págs., {tam(d["mb"])}, texto buscable: {"sí" if d["con_texto"] else "NO"})')
+print(f'Menú «Biblioteca» y «Jurisprudencia» añadido a {n_menu} página(s) de sitio_base. Notas editoriales insertadas: {n_notas}.')
 print(f'Archivos en salida/: {total}')
 for a in AVISOS:
     print('AVISO:', a)

@@ -27,7 +27,7 @@ for f in files:
         target = os.path.join(root, path.lstrip('/'))
         if path.endswith('/'): target = os.path.join(target, 'index.html')
         if not os.path.isfile(target): missing.add(h)
-graves = sorted(h for h in missing if h.startswith(('/biblioteca/', '/visor/', '/assets/')))
+graves = sorted(h for h in missing if h.startswith(('/biblioteca/', '/jurisprudencia/', '/visor/', '/assets/')))
 otros = sorted(set(missing) - set(graves))
 print('archivos', len(files), '| html con errores', bad, '| enlaces internos', n_links, '| rotos', len(missing))
 if otros: print('AVISO: enlaces a secciones que aún no existen:', otros[:10])
