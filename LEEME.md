@@ -6,7 +6,7 @@ Sitio legal boliviano. Cada cambio que se guarda en este repositorio (rama `main
 
 | Carpeta | Qué va ahí | Quién la toca |
 | --- | --- | --- |
-| `biblioteca/pdf/` | Los PDF de la Biblioteca (máximo 25 MB cada uno) | Titular |
+| `biblioteca/pdf/<materia>/` | Los PDF de la Biblioteca, uno por norma, dentro de la carpeta de su materia: `laboral/`, `familia/`, `constitucional/`, `civil/`, `procesal-civil/`, `penal/`, `procesal-penal/`, `administrativa/`, `personas-con-discapacidad/` (máximo 25 MB cada uno) | Titular |
 | `biblioteca/catalogo.csv` | Una fila por PDF: título, tipo, número, fecha, materia, estado | Titular |
 | `jurisprudencia/pdf/` | Las revistas jurisprudenciales en PDF, una por año o tomo (máximo 25 MB cada una) | Titular |
 | `jurisprudencia/catalogo.csv` | Una fila por revista: título, tipo, número, fecha (año), materia | Titular |
@@ -17,15 +17,22 @@ Sitio legal boliviano. Cada cambio que se guarda en este repositorio (rama `main
 
 ## Subir un PDF nuevo
 
-1. Entra a `biblioteca/pdf/` → **Add file** → **Upload files** → arrastra el PDF → **Commit changes**.
-   Nombre del archivo: minúsculas, sin tildes ni espacios (ejemplo: `codigo-de-las-familias.pdf`).
-2. Abre `biblioteca/catalogo.csv` → lápiz (**Edit**) → añade una línea con el mismo nombre de archivo → **Commit changes**.
+1. Entra a `biblioteca/pdf/` → abre la carpeta de la materia (por ejemplo `laboral/`) → **Add file** → **Upload files** → arrastra el PDF → **Commit changes**.
+   Nombre del archivo: minúsculas, sin tildes ni espacios, empezando por el tipo de norma, para que la carpeta quede ordenada:
+   `ley-1468.pdf`, `decreto-supremo-28699.pdf`, `resolucion-ministerial-447-09.pdf`, `sentencia-constitucional-1262-2013.pdf`.
+   **La carpeta decide la materia** en el sitio: un PDF en `laboral/` sale en la carpeta «Laboral» de `/biblioteca/`.
+2. Abre `biblioteca/catalogo.csv` → lápiz (**Edit**) → añade una línea con el mismo nombre de archivo (solo el nombre, sin la carpeta) → **Commit changes**.
    Columnas separadas por punto y coma: `archivo;titulo;tipo;numero;fecha;materia;estado;descripcion;revisado;version`.
+   El catálogo está ordenado por materia; pon la línea nueva junto a las de su materia.
+   `tipo` decide el grupo dentro de la materia: Ley · Decreto Supremo / Decreto Ley / Fe de erratas · Resolución Ministerial · Reglamento / Protocolo · Sentencia Constitucional Plurinacional / Auto Supremo. Si el título dice «Código», va en «Códigos».
+   `fecha` ordena: dentro de cada grupo, del más antiguo al más reciente.
    Estados válidos: Vigente, Con modificaciones, Verificar, Desactualizada, Derogada, Abrogada.
    Si un PDF no tiene fila, igual se publica con el nombre del archivo y estado «Verificar».
-3. Espera la marca verde en **Actions**. El documento aparece en `/biblioteca/`.
+3. Espera la marca verde en **Actions**. El documento aparece en `/biblioteca/<materia>/`.
 
-Para retirar un PDF: bórralo de `biblioteca/pdf/` (y su fila del catálogo).
+**Materia nueva** (por ejemplo tributaria): en `biblioteca/pdf/` → **Add file** → **Create new file** → escribe `tributaria/.gitkeep` → **Commit changes**. Luego sube los PDF dentro de esa carpeta.
+
+Para retirar un PDF: bórralo de su carpeta (y su fila del catálogo). Para cambiarlo de materia: bórralo y súbelo a la otra carpeta. Los enlaces de cada norma (`/biblioteca/<nombre>/`) no cambian al moverla de carpeta, porque salen del título.
 
 ## Subir una revista de jurisprudencia
 
@@ -34,7 +41,7 @@ Igual que la Biblioteca, pero en la carpeta `jurisprudencia/`:
 1. `jurisprudencia/pdf/` → **Add file** → **Upload files** → arrastra el PDF (máximo 25 MB) → **Commit changes**.
 2. `jurisprudencia/catalogo.csv` → lápiz → añade una línea con el mismo nombre de archivo.
    Columnas: `archivo;titulo;tipo;numero;fecha;materia;estado;descripcion;revisado;version`.
-   Ejemplo: `revista-2022.pdf;Revista Jurisprudencial 2022;Revista jurisprudencial;;2022;Varias;;Compilación de la jurisprudencia más relevante de 2022.;;1`
+   Ejemplo: `resumenes-de-jurisprudencia-tsj-2023.pdf;Resúmenes de Jurisprudencia TSJ 2023;Revista jurisprudencial;;2023;Varias;;Compilación de la jurisprudencia más relevante de 2023.;;1`
    Lo que importa: `titulo` (da el enlace) y `fecha` (el año; las revistas se agrupan por año, de la más reciente a la más antigua). La columna `estado` se deja vacía: aquí no se usa. Sin punto y coma dentro de ningún texto.
 3. Espera la marca verde en **Actions**. La revista aparece en `/jurisprudencia/`.
 

@@ -174,7 +174,34 @@ def leer_catalogo(carpeta):
     return filas
 
 
-ORDEN_MATERIAS = ['Constitucional', 'Laboral', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Familia', 'Administrativa', 'Tributaria', 'Comercial', 'Otras']
+ORDEN_MATERIAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Administrativa', 'Tributaria',
+                  'Comercial', 'Personas con discapacidad', 'Otras']
+# Carpetas que se muestran siempre en /biblioteca/ (vacías: «Próximamente» o enlace a Normativa)
+MATERIAS_FIJAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Administrativa']
+# Nombre de cada carpeta de biblioteca/pdf/ (la carpeta decide la materia)
+MATERIA_DE_CARPETA = {slug(m): m for m in ORDEN_MATERIAS}
+
+# Grupos por tipo de norma dentro de cada materia, en este orden
+GRUPOS_TIPO = [('Códigos', ('constitucion', 'codigo')), ('Leyes', ('ley',)), ('Decretos', ('decreto', 'fe de erratas')),
+               ('Resoluciones', ('resolucion',)), ('Reglamentos y protocolos', ('reglamento', 'protocolo')),
+               ('Sentencias y autos', ('sentencia', 'auto'))]
+NOMBRES_GRUPO = [g for g, _ in GRUPOS_TIPO] + ['Otros documentos']
+
+
+def grupo_tipo(d):
+    t = slug(d['tipo']).replace('-', ' ')
+    if t == 'ley' and 'codigo' in slug(d['titulo']):
+        return 'Códigos'
+    for g, claves in GRUPOS_TIPO:
+        if any(t.startswith(c) for c in claves):
+            return g
+    return 'Otros documentos'
+
+
+def orden_doc(d):
+    m = re.search(r'(?:1[89]|20)\d\d', d['fecha'])
+    n = re.match(r'\d+', d['numero'] or '')
+    return (NOMBRES_GRUPO.index(grupo_tipo(d)), int(m.group(0)) if m else 9999, int(n.group(0)) if n else 0, d['titulo'].lower())
 
 
 def tam(mb):
@@ -207,18 +234,40 @@ SECC = {}
 def construir_seccion(S):
     carpeta, ruta_s = S['carpeta'], S['ruta']
     pdf_dir = os.path.join(carpeta, 'pdf')
-    pdfs = sorted(f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')) if os.path.isdir(pdf_dir) else []
-    catalogo = {f['archivo']: f for f in leer_catalogo(carpeta)}
+    # Los PDF pueden estar en subcarpetas (en la Biblioteca, una por materia: biblioteca/pdf/laboral/...).
+    pdfs = []
+    if os.path.isdir(pdf_dir):
+        for dp, _, fs in os.walk(pdf_dir):
+            pdfs += [os.path.relpath(os.path.join(dp, f), pdf_dir).replace(os.sep, '/') for f in fs if f.lower().endswith('.pdf')]
+    pdfs.sort()
+    nombres = {}
+    for rel in pdfs:
+        nombres.setdefault(os.path.basename(rel), []).append(rel)
+    for n, rels in nombres.items():
+        if len(rels) > 1:
+            ERRORES.append(f'Hay dos PDF con el mismo nombre «{n}» ({", ".join(rels)}): cambia el nombre de uno.')
+    catalogo = {os.path.basename(f['archivo']): f for f in leer_catalogo(carpeta)}
     for archivo, f in catalogo.items():
-        if archivo not in pdfs:
+        if archivo not in nombres:
             AVISOS.append(f'{ruta_s}/catalogo.csv, línea {f["_linea"]}: «{archivo}» no está en {ruta_s}/pdf/; no se publica hasta que se suba.')
 
     DOCS, usados = [], set()
-    for archivo in pdfs:
+    for rel in pdfs:
+        archivo = os.path.basename(rel)
+        sub_carpeta = rel.split('/')[0] if '/' in rel else ''
         f = catalogo.get(archivo, {})
         if not f:
-            AVISOS.append(f'«{archivo}» no tiene fila en {ruta_s}/catalogo.csv: se publica con el nombre del archivo.')
-        ruta = os.path.join(pdf_dir, archivo)
+            AVISOS.append(f'«{rel}» no tiene fila en {ruta_s}/catalogo.csv: se publica con el nombre del archivo.')
+        materia = f.get('materia') or ('Varias' if S['agrupa'] == 'anio' else 'Otras')
+        if S['agrupa'] == 'materia':
+            if sub_carpeta:
+                m_carp = MATERIA_DE_CARPETA.get(slug(sub_carpeta)) or sub_carpeta.replace('-', ' ').replace('_', ' ').strip().capitalize()
+                if f.get('materia') and slug(f['materia']) != slug(m_carp):
+                    AVISOS.append(f'«{rel}»: el catálogo dice materia «{f["materia"]}», pero está en la carpeta «{sub_carpeta}»; manda la carpeta.')
+                materia = m_carp
+            else:
+                AVISOS.append(f'«{archivo}» está suelto en {ruta_s}/pdf/: muévelo a la carpeta de su materia (se publica como «{materia}»).')
+        ruta = os.path.join(pdf_dir, rel)
         mb = os.path.getsize(ruta) / 1048576
         if mb > MAX_MB:
             ERRORES.append(f'«{archivo}» pesa {mb:.1f} MB; el máximo es {MAX_MB} MB. Comprímelo o divídelo.')
@@ -240,7 +289,7 @@ def construir_seccion(S):
             AVISOS.append(f'«{archivo}»: estado «{f.get("estado")}» no reconocido; se usa «Verificar».')
             est = 'verificar'
         DOCS.append({'archivo': archivo, 'slug': sl, 'titulo': titulo, 'tipo': f.get('tipo', ''), 'numero': f.get('numero', ''),
-                     'fecha': f.get('fecha', ''), 'materia': f.get('materia') or ('Varias' if S['agrupa'] == 'anio' else 'Otras'), 'estado': est,
+                     'fecha': f.get('fecha', ''), 'materia': materia, 'estado': est,
                      'descripcion': f.get('descripcion', ''), 'revisado': f.get('revisado') or HOY, 'version': f.get('version') or '1',
                      'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200})
         os.makedirs(os.path.join(OUT, ruta_s, 'archivos'), exist_ok=True)
@@ -252,7 +301,12 @@ def construir_seccion(S):
     for d in DOCS:
         d['grupo'] = d['materia'] if S['agrupa'] == 'materia' else anio_de(d)
     if S['agrupa'] == 'materia':
-        DOCS.sort(key=lambda d: (ORDEN_MATERIAS.index(d['materia']) if d['materia'] in ORDEN_MATERIAS else 99, d['materia'], d['titulo'].lower()))
+        DOCS.sort(key=lambda d: (ORDEN_MATERIAS.index(d['materia']) if d['materia'] in ORDEN_MATERIAS else 99, d['materia'], orden_doc(d)))
+        for d in DOCS:
+            d['tgrupo'] = grupo_tipo(d)
+            d['mslug'] = slug(d['materia'])
+            if d['mslug'] in usados:
+                ERRORES.append(f'La materia «{d["materia"]}» y un documento comparten la dirección /{ruta_s}/{d["mslug"]}/: cambia el título del documento.')
     else:
         # años de más reciente a más antiguo; «Sin año» al final
         DOCS.sort(key=lambda d: (d['grupo'] == 'Sin año', -int(d['grupo']) if d['grupo'].isdigit() else 0, d['titulo'].lower()))
@@ -267,15 +321,84 @@ def construir_seccion(S):
     def pdf_url(d):
         return f'/{ruta_s}/archivos/{d["slug"]}.pdf'
 
-    def tarjeta(d):
+    def tarjeta(d, filtro=None, etq=None):
         sub = subtitulo(d)
-        return (f'<article class="libro" data-materia="{E(d["grupo"])}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"] + " " + d["grupo"]).lower())}">'
+        filtro = d['grupo'] if filtro is None else filtro
+        etq = d['grupo'] if etq is None else etq
+        return (f'<article class="libro" data-materia="{E(filtro)}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"] + " " + d["grupo"] + " " + d.get("tgrupo", "")).lower())}">'
                 f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>'
-                f'<div class="libro-d"><div class="entre"><span class="etq">{E(d["grupo"])}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
+                f'<div class="libro-d"><div class="entre"><span class="etq">{E(etq)}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
                 f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
                 f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
                 f'<p class="libro-acc"><a href="{url(d, "leer/")}">Leer</a><a href="{pdf_url(d)}" download="{d["slug"]}.pdf">Descargar</a><a href="{url(d)}">Ficha</a></p></div></article>')
 
+    if S['agrupa'] == 'materia':
+        portada_por_materias(S, DOCS, tarjeta)
+    else:
+        portada_plana(S, DOCS, tarjeta)
+    escribe_fichas(S, DOCS, subtitulo, url, pdf_url)
+    # índice para el buscador general del sitio (lo usa /buscar/ si se amplía)
+    escribe(f'{ruta_s}/indice.json', json.dumps([{'t': d['titulo'], 's': subtitulo(d), 'm': d['materia'], 'u': url(d)} for d in DOCS], ensure_ascii=False, separators=(',', ':')))
+    SECC[ruta_s] = DOCS
+    return DOCS
+
+
+def plural(n, s, p):
+    return f'{n} {s if n == 1 else p}'
+
+
+def portada_por_materias(S, DOCS, tarjeta):
+    """/biblioteca/: una carpeta por materia; /biblioteca/<materia>/: documentos por tipo de norma y fecha."""
+    ruta_s = S['ruta']
+    por_materia = {}
+    for d in DOCS:
+        por_materia.setdefault(d['materia'], []).append(d)
+    con_docs = list(por_materia)
+    sin_docs = [m for m in MATERIAS_FIJAS if m not in por_materia]
+    carpetas = []
+    for m in con_docs:
+        docs = por_materia[m]
+        tipos = []
+        for g in NOMBRES_GRUPO:
+            k = sum(1 for d in docs if d['tgrupo'] == g)
+            if k:
+                tipos.append(f'{g.lower()} {k}')
+        carpetas.append(f'<a class="materia carpeta" href="/{ruta_s}/{slug(m)}/"><b>{E(m)}</b><small>{plural(len(docs), S["sing"], S["plur"])}</small>'
+                        f'<small class="tipos">{E(" · ".join(tipos))}</small></a>')
+    for m in sin_docs:
+        if os.path.isdir(os.path.join(OUT, 'leyes', slug(m))):
+            carpetas.append(f'<a class="materia carpeta" href="/leyes/{slug(m)}/"><b>{E(m)}</b><small>Por artículos en Normativa</small></a>')
+        else:
+            carpetas.append(f'<div class="materia off"><b>{E(m)}</b><small>Próximamente</small></div>')
+    buscador = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Buscar en toda la Biblioteca" aria-label="Buscar en toda la Biblioteca"></label></div>'
+                f'<section id="todos" hidden><p id="cuenta" class="sec" role="status" aria-live="polite"></p>'
+                f'<div class="estante">{"".join(tarjeta(d, etq=d["materia"]) for d in DOCS)}</div><div id="nada" class="vacio" hidden>Ninguna coincidencia.</div></section>') if DOCS else ''
+    escribe(f'{ruta_s}/index.html', pagina(S['nombre'], S['desc'],
+            f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")])}<h1>{S["nombre"]}</h1>
+<p class="entrada">Normas completas en PDF, ordenadas por materia. Abre una carpeta o busca en toda la Biblioteca.</p>{buscador}
+<div class="rejilla r4 carpetas" id="carpetas">{"".join(carpetas)}</div>{alerta(S["aviso"])}</div>''',
+            S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
+
+    for m, docs in por_materia.items():
+        grupos = [g for g in NOMBRES_GRUPO if any(d['tgrupo'] == g for d in docs)]
+        chips = ''.join(f'<button type="button" class="chip-f" data-m="{E(g)}" aria-pressed="false">{E(g)}</button>' for g in grupos)
+        secciones = ''.join(
+            f'<section class="grupo-lib"><h2 class="grupo-tit">{E(g)} <small>({sum(1 for d in docs if d["tgrupo"] == g)})</small></h2>'
+            f'<div class="estante">{"".join(tarjeta(d, filtro=g, etq=d["tipo"] or S["tipo_def"]) for d in docs if d["tgrupo"] == g)}</div></section>'
+            for g in grupos)
+        escribe(f'{ruta_s}/{slug(m)}/index.html', pagina(f'{m} · {S["nombre"]}', f'Normas de materia {m.lower()} en PDF: leer en línea, buscar y descargar.',
+                f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/"), (m, "")])}<h1>{E(m)}</h1>
+<p class="entrada">{plural(len(docs), S["sing"], S["plur"])}, ordenados por tipo de norma y por fecha, del más antiguo al más reciente.</p>
+<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o tema" aria-label="Filtrar {S["plur"]}"></label>
+<div class="chips" role="group" aria-label="Tipos de norma"><button type="button" class="chip-f" data-m="" aria-pressed="true">Todos</button>{chips}</div></div>
+<p id="cuenta" class="sec" role="status" aria-live="polite">{plural(len(docs), S["sing"], S["plur"])}</p>
+{secciones}<div id="nada" class="vacio" hidden>Ninguna coincidencia con el filtro.</div>
+<p><a class="mas" href="/{ruta_s}/">Volver a todas las materias</a></p>{alerta(S["aviso"])}</div>''',
+                S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
+
+
+def portada_plana(S, DOCS, tarjeta):
+    ruta_s = S['ruta']
     grupos = []
     for d in DOCS:
         if d['grupo'] not in grupos:
@@ -294,12 +417,15 @@ def construir_seccion(S):
 <p class="entrada">{S["entrada"]}</p>{lista}{alerta(S["aviso"])}</div>''',
             S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
 
+
+def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
+    ruta_s = S['ruta']
     for d in DOCS:
         sub = subtitulo(d)
         filas = []
         if S['con_estado']:
             filas.append(('Estado', tag(d['estado'])))
-        filas.append(('Materia', E(d['materia'])))
+        filas.append(('Materia', f'<a href="/{ruta_s}/{d["mslug"]}/">{E(d["materia"])}</a>' if d.get('mslug') else E(d['materia'])))
         if S['agrupa'] == 'anio':
             filas.append(('Año', E(d['grupo'])))
         if sub:
@@ -312,7 +438,7 @@ def construir_seccion(S):
                 if d['descripcion'] else '')
         escaneado = '' if d['con_texto'] else alerta('Este PDF es una imagen escaneada: se puede leer y descargar, pero el buscador interno no encuentra palabras.')
         escribe(f'{ruta_s}/{d["slug"]}/index.html', pagina(d['titulo'], f'{d["titulo"]}{" · " + sub if sub else ""}. Texto completo en PDF: leer en línea, buscar y descargar.',
-                f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/"), (d["titulo"], "")])}
+                f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")] + ([(d["materia"], f"/{ruta_s}/{d['mslug']}/")] if d.get('mslug') else []) + [(d["titulo"], "")])}
 <div class="dos"><div>
 <div class="entre"><span class="etq">{E(d["tipo"] or S["tipo_def"])} · PDF</span>{tag(d["estado"]) if S["con_estado"] else ""}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
 <div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>
@@ -355,10 +481,6 @@ def construir_seccion(S):
 </html>
 ''')
 
-    # índice para el buscador general del sitio (lo usa /buscar/ si se amplía)
-    escribe(f'{ruta_s}/indice.json', json.dumps([{'t': d['titulo'], 's': subtitulo(d), 'm': d['materia'], 'u': url(d)} for d in DOCS], ensure_ascii=False, separators=(',', ':')))
-    SECC[ruta_s] = DOCS
-    return DOCS
 
 
 for _s in SECCIONES:
