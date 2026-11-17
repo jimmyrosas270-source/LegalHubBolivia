@@ -2,12 +2,14 @@
 titulo: Accidentes de trabajo y enfermedades profesionales
 materia: Laboral
 publico: Trabajadores y empleadores
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Qué es un accidente de trabajo, qué es una enfermedad profesional y qué hacer cuando ocurre: aviso al empleador y, de este, al ente gestor de salud en 24 horas.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-81/ | Artículo 81 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-82/ | Artículo 82 | Ley General del Trabajo
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 36 y 37
+- /biblioteca/codigo-de-seguridad-social/ | Código de Seguridad Social (PDF) | Artículos 27 y 30
+- /biblioteca/decreto-ley-13214/ | Decreto Ley 13214 (PDF) | Subsidios por incapacidad
 ---
 ## La seguridad social de corto plazo
 
@@ -15,7 +17,10 @@ El seguro de corto plazo cubre la atención médica y la rehabilitación por enf
 
 ## Riesgos profesionales
 
-Son la posibilidad de que el trabajador sufra un accidente o una enfermedad a causa de su trabajo. La guía cita el artículo 27 del Código de Seguridad Social, que no está todavía en la Biblioteca.
+Para el [Código de Seguridad Social](/biblioteca/codigo-de-seguridad-social/leer/#page=15) (artículo 27), los riesgos profesionales comprenden los accidentes de trabajo y las enfermedades profesionales:
+
+- **Accidente de trabajo:** toda lesión orgánica o trastorno funcional producido por la acción súbita y violenta de una causa externa, con ocasión o como consecuencia del trabajo, que disminuya o haga perder la capacidad de trabajo y de ganancia, o cause la muerte.
+- **Enfermedad profesional:** todo estado patológico que el trabajo produce por evolución lenta y progresiva, con esos mismos efectos, provocado por los agentes nocivos de la lista del Anexo 1 del Código.
 
 ## Accidente de trabajo
 
@@ -32,6 +37,9 @@ Es la que resulta del trabajo y produce lesiones orgánicas o trastornos funcion
 1. **El trabajador avisa de inmediato al empleador**, directamente o por medio de otra persona.
 2. **El empleador avisa al ente gestor de salud** en un plazo máximo de 24 horas.
 
-La guía del Ministerio apoya ese procedimiento en el artículo 30 del Código de Seguridad Social ([pág. 37](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=37)). [VERIFICAR]
+Así lo manda el [Código de Seguridad Social](/biblioteca/codigo-de-seguridad-social/leer/#page=16) (artículo 30), que añade dos consecuencias para el empleador que no avisa a tiempo: una multa, y que los gastos de atención de salud del trabajador corren por su cuenta hasta que presente la denuncia. El aviso se hace con los formularios de denuncia de accidente o de declaración de enfermedad profesional.
 
-!! Esta guía se apoya en parte en la guía del Ministerio de Trabajo de octubre de 2020. Las normas que esa guía cita y que no están en la Biblioteca se nombran tal como ella las cita; lo posterior a 2020 debe confirmarse en la fuente oficial. [VERIFICAR]
+## El subsidio por incapacidad
+
+Mientras el trabajador asegurado no puede trabajar por un riesgo profesional, recibe un subsidio del 75 % de su salario cotizable desde el primer día de la incapacidad, hasta 26 semanas prorrogables por otras 26 si así se evita una incapacidad permanente. Por enfermedad común, el subsidio empieza el cuarto día ([Decreto Ley 13214](/biblioteca/decreto-ley-13214/leer/#page=7), artículos 28 a 30).
+

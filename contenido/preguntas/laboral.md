@@ -319,7 +319,7 @@ Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos
 
 ### ¿Me pueden bajar el sueldo si paso a teletrabajo?
 
-No. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=48), la adenda de teletrabajo debe respetar la remuneración completa. Ver [Teletrabajo](/guias/laboral/teletrabajo/).
+No. El [Decreto Supremo 4570](/biblioteca/decreto-supremo-4570/leer/) (2021) dice que la remuneración no puede ser afectada por el teletrabajo ni el trabajo a distancia, y que no se pueden empeorar las condiciones pactadas (artículo 6). Ver [Teletrabajo y trabajo a distancia](/guias/laboral/teletrabajo/).
 
 ### ¿Cómo se calcula el salario dominical?
 
@@ -339,15 +339,15 @@ No. La pérdida solo afecta al quinquenio en curso ([Decreto Supremo 110](/bibli
 
 ### ¿Cuántos días de licencia tiene un padre cuando nace su hijo?
 
-Tres días con goce del 100 % del salario, desde el día del parto, en el sector público y privado, presentando el certificado del nacimiento. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=32) cita el Decreto Supremo 1212 de 2012. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+Tres días laborales desde el parto de su cónyuge o conviviente, con el 100 % de su total ganado, presentando al empleador el certificado del nacimiento emitido por el ente gestor de salud ([Decreto Supremo 1212](/biblioteca/decreto-supremo-1212/leer/), 2012). En el sector público son tres días hábiles. Ver [Licencias especiales](/guias/laboral/licencias-especiales/).
 
 ### ¿Tengo un día libre para hacerme un examen médico preventivo?
 
-Sí: un día hábil al año, pagado, para papanicolaou o mamografía (trabajadoras mayores de 18 años) y para examen de próstata o de colon (mayores de 40 años). Se coordina con el empleador y se entrega la constancia del examen. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=33) cita la Ley 252 modificada por la Ley 798. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+Sí: un día hábil al año de tolerancia pagada, para Papanicolaou y mamografía (trabajadoras mayores de 18 años) y para examen de próstata o de colon (mayores de 40 años). La fecha se acuerda con el empleador y se entrega la constancia de la programación y realización del examen, no el resultado ([Ley 252](/biblioteca/ley-252/leer/), modificada por la [Ley 798](/biblioteca/ley-798/leer/)). Ver [Licencias especiales](/guias/laboral/licencias-especiales/).
 
 ### ¿Hay licencia si mi hijo está gravemente enfermo?
 
-Sí. Hay una licencia especial pagada para madres, padres, guardadores o tutores de niñas, niños y adolescentes en estado crítico de salud, como cáncer, insuficiencia renal crónica o un accidente grave. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=34) cita el Decreto Supremo 3462 de 2018. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+Sí. El [Decreto Supremo 3462](/biblioteca/decreto-supremo-3462/leer/#page=2) (2018) da una licencia pagada a madres, padres, guardadores y tutores de niñas, niños y adolescentes en estado crítico de salud: por ejemplo, hasta 5 días por mes durante un tratamiento de cáncer o hasta 2 días por mes para hemodiálisis. Se pide con 3 días de anticipación y con informe médico. En los casos más graves hay también inamovilidad. Ver [Licencias especiales](/guias/laboral/licencias-especiales/).
 
 ### ¿Necesito estar casado para tener inamovilidad por el nacimiento de mi hijo?
 
@@ -363,15 +363,15 @@ Hasta un año después de que termina la gestión del dirigente: no se lo puede 
 
 ### ¿Qué hago si sufro un accidente de trabajo?
 
-Avisa de inmediato al empleador, tú o por medio de otra persona; el empleador debe avisar al ente gestor de salud en un máximo de 24 horas ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=37), que cita el art. 30 del Código de Seguridad Social). Ver [Accidentes de trabajo y enfermedades profesionales](/guias/laboral/accidentes-y-enfermedades-del-trabajo/). [VERIFICAR]
+Avisa de inmediato al empleador, tú o por medio de otra persona. El empleador debe avisar a la Caja de salud en 24 horas; si no lo hace, paga una multa y los gastos de tu atención corren por su cuenta hasta que haga la denuncia ([Código de Seguridad Social](/biblioteca/codigo-de-seguridad-social/leer/#page=16), artículo 30). Ver [Accidentes de trabajo y enfermedades profesionales](/guias/laboral/accidentes-y-enfermedades-del-trabajo/).
 
 ### ¿Qué subsidios recibo si voy a tener un hijo?
 
-Si estás asegurada, el empleador paga el subsidio prenatal (alimentos desde el quinto mes), el de natalidad (un pago único por el nacimiento) y el de lactancia (alimentos hasta el primer año), según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=42). Los montos cambian y deben consultarse en la norma vigente. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/). [VERIFICAR]
+Si estás asegurada, el empleador paga el subsidio prenatal (cada mes, en dinero o en especie, los cinco últimos meses del embarazo), el de natalidad (un pago único) y el de lactancia (productos lácteos u otros, durante el primer año del bebé) ([Decreto Supremo 21637](/biblioteca/decreto-supremo-21637/leer/#page=9), artículo 25, según el [Decreto Supremo 3546](/biblioteca/decreto-supremo-3546/leer/)). Además cobras el subsidio de maternidad durante el descanso de 45 días antes y 45 después del parto. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/).
 
 ### ¿Tengo derecho a un tiempo para amamantar durante la jornada?
 
-Sí. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=43), la madre tiene descansos de una hora al día para amamantar a su hijo; cita la Ley 3460 (art. 15) y el Decreto Supremo 115. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/). [VERIFICAR]
+Sí. La [Ley 3460](/biblioteca/ley-3460/leer/#page=19) y su reglamento obligan al empleador a dejarte llevar a tu bebé al trabajo para amamantarlo o, si no lo llevas, a darte el descanso de lactancia de la Ley General del Trabajo (en su texto de 1942, no menos de una hora al día en total), y a adecuar un ambiente para amamantar. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/).
 
 ### ¿Debo firmar el finiquito si no estoy de acuerdo con el monto?
 
@@ -443,4 +443,4 @@ El contrato de trabajo puede ser verbal y su existencia se acredita por todos lo
 
 ### ¿Puedo firmar digitalmente el contrato o la adenda de teletrabajo?
 
-La guía del Ministerio de Trabajo de 2020 dice que el teletrabajo se acuerda por escrito en una adenda al contrato ([pág. 45](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=45)), pero no habla de firma digital. Los materiales de apoyo dicen que el contrato puede firmarse a distancia con firma electrónica o digital que garantice su autenticidad e integridad, sin costo para el trabajador. Ese punto no está en ningún texto publicado aquí. Ver [Teletrabajo](/guias/laboral/teletrabajo/). [VERIFICAR]
+El [Decreto Supremo 4570](/biblioteca/decreto-supremo-4570/leer/) (2021) pide que el acuerdo de teletrabajo conste por escrito, «mediante mecanismos idóneos de prueba» (artículo 13), pero no habla de firma digital. Los materiales de apoyo dicen que puede firmarse a distancia con firma electrónica o digital que garantice su autenticidad e integridad, sin costo para el trabajador; ese punto no está en ningún texto publicado aquí. Ver [Teletrabajo y trabajo a distancia](/guias/laboral/teletrabajo/). [VERIFICAR]
