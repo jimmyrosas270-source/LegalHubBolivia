@@ -548,6 +548,112 @@
    "ver": [
     "/guias/laboral/calculo-del-finiquito/|Guía"
    ]
+  },
+  {
+   "termino": "Primacía de la realidad",
+   "definicion": "Principio por el que, si lo que ocurre en los hechos no coincide con lo que dicen los documentos o el contrato, prevalece la realidad. El Decreto Supremo 28699 lo recoge entre los principios del derecho laboral.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/relacion-laboral-encubierta/|Guía",
+    "/biblioteca/decreto-supremo-28699/leer/#page=2|Artículo 4, Decreto Supremo 28699",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-48/|Artículo 48, Constitución Política del Estado"
+   ]
+  },
+  {
+   "termino": "Relación laboral encubierta",
+   "definicion": "Relación de trabajo que se presenta con otro nombre, como un contrato civil o comercial. Si en los hechos hay dependencia, trabajo por cuenta ajena y remuneración, el Decreto Supremo 28699 dice que el contrato aparente no surte efectos.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/relacion-laboral-encubierta/|Guía",
+    "/preguntas/laboral/#p93|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-28699/leer/#page=3|Artículo 5, Decreto Supremo 28699"
+   ]
+  },
+  {
+   "termino": "Subcontratación",
+   "definicion": "Figura por la que una empresa encarga a otra parte de su trabajo. El Decreto Supremo 0521 prohíbe usarla para evadir la normativa laboral en tareas propias y permanentes del giro del establecimiento.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/subcontratacion-y-tercerizacion/|Guía",
+    "/preguntas/laboral/#p97|Pregunta frecuente",
+    "/biblioteca/decreto-supremo-0521/leer/|Decreto Supremo 0521"
+   ]
+  },
+  {
+   "termino": "Tercerización",
+   "definicion": "Término que el Decreto Supremo 0521 usa junto con subcontratación, externalización y enganche para nombrar las formas de encargar trabajo a otras empresas o intermediarios. El decreto no define cada una por separado.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/subcontratacion-y-tercerizacion/|Guía",
+    "/biblioteca/decreto-supremo-0521/leer/|Decreto Supremo 0521"
+   ]
+  },
+  {
+   "termino": "Enganche",
+   "definicion": "Contrato por el que una persona distinta del patrono contrata trabajadores para faenas que se hacen lejos de su residencia habitual. La Ley General del Trabajo dice que solo el Estado puede actuar como intermediario.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/subcontratacion-y-tercerizacion/|Guía",
+    "/preguntas/laboral/#p99|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-31/|Artículo 31, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Contrato de aprendizaje",
+   "definicion": "Contrato por el que el patrono se obliga a enseñar en la práctica un oficio o industria, usando el trabajo del aprendiz, con o sin retribución, por un tiempo fijo de hasta dos años. Debe hacerse por escrito.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p100|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-28/|Artículo 28, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Trabajo a domicilio",
+   "definicion": "Trabajo por cuenta ajena y con remuneración determinada que se hace en la residencia del trabajador, en su taller doméstico o en el domicilio del patrono. No incluye el que se hace directamente para el público.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p101|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-32/|Artículo 32, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Reconducción",
+   "definicion": "Renovación que la Ley General del Trabajo entiende que existe cuando el trabajador sigue sirviendo después de vencido el plazo de un contrato a plazo fijo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/contrato-a-plazo-fijo/|Guía",
+    "/preguntas/laboral/#p95|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-21/|Artículo 21, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Contrato colectivo",
+   "definicion": "Convenio entre uno o más patronos y un sindicato, federación o confederación de sindicatos de trabajadores para fijar condiciones generales de trabajo. Se celebra por escrito y se registra ante el Inspector del Trabajo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/preguntas/laboral/#p103|Pregunta frecuente",
+    "/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-18/|Artículo 18, Reglamento de la Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Visado o refrendo del contrato",
+   "definicion": "Revisión y validación que hace la autoridad del trabajo del contrato de trabajo escrito para que alcance eficacia jurídica. No es lo mismo que el refrendo del finiquito.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/refrendo-del-contrato/|Guía",
+    "/preguntas/laboral/#p104|Pregunta frecuente",
+    "/leyes/laboral/ley-general-del-trabajo/articulo-22/|Artículo 22, Ley General del Trabajo"
+   ]
+  },
+  {
+   "termino": "Registro Obligatorio de Empleadores (ROE)",
+   "definicion": "Registro donde el empleador declara sus datos. Según el Protocolo de la Ley 1468, el domicilio, el correo o el número de WhatsApp que consigna allí pueden usarse para notificarle.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/registro-de-empleadores/|Guía",
+    "/preguntas/laboral/#p107|Pregunta frecuente",
+    "/biblioteca/protocolo-de-actuacion-de-la-ley-1468/leer/#page=8|Artículo 12, Protocolo de la Ley 1468"
+   ]
   }
  ]
 }

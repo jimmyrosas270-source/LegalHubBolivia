@@ -376,3 +376,71 @@ Sí. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-der
 ### ¿Debo firmar el finiquito si no estoy de acuerdo con el monto?
 
 Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=28), puedes firmarlo escribiendo «recibí no conforme» junto a tu firma, o no firmarlo, para que el Ministerio de Trabajo o el juez revisen el pago. Ver [Cálculo del finiquito](/guias/laboral/calculo-del-finiquito/).
+
+### ¿Cómo sé si mi contrato de servicios o de consultoría es en realidad un contrato de trabajo?
+
+Mira si se dan las tres características que fija el [Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/leer/#page=2) (artículo 2): dependencia y subordinación, trabajo por cuenta ajena y una remuneración o salario, en cualquiera de sus formas. Si se dan, el contrato civil o comercial que tienda a encubrir la relación laboral no surte efectos y prevalece la realidad (artículo 5). Los Autos Supremos [293/2022](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=114) y [146/2022, de 20 de abril](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=150) aplicaron esa regla. Ver [Cuando un contrato civil o comercial encubre una relación laboral](/guias/laboral/relacion-laboral-encubierta/).
+
+### ¿Una asociación o entidad sin fines de lucro tiene obligaciones laborales?
+
+Sí, si se dan las características de una relación laboral. La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-1/) (artículo 1) se aplica también a las asociaciones públicas o privadas aunque no persigan fines de lucro, salvo las excepciones que se determinen. En el Auto Supremo 293/2022, según el resumen del Tribunal ([pág. 114 de la revista](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=114)), ser una entidad civil sin fines de lucro no libró a la demandada de asumir las obligaciones laborales. Ver [Cuando un contrato civil o comercial encubre una relación laboral](/guias/laboral/relacion-laboral-encubierta/).
+
+### ¿Qué pasa si sigo trabajando después de que vence mi contrato a plazo fijo?
+
+La Ley General del Trabajo dice que se entiende que hay reconducción si el trabajador continúa sirviendo vencido el término del convenio ([artículo 21](/leyes/laboral/ley-general-del-trabajo/articulo-21/)). Según la guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)), si las actividades subsisten el contrato se renueva tácitamente por tiempo indefinido. Ver [Contratos a plazo fijo y contratos sucesivos](/guias/laboral/contrato-a-plazo-fijo/).
+
+### ¿Un contrato a plazo fijo puede hacerse de palabra?
+
+El [Decreto Ley 16187](/biblioteca/decreto-ley-16187/leer/) (artículo 1) permite celebrar cualquier contrato de forma oral o escrita, pero dice que a falta de estipulación escrita se presume que es por tiempo indefinido, salvo prueba en contrario. Por eso, en la práctica, el plazo debe constar por escrito. Los materiales de apoyo afirman que el plazo fijo no puede ser verbal; el texto del decreto ley no lo prohíbe de forma expresa. Ver [Contratos a plazo fijo y contratos sucesivos](/guias/laboral/contrato-a-plazo-fijo/). [VERIFICAR]
+
+### ¿Una empresa puede contratar a otra para que haga parte de su trabajo?
+
+Sí, pero no para evadir la normativa laboral. El [Decreto Supremo 0521](/biblioteca/decreto-supremo-0521/leer/) prohíbe esa evasión mediante subcontratación, tercerización, externalización, enganche u otras modalidades en tareas propias y permanentes del giro del establecimiento (artículo 1). Si la actividad no es propia ni permanente, el contrato entre las empresas debe incluir una cláusula que obligue a la empresa contratada a cumplir las obligaciones sociolaborales con sus trabajadores (artículo 3). Ver [Subcontratación, tercerización y enganche](/guias/laboral/subcontratacion-y-tercerizacion/).
+
+### ¿Quién responde por los derechos de los trabajadores de una empresa contratista?
+
+Según el artículo 5 del [Decreto Supremo 0521](/biblioteca/decreto-supremo-0521/leer/), el empleador que ocupa trabajadores por medio de otras empresas en actividades propias y permanentes responde por todas las obligaciones sociolaborales y por los aportes a la seguridad social. Los trabajadores pueden acudir a las Jefaturas Departamentales y Regionales de Trabajo. En los contratos autorizados con entidades y empresas públicas bajo las Normas Básicas del Sistema de Administración de Bienes y Servicios, la disposición final dice que responde el contratista, proveedor o consultor respecto de su personal. Ver [Subcontratación, tercerización y enganche](/guias/laboral/subcontratacion-y-tercerizacion/).
+
+### ¿Qué es el contrato de enganche?
+
+Es el que tiene por objeto contratar trabajadores por medio de una persona distinta del patrono, para faenas que generalmente deben cumplirse lejos de la residencia habitual. La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-31/) (artículo 31) dice que solo el Estado podrá actuar como intermediario, con servicios gratuitos de enganche, y que el traslado se hace según su artículo 9, que obliga al patrono a pagar los gastos razonables de viaje y retorno. El Reglamento ([artículo 23](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-23/)) permite que el Ministerio de Trabajo autorice a las empresas a usar intermediarios mientras el Estado organice servicios oficiales. Su vigencia frente al Decreto Supremo 0521 debe confirmarse. Ver [Subcontratación, tercerización y enganche](/guias/laboral/subcontratacion-y-tercerizacion/). [VERIFICAR]
+
+### ¿Qué es el contrato de aprendizaje?
+
+Es aquel por el que el patrono se obliga a enseñar en la práctica un oficio o industria, directamente o por medio de otra persona, y a cambio usa el trabajo del aprendiz, con o sin retribución, por un tiempo fijo que no puede pasar de dos años ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-28/), artículo 28). Debe hacerse por escrito; en él solo se presume la prestación mutua de servicios, y la remuneración y las demás condiciones se pactan expresamente ([artículo 29](/leyes/laboral/ley-general-del-trabajo/articulo-29/)). El patrono debe dar al aprendiz las horas necesarias para ir a la escuela y, si sufre un accidente o enfermedad, avisar a sus representantes legales y darle las primeras atenciones médicas ([artículo 30](/leyes/laboral/ley-general-del-trabajo/articulo-30/)). El Reglamento exige que el Inspector del Trabajo lo refrende e intervenga a su conclusión ([artículo 21](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-21/)).
+
+### ¿Qué es el trabajo a domicilio y qué reglas tiene?
+
+Es el que se realiza por cuenta ajena y con remuneración determinada en el lugar de residencia del trabajador, en su taller doméstico o en el domicilio del patrono ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-32/), artículo 32). No lo es el trabajo que se hace directamente para el público. El patrono debe inscribirse en la Inspección del Trabajo, comunicar la nómina de sus trabajadores y llevar un registro especial de los trabajos que encomienda ([artículo 33](/leyes/laboral/ley-general-del-trabajo/articulo-33/)). Las retribuciones se pagan por entrega de labor o por períodos no mayores de una semana ([artículo 34](/leyes/laboral/ley-general-del-trabajo/articulo-34/)). El Reglamento añade un «Registro de Trabajo a Domicilio» y una libreta para el trabajador, y manda pagar el salario íntegra y directamente, sin descuentos por retribuciones a contratistas o subcontratistas ([artículos 24 a 26](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-24/)). Los materiales de apoyo dicen además que este trabajo no se sujeta a jornada máxima, descansos ni recargos, ni al salario mínimo; esas afirmaciones no están en los artículos publicados. [VERIFICAR]
+
+### ¿Qué normas rigen el trabajo del hogar?
+
+El Reglamento de la Ley General del Trabajo tiene un capítulo propio, con dos artículos: manda incluir en el contrato de trabajo doméstico con menores la obligación de dar las horas necesarias para ir a la escuela ([artículo 27](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-27/)) y dice que, para el primer período del artículo 37 de la Ley, solo se toma en cuenta la remuneración mensual en dinero del doméstico ([artículo 28](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-28/)). La Ley General del Trabajo dice que el período de pago de los domésticos no puede pasar de un mes ([artículo 53](/leyes/laboral/ley-general-del-trabajo/articulo-53/)). La jornada y otros derechos, según la guía del Ministerio de Trabajo de 2020, están en la Ley 2450 (ver [Jornada de trabajo](/guias/laboral/jornada-de-trabajo/)), que no está en la Biblioteca. Los materiales de apoyo añaden que el Convenio 189 de la OIT, ratificado por Bolivia, pide un contrato escrito con las condiciones de trabajo; ese convenio tampoco está en la Biblioteca. [VERIFICAR]
+
+### ¿Qué es un contrato colectivo de trabajo?
+
+Es el convenio entre uno o más patronos, o una asociación de patronos, y un sindicato, federación o confederación de sindicatos de trabajadores, para fijar condiciones generales de trabajo o reglamentarlo ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-5/), artículo 5; [Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-17/), artículo 17). Debe celebrarse por escrito y registrarse ante el Inspector del Trabajo ([artículo 18](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-18/)). Solo pueden firmarlo sindicatos, federaciones o confederaciones con personería jurídica reconocida ([artículo 19](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-19/)).
+
+### ¿Hay que refrendar el contrato de trabajo?
+
+La Ley General del Trabajo dice que el contrato requiere, para alcanzar eficacia jurídica, ser refrendado por la autoridad del trabajo ([artículo 22](/leyes/laboral/ley-general-del-trabajo/articulo-22/)). El Reglamento lo exige al contrato celebrado por escrito y encarga el refrendo al Inspector del Trabajo ([artículo 14](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-14/)). Ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/).
+
+### ¿Cuánto tiempo tiene el empleador para refrendar el contrato?
+
+La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)) da 30 días desde el inicio de la relación laboral. Los materiales de apoyo citan un reglamento de 2024 que daría 60 días para trabajadores nacionales y 30 para extranjeros; esa resolución no está en la Biblioteca. Los dos datos no coinciden: debe confirmarse el plazo vigente en el Ministerio de Trabajo. Ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/). [VERIFICAR]
+
+### ¿Qué debe decir un contrato de trabajo escrito?
+
+El Reglamento pide, por lo menos: nombres o razón social de las partes; edad, nacionalidad, estado civil y domicilio del trabajador; naturaleza y lugar del servicio; si se paga por tiempo, obra, tarea o a destajo; monto, forma y período de pago; plazo del contrato; lugar y fecha; y los herederos del trabajador, con nombres y edades ([artículo 7](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-7/)). Ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/).
+
+### ¿Qué es el Registro Obligatorio de Empleadores (ROE)?
+
+Es un registro donde el empleador declara sus datos; según los materiales de apoyo, lo lleva el Ministerio de Trabajo y se creó por un decreto supremo de 2017 que no está en la Biblioteca. La guía del Ministerio de 2020 pide su formulario para el visado de contratos, y el Protocolo de la Ley 1468 permite notificar al empleador en el domicilio o por el correo o WhatsApp que consignó en el ROE. Ver [Registro obligatorio de empleadores](/guias/laboral/registro-de-empleadores/). [VERIFICAR]
+
+### ¿Cómo pruebo que trabajé si no tengo contrato escrito?
+
+El contrato de trabajo puede ser verbal y su existencia se acredita por todos los medios legales de prueba ([artículo 6](/leyes/laboral/ley-general-del-trabajo/articulo-6/)). En el juicio, el Código Procesal del Trabajo permite valerse de documentos, confesión, testigos, inspección judicial, peritajes, informes e indicios ([artículo 151](/leyes/laboral/codigo-procesal-del-trabajo/articulo-151/)), y en el juicio iniciado por el trabajador la carga de la prueba corresponde al empleador ([artículo 66](/leyes/laboral/codigo-procesal-del-trabajo/articulo-66/)). La Constitución también establece la inversión de la prueba a favor del trabajador ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)). Ver [El contrato de trabajo y la relación laboral](/guias/laboral/contrato-de-trabajo/).
+
+### ¿Puedo firmar digitalmente el contrato o la adenda de teletrabajo?
+
+La guía del Ministerio de Trabajo de 2020 dice que el teletrabajo se acuerda por escrito en una adenda al contrato ([pág. 45](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=45)), pero no habla de firma digital. Los materiales de apoyo dicen que el contrato puede firmarse a distancia con firma electrónica o digital que garantice su autenticidad e integridad, sin costo para el trabajador. Ese punto no está en ningún texto publicado aquí. Ver [Teletrabajo](/guias/laboral/teletrabajo/). [VERIFICAR]

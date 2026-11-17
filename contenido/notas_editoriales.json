@@ -180,6 +180,36 @@
       "texto": [
         "Esta ley habla de obreros y excluye los domingos. Para el trabajo en feriados, la Ley General del Trabajo (artículo 55) y el Reglamento (artículos 29 a 31) fijan un recargo del 100 % o un descanso compensatorio. Cómo se combinan estas normas, y si esta ley sigue vigente, debe confirmarse. Ver la guía «Trabajo en domingos y feriados»."
       ]
+    },
+    {
+      "id": "lgt-art-21",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-21/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Este artículo dice que, en los contratos a plazo fijo, hay reconducción si el trabajador sigue sirviendo después de vencido el plazo. Debe leerse junto con el Decreto Ley 16187, de 16 de febrero de 1979 (en la Biblioteca), cuyo artículo 2 no permite más de dos contratos sucesivos a plazo fijo ni contratos a plazo para tareas propias y permanentes de la empresa, y dispone que, si se incumple, el contrato se convierta en uno por tiempo indefinido.",
+        "El texto de este artículo se publica sin cambios. Cómo se combinan los dos textos cuando el trabajador sigue después del vencimiento debe confirmarse en una fuente oficial. [VERIFICAR CON FUENTE OFICIAL] Ver la guía «Contratos a plazo fijo y contratos sucesivos»."
+      ]
+    },
+    {
+      "id": "lgt-art-22",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-22/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "El artículo 14 del Reglamento (en este sitio) precisa que el refrendo se exige al contrato celebrado por escrito y que lo hace el Inspector del Trabajo o, en su defecto, la autoridad administrativa superior del lugar.",
+        "Los plazos y requisitos del trámite no están en este artículo. La guía del Ministerio de Trabajo de 2020 (en la Biblioteca) da un plazo de 30 días; los materiales de apoyo del editor citan un reglamento de 2024, que no está en la Biblioteca, con 60 días para trabajadores nacionales. Debe confirmarse el plazo vigente en una fuente oficial. [VERIFICAR CON FUENTE OFICIAL] Ver la guía «El refrendo o visado del contrato de trabajo»."
+      ]
+    },
+    {
+      "id": "lgt-art-31",
+      "ruta": "/leyes/laboral/ley-general-del-trabajo/articulo-31/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "Este artículo dice que solo el Estado podrá actuar como intermediario entre patronos y trabajadores. El artículo 23 del Reglamento (en este sitio) permite que el Ministerio de Trabajo autorice a las empresas a usar intermediarios para contratar trabajadores mientras el Estado organice servicios oficiales de enganche.",
+        "El Decreto Supremo 0521, de 26 de mayo de 2010 (en la Biblioteca), incluye el enganche entre las figuras que no pueden usarse para evadir la normativa laboral en tareas propias y permanentes del giro del establecimiento. Cómo se aplican hoy los tres textos debe confirmarse en una fuente oficial. [VERIFICAR CON FUENTE OFICIAL] Ver la guía «Subcontratación, tercerización y enganche»."
+      ]
     }
   ]
 }

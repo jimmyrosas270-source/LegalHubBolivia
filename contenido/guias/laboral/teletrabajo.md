@@ -29,6 +29,16 @@ Tanto en el sector público como en el privado, el teletrabajo se acuerda por es
 - quién custodia los equipos y qué medidas de seguridad informática se aplican;
 - cómo se supervisará el trabajo.
 
+## Firma electrónica y confidencialidad
+
+Los materiales de apoyo del editor añaden tres ideas sobre el contrato de teletrabajo. No figuran en la guía del Ministerio de 2020 ni en ningún texto publicado en este sitio, así que se anotan como referencia y no como regla confirmada: [VERIFICAR]
+
+- El contrato puede celebrarse y firmarse a distancia, desde la oferta hasta su ejecución, con firma electrónica o digital que garantice que el documento es auténtico, no fue alterado y puede rastrearse. Solo se exigiría la presencia física en casos excepcionales de salud ocupacional.
+- El trabajador no debe pagar los costos de las herramientas digitales para firmar o ejecutar el contrato, como la plataforma de firma, y el empleador debe darle los medios si no tiene acceso a internet para firmar.
+- Se puede incluir en el contrato un acuerdo de confidencialidad sobre el uso, el almacenamiento y la divulgación de la información de la empresa, especialmente si el trabajador maneja datos sensibles desde su casa.
+
+Sobre la protección de datos de la persona teletrabajadora, ver más abajo las obligaciones del empleador.
+
 ## Quién pone los equipos y la conexión
 
 En el sector privado, el empleador debe proveer, cuando corresponda, los programas, los equipos y la conexión. Si el teletrabajador usa su propia computadora, las partes pueden acordar una compensación por el desgaste o por el internet. En el sector público, la institución debe dotar de las herramientas, y la guía añade que no puede imponer la modalidad ([págs. 45 y 46](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=45)).
