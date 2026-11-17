@@ -93,3 +93,22 @@
 .tarjeta.con-tapa{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:start}
 .tarjeta-d{display:flex;flex-direction:column;gap:8px;min-width:0}
 @media (min-width:640px){.tarjeta.con-tapa{grid-template-columns:140px 1fr}}
+
+/* Secciones por tipo de norma y autos supremos (tipos.py) */
+.por-tipo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 18px;font-size:14px}
+.por-tipo b{font-weight:600;margin-right:4px}
+.por-tipo a{display:inline-flex;gap:4px;align-items:center;padding:6px 12px;border:1px solid var(--linea);border-radius:999px;background:#fff;color:var(--tinta);text-decoration:none}
+.por-tipo a:hover,.por-tipo a:focus-visible{border-color:var(--verde);color:var(--verde)}
+.por-tipo a small{color:var(--sec)}
+.por-tipo.grande a{padding:9px 14px;font-size:15px}
+.sub-h1{font-size:.55em;font-weight:400;color:var(--sec)}
+.rejilla.autos{margin:8px 0 16px}
+@media (min-width:760px){.rejilla.autos{grid-template-columns:1fr 1fr}}
+.tarjeta.auto h3{margin:0;font-size:17px}
+.tarjeta.auto h3 a{color:var(--verde)}
+.tarjeta.auto small{color:var(--sec)}
+.tarjeta.auto .libro-acc{display:flex;flex-wrap:wrap;gap:12px;font-size:14px}
+
+/* Recuadro para reportar errores (construir.py, reportes_url) */
+.reportar{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;margin-top:28px;margin-bottom:28px;padding:16px 18px;background:var(--menta,#E4EFE8);border-radius:12px;font-size:15px}
+.reportar .btn-rep{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--verde,#1F5B44);color:#fff;text-decoration:none;font-weight:600}

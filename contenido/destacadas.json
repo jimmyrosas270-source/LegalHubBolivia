@@ -14,6 +14,8 @@
     "portada": {"tipo": "Código", "lineas": ["Código", "Procesal", "del Trabajo"], "pie": "1979", "color": "bosque"}},
    {"archivo": "ley-1468.pdf",
     "portada": {"tipo": "Ley N.º 1468", "lineas": ["Restitución", "de derechos", "laborales"], "pie": "2022", "color": "ocre"}},
+   {"archivo": "sentencia-constitucional-0009-2017.pdf",
+    "portada": {"tipo": "Sentencia Constitucional", "lineas": ["Preaviso", "declarado", "inconstitucional"], "pie": "SCP 0009/2017", "color": "tinta"}},
    {"archivo": "decreto-supremo-28699.pdf",
     "portada": {"tipo": "Decreto Supremo N.º 28699", "lineas": ["Estabilidad", "laboral y", "finiquito"], "pie": "2006", "color": "papel"}},
    {"archivo": "decreto-supremo-110.pdf",

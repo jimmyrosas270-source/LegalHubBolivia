@@ -182,9 +182,11 @@ MATERIAS_FIJAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civ
 MATERIA_DE_CARPETA = {slug(m): m for m in ORDEN_MATERIAS}
 
 # Grupos por tipo de norma dentro de cada materia, en este orden
-GRUPOS_TIPO = [('Códigos', ('constitucion', 'codigo')), ('Leyes', ('ley',)), ('Decretos', ('decreto', 'fe de erratas')),
+GRUPOS_TIPO = [('Códigos', ('constitucion', 'codigo')), ('Leyes', ('ley',)), ('Decretos leyes', ('decreto ley',)),
+               ('Decretos supremos', ('decreto', 'fe de erratas')),
                ('Resoluciones', ('resolucion',)), ('Reglamentos y protocolos', ('reglamento', 'protocolo')),
-               ('Sentencias y autos', ('sentencia', 'auto'))]
+               ('Sentencias constitucionales', ('sentencia constitucional',)), ('Autos supremos', ('auto supremo',)),
+               ('Otras sentencias y autos', ('sentencia', 'auto'))]
 NOMBRES_GRUPO = [g for g, _ in GRUPOS_TIPO] + ['Otros documentos']
 
 
@@ -216,6 +218,9 @@ def anio_de(d):
 JUR = os.path.join(RAIZ, 'jurisprudencia')
 # Limpieza de PDF al publicar (hipervínculos, resaltados y marcas de páginas no oficiales)
 exec(open(os.path.join(HERR, 'limpieza_pdf.py'), encoding='utf-8').read())
+
+# Secciones por tipo de norma y autos supremos
+exec(open(os.path.join(HERR, 'tipos.py'), encoding='utf-8').read())
 
 # Portadas propias y normas principales (contenido/destacadas.json)
 exec(open(os.path.join(HERR, 'portadas.py'), encoding='utf-8').read())
@@ -380,6 +385,7 @@ def portada_por_materias(S, DOCS, tarjeta):
         carpetas.append(f'<a class="materia carpeta" href="/{ruta_s}/{slug(m)}/"><b>{E(m)}</b><small>{plural(len(docs), S["sing"], S["plur"])}</small>'
                         f'<small class="tipos">{E(" · ".join(tipos))}</small></a>')
     por_archivo = {d['archivo']: d for d in DOCS}
+    bloque_tipos = paginas_por_tipo(S, DOCS, tarjeta, por_materia) if ruta_s == 'biblioteca' else ''
     dest_inicio = bloque_destacadas([dict(x, _materia=m) for m in ORDEN_MATERIAS for x in DESTACADAS.get(m, []) if x.get('inicio')], por_archivo, etq_materia=True) if ruta_s == 'biblioteca' else ''
     buscador = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Buscar en toda la Biblioteca" aria-label="Buscar en toda la Biblioteca"></label></div>'
                 f'<section id="todos" hidden><p id="cuenta" class="sec" role="status" aria-live="polite"></p>'
@@ -388,7 +394,7 @@ def portada_por_materias(S, DOCS, tarjeta):
             f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")])}<h1>{S["nombre"]}</h1>
 <p class="entrada">Normas completas en PDF, ordenadas por materia. Abre una carpeta o busca en toda la Biblioteca.</p>{buscador}
 {dest_inicio}<h2 class="grupo-tit">Materias</h2>
-<div class="rejilla r4 carpetas" id="carpetas">{"".join(carpetas)}</div>{alerta(S["aviso"])}</div>''',
+<div class="rejilla r4 carpetas" id="carpetas">{"".join(carpetas)}</div>{bloque_tipos}{alerta(S["aviso"])}</div>''',
             S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
 
     for m, docs in por_materia.items():
@@ -403,6 +409,7 @@ def portada_por_materias(S, DOCS, tarjeta):
 <p class="entrada">{plural(len(docs), S["sing"], S["plur"])}, {"primero las normas principales y después todos" if DESTACADAS.get(m) else "ordenados"} por tipo de norma y por fecha, del más antiguo al más reciente.</p>
 <div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o tema" aria-label="Filtrar {S["plur"]}"></label>
 <div class="chips" role="group" aria-label="Tipos de norma"><button type="button" class="chip-f" data-m="" aria-pressed="true">Todos</button>{chips}</div></div>
+{enlaces_tipo(m, docs) if ruta_s == "biblioteca" else ""}
 <p id="cuenta" class="sec" role="status" aria-live="polite">{plural(len(docs), S["sing"], S["plur"])}</p>
 {bloque_destacadas(DESTACADAS.get(m, []), por_archivo) if ruta_s == "biblioteca" else ""}{"<h2 class='grupo-tit sep'>Todas las normas, por tipo</h2>" if ruta_s == "biblioteca" and DESTACADAS.get(m) else ""}
 {secciones}<div id="nada" class="vacio" hidden>Ninguna coincidencia con el filtro.</div>
@@ -629,6 +636,34 @@ else:
     escribe('robots.txt', 'User-agent: *\nDisallow: /\n')
     cab_robots = '/*\n  X-Robots-Tag: noindex, nofollow\n'
 escribe('_headers', cab_robots + '/visor/*\n  Cache-Control: public, max-age=604800\n/biblioteca/portadas/*\n  Cache-Control: public, max-age=86400\n/jurisprudencia/portadas/*\n  Cache-Control: public, max-age=86400\n')
+
+# ---------------------------------------------------------------- aviso para reportar errores
+# Si contenido/sitio.json trae "reportes_url" (p. ej. un formulario de Google), cada página lleva al final
+# un recuadro para avisar de un dato erróneo o desactualizado. «{pagina}» en la dirección se cambia por la página actual.
+URL_REPORTE = (CONF.get('reportes_url') or '').strip()
+n_rep = 0
+if URL_REPORTE:
+    escribe('assets/reporte.js', "(function(){var a=document.querySelector('[data-reporte]');if(!a)return;"
+            "a.href=a.getAttribute('data-reporte').split('{pagina}').join(encodeURIComponent(location.href))})();\n")
+    caja = ('<div class="cont pag estrecha"><aside class="reportar" style="display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;margin-top:28px;margin-bottom:28px;padding:16px 18px;background:#E4EFE8;border-radius:12px;font-size:15px"><div><b>¿Viste un dato erróneo o desactualizado?</b> '
+            'Una norma derogada, una cifra que cambió o un error de texto: avísanos de forma anónima para corregirlo.</div>'
+            f'<a class="btn-rep" style="display:inline-block;padding:9px 16px;border-radius:999px;background:#1F5B44;color:#fff;text-decoration:none;font-weight:600" data-reporte="{E(URL_REPORTE)}" href="{E(URL_REPORTE.replace("{pagina}", ""))}" target="_blank" rel="noopener">Reportar un error</a></aside></div>')
+    for dp, _, fs in os.walk(OUT):
+        if os.sep + 'visor' in dp:
+            continue
+        for fn in fs:
+            if fn.endswith('.html'):
+                p = os.path.join(dp, fn)
+                doc = open(p, encoding='utf-8').read()
+                if 'class="reportar' in doc or '</main>' not in doc or '/leer/' in p.replace(os.sep, '/'):
+                    continue
+                doc = doc.replace('</main>', caja + '</main>', 1).replace('</body>', '<script src="/assets/reporte.js" defer></script>\n</body>', 1)
+                open(p, 'w', encoding='utf-8').write(doc)
+                n_rep += 1
+    print(f'Recuadro «Reportar un error» en {n_rep} páginas.')
+
+# ---------------------------------------------------------------- buscador ampliado
+exec(open(os.path.join(HERR, 'buscador.py'), encoding='utf-8').read())
 
 # ---------------------------------------------------------------- informe
 total = sum(len(fs) for _, _, fs in os.walk(OUT))
