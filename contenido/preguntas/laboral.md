@@ -328,3 +328,51 @@ Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos
 ### ¿Cuáles son los feriados nacionales?
 
 La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22) da la lista del Decreto Supremo 2750 de 2016: 1 de enero, 22 de enero, lunes y martes de carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio, 6 de agosto, 2 de noviembre y 25 de diciembre. El calendario de cada año debe confirmarse en la norma oficial. [VERIFICAR]
+
+### ¿Cuándo puedo pedir el pago del quinquenio?
+
+Al cumplir cinco años de trabajo continuo, con una solicitud escrita al empleador. Lo que se cobra se descuenta de la liquidación final ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=31)). El plazo para pagarlo y refrendarlo es de 30 días calendario desde la solicitud ([Reglamento del refrendado](/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/leer/), art. 7). Ver [El quinquenio](/guias/laboral/quinquenio/).
+
+### Si me despiden con causa justificada, ¿pierdo los quinquenios que ya cumplí?
+
+No. La pérdida solo afecta al quinquenio en curso ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/leer/), art. 4), y la [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/leer/) (art. 3) excluye de esa sanción a los quinquenios consolidados. Ver [El quinquenio](/guias/laboral/quinquenio/).
+
+### ¿Cuántos días de licencia tiene un padre cuando nace su hijo?
+
+Tres días con goce del 100 % del salario, desde el día del parto, en el sector público y privado, presentando el certificado del nacimiento. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=32) cita el Decreto Supremo 1212 de 2012. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+
+### ¿Tengo un día libre para hacerme un examen médico preventivo?
+
+Sí: un día hábil al año, pagado, para papanicolaou o mamografía (trabajadoras mayores de 18 años) y para examen de próstata o de colon (mayores de 40 años). Se coordina con el empleador y se entrega la constancia del examen. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=33) cita la Ley 252 modificada por la Ley 798. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+
+### ¿Hay licencia si mi hijo está gravemente enfermo?
+
+Sí. Hay una licencia especial pagada para madres, padres, guardadores o tutores de niñas, niños y adolescentes en estado crítico de salud, como cáncer, insuficiencia renal crónica o un accidente grave. La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=34) cita el Decreto Supremo 3462 de 2018. Ver [Licencias especiales](/guias/laboral/licencias-especiales/). [VERIFICAR]
+
+### ¿Necesito estar casado para tener inamovilidad por el nacimiento de mi hijo?
+
+No. La madre y el padre tienen inamovilidad desde la gestación hasta que el hijo cumpla un año, sea cual sea su estado civil ([Decreto Supremo 0012](/biblioteca/decreto-supremo-0012/leer/#page=2), art. 2). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).
+
+### ¿Qué documentos presento para acreditar la inamovilidad por embarazo o paternidad?
+
+El certificado médico de embarazo del ente gestor o de un establecimiento público de salud, el certificado de matrimonio o el acta de reconocimiento antes del nacimiento, y después el certificado de nacimiento ([Decreto Supremo 0012](/biblioteca/decreto-supremo-0012/leer/#page=2), art. 3). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).
+
+### ¿Hasta cuándo protege el fuero sindical?
+
+Hasta un año después de que termina la gestión del dirigente: no se lo puede despedir, ni disminuir sus derechos sociales, ni perseguir por actos de su labor sindical ([Constitución](/leyes/constitucional/constitucion-politica-del-estado/articulo-51/), art. 51, parágrafo VI). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).
+
+### ¿Qué hago si sufro un accidente de trabajo?
+
+Avisa de inmediato al empleador, tú o por medio de otra persona; el empleador debe avisar al ente gestor de salud en un máximo de 24 horas ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=37), que cita el art. 30 del Código de Seguridad Social). Ver [Accidentes de trabajo y enfermedades profesionales](/guias/laboral/accidentes-y-enfermedades-del-trabajo/). [VERIFICAR]
+
+### ¿Qué subsidios recibo si voy a tener un hijo?
+
+Si estás asegurada, el empleador paga el subsidio prenatal (alimentos desde el quinto mes), el de natalidad (un pago único por el nacimiento) y el de lactancia (alimentos hasta el primer año), según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=42). Los montos cambian y deben consultarse en la norma vigente. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/). [VERIFICAR]
+
+### ¿Tengo derecho a un tiempo para amamantar durante la jornada?
+
+Sí. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=43), la madre tiene descansos de una hora al día para amamantar a su hijo; cita la Ley 3460 (art. 15) y el Decreto Supremo 115. Ver [Asignaciones familiares, maternidad y lactancia](/guias/laboral/asignaciones-familiares/). [VERIFICAR]
+
+### ¿Debo firmar el finiquito si no estoy de acuerdo con el monto?
+
+Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=28), puedes firmarlo escribiendo «recibí no conforme» junto a tu firma, o no firmarlo, para que el Ministerio de Trabajo o el juez revisen el pago. Ver [Cálculo del finiquito](/guias/laboral/calculo-del-finiquito/).

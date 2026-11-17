@@ -26,6 +26,10 @@ Es el documento donde se anota, con números, todo lo que el empleador debe paga
 
 Un finiquito no es definitivo si pagó de menos: los derechos de los trabajadores no se pueden renunciar y son nulos los acuerdos que los reduzcan (artículo 48, parágrafo III, de la Constitución). Si falta dinero, se puede reclamar la diferencia.
 
+Según la guía del Ministerio de Trabajo de 2020 ([págs. 27 y 28](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=27)), el finiquito prueba lo que el trabajador recibió, pero admite prueba en contrario. Si el monto no le parece correcto, puede firmarlo escribiendo «recibí no conforme» junto a su firma, o no firmarlo, para que el Ministerio de Trabajo o el juez laboral revisen el pago. El documento debe traer los datos del trabajador y del empleador, el motivo y la fecha del retiro, la fecha de ingreso, la remuneración, el tiempo de servicios y el detalle de cada derecho pagado.
+
+> Firmar el finiquito con la nota «recibí no conforme» deja constancia de que se recibió el dinero sin aceptar que el monto sea el correcto.
+
 ## Desde cuándo corresponde
 
 El Decreto Supremo 110, de 1 de mayo de 2009, garantiza la indemnización por tiempo de servicios a quien cumplió más de 90 días de trabajo continuo y fue retirado intempestivamente o presentó su renuncia voluntaria (artículos 1 y 2). Texto completo en la Biblioteca: [Decreto Supremo 110](/biblioteca/decreto-supremo-110/).
@@ -71,6 +75,8 @@ Aquí van solo las fórmulas. Los montos de ejemplo se omiten a propósito, porq
 
 !! Esta guía sirve para entender la liquidación, no para fijar el monto exacto de un caso. Los pagos reales dependen de la causa de salida, de los pagos previos y de las normas aplicables.
 
+La guía del Ministerio de Trabajo de 2020 trae un ejemplo completo de cálculo de indemnización, desahucio, aguinaldo y vacaciones ([págs. 49 a 51](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=49)). Usa el salario mínimo de 2019, así que sirve para ver el método, no los montos.
+
 ## Si el trabajador renuncia
 
 La Resolución Ministerial 447/09, de 8 de julio de 2009, define el retiro voluntario como la manifestación escrita o verbal del trabajador de terminar la relación laboral, sin importar el motivo. Si ya cumplió más de 90 días de trabajo, el empleador debe pagar la indemnización y los demás derechos en 15 días calendario desde la conclusión de la relación (artículo 1). Texto en la Biblioteca: [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/).
@@ -81,7 +87,7 @@ El Decreto Ley 16187, de 16 de febrero de 1979 (artículo 4), dice que las indem
 
 ## Quinquenio
 
-Los derechos que el trabajador adquiere cada cinco años se acumulan. Si después pierde sus beneficios por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 de su Reglamento, la pérdida solo afecta al quinquenio vigente y no a los anteriores (Decreto Supremo 110, artículo 4).
+Los derechos que el trabajador adquiere cada cinco años se acumulan. Si después pierde sus beneficios por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 de su Reglamento, la pérdida solo afecta al quinquenio vigente y no a los anteriores (Decreto Supremo 110, artículo 4). Ver [El quinquenio](/guias/laboral/quinquenio/).
 
 ## Plazo para pagar
 

@@ -61,6 +61,8 @@ El salario se paga en dinero. El artículo 39 del Reglamento define la remunerac
 
 > La remuneración incluye también las comisiones y la participación en los beneficios cuando tienen carácter permanente (Reglamento, artículo 39).
 
+> Cada año una norma especial fija el incremento salarial, en coordinación entre el Órgano Ejecutivo y las organizaciones de trabajadores. En 2020, por la pandemia, no hubo incremento ([guía del Ministerio de Trabajo de 2020, pág. 44](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=44)).
+
 ## Si el pago se atrasa
 
 - **Primera instancia:** el Ministerio de Trabajo (ver la pregunta [¿Dónde reclamo primero?](/preguntas/laboral/#p1)).

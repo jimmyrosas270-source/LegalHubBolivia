@@ -488,6 +488,66 @@
     "/leyes/laboral/ley-general-del-trabajo/articulo-41/|Artículo 41, Ley General del Trabajo",
     "/guias/laboral/jornada-de-trabajo/|Guía"
    ]
+  },
+  {
+   "termino": "Inamovilidad laboral",
+   "definicion": "Protección por la que ciertos trabajadores no pueden ser despedidos, ni sufrir rebaja de salario o cambio de puesto, salvo causa legal atribuible a ellos. Alcanza a madres y padres hasta que el hijo cumple un año, a dirigentes sindicales y a personas con discapacidad.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/inamovilidad-laboral/|Guía",
+    "/biblioteca/decreto-supremo-0012/|Artículo 2, Decreto Supremo 0012"
+   ]
+  },
+  {
+   "termino": "Fuero sindical",
+   "definicion": "Protección del dirigente sindical: no puede ser despedido hasta un año después de terminar su gestión.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-51/|Artículo 51, Constitución",
+    "/guias/laboral/inamovilidad-laboral/|Guía"
+   ]
+  },
+  {
+   "termino": "Licencia",
+   "definicion": "Permiso del empleador para no trabajar durante un tiempo, previsto por las normas laborales. Las licencias especiales se pagan.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/licencias-especiales/|Guía"
+   ]
+  },
+  {
+   "termino": "Accidente de trabajo",
+   "definicion": "Lesión traumática o alteración funcional, permanente o temporal, inmediata o posterior, o la muerte, causada por una fuerza propia del trabajo.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/laboral/ley-general-del-trabajo/articulo-81/|Artículo 81, Ley General del Trabajo",
+    "/guias/laboral/accidentes-y-enfermedades-del-trabajo/|Guía"
+   ]
+  },
+  {
+   "termino": "Enfermedad profesional",
+   "definicion": "Enfermedad que resulta del trabajo y produce lesiones o trastornos, contraída durante el año anterior a la incapacidad.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/laboral/ley-general-del-trabajo/articulo-82/|Artículo 82, Ley General del Trabajo",
+    "/guias/laboral/accidentes-y-enfermedades-del-trabajo/|Guía"
+   ]
+  },
+  {
+   "termino": "Asignaciones familiares",
+   "definicion": "Subsidios prenatal, de natalidad, de lactancia y de sepelio que el empleador paga a su cargo a los trabajadores asegurados.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/asignaciones-familiares/|Guía"
+   ]
+  },
+  {
+   "termino": "Recibí no conforme",
+   "definicion": "Nota que el trabajador escribe junto a su firma en el finiquito para dejar constancia de que no acepta el monto como correcto.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/calculo-del-finiquito/|Guía"
+   ]
   }
  ]
 }
