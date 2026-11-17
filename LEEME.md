@@ -72,3 +72,7 @@ Requiere Python 3 y poppler-utils (`pdfinfo`, `pdftoppm`, `pdftotext`).
 - Para cambiar el orden, mueve las entradas en el archivo; para quitar una, bórrala; para añadir un PDF, copia una entrada y pon en `archivo` el nombre que tiene en `catalogo.csv`.
 - `"inicio": true` la muestra también en la portada de la Biblioteca.
 - `portada` dibuja una tapa propia: `tipo` (rótulo de arriba), `lineas` (el título en renglones cortos), `pie` (año) y `color` (tinta, verde, bosque, menta, kantuta, ocre o papel). Sin `portada`, se usa la primera página del PDF.
+
+## Hipervínculos en los PDF
+
+Al publicar, el generador quita solo los hipervínculos y los resaltados o notas de lector que traigan los PDF (por ejemplo, los copiados de sitios de normas). El texto y el aspecto de las páginas no cambian. No hace falta limpiarlos a mano antes de subirlos.
