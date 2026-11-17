@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar herramientas de PDF
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils && pip install -q pypdf
 
       - name: Construir el sitio
         run: python3 herramientas/construir.py

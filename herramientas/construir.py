@@ -214,6 +214,37 @@ def anio_de(d):
 
 
 JUR = os.path.join(RAIZ, 'jurisprudencia')
+def quitar_enlaces(origen, destino):
+    """Copia el PDF sin hipervínculos ni resaltados/notas de lector. El texto no cambia.
+    Devuelve False si no hay nada que quitar o si pypdf no está instalado."""
+    try:
+        import pypdf
+        from pypdf.generic import NameObject, ArrayObject
+    except ImportError:
+        return False
+    try:
+        r = pypdf.PdfReader(origen)
+        if not any(a.get_object().get('/Subtype') in ('/Link', '/Highlight', '/Popup')
+                   for pg in r.pages for a in (pg.get('/Annots') or [])):
+            return False
+        w = pypdf.PdfWriter(clone_from=r)
+        for pg in w.pages:
+            an = pg.get('/Annots')
+            if an:
+                quedan = ArrayObject([a for a in an.get_object() if a.get_object().get('/Subtype') not in ('/Link', '/Highlight', '/Popup')])
+                if quedan:
+                    pg[NameObject('/Annots')] = quedan
+                else:
+                    del pg['/Annots']
+        with open(destino, 'wb') as o:
+            w.write(o)
+        AVISOS.append(f'Se quitaron hipervínculos o resaltados de «{os.path.basename(origen)}» al publicarlo (el texto no cambia).')
+        return True
+    except Exception as e:
+        AVISOS.append(f'No se pudieron quitar los enlaces de «{os.path.basename(origen)}»: {e}. Se publica tal cual.')
+        return False
+
+
 # Portadas propias y normas principales (contenido/destacadas.json)
 exec(open(os.path.join(HERR, 'portadas.py'), encoding='utf-8').read())
 
@@ -297,7 +328,9 @@ def construir_seccion(S):
                      'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200})
         os.makedirs(os.path.join(OUT, ruta_s, 'archivos'), exist_ok=True)
         os.makedirs(os.path.join(OUT, ruta_s, 'portadas'), exist_ok=True)
-        shutil.copy(ruta, os.path.join(OUT, ruta_s, 'archivos', sl + '.pdf'))
+        destino_pdf = os.path.join(OUT, ruta_s, 'archivos', sl + '.pdf')
+        if not quitar_enlaces(ruta, destino_pdf):
+            shutil.copy(ruta, destino_pdf)
         subprocess.run(['pdftoppm', '-f', '1', '-l', '1', '-singlefile', '-scale-to', '520', '-jpeg', '-jpegopt', 'quality=82',
                         ruta, os.path.join(OUT, ruta_s, 'portadas', sl)], check=True)
 
