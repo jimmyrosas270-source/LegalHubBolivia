@@ -65,3 +65,10 @@ python3 herramientas/revisar.py salida
 cd salida && python3 -m http.server 8000
 ```
 Requiere Python 3 y poppler-utils (`pdfinfo`, `pdftoppm`, `pdftotext`).
+
+## Normas principales y portadas (`contenido/destacadas.json`)
+
+- Cada materia tiene una lista de normas principales, en el orden en que se muestran: la primera sale arriba en `/biblioteca/<materia>/` y en `/leyes/<materia>/`.
+- Para cambiar el orden, mueve las entradas en el archivo; para quitar una, bórrala; para añadir un PDF, copia una entrada y pon en `archivo` el nombre que tiene en `catalogo.csv`.
+- `"inicio": true` la muestra también en la portada de la Biblioteca.
+- `portada` dibuja una tapa propia: `tipo` (rótulo de arriba), `lineas` (el título en renglones cortos), `pie` (año) y `color` (tinta, verde, bosque, menta, kantuta, ocre o papel). Sin `portada`, se usa la primera página del PDF.

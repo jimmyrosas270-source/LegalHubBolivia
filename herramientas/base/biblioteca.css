@@ -83,3 +83,13 @@
 .grupo-tit{font-size:20px;margin:0 0 12px;padding-bottom:6px;border-bottom:2px solid var(--linea)}
 .grupo-tit small{font-size:15px;font-weight:500;color:var(--sec)}
 #todos{margin-top:8px}
+
+/* Portadas propias y normas principales (portadas.py) */
+.tapa-svg{display:block;width:100%;height:100%}
+.destacadas{margin:8px 0 28px}
+.destacadas .estante{margin-top:10px}
+.libro.destacada{border-color:var(--verde);box-shadow:inset 3px 0 0 var(--ocre)}
+.grupo-tit.sep{margin-top:8px}
+.tarjeta.con-tapa{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:start}
+.tarjeta-d{display:flex;flex-direction:column;gap:8px;min-width:0}
+@media (min-width:640px){.tarjeta.con-tapa{grid-template-columns:140px 1fr}}

@@ -1,0 +1,34 @@
+{
+ "LEEME": "Normas principales de cada materia, en el orden en que se muestran (la primera, arriba). Cada una puede ser una norma por artículos ('ruta', en Normativa) o un PDF de la Biblioteca ('archivo', el nombre en catalogo.csv). 'inicio': true la muestra también arriba en /biblioteca/. 'portada' dibuja una tapa propia: 'lineas' es el título en renglones cortos, 'tipo' el rótulo de arriba, 'pie' el dato de abajo y 'color' uno de: tinta, verde, bosque, menta, kantuta, ocre, papel. Para cambiar el orden, mueve las entradas; para quitar una, bórrala.",
+ "materias": {
+  "Constitucional": [
+   {"ruta": "/leyes/constitucional/constitucion-politica-del-estado/", "titulo": "Constitución Política del Estado", "sub": "Texto aprobado en el Referéndum de enero de 2009", "detalle": "411 artículos · 5 partes", "inicio": true,
+    "portada": {"tipo": "Constitución", "lineas": ["Constitución", "Política", "del Estado"], "pie": "2009", "color": "tinta"}}
+  ],
+  "Laboral": [
+   {"ruta": "/leyes/laboral/ley-general-del-trabajo/", "titulo": "Ley General del Trabajo", "sub": "Ley de 24 de mayo de 1939 · Texto ordenado", "detalle": "122 artículos · 12 títulos", "inicio": true,
+    "portada": {"tipo": "Ley", "lineas": ["Ley General", "del Trabajo"], "pie": "1939 · Texto ordenado", "color": "verde"}},
+   {"ruta": "/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/", "titulo": "Reglamento de la Ley General del Trabajo", "sub": "Decreto Supremo 224 de 23 de agosto de 1943", "detalle": "165 artículos · 11 títulos",
+    "portada": {"tipo": "Decreto Supremo 224", "lineas": ["Reglamento", "de la Ley", "General", "del Trabajo"], "pie": "1943", "color": "menta"}},
+   {"ruta": "/leyes/laboral/codigo-procesal-del-trabajo/", "titulo": "Código Procesal del Trabajo", "sub": "Decreto Ley 16896 de 25 de julio de 1979", "detalle": "253 artículos · 2 libros",
+    "portada": {"tipo": "Código", "lineas": ["Código", "Procesal", "del Trabajo"], "pie": "1979", "color": "bosque"}},
+   {"archivo": "ley-1468.pdf",
+    "portada": {"tipo": "Ley N.º 1468", "lineas": ["Restitución", "de derechos", "laborales"], "pie": "2022", "color": "ocre"}},
+   {"archivo": "decreto-supremo-28699.pdf",
+    "portada": {"tipo": "Decreto Supremo N.º 28699", "lineas": ["Estabilidad", "laboral y", "finiquito"], "pie": "2006", "color": "papel"}},
+   {"archivo": "decreto-supremo-110.pdf",
+    "portada": {"tipo": "Decreto Supremo N.º 110", "lineas": ["Indemnización", "por tiempo", "de servicios"], "pie": "2009", "color": "papel"}},
+   {"archivo": "ley-de-18-de-diciembre-de-1944.pdf",
+    "portada": {"tipo": "Ley de 18 de diciembre", "lineas": ["Aguinaldo", "de Navidad"], "pie": "1944", "color": "kantuta"}},
+   {"archivo": "guia-de-derechos-laborales-2020.pdf"}
+  ],
+  "Familia": [
+   {"archivo": "ley-603-codigo-de-las-familias.pdf", "inicio": true,
+    "portada": {"tipo": "Ley N.º 603", "lineas": ["Código de", "las Familias", "y del Proceso", "Familiar"], "pie": "2014", "color": "kantuta"}}
+  ],
+  "Personas con discapacidad": [
+   {"archivo": "ley-223.pdf",
+    "portada": {"tipo": "Ley N.º 223", "lineas": ["Ley General", "para Personas", "con Discapacidad"], "pie": "2012", "color": "verde"}}
+  ]
+ }
+}

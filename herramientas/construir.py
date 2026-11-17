@@ -214,6 +214,9 @@ def anio_de(d):
 
 
 JUR = os.path.join(RAIZ, 'jurisprudencia')
+# Portadas propias y normas principales (contenido/destacadas.json)
+exec(open(os.path.join(HERR, 'portadas.py'), encoding='utf-8').read())
+
 SECCIONES = [
     {'ruta': 'biblioteca', 'carpeta': BIB, 'nombre': 'Biblioteca', 'sing': 'documento', 'plur': 'documentos', 'con_estado': True, 'agrupa': 'materia',
      'desc': 'Normas bolivianas completas en PDF: léelas en línea, busca dentro del texto o descárgalas.',
@@ -326,7 +329,7 @@ def construir_seccion(S):
         filtro = d['grupo'] if filtro is None else filtro
         etq = d['grupo'] if etq is None else etq
         return (f'<article class="libro" data-materia="{E(filtro)}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"] + " " + d["grupo"] + " " + d.get("tgrupo", "")).lower())}">'
-                f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>'
+                f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor">{tapa_doc(d) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336">'}<span>{ico("book", 18)}Leer</span></a>'
                 f'<div class="libro-d"><div class="entre"><span class="etq">{E(etq)}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
                 f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
                 f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
@@ -353,10 +356,16 @@ def portada_por_materias(S, DOCS, tarjeta):
     por_materia = {}
     for d in DOCS:
         por_materia.setdefault(d['materia'], []).append(d)
-    con_docs = list(por_materia)
-    sin_docs = [m for m in MATERIAS_FIJAS if m not in por_materia]
+    orden = [m for m in ORDEN_MATERIAS if m in por_materia or m in MATERIAS_FIJAS] + [m for m in por_materia if m not in ORDEN_MATERIAS]
+    con_docs = [m for m in orden if m in por_materia]
     carpetas = []
-    for m in con_docs:
+    for m in orden:
+        if m not in por_materia:
+            if os.path.isdir(os.path.join(OUT, 'leyes', slug(m))):
+                carpetas.append(f'<a class="materia carpeta" href="/leyes/{slug(m)}/"><b>{E(m)}</b><small>Por artículos en Normativa</small></a>')
+            else:
+                carpetas.append(f'<div class="materia off"><b>{E(m)}</b><small>Próximamente</small></div>')
+            continue
         docs = por_materia[m]
         tipos = []
         for g in NOMBRES_GRUPO:
@@ -365,17 +374,15 @@ def portada_por_materias(S, DOCS, tarjeta):
                 tipos.append(f'{g.lower()} {k}')
         carpetas.append(f'<a class="materia carpeta" href="/{ruta_s}/{slug(m)}/"><b>{E(m)}</b><small>{plural(len(docs), S["sing"], S["plur"])}</small>'
                         f'<small class="tipos">{E(" · ".join(tipos))}</small></a>')
-    for m in sin_docs:
-        if os.path.isdir(os.path.join(OUT, 'leyes', slug(m))):
-            carpetas.append(f'<a class="materia carpeta" href="/leyes/{slug(m)}/"><b>{E(m)}</b><small>Por artículos en Normativa</small></a>')
-        else:
-            carpetas.append(f'<div class="materia off"><b>{E(m)}</b><small>Próximamente</small></div>')
+    por_archivo = {d['archivo']: d for d in DOCS}
+    dest_inicio = bloque_destacadas([dict(x, _materia=m) for m in ORDEN_MATERIAS for x in DESTACADAS.get(m, []) if x.get('inicio')], por_archivo, etq_materia=True) if ruta_s == 'biblioteca' else ''
     buscador = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Buscar en toda la Biblioteca" aria-label="Buscar en toda la Biblioteca"></label></div>'
                 f'<section id="todos" hidden><p id="cuenta" class="sec" role="status" aria-live="polite"></p>'
                 f'<div class="estante">{"".join(tarjeta(d, etq=d["materia"]) for d in DOCS)}</div><div id="nada" class="vacio" hidden>Ninguna coincidencia.</div></section>') if DOCS else ''
     escribe(f'{ruta_s}/index.html', pagina(S['nombre'], S['desc'],
             f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")])}<h1>{S["nombre"]}</h1>
 <p class="entrada">Normas completas en PDF, ordenadas por materia. Abre una carpeta o busca en toda la Biblioteca.</p>{buscador}
+{dest_inicio}<h2 class="grupo-tit">Materias</h2>
 <div class="rejilla r4 carpetas" id="carpetas">{"".join(carpetas)}</div>{alerta(S["aviso"])}</div>''',
             S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
 
@@ -388,10 +395,11 @@ def portada_por_materias(S, DOCS, tarjeta):
             for g in grupos)
         escribe(f'{ruta_s}/{slug(m)}/index.html', pagina(f'{m} · {S["nombre"]}', f'Normas de materia {m.lower()} en PDF: leer en línea, buscar y descargar.',
                 f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/"), (m, "")])}<h1>{E(m)}</h1>
-<p class="entrada">{plural(len(docs), S["sing"], S["plur"])}, ordenados por tipo de norma y por fecha, del más antiguo al más reciente.</p>
+<p class="entrada">{plural(len(docs), S["sing"], S["plur"])}, {"primero las normas principales y después todos" if DESTACADAS.get(m) else "ordenados"} por tipo de norma y por fecha, del más antiguo al más reciente.</p>
 <div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o tema" aria-label="Filtrar {S["plur"]}"></label>
 <div class="chips" role="group" aria-label="Tipos de norma"><button type="button" class="chip-f" data-m="" aria-pressed="true">Todos</button>{chips}</div></div>
 <p id="cuenta" class="sec" role="status" aria-live="polite">{plural(len(docs), S["sing"], S["plur"])}</p>
+{bloque_destacadas(DESTACADAS.get(m, []), por_archivo) if ruta_s == "biblioteca" else ""}{"<h2 class='grupo-tit sep'>Todas las normas, por tipo</h2>" if ruta_s == "biblioteca" and DESTACADAS.get(m) else ""}
 {secciones}<div id="nada" class="vacio" hidden>Ninguna coincidencia con el filtro.</div>
 <p><a class="mas" href="/{ruta_s}/">Volver a todas las materias</a></p>{alerta(S["aviso"])}</div>''',
                 S['nombre'], scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
@@ -441,7 +449,7 @@ def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
                 f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")] + ([(d["materia"], f"/{ruta_s}/{d['mslug']}/")] if d.get('mslug') else []) + [(d["titulo"], "")])}
 <div class="dos"><div>
 <div class="entre"><span class="etq">{E(d["tipo"] or S["tipo_def"])} · PDF</span>{tag(d["estado"]) if S["con_estado"] else ""}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
-<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor"><img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"><span>{ico("book", 18)}Leer</span></a>
+<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor">{tapa_doc(d, "Primera página de " + d["titulo"]) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336">'}<span>{ico("book", 18)}Leer</span></a>
 <div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a><a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a></p>
 <form class="buscador" action="{url(d, "leer/")}" method="get" role="search">{ico("search", 20)}<input type="search" name="buscar" placeholder="Buscar dentro de este documento" aria-label="Buscar dentro de este documento"{'' if d['con_texto'] else ' disabled'}><button type="submit"{'' if d['con_texto'] else ' disabled'}>Buscar</button></form>{escaneado}</div></div>
 {desc}</div>
@@ -508,10 +516,71 @@ for dp, _, fs in os.walk(OUT):
         doc = open(p, encoding='utf-8').read()
         if 'href="/jurisprudencia/"' in doc:
             continue
-        nuevo = ENLACE_NORM.sub(r'\1<a href="/biblioteca/">Biblioteca</a><a href="/jurisprudencia/">Jurisprudencia</a>', doc)
+        partes = re.split(r'(<nav class="migas".*?</nav>)', doc, flags=re.S)
+        nuevo = ''.join(x if x.startswith('<nav class="migas"') else ENLACE_NORM.sub(r'\1<a href="/biblioteca/">Biblioteca</a><a href="/jurisprudencia/">Jurisprudencia</a>', x) for x in partes)
         if nuevo != doc:
             n_menu += 1
             open(p, 'w', encoding='utf-8').write(nuevo)
+
+# ---------------------------------------------------------------- 3b. normas principales y portadas en /leyes/
+# Arregla también las migas que versiones anteriores del generador ensuciaron con el menú.
+MIGAS_SUCIAS = '<a href="/leyes/">Normativa</a><a href="/biblioteca/">Biblioteca</a><a href="/jurisprudencia/">Jurisprudencia</a><span aria-hidden="true">›</span>'
+n_migas = 0
+for dp, _, fs in os.walk(os.path.join(OUT, 'leyes')):
+    for fn in fs:
+        if fn.endswith('.html'):
+            p = os.path.join(dp, fn)
+            doc = open(p, encoding='utf-8').read()
+            mig = re.search(r'<nav class="migas".*?</nav>', doc, re.S)
+            if mig and MIGAS_SUCIAS in mig.group(0):
+                doc = doc.replace(mig.group(0), mig.group(0).replace(MIGAS_SUCIAS, '<a href="/leyes/">Normativa</a><span aria-hidden="true">›</span>'))
+                open(p, 'w', encoding='utf-8').write(doc)
+                n_migas += 1
+POR_ARCHIVO = {d['archivo']: d for d in DOCS}
+n_tapas = 0
+for m in ORDEN_MATERIAS:
+    p = os.path.join(OUT, 'leyes', slug(m), 'index.html')
+    if not os.path.isfile(p):
+        continue
+    doc = open(p, encoding='utf-8').read()
+    rutas = [x['ruta'] for x in DESTACADAS.get(m, []) if x.get('ruta')]
+    arts = re.findall(r'<article class="tarjeta">.*?</article>', doc, re.S)
+    if not arts:
+        continue
+
+    def rango(a):
+        r = re.search(r'href="([^"]+)"', a).group(1)
+        return rutas.index(r) if r in rutas else len(rutas)
+
+    nuevos = []
+    for a in sorted(arts, key=rango):
+        r = re.search(r'href="([^"]+)"', a).group(1)
+        x = PORTADA_RUTA.get(r)
+        if x:
+            a = (f'<article class="tarjeta con-tapa"><a class="tapa" href="{r}" aria-label="Abrir {E(x["titulo"])}">{portada_svg(x["portada"], x["titulo"])}</a><div class="tarjeta-d">'
+                 + a[len('<article class="tarjeta">'):-len('</article>')] + '</div></article>')
+            n_tapas += 1
+        nuevos.append(a)
+    ini = doc.index(arts[0])
+    fin = max(doc.index(a) + len(a) for a in arts)
+    pdfs = [t for t in (tarjeta_destacada(x, POR_ARCHIVO) for x in DESTACADAS.get(m, []) if x.get('archivo')) if t]
+    extra = (f'<section class="destacadas en-leyes"><h2 class="grupo-tit">También en la Biblioteca (PDF)</h2><div class="estante">{"".join(pdfs)}</div>'
+             f'<p><a class="mas" href="/biblioteca/{slug(m)}/">Ver todas las normas de {E(m.lower())} en PDF</a></p></section>') if pdfs else ''
+    doc = doc[:ini] + ''.join(nuevos) + extra + doc[fin:]
+    if '/assets/biblioteca.css' not in doc:
+        doc = doc.replace('<link rel="stylesheet" href="/assets/estilos.css">', '<link rel="stylesheet" href="/assets/estilos.css">\n<link rel="stylesheet" href="/assets/biblioteca.css">', 1)
+    open(p, 'w', encoding='utf-8').write(doc)
+# /leyes/: materias sin normas por artículos pero con PDF en la Biblioteca
+p = os.path.join(OUT, 'leyes', 'index.html')
+if os.path.isfile(p):
+    doc = open(p, encoding='utf-8').read()
+    for m in ORDEN_MATERIAS:
+        k = sum(1 for d in DOCS if d['materia'] == m)
+        off = f'<div class="materia off"><b>{E(m)}</b><small>Próximamente</small></div>'
+        if k and off in doc:
+            doc = doc.replace(off, f'<a class="materia" href="/biblioteca/{slug(m)}/"><b>{E(m)}</b><small>{plural(k, "documento", "documentos")} en PDF (Biblioteca)</small></a>')
+    open(p, 'w', encoding='utf-8').write(doc)
+print(f'Portadas propias en Normativa: {n_tapas}. Migas corregidas: {n_migas}.')
 
 # ---------------------------------------------------------------- 4. notas editoriales
 NOTAS = json.load(open(os.path.join(RAIZ, 'contenido', 'notas_editoriales.json'), encoding='utf-8'))['notas']
