@@ -2,7 +2,7 @@
 titulo: Trabajo en domingos y feriados
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Los domingos y los feriados son días de descanso. Solo algunas actividades pueden trabajar en ellos, y quien lo hace recibe un recargo del 100 % o un día de descanso a cambio. Esta guía explica la regla, el salario dominical, los dos casos en que el domingo no se paga triple y los puntos en que los textos no coinciden.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-41/ | Artículo 41 | Ley General del Trabajo
@@ -17,6 +17,8 @@ articulos:
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-2/ | Artículo 2 | Ley de 29 de diciembre de 1944 (feriados y duelos)
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-3/ | Artículo 3 | Ley de 29 de diciembre de 1944 (feriados y duelos)
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 13 a 15 y 22 y 23
+- /biblioteca/decreto-supremo-29010/ | Decreto Supremo 29010 (PDF) | Salario dominical
+- /biblioteca/decreto-supremo-2750/ | Decreto Supremo 2750 (PDF) | Feriados nacionales
 ---
 ## La regla: descanso
 
@@ -63,7 +65,14 @@ El domingo trabajado y el salario dominical son cosas distintas. El **salario do
 > Desde abril de 1954, los obreros tienen un salario semanal de siete días corridos: el salario diario se multiplica por siete (Decreto Supremo 3691, artículo 22).
 
 
-**Cómo se calcula, según la guía del Ministerio.** La guía de 2020 ([págs. 14 y 15](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)) lo presenta como un derecho de los obreros del sector productivo que cumplieron el horario semanal completo, que puede perderse por impuntualidad o faltas en la semana, y da esta fórmula: el haber básico se divide entre los días hábiles promedio del mes y se multiplica por los domingos del mes. El resultado debe figurar en la planilla y en la papeleta de pago separado del haber básico. La guía cita, además del Decreto Supremo 3691, un Decreto Supremo 29010 de 9 de enero de 2007, que no está en la Biblioteca. [VERIFICAR]
+**Cómo se calcula.** El [Decreto Supremo 29010, de 9 de enero de 2007](/biblioteca/decreto-supremo-29010/leer/), reglamenta el salario dominical:
+
+- Lo define como un incentivo distinto del haber básico; sus considerandos lo describen como un premio a la puntualidad y la asistencia (artículo 2).
+- En el sector privado corresponde a los obreros del sector productivo que cumplieron su horario semanal completo; en el sector público, a los obreros temporales y sin nombramiento (artículo 3).
+- Se calcula dividiendo el haber básico entre los días hábiles promedio del mes y multiplicando el resultado por los domingos de ese mes, y debe figurar en la planilla y en la papeleta de pago separado del haber básico (artículo 4).
+
+La guía del Ministerio de Trabajo de 2020 explica lo mismo ([págs. 14 y 15](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)).
+
 ## El pago del feriado no trabajado (obreros)
 
 La [ley de 29 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/) regula otra cosa: el salario de los feriados y duelos nacionales para los obreros, trabajen o no ese día. Según su texto:
@@ -78,4 +87,8 @@ Esta ley habla de obreros y no menciona a los empleados. Cómo se combina con el
 
 ## Qué días son feriados
 
-La lista del artículo 29 del Reglamento es de 1943: incluye los domingos, el 1 de enero, el lunes y el martes de carnaval, el jueves y el viernes santo, el 1 de mayo, Corpus Christi, el 6 de agosto, el 1 y el 2 de noviembre y el 25 de diciembre. Normas posteriores cambiaron la lista. La guía del Ministerio de Trabajo de 2020 ([pág. 22](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22)) da los feriados nacionales del Decreto Supremo 2750, de 1 de mayo de 2016: 1 de enero, 22 de enero (creación del Estado Plurinacional), lunes y martes de carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio (Año Nuevo Andino), 6 de agosto, 2 de noviembre y 25 de diciembre. Ese decreto no está todavía en la Biblioteca. El calendario de cada año debe consultarse en la norma oficial vigente. [VERIFICAR]
+La lista del artículo 29 del Reglamento es de 1943: incluye los domingos, el 1 de enero, el lunes y el martes de carnaval, el jueves y el viernes santo, el 1 de mayo, Corpus Christi, el 6 de agosto, el 1 y el 2 de noviembre y el 25 de diciembre. Normas posteriores cambiaron la lista. Hoy rige el [Decreto Supremo 2750, de 1 de mayo de 2016](/biblioteca/decreto-supremo-2750/leer/), que fija como feriados nacionales, con suspensión de actividades públicas y privadas (artículo 2): 1 de enero (Año Nuevo), 22 de enero (creación del Estado Plurinacional), lunes y martes de Carnaval, Viernes Santo, 1 de mayo (Día del Trabajo), Corpus Christi, 21 de junio (Año Nuevo Aymara Amazónico), 6 de agosto (Independencia), 2 de noviembre (Todos los Difuntos) y 25 de diciembre (Navidad). Cuando uno de ellos cae en domingo, el lunes siguiente es feriado, salvo las excepciones que el mismo decreto señala (artículo 3).
+
+> El decreto de 2016 que fija el calendario de feriados se dictó para fomentar el turismo interno: trasladar al lunes los feriados que caen en domingo crea fines de semana largos.
+
+Los feriados departamentales y los cambios de cada año se anuncian por comunicados oficiales: conviene revisarlos.

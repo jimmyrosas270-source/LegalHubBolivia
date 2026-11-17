@@ -2,7 +2,7 @@
 titulo: El aguinaldo de Navidad y el segundo aguinaldo
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: El aguinaldo es un pago anual obligatorio. La ley dice que debe pagarse antes del 25 de diciembre, y en la práctica el plazo exigido es el 20. Si no se paga, la ley manda pagarlo doble. El segundo aguinaldo «Esfuerzo por Bolivia» no se paga todos los años: depende de cuánto haya crecido la economía.
 articulos:
 - /biblioteca/ley-de-18-de-diciembre-de-1944/ | Ley de 18 de diciembre de 1944 (PDF) | Artículos 1 a 3
@@ -43,11 +43,13 @@ No hay que confundirlo con la prima anual: son pagos distintos y la prima solo s
 
 ## Hasta cuándo debe pagarse
 
-Hay dos fechas y las dos tienen respaldo:
+El plazo que se aplica es el **20 de diciembre**.
 
-- **Antes del 25 de diciembre.** Es lo que dice el artículo 1 de la ley de 1944.
-- **20 de diciembre.** Es el plazo que se exige en la práctica. El [Decreto Supremo 28448, de 22 de noviembre de 2005](/biblioteca/decreto-supremo-28448/leer/), lo fija para el pago al personal en funciones del sector público y, en sus considerandos, recuerda que el plazo para los trabajadores de las empresas privadas ya estaba señalado el 20 de diciembre. El resumen del Auto Supremo 496/2022 también lo toma como plazo máximo, y los materiales de apoyo explican que cada año el Ministerio de Trabajo emite un instructivo con esa fecha. La diferencia con la ley viene de que una fecha sale de la ley y la otra de disposiciones que reglamentan su cumplimiento. [VERIFICAR]
-- Los mismos materiales señalan que quien paga entre el 21 y el 24 de diciembre podría defenderse en juicio invocando el texto de la ley, pero que, para evitar sanciones administrativas, multas y litigios, la fecha segura es el 20; también que las planillas de respaldo se presentan al Ministerio hasta fines de diciembre. Esos puntos no están en los textos de la Biblioteca. [VERIFICAR]
+- El [Decreto Supremo 28448, de 22 de noviembre de 2005](/biblioteca/decreto-supremo-28448/leer/), lo fija para el sector público y, en sus considerandos, recuerda que para los trabajadores de las empresas privadas ya estaba señalado el 20 de diciembre.
+- El resumen del Auto Supremo 496/2022 también lo toma como plazo máximo.
+- El editor del sitio comprobó que los comunicados oficiales del Ministerio de Trabajo y del Gobierno de los últimos años fijan el pago hasta el 20 de diciembre.
+
+La ley de 1944 (artículo 1) habla de pagar «antes del 25 de diciembre»; la fecha del 20 sale de las disposiciones que reglamentan su cumplimiento. Para no arriesgar el pago doble, la fecha que se toma es el 20.
 
 ## Si no se paga: pago doble
 

@@ -2,13 +2,15 @@
 titulo: Teletrabajo
 materia: Laboral
 publico: Trabajadores y empleadores del sector público y privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Qué es el teletrabajo, cuántas horas se trabaja, qué debe decir la adenda al contrato, quién pone los equipos y la conexión y cuáles son las obligaciones de cada parte.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-46/ | Artículo 46 | Ley General del Trabajo
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 44 a 48
+- /biblioteca/decreto-supremo-4218/ | Decreto Supremo 4218 (PDF) | Teletrabajo (2020)
+- /biblioteca/resolucion-ministerial-220-20/ | Resolución Ministerial 220/20 (PDF) | Reglamento del teletrabajo
 ---
-!! Las normas de teletrabajo que se explican aquí son de abril de 2020 (Decreto Supremo 4218 y el reglamento aprobado por la Resolución Ministerial 220/2020) y no están todavía en la Biblioteca. Esta guía sigue la explicación de la guía del Ministerio de Trabajo de octubre de 2020. Si hubo normas posteriores, deben confirmarse en la fuente oficial. [VERIFICAR]
+!! El [Decreto Supremo 4218](/biblioteca/decreto-supremo-4218/leer/) (14 de abril de 2020) y la [Resolución Ministerial 220/20](/biblioteca/resolucion-ministerial-220-20/leer/) ya están en la Biblioteca. Pero el PDF de esa resolución trae una nota de su fuente según la cual el Decreto Supremo 4218 fue abrogado por el Decreto Supremo 4750, de 18 de agosto de 2021, que no está en la Biblioteca. Mientras no se confirme qué norma rige hoy, esta guía explica el régimen de 2020 como referencia. [VERIFICAR]
 
 ## Qué es
 
@@ -61,7 +63,7 @@ Según la guía ([pág. 47](/biblioteca/guia-de-derechos-laborales-2020/leer/#pa
 - Cumplir las tareas acordadas.
 - Cuidar los equipos y programas que le entregaron.
 - Usarlos solo para el trabajo y no dejar que otras personas accedan a ellos.
-- Avisar de inmediato al empleador si se pierden, se los roban o se usan mal.
+- Avisar al empleador si los equipos se pierden, se los roban, se dañan o se usan mal: el Decreto Supremo 4218 da un plazo de 24 horas (artículo 9).
 
 ## El sueldo no baja
 

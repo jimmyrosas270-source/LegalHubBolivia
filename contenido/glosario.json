@@ -198,11 +198,12 @@
   },
   {
    "termino": "Preaviso",
-   "definicion": "Aviso con anticipación de que el contrato de trabajo terminará, regulado en el artículo 12 de la Ley General del Trabajo.",
+   "definicion": "Aviso con anticipación de que un contrato por tiempo indefinido iba a terminar (90 días el empleador, 30 el trabajador). Lo regulaba el artículo 12 de la Ley General del Trabajo, declarado inconstitucional en 2017.",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/preaviso-y-despido/|Guía",
-    "/leyes/laboral/ley-general-del-trabajo/articulo-12/|Artículo 12, Ley General del Trabajo"
+    "/leyes/laboral/ley-general-del-trabajo/articulo-12/|Artículo 12, Ley General del Trabajo",
+    "/biblioteca/sentencia-constitucional-plurinacional-0009-2017/|Sentencia Constitucional Plurinacional 0009/2017"
    ]
   },
   {
@@ -653,6 +654,15 @@
     "/guias/laboral/registro-de-empleadores/|Guía",
     "/preguntas/laboral/#p107|Pregunta frecuente",
     "/biblioteca/protocolo-de-actuacion-de-la-ley-1468/leer/#page=8|Artículo 12, Protocolo de la Ley 1468"
+   ]
+  },
+  {
+   "termino": "Inconstitucionalidad sobreviniente",
+   "definicion": "Situación de una norma que era compatible con el orden jurídico de su época pero que queda en contra de una Constitución posterior. Así calificó el Tribunal Constitucional Plurinacional al preaviso en 2017.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/preaviso-y-despido/|Guía",
+    "/biblioteca/sentencia-constitucional-plurinacional-0009-2017/|Sentencia Constitucional Plurinacional 0009/2017"
    ]
   }
  ]

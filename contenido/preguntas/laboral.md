@@ -43,7 +43,7 @@ El decreto la garantiza después de más de 90 días de trabajo continuo, tanto 
 
 ### ¿Qué es el desahucio?
 
-Es el pago que corresponde al trabajador retirado intempestivamente. No corresponde a quien se retira voluntariamente ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 3). El [artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/) de la Ley General del Trabajo regula el aviso previo y el [artículo 16](/leyes/laboral/ley-general-del-trabajo/articulo-16/) enumera las causas por las que no hay desahucio ni indemnización.
+Es el pago que corresponde al trabajador retirado intempestivamente, sin una causa que le sea imputable. No corresponde a quien se retira voluntariamente ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/), artículo 3). El [artículo 16](/leyes/laboral/ley-general-del-trabajo/articulo-16/) de la Ley General del Trabajo enumera las causas por las que no hay desahucio ni indemnización. La [Sentencia Constitucional Plurinacional 0009/2017](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=16) aclaró que el desahucio sigue vigente aunque el preaviso fue declarado inconstitucional.
 
 ### ¿Cuántas horas puede durar la jornada de trabajo?
 
@@ -67,7 +67,7 @@ Se multiplica el salario promedio indemnizable por los años completos de servic
 
 ### ¿Cómo se calcula el desahucio?
 
-El [Decreto Supremo 110](/biblioteca/decreto-supremo-110/) dice cuándo corresponde (retiro intempestivo), pero no fija el monto. El [Decreto Supremo 22138](/biblioteca/decreto-supremo-22138/) lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio. Las dos lecturas no coinciden. [VERIFICAR]
+Equivale a tres salarios calculados sobre el promedio de los tres últimos meses: salario promedio indemnizable × 3. Así lo describen la [Sentencia Constitucional Plurinacional 0009/2017](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=11) y la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=50), y así se aplica en los juzgados según el editor. Ver [Cálculo del finiquito](/guias/laboral/calculo-del-finiquito/).
 
 ### ¿Cuánto tiempo tiene el empleador para pagar los beneficios sociales?
 
@@ -83,11 +83,11 @@ Es la revisión y validación del formulario único de finiquito por el Minister
 
 ### ¿Qué es el preaviso?
 
-Es el aviso con anticipación de que el contrato de trabajo terminará. El [artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/) de la Ley General del Trabajo lo exige en los contratos por tiempo indefinido, con plazos distintos para obreros y empleados. Quien no avisa debe pagar el equivalente al sueldo o salario de ese período.
+Era el aviso con anticipación de que un contrato por tiempo indefinido iba a terminar: 90 días si avisaba el empleador y 30 si avisaba el trabajador. Lo regulaba el [artículo 12](/leyes/laboral/ley-general-del-trabajo/articulo-12/) de la Ley General del Trabajo, que la [Sentencia Constitucional Plurinacional 0009/2017](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=16) declaró inconstitucional el 24 de marzo de 2017. Ver [El preaviso: declarado inconstitucional en 2017](/guias/laboral/preaviso-y-despido/).
 
 ### ¿Me pueden despedir solo avisando con anticipación?
 
-No siempre. La [Sentencia Constitucional Plurinacional 1262/2013](/biblioteca/sentencia-constitucional-plurinacional-1262-2013/) dice que el trabajador puede aceptar el preaviso y cobrar sus beneficios sin desahucio, o no aceptarlo y pedir su reincorporación. La [Sentencia 907/2016](/biblioteca/sentencia-constitucional-plurinacional-0907-2016/) aclaró que el preaviso no quedó sin valor por la sentencia anterior, lo que generó dudas. Ver la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
+No. Desde la [Sentencia Constitucional Plurinacional 0009/2017](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=16), que declaró inconstitucional el preaviso del artículo 12 de la Ley General del Trabajo, el empleador solo puede despedir por una causa legal. Si te despiden sin causa, puedes cobrar tus beneficios sociales, incluido el desahucio, o pedir tu reincorporación. Ver [El preaviso: declarado inconstitucional en 2017](/guias/laboral/preaviso-y-despido/).
 
 ### ¿Puedo cobrar mis beneficios sociales y después pedir mi reincorporación?
 
@@ -135,7 +135,7 @@ Es la indemnización que se consolida cada cinco años de trabajo continuo. Si d
 
 ### ¿Qué pasa si el trabajador no avisa que renuncia?
 
-No pierde su indemnización por tiempo de servicios, pero el empleador puede descontarle el sueldo o salario correspondiente a los plazos del preaviso ([Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/), artículo 2).
+El [Decreto Supremo 1592](/biblioteca/decreto-supremo-1592/) (artículo 2) dice que no pierde su indemnización por tiempo de servicios, pero que el empleador puede descontarle el sueldo de los plazos del preaviso. Ese decreto se remite al artículo 12 de la Ley General del Trabajo, que fue declarado inconstitucional en 2017; si el descuento sigue aplicándose debe confirmarlo un profesional. Ver [El preaviso: declarado inconstitucional en 2017](/guias/laboral/preaviso-y-despido/). [VERIFICAR]
 
 ### ¿Dónde se refrenda el finiquito y qué pasa si el trabajo queda lejos de una Jefatura?
 
@@ -183,7 +183,7 @@ Es un pago anual obligatorio de un mes de sueldo o salario ([Ley de 18 de diciem
 
 ### ¿Hasta cuándo debe pagarse el aguinaldo?
 
-La ley de 1944 dice «antes del 25 de diciembre» (art. 1). El plazo que se exige en la práctica es el 20 de diciembre: el [Decreto Supremo 28448](/biblioteca/decreto-supremo-28448/leer/) lo fija para el sector público y recuerda que para las empresas privadas ya estaba señalado el 20; el resumen del Auto Supremo 496/2022 también lo toma como plazo máximo. Para evitar sanciones, lo seguro es pagar hasta el 20. Ver [El aguinaldo de Navidad y el segundo aguinaldo](/guias/laboral/aguinaldos/). [VERIFICAR]
+Hasta el 20 de diciembre. El [Decreto Supremo 28448](/biblioteca/decreto-supremo-28448/leer/) lo fija para el sector público y recuerda que para las empresas privadas ya estaba señalado el 20; el resumen del Auto Supremo 496/2022 lo toma como plazo máximo, y los comunicados oficiales del Ministerio de Trabajo de los últimos años usan la misma fecha. La ley de 1944 dice «antes del 25 de diciembre» (art. 1), pero la fecha que se aplica es el 20. Ver [Aguinaldos](/guias/laboral/aguinaldos/).
 
 ### ¿Qué pasa si el aguinaldo se paga tarde?
 
@@ -239,7 +239,7 @@ Es el pago de un jornal por el domingo no trabajado que reciben los obreros que 
 
 ### ¿Se puede pagar el sueldo en dólares?
 
-La [Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/) (art. 53) dice que los pagos se hacen «precisamente en moneda de curso legal», y la [Ley 901](/biblioteca/ley-901/leer/) (art. 6) da al boliviano poder liberatorio ilimitado, salvando las normas contractuales de los Códigos Civil y de Comercio. El [Decreto Ley 7182, de 1965](/biblioteca/decreto-ley-7182/leer/#page=2) (art. 7) prohíbe con carácter general el pago de sueldos en moneda extranjera dentro del territorio nacional y manda al sector público pagar en pesos bolivianos; su alcance en el sector privado y su vigencia deben confirmarse. Los materiales de apoyo citan además una guía del Ministerio de Trabajo que no está en el sitio. Ver [Cómo, cuándo y en qué moneda debe pagarse el salario](/guias/laboral/pago-del-salario/). [VERIFICAR]
+La regla general es el pago en moneda de curso legal ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/), art. 53). El [Decreto Ley 7182](/biblioteca/decreto-ley-7182/leer/#page=2) (1965) prohíbe pagar sueldos en moneda extranjera y manda al sector público pagar en moneda nacional. Según el editor, ese decreto apunta sobre todo al sector público: en las relaciones entre privados, el Ministerio de Trabajo admite el pago en moneda extranjera si está pactado por escrito en el contrato ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)). Ver [El pago del salario](/guias/laboral/pago-del-salario/).
 
 ### ¿Cada cuánto debe pagarse el sueldo?
 
@@ -299,7 +299,7 @@ Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos
 
 ### ¿Cuántos días de vacación me corresponden?
 
-La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=21) da esta escala, según el Decreto Supremo 17288 de 1980: de uno a cinco años, 15 días hábiles; de cinco a diez, 20; desde diez años, 30. El texto original del [artículo 44](/leyes/laboral/ley-general-del-trabajo/articulo-44/) de la Ley General del Trabajo la fijaba en semanas. Ver [Vacaciones](/guias/laboral/vacaciones/). [VERIFICAR]
+Según el [Decreto Supremo 17288](/biblioteca/decreto-supremo-17288/leer/) (1980): 15 días hábiles con 1 a 4 años cumplidos de trabajo, 20 días con 5 a 9 años, y 30 días desde los 10 años. El texto original del [artículo 44](/leyes/laboral/ley-general-del-trabajo/articulo-44/) de la Ley General del Trabajo la fijaba en semanas. Ver [Vacaciones](/guias/laboral/vacaciones/).
 
 ### ¿Puedo cobrar mis vacaciones en dinero en vez de tomarlas?
 
@@ -323,15 +323,15 @@ No. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-dere
 
 ### ¿Cómo se calcula el salario dominical?
 
-Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=15): el haber básico se divide entre los días hábiles promedio del mes y se multiplica por los domingos del mes; debe figurar en la planilla separado del haber básico. Corresponde a los obreros que cumplieron su horario semanal ([Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/), art. 23). Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+Según el [Decreto Supremo 29010](/biblioteca/decreto-supremo-29010/leer/) (2007), artículo 4: el haber básico se divide entre los días hábiles promedio del mes y se multiplica por los domingos del mes; debe figurar en la planilla y la papeleta separado del haber básico. En el sector privado corresponde a los obreros del sector productivo que cumplieron su horario semanal completo (artículo 3). Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/).
 
 ### ¿Cuáles son los feriados nacionales?
 
-La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22) da la lista del Decreto Supremo 2750 de 2016: 1 de enero, 22 de enero, lunes y martes de carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio, 6 de agosto, 2 de noviembre y 25 de diciembre. El calendario de cada año debe confirmarse en la norma oficial. [VERIFICAR]
+Según el [Decreto Supremo 2750](/biblioteca/decreto-supremo-2750/leer/) (2016), artículo 2: 1 de enero, 22 de enero, lunes y martes de Carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio, 6 de agosto, 2 de noviembre y 25 de diciembre. Si uno cae en domingo, se descansa el lunes siguiente, salvo las excepciones que fija el mismo decreto (artículo 3). Cada año conviene revisar los comunicados oficiales.
 
 ### ¿Cuándo puedo pedir el pago del quinquenio?
 
-Al cumplir cinco años de trabajo continuo, con una solicitud escrita al empleador. Lo que se cobra se descuenta de la liquidación final ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=31)). El plazo para pagarlo y refrendarlo es de 30 días calendario desde la solicitud ([Reglamento del refrendado](/biblioteca/reglamento-del-refrendado-del-formulario-unico-de-finiquito/leer/), art. 7). Ver [El quinquenio](/guias/laboral/quinquenio/).
+Al cumplir cinco años de trabajo continuo, con una simple solicitud escrita. El empleador debe pagarlo en un solo pago dentro de 30 días calendario; si no, paga el monto actualizado por UFV más una multa del 30 % ([Decreto Supremo 0522](/biblioteca/decreto-supremo-0522/leer/), artículo 3). Cobrarlo no corta la relación laboral ni hace perder la antigüedad (artículo 4). Ver [El quinquenio](/guias/laboral/quinquenio/).
 
 ### Si me despiden con causa justificada, ¿pierdo los quinquenios que ya cumplí?
 
@@ -427,7 +427,7 @@ La Ley General del Trabajo dice que el contrato requiere, para alcanzar eficacia
 
 ### ¿Cuánto tiempo tiene el empleador para refrendar el contrato?
 
-La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)) da 30 días desde el inicio de la relación laboral. Los materiales de apoyo citan un reglamento de 2024 que daría 60 días para trabajadores nacionales y 30 para extranjeros; esa resolución no está en la Biblioteca. Los dos datos no coinciden: debe confirmarse el plazo vigente en el Ministerio de Trabajo. Ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/). [VERIFICAR]
+Según el [Reglamento del refrendado del contrato individual de trabajo](/biblioteca/reglamento-del-refrendado-del-contrato-individual-de-trabajo/leer/), aprobado por la Resolución Ministerial 001/24: 60 días calendario desde el inicio de la relación para trabajadores nacionales (artículo 7) y 30 para extranjeros (artículo 10). El contrato presentado fuera de plazo no se refrenda y se presume verbal y por tiempo indefinido (artículo 13). Ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/).
 
 ### ¿Qué debe decir un contrato de trabajo escrito?
 

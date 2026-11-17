@@ -2,7 +2,7 @@
 titulo: Cómo, cuándo y en qué moneda debe pagarse el salario
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: El salario no puede ser menor al mínimo, se paga en plazos fijos, en día de trabajo y en moneda de curso legal. Esta guía explica esas reglas, qué dicen la Ley 901 y los materiales de apoyo sobre pagar en dólares y qué hacer si el pago se atrasa.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-52/ | Artículo 52 | Ley General del Trabajo
@@ -45,13 +45,14 @@ La Biblioteca no tiene los Códigos Civil y de Comercio, así que no se puede de
 
 El [Decreto Ley 7182, de 23 de mayo de 1965](/biblioteca/decreto-ley-7182/leer/#page=2), es un decreto de medidas de austeridad del gobierno de esa época. Su artículo 7 prohíbe, desde el 1 de julio de ese año y «con carácter general», el pago de sueldos en moneda extranjera dentro del territorio nacional, y a continuación dice que las reparticiones del sector público, centralizado o descentralizado, deben pagar a su personal, nacional y extranjero, en pesos bolivianos. El artículo 8 exceptúa al personal extranjero con contrato celebrado en el exterior o con convenios internacionales en vigencia.
 
-Los materiales de apoyo traen además una discusión sobre pagar en dólares o indexar el salario al tipo de cambio, en un contexto de pérdida de poder adquisitivo del boliviano: [VERIFICAR]
+**Cómo se aplica en el sector privado.** El editor del sitio, que revisa el contenido legal, explica la aparente contradicción así:
 
-- Leen el decreto de 1965 como una prohibición dirigida al sector público que no prohibiría expresamente hacerlo en el sector privado. El texto tiene una primera frase de alcance general y una segunda dirigida al sector público; cómo se concilian y si el decreto sigue vigente debe confirmarlo un profesional.
-- Citan la guía de derechos laborales del Ministerio de Trabajo de octubre de 2020, que ya está en la Biblioteca. Esa guía ([pág. 14](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)) dice que el salario se paga en moneda de curso legal y que se prohíbe pagarlo en otra moneda, salvo que el contrato de trabajo disponga el pago en moneda extranjera; cita el artículo 53 de la Ley General del Trabajo y el decreto de 1965. Esa salvedad no aparece en el texto del decreto: su artículo 8 solo exceptúa al personal extranjero con contrato celebrado en el exterior.
-- Argumentan, con los principios de aplicación de la norma más favorable y de primacía de la realidad (Constitución, artículo 48, parágrafo II), que un pacto de pago en moneda extranjera o indexado podría considerarse válido si beneficia al trabajador.
+- **El decreto de 1965 mira sobre todo al sector público.** Es un decreto de austeridad: sus primeros artículos rebajan sueldos y suprimen cargos del Estado. Su artículo 7, después de la prohibición general, manda que las reparticiones públicas paguen en moneda nacional, y el artículo 8 solo exceptúa al personal extranjero contratado en el exterior o por convenios internacionales.
+- **En las relaciones entre privados, el Ministerio de Trabajo admite el pago en moneda extranjera si está pactado por escrito en el contrato.** Así lo dice la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14) (pág. 14). La regla general sigue siendo el pago en moneda de curso legal (Ley General del Trabajo, [artículo 53](/leyes/laboral/ley-general-del-trabajo/articulo-53/)).
+- **El criterio de fondo es la protección del trabajador.** Si cobrar en moneda extranjera le resulta más favorable y no recorta sus derechos mínimos, la autoridad laboral lo valida (Constitución, [artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)).
+- **Si el contrato fija el sueldo en moneda extranjera, el empleador debe respetar lo pactado.** Si hay dificultades para conseguir divisas o el tipo de cambio varía, según el editor se aplica el tipo de cambio pactado o, a falta de él, el oficial del Banco Central a la fecha del contrato. Esa regla del tipo de cambio no está todavía en un texto de la Biblioteca. [VERIFICAR]
 
-Esa es una interpretación de los materiales de apoyo, no una regla escrita en la ley. El artículo 53 usa la palabra «precisamente» y el decreto de 1965 tiene una primera frase de alcance general. Antes de pactar o exigir un pago en moneda extranjera, debe confirmarse con un profesional y con el texto de las normas citadas.
+> El decreto de 1965 que prohíbe pagar sueldos en moneda extranjera empieza rebajando los sueldos del Presidente y de los ministros: era una medida para ahorrar dinero del Estado.
 
 La [Ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/) muestra que el pago en moneda extranjera ya existía en esa época: excluyó de su aguinaldo a los empleados con contrato que cobran en moneda extranjera, salvo estipulación en contrario (artículo 3).
 

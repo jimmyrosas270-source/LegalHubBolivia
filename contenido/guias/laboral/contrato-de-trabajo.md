@@ -2,7 +2,7 @@
 titulo: El contrato de trabajo y la relación laboral
 materia: Laboral
 publico: Trabajadores, empleadores y público general
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Qué hace que una relación sea laboral, qué tipos de contrato admite la ley, qué pasa cuando se renuevan contratos a plazo fijo, para qué sirve el visado ante el Ministerio y qué es el certificado de trabajo.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-1/ | Artículo 1 | Ley General del Trabajo
@@ -66,7 +66,7 @@ La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derec
 
 ## El visado o refrendo del contrato
 
-Esta sección resume el tema. Para el detalle, incluido lo que dicen las fuentes sobre un reglamento de 2024 con plazos distintos, ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/).
+Esta sección resume el tema. Para el detalle del reglamento de 2024 (Resolución Ministerial 001/24), ver [El refrendo o visado del contrato de trabajo](/guias/laboral/refrendo-del-contrato/).
 
 Para que un contrato de trabajo tenga eficacia jurídica, debe ser refrendado por la autoridad del trabajo (Ley General del Trabajo, artículo 22). El Reglamento lo exige al contrato celebrado por escrito y encarga el refrendo al Inspector del Trabajo (artículo 14).
 
@@ -74,7 +74,7 @@ Según la guía del Ministerio de Trabajo de 2020 ([págs. 24 y 25](/biblioteca/
 
 - Es una obligación del empleador.
 - Se presenta el contrato en tres ejemplares originales firmados y sellados, fotocopias de las cédulas de identidad del representante legal y del trabajador, el formulario actualizado del Registro Obligatorio de Empleadores y el comprobante del pago del costo administrativo.
-- El plazo es de 30 días desde el inicio de la relación laboral, ante la Jefatura Departamental de Trabajo más cercana. Pasado ese plazo, se aplica una multa.
+- La guía daba un plazo de 30 días. Hoy rige el reglamento de 2024: 60 días calendario para trabajadores nacionales y 30 para extranjeros, ante la Jefatura del lugar de trabajo o la más cercana. Fuera de plazo el contrato no se refrenda y se presume verbal y por tiempo indefinido.
 
 El costo del trámite y el número de cuenta que trae la guía son de 2020 y no se publican aquí: deben consultarse en el Ministerio de Trabajo. [VERIFICAR]
 

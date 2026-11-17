@@ -2,7 +2,7 @@
 titulo: Reincorporación o beneficios sociales: hay que elegir
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Cuando el despido es injustificado, el trabajador puede pedir volver a su puesto o cobrar sus beneficios sociales. La Ley 1468 impide pedir la reincorporación administrativa a quien ya cobró, y un auto supremo de 2022 va en el mismo sentido.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-12/ | Artículo 12 | Ley General del Trabajo
@@ -48,7 +48,7 @@ El Tribunal anuló (casó) la resolución de segunda instancia que había admiti
 - La decisión se toma antes de firmar o cobrar. Conviene leer bien el finiquito y entender que cobrarlo puede cerrar la puerta a volver.
 - Un abono en la cuenta bancaria que el trabajador no autorizó no cuenta como cobro: lo que cierra la reincorporación administrativa es el cobro efectivo, acreditado con el finiquito refrendado.
 - Un finiquito que pagó de menos sigue siendo reclamable en lo que falte (artículo 48, parágrafo III, de la Constitución).
-- Si el despido se hizo con preaviso, rigen además las reglas de la guía [El preaviso y sus límites](/guias/laboral/preaviso-y-despido/).
+- El preaviso ya no permite despedir sin causa: fue declarado inconstitucional en 2017. Ver [El preaviso: declarado inconstitucional en 2017](/guias/laboral/preaviso-y-despido/).
 
 !! La Ley 1468 se refiere expresamente a la vía administrativa; el Auto Supremo 176/2022 se dictó en un juicio laboral. Lo dicho del auto sale del resumen publicado por el Tribunal, no del texto completo, y los criterios judiciales pueden variar entre casos. Consulta con un profesional antes de decidir.
 

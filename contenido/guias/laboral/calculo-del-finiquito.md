@@ -2,7 +2,7 @@
 titulo: Cómo se calcula el finiquito
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: El finiquito suma lo que el empleador debe pagar cuando termina la relación laboral. Esta guía explica qué datos hacen falta, qué pagos lo componen y con qué fórmula se calcula cada uno.
 articulos:
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-1/ | Artículo 1 | Ley de 23 de noviembre de 1944
@@ -19,6 +19,7 @@ articulos:
 - /biblioteca/decreto-ley-16187/ | Decreto Ley 16187 (PDF) | Artículo 4
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 25 a 31 y 49 a 51
+- /biblioteca/sentencia-constitucional-plurinacional-0009-2017/ | Sentencia Constitucional Plurinacional 0009/2017 (PDF) | Desahucio y preaviso
 ---
 ## Qué es el finiquito
 
@@ -69,7 +70,7 @@ Aquí van solo las fórmulas. Los montos de ejemplo se omiten a propósito, porq
 2. Meses sueltos × salario promedio indemnizable ÷ 12.
 3. Días sueltos: el Decreto Supremo 110 solo habla de proporción por meses. Los materiales de apoyo dividen el salario entre 365 por cada día suelto; la guía del Ministerio de Trabajo de 2020 ([pág. 27](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=27)) lo divide entre 360. [VERIFICAR]
 
-**Desahucio.** El Decreto Supremo 110 dice cuándo corresponde, pero no fija el monto. El Decreto Supremo 22138, de 21 de febrero de 1989, lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio indemnizable, y la guía del Ministerio de Trabajo de 2020 también lo define como tres salarios y lo calcula así ([págs. 29 y 50](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=29)). Las dos lecturas no coinciden, así que el monto debe confirmarlo un profesional. [VERIFICAR]
+**Desahucio.** Equivale a tres salarios, calculados sobre el promedio de los tres últimos meses: salario promedio indemnizable × 3. El Decreto Supremo 110 dice cuándo corresponde (retiro intempestivo) y el Decreto Supremo 22138 lo describe con relación al promedio de los tres últimos meses. La [Sentencia Constitucional Plurinacional 0009/2017](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=11) explica que quien omitía el preaviso de 90 días pagaba la suma equivalente a tres sueldos, y que el desahucio y la indemnización se calculan sobre el promedio de los tres últimos meses (Ley General del Trabajo, artículo 19; [pág. 16](/biblioteca/sentencia-constitucional-plurinacional-0009-2017/leer/#page=16)). La guía del Ministerio de Trabajo de 2020 lo calcula igual ([págs. 29 y 50](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=29)), y el editor del sitio confirma que así se aplica en los juzgados.
 
 **Aguinaldo proporcional.** Salario ÷ 12 × meses trabajados en el año, más la parte de los días sueltos. El [decreto de 21 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-3/) (artículo 3) exige más de tres meses de trabajo a los empleados y más de un mes calendario a los obreros, y la guía del Ministerio de Trabajo de 2020 ([pág. 20](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=20)) dice lo mismo.
 
