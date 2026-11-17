@@ -14,6 +14,9 @@ articulos:
 - /biblioteca/ley-901/ | Ley 901 (PDF) | Artículos 6 y 9
 - /biblioteca/decreto-ley-7182/ | Decreto Ley 7182 (PDF) | Artículos 7 y 8
 - /biblioteca/protocolo-de-actuacion-de-la-ley-1468/ | Protocolo de la Ley 1468 (PDF) | Artículo 3
+- /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-39/ | Artículo 39 | Reglamento de la Ley General del Trabajo
+- /biblioteca/decreto-supremo-21060/ | Decreto Supremo 21060 (PDF) | Artículo 65
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 13 y 14
 ---
 ## El piso: el salario mínimo
 
@@ -45,12 +48,18 @@ El [Decreto Ley 7182, de 23 de mayo de 1965](/biblioteca/decreto-ley-7182/leer/#
 Los materiales de apoyo traen además una discusión sobre pagar en dólares o indexar el salario al tipo de cambio, en un contexto de pérdida de poder adquisitivo del boliviano: [VERIFICAR]
 
 - Leen el decreto de 1965 como una prohibición dirigida al sector público que no prohibiría expresamente hacerlo en el sector privado. El texto tiene una primera frase de alcance general y una segunda dirigida al sector público; cómo se concilian y si el decreto sigue vigente debe confirmarlo un profesional.
-- Citan una guía de derechos laborales del Ministerio de Trabajo de octubre de 2020 según la cual el pago debe hacerse en moneda de curso legal, salvo que el contrato disponga expresamente otra cosa. Esa guía no está en el sitio.
+- Citan la guía de derechos laborales del Ministerio de Trabajo de octubre de 2020, que ya está en la Biblioteca. Esa guía ([pág. 14](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)) dice que el salario se paga en moneda de curso legal y que se prohíbe pagarlo en otra moneda, salvo que el contrato de trabajo disponga el pago en moneda extranjera; cita el artículo 53 de la Ley General del Trabajo y el decreto de 1965. Esa salvedad no aparece en el texto del decreto: su artículo 8 solo exceptúa al personal extranjero con contrato celebrado en el exterior.
 - Argumentan, con los principios de aplicación de la norma más favorable y de primacía de la realidad (Constitución, artículo 48, parágrafo II), que un pacto de pago en moneda extranjera o indexado podría considerarse válido si beneficia al trabajador.
 
 Esa es una interpretación de los materiales de apoyo, no una regla escrita en la ley. El artículo 53 usa la palabra «precisamente» y el decreto de 1965 tiene una primera frase de alcance general. Antes de pactar o exigir un pago en moneda extranjera, debe confirmarse con un profesional y con el texto de las normas citadas.
 
 La [Ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/) muestra que el pago en moneda extranjera ya existía en esa época: excluyó de su aguinaldo a los empleados con contrato que cobran en moneda extranjera, salvo estipulación en contrario (artículo 3).
+
+## En dinero, no en especie
+
+El salario se paga en dinero. El artículo 39 del Reglamento define la remuneración como lo que se recibe «en dinero», y el [Decreto Supremo 21060, de 29 de agosto de 1985](/biblioteca/decreto-supremo-21060/leer/#page=15) (artículo 65), apoyándose en ese artículo y en el 53 de la Ley, prohíbe a las empresas y entidades públicas y privadas pagar salarios en especie, ni total ni parcialmente. Quedaron eliminados los vales y la entrega de productos (gasolina, alimentos u otros) como parte del salario o además de él. Si esa entrega venía de un convenio homologado por el Ministerio de Trabajo, su valor se convirtió en dinero y se sumó al salario básico de septiembre de 1985. La guía del Ministerio de Trabajo de 2020 recoge la misma prohibición ([pág. 14](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)).
+
+> La remuneración incluye también las comisiones y la participación en los beneficios cuando tienen carácter permanente (Reglamento, artículo 39).
 
 ## Si el pago se atrasa
 

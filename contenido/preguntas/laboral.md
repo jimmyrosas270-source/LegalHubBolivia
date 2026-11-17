@@ -227,7 +227,7 @@ Los domingos cuentan como feriados ([Ley General del Trabajo](/leyes/laboral/ley
 
 ### ¿Cuánto se paga si trabajo un feriado?
 
-La Ley y el Reglamento hablan de un recargo del 100 % o de un día de descanso a cambio ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/), artículo 31). Los materiales de apoyo hablan de un pago triple, que no coincide con esos textos. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+La Ley y el Reglamento hablan de un recargo del 100 % o de un día de descanso a cambio ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-31/), artículo 31). La elección es del empleador, y así lo explica también la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=23). Los materiales de apoyo hablaban de un pago triple, que no coincide con esos textos. Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/).
 
 ### ¿Quién decide si me dan un día de descanso o me pagan el feriado trabajado?
 
@@ -284,3 +284,47 @@ En los decretos de 1983 es la suma del sueldo o salario mensual (el haber básic
 ### ¿Qué pasó con los incisos d) y f) del artículo 16 de la Ley General del Trabajo?
 
 Una [ley de 23 de noviembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-2/) (art. 2) los derogó: trataban del desahucio y la indemnización por inasistencia injustificada de más de tres días y por retiro voluntario. Por eso el artículo 16 publicado no los trae. Ver [El abandono de trabajo](/guias/laboral/abandono-de-trabajo/). [VERIFICAR]
+
+### ¿Me pueden pagar parte del sueldo con productos o vales?
+
+No. El [Decreto Supremo 21060](/biblioteca/decreto-supremo-21060/leer/#page=15) (art. 65) prohíbe a las empresas y entidades públicas y privadas pagar salarios en especie, total o parcialmente, y eliminó los vales y la entrega de productos como parte del salario. Ver [El pago del salario](/guias/laboral/pago-del-salario/).
+
+### ¿Cuántas horas puedo trabajar por día?
+
+Hasta 8 horas por día y 48 por semana; de noche, hasta 7 horas. Para mujeres y menores de 18 años, el tope semanal es de 40 horas diurnas ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-46/), art. 46). Hay excepciones para cargos de dirección, vigilancia o confianza. Ver [La jornada de trabajo](/guias/laboral/jornada-de-trabajo/).
+
+### ¿Cuántas horas trabaja una trabajadora asalariada del hogar?
+
+Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=13), que cita el artículo 11 de la Ley 2450: hasta 10 horas de trabajo efectivo si vive en el hogar donde trabaja y hasta 8 si no vive allí; el tiempo de comida no se cuenta. Ver [La jornada de trabajo](/guias/laboral/jornada-de-trabajo/). [VERIFICAR]
+
+### ¿Cuántos días de vacación me corresponden?
+
+La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=21) da esta escala, según el Decreto Supremo 17288 de 1980: de uno a cinco años, 15 días hábiles; de cinco a diez, 20; desde diez años, 30. El texto original del [artículo 44](/leyes/laboral/ley-general-del-trabajo/articulo-44/) de la Ley General del Trabajo la fijaba en semanas. Ver [Vacaciones](/guias/laboral/vacaciones/). [VERIFICAR]
+
+### ¿Puedo cobrar mis vacaciones en dinero en vez de tomarlas?
+
+Mientras sigas trabajando, no: la vacación no se compensa en dinero, salvo cuando termina el contrato ([Reglamento](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-33/), art. 33). Al terminar, la vacación pendiente entra en el finiquito. Ver [Vacaciones](/guias/laboral/vacaciones/).
+
+### ¿Vale un contrato de trabajo de palabra?
+
+Sí. El contrato puede ser verbal o escrito, y su existencia se prueba con cualquier medio legal ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-6/), art. 6). Si no hay nada escrito, se presume que es por tiempo indefinido ([Decreto Ley 16187](/biblioteca/decreto-ley-16187/leer/), art. 1). Ver [El contrato de trabajo y la relación laboral](/guias/laboral/contrato-de-trabajo/).
+
+### ¿Cuántas veces se puede renovar un contrato a plazo fijo?
+
+No se permiten más de dos contratos sucesivos a plazo fijo, ni contratos a plazo para tareas propias y permanentes de la empresa. Si se incumple, el contrato pasa a ser por tiempo indefinido ([Decreto Ley 16187](/biblioteca/decreto-ley-16187/leer/), art. 2). Ver [El contrato de trabajo y la relación laboral](/guias/laboral/contrato-de-trabajo/).
+
+### ¿Qué hago si mi empleador no me da el certificado de trabajo?
+
+Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=11), puedes acudir a la Inspección del Trabajo para que cite al empleador y lo extienda. La guía cita un Decreto Supremo 1060 de 1948, que no está en la Biblioteca. [VERIFICAR]
+
+### ¿Me pueden bajar el sueldo si paso a teletrabajo?
+
+No. Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=48), la adenda de teletrabajo debe respetar la remuneración completa. Ver [Teletrabajo](/guias/laboral/teletrabajo/).
+
+### ¿Cómo se calcula el salario dominical?
+
+Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=15): el haber básico se divide entre los días hábiles promedio del mes y se multiplica por los domingos del mes; debe figurar en la planilla separado del haber básico. Corresponde a los obreros que cumplieron su horario semanal ([Decreto Supremo 3691](/biblioteca/decreto-supremo-3691/), art. 23). Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/). [VERIFICAR]
+
+### ¿Cuáles son los feriados nacionales?
+
+La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22) da la lista del Decreto Supremo 2750 de 2016: 1 de enero, 22 de enero, lunes y martes de carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio, 6 de agosto, 2 de noviembre y 25 de diciembre. El calendario de cada año debe confirmarse en la norma oficial. [VERIFICAR]

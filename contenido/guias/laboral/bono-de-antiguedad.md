@@ -16,6 +16,7 @@ articulos:
 - /biblioteca/decreto-supremo-23113/ | Decreto Supremo 23113 (PDF) | Artículo único
 - /biblioteca/decreto-supremo-23474/ | Decreto Supremo 23474 (PDF) | Artículo único
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 16 y 17
 ---
 ## Qué es
 

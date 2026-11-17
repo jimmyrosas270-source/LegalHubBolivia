@@ -419,6 +419,75 @@
     "/preguntas/laboral/#p68|Pregunta frecuente",
     "/biblioteca/decreto-supremo-19518/|Artículo 1, Decreto Supremo 19518"
    ]
+  },
+  {
+   "termino": "Contrato por tiempo indefinido",
+   "definicion": "Contrato de trabajo sin fecha de término. Se presume cuando no hay estipulación escrita, salvo prueba en contrario.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/contrato-de-trabajo/|Guía",
+    "/biblioteca/decreto-ley-16187/|Artículo 1, Decreto Ley 16187"
+   ]
+  },
+  {
+   "termino": "Contrato a plazo fijo",
+   "definicion": "Contrato con fecha de término. No se admiten más de dos sucesivos ni para tareas propias y permanentes de la empresa; si se incumple, pasa a ser por tiempo indefinido.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/contrato-de-trabajo/|Guía",
+    "/biblioteca/decreto-ley-16187/|Artículo 2, Decreto Ley 16187"
+   ]
+  },
+  {
+   "termino": "Certificado de trabajo",
+   "definicion": "Documento que entrega el empleador y que acredita la experiencia y la formación del trabajador.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/contrato-de-trabajo/|Guía"
+   ]
+  },
+  {
+   "termino": "Salario en especie",
+   "definicion": "Pago del trabajo con productos, vales u otros bienes en lugar de dinero. Está prohibido.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/pago-del-salario/|Guía",
+    "/biblioteca/decreto-supremo-21060/|Artículo 65, Decreto Supremo 21060"
+   ]
+  },
+  {
+   "termino": "Vacación",
+   "definicion": "Descanso anual pagado al que se tiene derecho después del primer año de trabajo continuo. Solo se paga en dinero al terminar el contrato.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/vacaciones/|Guía",
+    "/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-33/|Artículo 33, Reglamento"
+   ]
+  },
+  {
+   "termino": "Vacación por duodécimas",
+   "definicion": "Pago proporcional de la vacación del año incompleto, para quien ya cumplió el primer año. También se llama vacación fraccionada.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/vacaciones/|Guía"
+   ]
+  },
+  {
+   "termino": "Teletrabajo",
+   "definicion": "Trabajo a distancia con tecnologías de la información, sin presencia física en el lugar de trabajo. Se acuerda por escrito en una adenda al contrato.",
+   "grupo": "Laboral",
+   "ver": [
+    "/guias/laboral/teletrabajo/|Guía"
+   ]
+  },
+  {
+   "termino": "Días hábiles",
+   "definicion": "Todos los días del año menos los feriados. Los domingos cuentan como feriados.",
+   "grupo": "Laboral",
+   "ver": [
+    "/leyes/laboral/ley-general-del-trabajo/articulo-41/|Artículo 41, Ley General del Trabajo",
+    "/guias/laboral/jornada-de-trabajo/|Guía"
+   ]
   }
  ]
 }

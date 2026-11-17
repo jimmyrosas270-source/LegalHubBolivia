@@ -2,7 +2,7 @@
 titulo: Cómo se calcula el finiquito
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 15/11/2026
+actualizada: 16/11/2026
 resumen: El finiquito suma lo que el empleador debe pagar cuando termina la relación laboral. Esta guía explica qué datos hacen falta, qué pagos lo componen y con qué fórmula se calcula cada uno.
 articulos:
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-23-de-noviembre-de-1944/articulo-1/ | Artículo 1 | Ley de 23 de noviembre de 1944
@@ -18,6 +18,7 @@ articulos:
 - /biblioteca/resolucion-ministerial-447-09/ | Resolución Ministerial 447/09 (PDF) | Artículos 1 a 3
 - /biblioteca/decreto-ley-16187/ | Decreto Ley 16187 (PDF) | Artículo 4
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 25 a 31 y 49 a 51
 ---
 ## Qué es el finiquito
 
@@ -39,7 +40,7 @@ Las normas más antiguas hablaban de períodos distintos para el retiro voluntar
 2. **Salario promedio indemnizable.** Es el promedio del total ganado de los tres últimos meses antes de la salida. Para quien cobra a jornal, el promedio de los últimos treinta días (Decreto Supremo 110, artículo 2, parágrafo III). Ver la pregunta [¿Qué es el salario indemnizable?](/preguntas/laboral/#p6).
 3. **Causa de la salida.** No es lo mismo una renuncia que un retiro intempestivo. De eso depende si se paga el desahucio. Si hay una causa del artículo 16 de la Ley General del Trabajo, el texto de la ley dice que no hay desahucio ni indemnización, pero la Resolución Ministerial 447/09 (artículo 3) limita esa sanción: no se aplica a la renuncia voluntaria, a la inasistencia injustificada de más de seis días hábiles ni a los quinquenios consolidados. [VERIFICAR]
 4. **Tiempo de servicios.** Según el Decreto Supremo 1592 (artículo 6), cuentan como tiempo de servicios los períodos de enfermedad previstos en la Ley General del Trabajo, las vacaciones, el descanso por maternidad, las licencias del empleador, las interrupciones por causas ajenas al trabajador, el servicio militar obligatorio y el tiempo de un lock-out o una huelga declarada conforme a la ley.
-5. **Vacaciones no gozadas.** Solo cuentan si el trabajador ya cumplió más de un año de servicio. [VERIFICAR]
+5. **Vacaciones no gozadas.** La vacación se gana al cumplir un año de trabajo continuo; después del primer año, la fracción de un nuevo año se paga por duodécimas, y al terminar la relación la vacación pendiente se paga en dinero (Reglamento, artículo 33; guía del Ministerio de Trabajo de 2020, [págs. 21 y 22](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=21)). Ver [Vacaciones](/guias/laboral/vacaciones/).
 6. **Pagos ya recibidos.** Aguinaldos, quinquenios o anticipos ya pagados se restan para no pagar dos veces lo mismo.
 
 ## Qué pagos lo componen
@@ -62,11 +63,11 @@ Aquí van solo las fórmulas. Los montos de ejemplo se omiten a propósito, porq
 
 1. Años completos de servicio × salario promedio indemnizable.
 2. Meses sueltos × salario promedio indemnizable ÷ 12.
-3. Días sueltos: el Decreto Supremo 110 solo habla de proporción por meses. Los materiales de apoyo dividen el salario entre 365 por cada día suelto. [VERIFICAR]
+3. Días sueltos: el Decreto Supremo 110 solo habla de proporción por meses. Los materiales de apoyo dividen el salario entre 365 por cada día suelto; la guía del Ministerio de Trabajo de 2020 ([pág. 27](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=27)) lo divide entre 360. [VERIFICAR]
 
-**Desahucio.** El Decreto Supremo 110 dice cuándo corresponde, pero no fija el monto. El Decreto Supremo 22138, de 21 de febrero de 1989, lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio indemnizable. Las dos lecturas no coinciden, así que el monto debe confirmarlo un profesional. [VERIFICAR]
+**Desahucio.** El Decreto Supremo 110 dice cuándo corresponde, pero no fija el monto. El Decreto Supremo 22138, de 21 de febrero de 1989, lo describe como un desahucio equivalente al promedio de los sueldos o salarios de los tres últimos meses trabajados. Los materiales de apoyo lo entienden como tres veces el salario promedio indemnizable, y la guía del Ministerio de Trabajo de 2020 también lo define como tres salarios y lo calcula así ([págs. 29 y 50](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=29)). Las dos lecturas no coinciden, así que el monto debe confirmarlo un profesional. [VERIFICAR]
 
-**Aguinaldo proporcional.** Salario ÷ 12 × meses trabajados en el año, más la parte de los días sueltos. Los materiales de apoyo indican que exige más de tres meses de relación laboral. [VERIFICAR]
+**Aguinaldo proporcional.** Salario ÷ 12 × meses trabajados en el año, más la parte de los días sueltos. El [decreto de 21 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/decreto-de-21-de-diciembre-de-1944/articulo-3/) (artículo 3) exige más de tres meses de trabajo a los empleados y más de un mes calendario a los obreros, y la guía del Ministerio de Trabajo de 2020 ([pág. 20](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=20)) dice lo mismo.
 
 !! Esta guía sirve para entender la liquidación, no para fijar el monto exacto de un caso. Los pagos reales dependen de la causa de salida, de los pagos previos y de las normas aplicables.
 

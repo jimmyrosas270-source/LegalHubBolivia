@@ -16,6 +16,7 @@ articulos:
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-1/ | Artículo 1 | Ley de 29 de diciembre de 1944 (feriados y duelos)
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-2/ | Artículo 2 | Ley de 29 de diciembre de 1944 (feriados y duelos)
 - /leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/articulo-3/ | Artículo 3 | Ley de 29 de diciembre de 1944 (feriados y duelos)
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 13 a 15 y 22 y 23
 ---
 ## La regla: descanso
 
@@ -38,7 +39,7 @@ Ese decreto de 1927 no está todavía en la Biblioteca. Los materiales de apoyo 
 
 **Feriados.** El artículo 55 de la Ley General del Trabajo dice que los días feriados se pagan con un recargo del 100 %. El artículo 31 del Reglamento precisa el caso de quienes trabajan en un feriado por pertenecer a una de las actividades permitidas: tienen derecho, **a elección del empleador**, a una compensación de descanso en otro día de la semana en curso o a que se les pague con un recargo del 100 % sobre el salario normal.
 
-Los materiales de apoyo hablan de un pago triple por el feriado trabajado cuando no hay descanso compensatorio, y dicen que el trabajador puede pedirlo. Eso no coincide con los textos del sitio: el Reglamento deja la elección al empleador y tanto la Ley como el Reglamento hablan de un recargo del 100 %, no de un pago triple. El «triple» solo se explicaría si, además del recargo, se cuenta el pago normal del día que ya está incluido en el sueldo mensual. Cómo se aplica en cada planilla debe confirmarlo un profesional. [VERIFICAR]
+La guía del Ministerio de Trabajo de 2020 ([págs. 22 y 23](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22)) dice lo mismo que el Reglamento: quien trabajó en un feriado recibe, a elección del empleador, un día de descanso en la semana o el pago con un recargo del 100 %, que la guía calcula sobre el haber básico (el Reglamento habla de «salario normal»). Los materiales de apoyo del sitio hablaban de un pago triple por el feriado trabajado y de que el trabajador podía pedirlo: ni la Ley, ni el Reglamento ni la guía del Ministerio lo dicen así. El «triple» solo se explicaría si, además del recargo, se cuenta el pago normal del día, que ya está incluido en el sueldo mensual.
 
 **Domingos.** Como los domingos cuentan como feriados (Ley, artículo 41), el trabajo en domingo se paga con el recargo del 100 %. Para los obreros, el Decreto Supremo 3691 (artículo 23) añade que el derecho al salario dominical no afecta el pago doble del artículo 55 por trabajar en domingo, de modo que el obrero que cumplió su horario semanal completo tiene derecho a una remuneración triple por ese domingo. Ese artículo habla de obreros; el artículo 24 del mismo decreto solo extiende a los empleados particulares el artículo 21, que trata de las faltas. Por eso, que un empleado cobre también el triple por un domingo, como afirman los materiales de apoyo, debe confirmarse. [VERIFICAR]
 
@@ -61,6 +62,8 @@ El domingo trabajado y el salario dominical son cosas distintas. El **salario do
 
 > Desde abril de 1954, los obreros tienen un salario semanal de siete días corridos: el salario diario se multiplica por siete (Decreto Supremo 3691, artículo 22).
 
+
+**Cómo se calcula, según la guía del Ministerio.** La guía de 2020 ([págs. 14 y 15](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)) lo presenta como un derecho de los obreros del sector productivo que cumplieron el horario semanal completo, que puede perderse por impuntualidad o faltas en la semana, y da esta fórmula: el haber básico se divide entre los días hábiles promedio del mes y se multiplica por los domingos del mes. El resultado debe figurar en la planilla y en la papeleta de pago separado del haber básico. La guía cita, además del Decreto Supremo 3691, un Decreto Supremo 29010 de 9 de enero de 2007, que no está en la Biblioteca. [VERIFICAR]
 ## El pago del feriado no trabajado (obreros)
 
 La [ley de 29 de diciembre de 1944](/leyes/laboral/normas-que-modifican-la-lgt/ley-de-29-de-diciembre-de-1944-feriados-y-duelos/) regula otra cosa: el salario de los feriados y duelos nacionales para los obreros, trabajen o no ese día. Según su texto:
@@ -75,4 +78,4 @@ Esta ley habla de obreros y no menciona a los empleados. Cómo se combina con el
 
 ## Qué días son feriados
 
-La lista del artículo 29 del Reglamento es de 1943: incluye los domingos, el 1 de enero, el lunes y el martes de carnaval, el jueves y el viernes santo, el 1 de mayo, Corpus Christi, el 6 de agosto, el 1 y el 2 de noviembre y el 25 de diciembre. Normas posteriores cambiaron la lista; por ejemplo, los materiales de apoyo incluyen el 22 de enero y el 21 de junio. El calendario de cada año debe consultarse en la norma oficial vigente. [VERIFICAR]
+La lista del artículo 29 del Reglamento es de 1943: incluye los domingos, el 1 de enero, el lunes y el martes de carnaval, el jueves y el viernes santo, el 1 de mayo, Corpus Christi, el 6 de agosto, el 1 y el 2 de noviembre y el 25 de diciembre. Normas posteriores cambiaron la lista. La guía del Ministerio de Trabajo de 2020 ([pág. 22](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=22)) da los feriados nacionales del Decreto Supremo 2750, de 1 de mayo de 2016: 1 de enero, 22 de enero (creación del Estado Plurinacional), lunes y martes de carnaval, Viernes Santo, 1 de mayo, Corpus Christi, 21 de junio (Año Nuevo Andino), 6 de agosto, 2 de noviembre y 25 de diciembre. Ese decreto no está todavía en la Biblioteca. El calendario de cada año debe consultarse en la norma oficial vigente. [VERIFICAR]

@@ -19,6 +19,7 @@ articulos:
 - /leyes/laboral/normas-que-modifican-la-lgt/decreto-de-24-de-abril-de-1944/articulo-4/ | Artículo 4 | Decreto de 24 de abril de 1944
 - /biblioteca/decreto-supremo-21137/ | Decreto Supremo 21137 (PDF) | Artículo 14
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 15 y 16
 ---
 ## La jornada ordinaria
 
@@ -63,7 +64,7 @@ El decreto de 22 de enero de 1944 al que remite el artículo 3 ya está en el si
 
 ## Turnos nocturnos de más de 7 horas
 
-Algunas empresas funcionan las 24 horas. La jornada nocturna solo puede extenderse por fuerza mayor y en lo indispensable (artículo 47), y el empleador debe procurar tener personal suficiente para no depender de horas extras. Según los materiales de apoyo, lo que pase de las 7 horas se paga como hora extra nocturna con recargo del 100 %. [VERIFICAR]
+Algunas empresas funcionan las 24 horas. La jornada nocturna solo puede extenderse por fuerza mayor y en lo indispensable (artículo 47), y el empleador debe procurar tener personal suficiente para no depender de horas extras. La guía del Ministerio de Trabajo de 2020 ([pág. 16](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=16)) confirma que lo que pase de las 7 horas de la jornada nocturna son horas extras (Ley General del Trabajo, artículos 46 y 55), y el artículo 55 las paga con un recargo del 100 %.
 
 ## Si no se pagaron
 

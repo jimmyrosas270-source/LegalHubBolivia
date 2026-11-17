@@ -18,6 +18,8 @@ articulos:
 - /biblioteca/decreto-supremo-24067/ | Decreto Supremo 24067 (PDF) | Artículo 15
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-49/ | Artículo 49 | Constitución Política del Estado
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=120 | Auto Supremo 162/2022 | Resúmenes de Jurisprudencia TSJ 2022
+- /leyes/laboral/codigo-procesal-del-trabajo/articulo-181/ | Artículo 181 | Código Procesal del Trabajo
+- /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 18 a 20
 ---
 ## Qué es
 
@@ -56,7 +58,7 @@ Dentro de los treinta días siguientes a la aprobación del balance de la empres
 
 ## Cuándo no corresponde
 
-- Si la empresa no tuvo utilidades en la gestión y puede demostrarlo con su balance. La ley de 1945, sin embargo, dice que las empresas que no llenan las formalidades contables para determinar utilidades pagan válidamente la prima aunque aleguen pérdidas (artículo 2). [VERIFICAR]
+- Si la empresa no tuvo utilidades en la gestión y puede demostrarlo con su balance. La ley de 1945, sin embargo, dice que las empresas que no llenan las formalidades contables para determinar utilidades pagan válidamente la prima aunque aleguen pérdidas (artículo 2). La guía del Ministerio de Trabajo de 2020 ([págs. 19 y 20](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=19)) lo repite y cita también el [artículo 181](/leyes/laboral/codigo-procesal-del-trabajo/articulo-181/) del Código Procesal del Trabajo, según el cual la falta de balance legal hace presumir que hubo utilidades.
 - El decreto de 21 de diciembre de 1944 (artículo 4), escrito para el aguinaldo, excluye a quienes fueron retirados por las faltas del artículo 16 de la Ley General del Trabajo, salvo los incisos d) y f), derogados por la ley del 23 de noviembre de 1944. Si esa exclusión alcanza también a la prima no está dicho en los textos. [VERIFICAR]
 - En las empresas públicas, en 1995, el Decreto Supremo 24067 (artículo 15) exigió un dictamen de auditoría externa sobre las utilidades de 1994 y no más de un sueldo mensual por trabajador. Son reglas de esa gestión. [VERIFICAR]
 
