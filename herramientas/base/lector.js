@@ -5,7 +5,7 @@ const movil = () => window.innerWidth < 700;
 
 function falla() {
   carga.hidden = false;
-  carga.innerHTML = 'No se pudo abrir el documento en el visor.<br><a href="' + raiz.dataset.pdf + '" download>Descargar el PDF</a>';
+  carga.innerHTML = 'No se pudo abrir el documento en el visor. Vuelve a intentarlo en unos minutos o recarga la página.';
 }
 
 (async () => {

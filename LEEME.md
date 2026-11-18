@@ -107,3 +107,8 @@ En el encabezado, `mostrar: 10` dice cuántas preguntas salen por intento: si el
 Para **una materia nueva**, se crea la carpeta (p. ej. `contenido/cuestionarios/familia/`) con sus temas.
 No se usan contenidos con [VERIFICAR] (el generador los descarta y avisa en Actions) ni cifras de años pasados.
 Todo funciona en el navegador; solo se guarda allí la mejor nota de cada cuestionario.
+
+## Descarga de los PDF (apagada)
+
+Desde el 17 nov 2026 los PDF de la Biblioteca y de Jurisprudencia solo se leen en el visor: no hay botones ni enlaces de descarga.
+Para volver a activarlos basta poner `"descargas": true` en `contenido/sitio.json`.

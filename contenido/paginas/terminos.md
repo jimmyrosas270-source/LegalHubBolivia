@@ -2,7 +2,7 @@
 ruta: /legal/terminos/
 titulo: Términos y condiciones de uso
 descripcion: Reglas para usar LegalHubBolivia.
-actualizada: 15/11/2026
+actualizada: 17/11/2026
 ---
 ## Aceptación
 
@@ -10,7 +10,7 @@ Al usar LegalHubBolivia aceptas estos términos. Si no estás de acuerdo, no use
 
 ## Uso permitido
 
-Puedes consultar, leer, buscar y descargar los contenidos para uso personal, educativo o profesional. Puedes citar las guías y explicaciones indicando la fuente y el enlace.
+Puedes consultar, leer y buscar los contenidos para uso personal, educativo o profesional. Los documentos en PDF de la Biblioteca y de Jurisprudencia se leen en línea, con su buscador; por ahora no se ofrecen para descarga. Puedes citar las guías y explicaciones indicando la fuente y el enlace.
 
 ## Uso no permitido
 

@@ -3,7 +3,7 @@
 1. Copia sitio_base/ (las normas publicadas por artículos) tal como está.
 2. Genera la Biblioteca PDF (biblioteca/pdf/ + catalogo.csv) y la sección Jurisprudencia
    (jurisprudencia/pdf/ + catalogo.csv, revistas por año):
-   portada, ficha, visor con buscador interno y descarga.
+   portada, ficha y visor con buscador interno (la descarga se activa con "descargas": true en contenido/sitio.json).
 3. Añade el enlace «Biblioteca» al menú de las páginas de sitio_base/.
 4. Inserta las notas editoriales de contenido/notas_editoriales.json.
 
@@ -49,6 +49,8 @@ NAV = [('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudenci
 PIE = [('Aviso legal', '/legal/aviso-legal/'), ('Privacidad', '/legal/privacidad/'), ('Términos', '/legal/terminos/'), ('Cookies', '/legal/cookies/'), ('Contacto', '/contacto/'), ('Historial de cambios', '/cambios/')]
 ESTADOS = {'vigente': ('Vigente', 'vig'), 'con modificaciones': ('Con modificaciones', 'mod'), 'vigente con modificaciones': ('Con modificaciones', 'mod'),
            'verificar': ('Verificar', 'ver'), 'desactualizada': ('Desactualizada', 'des'), 'derogada': ('Derogada', 'der'), 'abrogada': ('Abrogada', 'abr')}
+# Descarga de los PDF: apagada salvo que contenido/sitio.json traiga "descargas": true (pedido del titular, 17 nov 2026).
+DESCARGAS = bool(CONF.get('descargas', False))
 ROBOTS = '' if CONF.get('abierto_a_buscadores') else '<meta name="robots" content="noindex, nofollow">\n'
 
 
@@ -343,7 +345,7 @@ def construir_seccion(S):
                 f'<div class="libro-d"><div class="entre"><span class="etq">{E(etq)}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
                 f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
                 f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
-                f'<p class="libro-acc"><a href="{url(d, "leer/")}">Leer</a><a href="{pdf_url(d)}" download="{d["slug"]}.pdf">Descargar</a><a href="{url(d)}">Ficha</a></p></div></article>')
+                f'<p class="libro-acc"><a href="{url(d, "leer/")}">Leer</a>{f'<a href="{pdf_url(d)}" download="{d["slug"]}.pdf">Descargar</a>' if DESCARGAS else ''}<a href="{url(d)}">Ficha</a></p></div></article>')
 
     if S['agrupa'] == 'materia':
         portada_por_materias(S, DOCS, tarjeta)
@@ -404,7 +406,7 @@ def portada_por_materias(S, DOCS, tarjeta):
             f'<section class="grupo-lib"><h2 class="grupo-tit">{E(g)} <small>({sum(1 for d in docs if d["tgrupo"] == g)})</small></h2>'
             f'<div class="estante">{"".join(tarjeta(d, filtro=g, etq=d["tipo"] or S["tipo_def"]) for d in docs if d["tgrupo"] == g)}</div></section>'
             for g in grupos)
-        escribe(f'{ruta_s}/{slug(m)}/index.html', pagina(f'{m} · {S["nombre"]}', f'Normas de materia {m.lower()} en PDF: leer en línea, buscar y descargar.',
+        escribe(f'{ruta_s}/{slug(m)}/index.html', pagina(f'{m} · {S["nombre"]}', f'Normas de materia {m.lower()} en PDF: leer en línea y buscar.',
                 f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/"), (m, "")])}<h1>{E(m)}</h1>
 <p class="entrada">{plural(len(docs), S["sing"], S["plur"])}, {"primero las normas principales y después todos" if DESTACADAS.get(m) else "ordenados"} por tipo de norma y por fecha, del más antiguo al más reciente.</p>
 <div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o tema" aria-label="Filtrar {S["plur"]}"></label>
@@ -456,13 +458,13 @@ def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
         sobre = '<section class="tarjeta sobre"><h2>Sobre este documento</h2><dl>' + ''.join(f'<dt>{k}</dt><dd>{v}</dd>' for k, v in filas) + '</dl></section>'
         desc = (f'<aside class="explica"><span class="etq">Descripción · no es texto legal</span><p>{E(d["descripcion"])}</p><small>Pendiente de revisión legal humana</small></aside>'
                 if d['descripcion'] else '')
-        escaneado = '' if d['con_texto'] else alerta('Este PDF es una imagen escaneada: se puede leer y descargar, pero el buscador interno no encuentra palabras.')
-        escribe(f'{ruta_s}/{d["slug"]}/index.html', pagina(d['titulo'], f'{d["titulo"]}{" · " + sub if sub else ""}. Texto completo en PDF: leer en línea, buscar y descargar.',
+        escaneado = '' if d['con_texto'] else alerta(f'Este PDF es una imagen escaneada: se puede leer{" y descargar" if DESCARGAS else ""}, pero el buscador interno no encuentra palabras.')
+        escribe(f'{ruta_s}/{d["slug"]}/index.html', pagina(d['titulo'], f'{d["titulo"]}{" · " + sub if sub else ""}. Texto completo en PDF: leer en línea y buscar{" y descargar" if DESCARGAS else ""}.',
                 f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")] + ([(d["materia"], f"/{ruta_s}/{d['mslug']}/")] if d.get('mslug') else []) + [(d["titulo"], "")])}
 <div class="dos"><div>
 <div class="entre"><span class="etq">{E(d["tipo"] or S["tipo_def"])} · PDF</span>{tag(d["estado"]) if S["con_estado"] else ""}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
 <div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor">{tapa_doc(d, "Primera página de " + d["titulo"]) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336">'}<span>{ico("book", 18)}Leer</span></a>
-<div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a><a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a></p>
+<div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a>{f'<a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a>' if DESCARGAS else ''}</p>
 <form class="buscador" action="{url(d, "leer/")}" method="get" role="search">{ico("search", 20)}<input type="search" name="buscar" placeholder="Buscar dentro de este documento" aria-label="Buscar dentro de este documento"{'' if d['con_texto'] else ' disabled'}><button type="submit"{'' if d['con_texto'] else ' disabled'}>Buscar</button></form>{escaneado}</div></div>
 {desc}</div>
 <aside>{sobre}{alerta()}</aside></div></div>''', S['nombre']))
@@ -489,7 +491,7 @@ def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
 <button type="button" class="ico-btn solo-movil" id="abre-busca" aria-label="Buscar en el documento"{'' if d['con_texto'] else ' hidden'}>{ico("search")}</button>
 <label class="pagnum"><span class="sr">Página</span><input id="pag" type="number" min="1" max="{d["paginas"]}" value="1" inputmode="numeric"><span>/ {d["paginas"]}</span></label>
 <button type="button" class="ico-btn" id="menos" aria-label="Reducir">{ico("minus")}</button><button type="button" class="ico-btn" id="mas" aria-label="Ampliar">{ico("plus")}</button>
-<a class="ico-btn" href="{pdf_url(d)}" download="{d["slug"]}.pdf" aria-label="Descargar PDF">{ico("dl")}</a>
+{f'<a class="ico-btn" href="{pdf_url(d)}" download="{d["slug"]}.pdf" aria-label="Descargar PDF">{ico("dl")}</a>' if DESCARGAS else ''}
 </div>
 </header>
 <main id="lector" data-pdf="{pdf_url(d)}">
@@ -627,7 +629,7 @@ for n in NOTAS:
 # ---------------------------------------------------------------- 5. portada provisional, robots y cabeceras
 if not hay_base:
     escribe('index.html', pagina('Leyes de Bolivia, al pie de la letra', 'Normas bolivianas en texto literal y en PDF.',
-            f'''<section class="hero"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p>Normas completas para leer en línea, buscar dentro del texto y descargar.</p>
+            f'''<section class="hero"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p>Normas completas para leer en línea, y buscar dentro del texto.</p>
 <p><a class="btn" href="/biblioteca/" style="background:var(--ocre);border-color:var(--ocre);color:var(--tinta)">Abrir la Biblioteca</a></p></div></section>
 <div class="cont pag">{alerta()}</div>'''))
     escribe('404.html', pagina('Página no encontrada', 'La página que buscas no existe.',

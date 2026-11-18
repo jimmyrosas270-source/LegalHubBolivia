@@ -83,7 +83,7 @@ def tarjeta_destacada(x, docs_por_archivo, etq=None):
     return (f'<article class="libro destacada"><a class="tapa" href="{base}leer/" aria-label="Abrir {E(d["titulo"])} en el visor">{tapa_doc(d)}<span>{ico("book", 18)}Leer</span></a>'
             f'<div class="libro-d"><div class="entre"><span class="etq">{E(etq or "PDF")}</span></div>'
             f'<h2><a href="{base}">{E(d["titulo"])}</a></h2><small>{E(sub)}</small><small>{d["paginas"]} páginas · PDF</small>'
-            f'<p class="libro-acc"><a href="{base}leer/">Leer</a><a href="/biblioteca/archivos/{d["slug"]}.pdf" download="{d["slug"]}.pdf">Descargar</a><a href="{base}">Ficha</a></p></div></article>')
+            f'<p class="libro-acc"><a href="{base}leer/">Leer</a>{f'<a href="/biblioteca/archivos/{d["slug"]}.pdf" download="{d["slug"]}.pdf">Descargar</a>' if DESCARGAS else ''}<a href="{base}">Ficha</a></p></div></article>')
 
 
 def bloque_destacadas(items, docs_por_archivo, titulo='Normas principales', etq_materia=False):
