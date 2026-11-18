@@ -1,0 +1,50 @@
+/* Cuestionarios de estudio (Estudiantes) — identidad «Andino sobrio» */
+.cq{display:flex;flex-direction:column;gap:14px}
+.cq-barra{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px;color:var(--sec)}
+.cq-prog{height:6px;background:var(--linea);border-radius:99px;overflow:hidden}
+.cq-prog i{display:block;height:100%;background:var(--verde);border-radius:99px;transition:width .25s}
+.cq-tarjeta{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:20px 18px;display:flex;flex-direction:column;gap:16px}
+.cq-enun{font-family:var(--serif);font-size:20px;line-height:1.4;margin:0}
+.cq-opc{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cq-opc button{min-height:54px;border-radius:12px;border:1.5px solid var(--verde);background:#fff;color:var(--verde);font:600 17px var(--sans);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
+.cq-opc button:hover:not(:disabled){background:var(--menta)}
+.cq-opc button:disabled{cursor:default;opacity:.55}
+.cq-opc button.elegida{opacity:1;background:var(--verde);color:#fff}
+.cq-opc button.elegida.mal{background:var(--rojo);border-color:var(--rojo)}
+.cq-res{border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;border:1px solid}
+.cq-res.bien{background:var(--menta);border-color:#9DC3B2}
+.cq-res.mal{background:#F8E7E5;border-color:#E2B3AE}
+.cq-res h2{font-size:18px;margin:0;display:flex;align-items:center;gap:8px}
+.cq-res.bien h2{color:var(--verde)}.cq-res.mal h2{color:var(--rojo)}
+.cq-res h2:focus{outline:none}
+.cq-res p{margin:0}
+.cq-fuentes{font-size:14px;display:flex;flex-direction:column;gap:4px}
+.cq-fuentes b{color:var(--sec);font-weight:600}
+.cq-fuentes a{word-break:break-word}
+.cq-sig{align-self:flex-end}
+.cq-final{text-align:center;align-items:center}
+.cq-nota-grande{font-family:var(--serif);font-size:56px;line-height:1;font-weight:600;color:var(--verde);margin:4px 0 0}
+.cq-nota-grande small{font-size:22px;color:var(--sec)}
+.cq-final.t-mal .cq-nota-grande{color:var(--rojo)}
+.cq-final.t-reg .cq-nota-grande{color:#8A5A0C}
+.cq-msg{font-size:20px;font-weight:600;margin:0}
+.cq-sello{display:inline-block;background:#FBF3DC;border:1px solid var(--ocre);color:#3D2A06;border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600}
+.cq-repaso,.cq-falladas{text-align:left;width:100%;display:flex;flex-direction:column;gap:8px}
+.cq-repaso h3,.cq-falladas h3{margin:6px 0 0}
+.cq-falladas details{background:var(--papel);border-radius:10px;padding:10px 12px}
+.cq-falladas summary{cursor:pointer;font-weight:500}
+.cq-falladas details p{margin:8px 0 0;font-size:15px}
+.cq .botones{justify-content:center}
+.cq-tramos{background:#fff;border:1px solid var(--linea);border-radius:12px;padding:12px 16px}
+.cq-tramos summary{cursor:pointer;font-weight:600;color:var(--verde)}
+.cq-tramos ul{margin:10px 0 0}
+.cq-borrar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:0}
+.cq-borrar .btn{min-height:40px;cursor:pointer;font:600 15px var(--sans)}
+.cq-materia h3{font-size:18px;margin:0 0 8px}
+.cq-materia{display:flex;flex-direction:column;gap:8px}
+.cq-materia h3 a{text-decoration:none}
+.cq-nota.si{color:var(--verde);font-weight:600}
+.cq-sinjs li{margin-bottom:14px}
+@media (min-width:700px){.cq-tarjeta{padding:26px 28px}.cq-enun{font-size:22px}}
+@media (max-width:380px){.cq-opc{grid-template-columns:1fr}}
+.cq button.btn{font:600 16px var(--sans);cursor:pointer}

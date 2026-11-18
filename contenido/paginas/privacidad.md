@@ -12,6 +12,7 @@ El responsable de los datos es Jimmy Rosas Zúñiga, titular del sitio. Contacto
 
 - **No hay registro ni cuentas de usuario.** Para leer el sitio no necesitas darnos ningún dato.
 - **Formulario para reportar errores.** Al pie de las páginas hay un botón «Reportar un error» que abre un formulario de Google. Es anónimo: no pide nombre ni correo y solo recibe la dirección de la página, lo que escribas sobre el error y, si quieres, la fuente correcta. Te pedimos no escribir datos personales en él.
+- **Cuestionarios de estudio.** Funcionan por completo en tu navegador: tus respuestas no se envían a ningún lado. Solo se guarda en tu propio navegador la mejor nota de cada cuestionario, que puedes borrar cuando quieras.
 - **Datos técnicos de la visita.** Como cualquier sitio web, el servicio de alojamiento recibe datos técnicos de cada visita (dirección IP, tipo de navegador, página consultada y hora) para entregar las páginas y protegerlas de ataques. El sitio no usa herramientas de analítica ni de publicidad.
 - **Mensajes que nos envíes.** Si escribes o llamas al número de contacto, usamos tu nombre, tu número y lo que nos cuentes solo para responderte.
 

@@ -514,6 +514,9 @@ exec(open(os.path.join(HERR, 'normas.py'), encoding='utf-8').read())
 # ---------------------------------------------------------------- 2b. guías, preguntas y glosario
 exec(open(os.path.join(HERR, 'editorial.py'), encoding='utf-8').read())
 
+# ---------------------------------------------------------------- 2c. cuestionarios de estudio (Estudiantes)
+exec(open(os.path.join(HERR, 'cuestionarios.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- 3. menú en las páginas de base
 ENLACE_NORM = re.compile(r'(<a href="/leyes/"[^>]*>Normativa</a>)')
 n_menu = 0

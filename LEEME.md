@@ -89,3 +89,21 @@ El buscador (`/buscar/`) busca en las normas por artículos, las guías, las pre
 ## Recuadro «Reportar un error»
 
 Si `contenido/sitio.json` tiene `"reportes_url"` (la dirección de un formulario, por ejemplo de Google Forms), todas las páginas muestran al final un recuadro para avisar de un dato erróneo o desactualizado. Si la dirección contiene `{pagina}`, se reemplaza por la página desde la que se reporta. Sin esa clave, el recuadro no aparece.
+
+## Cuestionarios de estudio (Estudiantes)
+
+Están en `contenido/cuestionarios/<materia>/<tema>.md` y se publican en `/estudiantes/cuestionarios/<materia>/<tema>/`.
+Para **añadir una pregunta**, se escribe al final del archivo del tema:
+
+```
+### V | Enunciado que es verdadero.
+Explicación corta con palabras propias.
+norma: /leyes/laboral/ley-general-del-trabajo/articulo-46/ | Ley General del Trabajo, art. 46
+guia: /guias/laboral/jornada-de-trabajo/ | La jornada de trabajo
+```
+
+(`### F |` si el enunciado es falso). La línea `norma:` es obligatoria; puede haber varias `norma:` y `guia:`.
+En el encabezado, `mostrar: 10` dice cuántas preguntas salen por intento: si el banco tiene más, se eligen al azar.
+Para **una materia nueva**, se crea la carpeta (p. ej. `contenido/cuestionarios/familia/`) con sus temas.
+No se usan contenidos con [VERIFICAR] (el generador los descarta y avisa en Actions) ni cifras de años pasados.
+Todo funciona en el navegador; solo se guarda allí la mejor nota de cada cuestionario.
