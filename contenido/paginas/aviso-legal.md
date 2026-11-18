@@ -2,13 +2,13 @@
 ruta: /legal/aviso-legal/
 titulo: Aviso legal
 descripcion: Titular del sitio, naturaleza del contenido y condiciones de responsabilidad de LegalHubBolivia.
-actualizada: 15/11/2026
+actualizada: 17/11/2026
 ---
 ## Titular del sitio
 
 - **Titular y responsable:** Jimmy Rosas Zúñiga.
 - **País:** Bolivia.
-- **Contacto:** teléfono y WhatsApp [+591 74661569](tel:+59174661569). Correo electrónico: se publicará en cuanto esté habilitado.
+- **Contacto:** teléfono y WhatsApp [+591 74661569](tel:+59174661569). Correo electrónico: [legalhubbolivia@gmail.com](mailto:legalhubbolivia@gmail.com).
 
 Más datos en la página de [contacto](/contacto/).
 
