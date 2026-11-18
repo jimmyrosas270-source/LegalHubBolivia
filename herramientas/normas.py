@@ -24,6 +24,16 @@ COLECCIONES = [{
     'intro': ('Leyes y decretos de 1924 a 1945 que complementan o modifican la Ley General del Trabajo, publicados uno por uno y en el orden del archivo del editor. '
               'Cada norma tiene su propia página y cada artículo puede buscarse y enlazarse.'),
     'pdf_titulo': 'Compilación de normas que modifican la Ley General del Trabajo',
+}, {
+    'archivo': 'normas-transcritas.txt',
+    'materia': 'laboral',
+    'slug': 'normas-transcritas',
+    'codigo': 'trn',
+    'titulo': 'Normas transcritas de copias escaneadas',
+    'rango': 'desde 2015',
+    'intro': ('Normas que el editor tiene solo como copia escaneada, transcritas palabra por palabra y revisadas contra la imagen. '
+              'Se conservan las erratas del original. Cada artículo puede buscarse y enlazarse; la copia escaneada está en la Biblioteca.'),
+    'pdf_titulo': 'Resolución Bi-Ministerial 002/15',
 }]
 
 

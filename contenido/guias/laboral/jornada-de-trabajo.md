@@ -2,7 +2,7 @@
 titulo: La jornada de trabajo
 materia: Laboral
 publico: Trabajadores, empleadores y público general
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Cuántas horas se puede trabajar por día y por semana, qué cuenta como tiempo de trabajo y qué reglas especiales hay para mujeres, adolescentes y trabajadoras del hogar.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-41/ | Artículo 41 | Ley General del Trabajo
@@ -10,6 +10,9 @@ articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-47/ | Artículo 47 | Ley General del Trabajo
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-35/ | Artículo 35 | Reglamento de la Ley General del Trabajo
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 12 y 13
+- /biblioteca/ley-2450/ | Ley 2450 (PDF) | Artículos 11 y 12
+- /biblioteca/codigo-nina-nino-y-adolescente/ | Código Niña, Niño y Adolescente (PDF) | Artículos 129, 132 y 136
+- /biblioteca/resolucion-ministerial-532-19/ | Resolución Ministerial 532/19 (PDF) | Trabajo adolescente
 ---
 ## Qué cuenta como jornada
 
@@ -28,28 +31,27 @@ Lo que pase de esos límites es trabajo extraordinario y se paga con recargo.
 
 ## Adolescentes
 
-Según la guía del Ministerio de Trabajo de 2020 ([págs. 12 y 13](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=12)), que cita el artículo 132 del Código Niña, Niño y Adolescente y una Resolución Ministerial 532/19:
+El [Código Niña, Niño y Adolescente](/biblioteca/codigo-nina-nino-y-adolescente/) (Ley 548, de 2014) regula el trabajo de adolescentes por cuenta ajena (artículo 132):
 
-- La jornada de un adolescente no puede pasar de 8 horas diarias diurnas ni de 40 horas semanales diurnas.
-- No puede trabajar después de las 22:00.
-- El empleador no puede limitar su derecho a estudiar y debe darle 2 horas diarias para el estudio, pagadas.
-- Necesita la autorización o el formulario de trabajo adolescente que emiten las Defensorías de la Niñez y Adolescencia.
+- La jornada no puede pasar de 8 horas diarias diurnas ni de 40 horas semanales diurnas, y el horario no puede pasar de las diez de la noche.
+- El empleador no puede limitar su derecho a estudiar: debe darle 2 horas diarias para el estudio, pagadas.
+- Su remuneración no puede ser menor a la de un adulto que hace el mismo trabajo ni al salario mínimo nacional.
+- El empleador debe garantizar condiciones de seguridad y permitirle participar en sindicatos.
 
-Esas normas no están todavía en la Biblioteca. [VERIFICAR]
+El mismo Código fija los 14 años como edad mínima para trabajar (artículo 129). La [Resolución Ministerial 532/19](/biblioteca/resolucion-ministerial-532-19/leer/) aprobó el formulario de registro o autorización del trabajo adolescente. El PDF del Código es el texto de 2014; si fue modificado después, debe confirmarse en la fuente oficial. [VERIFICAR]
 
 ## Trabajadoras y trabajadores asalariados del hogar
 
-La misma guía ([pág. 13](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=13)), con el artículo 11 de la Ley 2450 de regulación del trabajo asalariado del hogar, explica que:
+La [Ley 2450, de 9 de abril de 2003](/biblioteca/ley-2450/leer/), de regulación del trabajo asalariado del hogar, fija su jornada (artículo 11):
 
 - Quien vive en el hogar donde trabaja tiene una jornada de hasta 10 horas de trabajo efectivo.
 - Quien no vive allí tiene una jornada de hasta 8 horas diarias de trabajo efectivo.
 - El tiempo para comer no se cuenta en la jornada.
-- Las niñas, niños y adolescentes no pueden hacer trabajo del hogar «cama adentro», porque se considera una actividad peligrosa (Código Niña, Niño y Adolescente, artículo 136).
+- La jornada de los menores de edad se rige por el Código Niña, Niño y Adolescente, que prohíbe a niñas, niños y adolescentes el trabajo del hogar bajo la modalidad «cama adentro» (artículo 136).
 
-La Ley 2450 no está todavía en la Biblioteca. [VERIFICAR]
+La misma ley da un día de descanso a la semana, fijado de común acuerdo, y el descanso en los feriados de ley (artículo 12). La guía del Ministerio de Trabajo de 2020 lo explica igual ([pág. 13](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=13)).
 
 ## Días hábiles
 
 Son días hábiles todos los del año menos los feriados. Cuentan como feriados todos los domingos, los feriados civiles y los que se declaren por ley o decreto (Ley General del Trabajo, artículo 41). Ver [Trabajo en domingos y feriados](/guias/laboral/domingos-y-feriados/).
 
-!! Esta guía se apoya en parte en la guía del Ministerio de Trabajo de octubre de 2020. Las normas que esa guía cita y que no están en la Biblioteca se nombran tal como ella las cita; lo posterior a 2020 debe confirmarse en la fuente oficial. [VERIFICAR]

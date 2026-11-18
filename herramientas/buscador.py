@@ -105,8 +105,8 @@ def indice_ampliado():
     print(f'Buscador: {len(idx)} artículos + {len(nuevos)} guías, preguntas, términos, fichas y autos; {len(paginas)} páginas de PDF.')
 
 
-JS_BUSQUEDA = r"""var NOMBRE={glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
-var ORDEN=['glo','gui','pre','aut','cpe','lgt','rgl','cpt','cmp','bib','pdf','jur'];
+JS_BUSQUEDA = r"""var NOMBRE={glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
+var ORDEN=['glo','gui','pre','aut','cpe','lgt','rgl','cpt','cmp','trn','bib','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
 function pinta(lista,palabras){R.innerHTML='';lista.slice(0,60).forEach(function(a){var t=a.t,n=norm(t),p=0;for(var i=0;i<palabras.length;i++){var k=n.indexOf(palabras[i]);if(k>=0){p=k;break}}
 var ini=Math.max(0,p-70),frag=(ini>0?'…':'')+t.slice(ini,ini+220)+(ini+220<t.length?'…':'');var h=esc(frag);

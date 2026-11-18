@@ -40,6 +40,6 @@ Si el empleador no paga a tiempo, debe pagar el monto actualizado según la vari
 ## Al terminar la relación
 
 - Los quinquenios ya pagados se descuentan de la liquidación final.
-- Los quinquenios ya cumplidos son derechos adquiridos. Si el trabajador es despedido por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 del Reglamento, la pérdida solo afecta al quinquenio en curso y no a los anteriores ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/leer/), artículo 4).
+- Los quinquenios ya cumplidos son derechos adquiridos y se acumulan ([Decreto Supremo 11478, de 16 de mayo de 1974](/biblioteca/decreto-supremo-11478/leer/), artículo 2). Si el trabajador es despedido por una causa del artículo 16 de la Ley General del Trabajo o del artículo 9 del Reglamento, la pérdida solo afecta al quinquenio en curso y no a los anteriores ([Decreto Supremo 110](/biblioteca/decreto-supremo-110/leer/), artículo 4).
 - La [Resolución Ministerial 447/09](/biblioteca/resolucion-ministerial-447-09/leer/) (artículo 3) también dice que la sanción de perder desahucio e indemnización no alcanza a los quinquenios consolidados.
 

@@ -12,6 +12,11 @@ articulos:
 - /biblioteca/ley-798/ | Ley 798 (PDF) | Modifica la Ley 252
 - /biblioteca/decreto-supremo-3462/ | Decreto Supremo 3462 (PDF) | Hijos en estado crítico de salud
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 32 a 36
+- /biblioteca/decreto-supremo-25749/ | Decreto Supremo 25749 (PDF) | Artículo 20
+- /biblioteca/decreto-supremo-2145/ | Decreto Supremo 2145 (PDF) | Artículo 16
+- /leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/articulo-1/ | Artículo 1 | Resolución Bi-Ministerial 002/15
+- /leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/articulo-3/ | Artículo 3 | Resolución Bi-Ministerial 002/15
+- /leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/articulo-4/ | Artículo 4 | Resolución Bi-Ministerial 002/15
 ---
 Una licencia es un permiso para no trabajar durante un tiempo, previsto en las normas laborales, sin perder el sueldo. Estas son las principales.
 
@@ -59,8 +64,21 @@ En los casos más graves, el decreto da además inamovilidad laboral mientras du
 
 ## Matrimonio y duelo
 
-Según la guía del Ministerio de Trabajo de 2020 ([págs. 33 y 34](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=33)), el Estatuto del Funcionario Público (artículo 48, incisos b y c) da tres días hábiles por matrimonio y tres días por la muerte del cónyuge, un hijo, el padre, la madre o un hermano. En el sector privado, la guía dice que se aplican por analogía, por reglamento interno o por acuerdo entre las partes. El Estatuto no está todavía en la Biblioteca. [VERIFICAR]
+Para los servidores públicos, el reglamento del Estatuto del Funcionario Público ([Decreto Supremo 25749, de 24 de abril de 2000](/biblioteca/decreto-supremo-25749/leer/#page=5), artículo 20) da licencia con goce de remuneración:
+
+- **Por matrimonio:** 3 días hábiles, presentando antes el certificado de inscripción del Registro Civil.
+- **Por fallecimiento** de padres, cónyuge, hermanos o hijos: 3 días hábiles, presentando el certificado de defunción dentro de los 5 días hábiles siguientes.
+
+La guía del Ministerio de Trabajo de 2020 atribuye estas licencias al artículo 48 del Estatuto (Ley 2027); el texto está en el artículo 20 de su reglamento. Para el sector privado no hay una norma en la Biblioteca que las fije: la guía dice que se aplican por analogía, por reglamento interno o por acuerdo entre las partes ([págs. 33 y 34](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=33)). [VERIFICAR]
 
 ## Víctimas de violencia
 
-Según la misma guía ([pág. 35](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=35)), las víctimas de violencia tienen tolerancia y horarios flexibles, sin descuento, para ir a las audiencias del proceso, hacer su seguimiento y recibir atención médica o psicológica. Cita la Ley 348, el Decreto Supremo 2145 y una Resolución Biministerial 002/15, que no están en la Biblioteca. [VERIFICAR]
+Las mujeres en situación de violencia tienen tolerancia y flexibilidad de horarios de trabajo para ir a los actos del proceso, informarse sobre su estado y recibir tratamiento médico, psicológico u otro que necesiten ([Decreto Supremo 2145](/biblioteca/decreto-supremo-2145/leer/), reglamento de la [Ley 348](/biblioteca/ley-348/), artículo 16). La [Resolución Bi-Ministerial 002/15](/leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/), de los Ministerios de Trabajo y de Justicia, lo extiende a mujeres y hombres, en el sector público y en el privado, con estas reglas:
+
+1. Se pide por nota a la máxima autoridad de la entidad o empresa, diciendo solo lo estrictamente necesario del proceso, con la certificación del SIPASSE ([artículo 3](/leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/articulo-3/)).
+2. Se otorgan como mínimo 2 horas por semana, hasta que el proceso concluya.
+3. Esas horas se piden según el procedimiento interno y deben compensarse con un tiempo igual; no se acumulan ni se pagan en dinero.
+4. Excepcionalmente puede pedirse más tiempo, con el documento que acredite la hora de entrada y salida en la instancia correspondiente.
+5. El tiempo usado no se descuenta del salario, y usar esta tolerancia nunca puede ser motivo de despido, acoso laboral ni discriminación ([artículo 4](/leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/articulo-4/)).
+
+> La Resolución Bi-Ministerial 002/15 solo existía como copia escaneada: en este sitio está transcrita palabra por palabra, artículo por artículo.

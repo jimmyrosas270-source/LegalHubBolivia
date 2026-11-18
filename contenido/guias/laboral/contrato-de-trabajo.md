@@ -16,6 +16,8 @@ articulos:
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=114 | Auto Supremo 293/2022 | Resúmenes de Jurisprudencia TSJ 2022
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=150 | Auto Supremo 146/2022 (20 de abril) | Resúmenes de Jurisprudencia TSJ 2022
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 10 a 12 y 23 a 25
+- /biblioteca/decreto-supremo-1060/ | Decreto Supremo 1060 (PDF) | Certificado de trabajo
+- /biblioteca/resolucion-administrativa-650-07/ | Resolución Administrativa 650/07 (PDF) | Contratos a plazo fijo
 ---
 ## Cuándo hay relación laboral
 
@@ -62,7 +64,7 @@ El mismo decreto ley pone dos límites (artículo 2):
 
 Si el empleador no respeta esos límites, el contrato se convierte en uno por tiempo indefinido (artículo 2), y el Ministerio de Trabajo hace inspecciones para verificarlo (artículo 5). Las indemnizaciones pagadas al terminar contratos a plazo fijo para tareas permanentes, sin interrupción entre uno y otro, se toman como anticipo de la liquidación final, contando la antigüedad desde el primer contrato (artículo 4).
 
-La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)) añade, citando también una Resolución Administrativa 650/07, que los contratos sucesivos por un tiempo menor al período de prueba o a plazo fijo renovados periódicamente pasan a ser indefinidos desde la segunda contratación, si se trata de labores propias del giro de la empresa, y que si el trabajador sigue trabajando al vencer el plazo, el contrato se renueva tácitamente por tiempo indefinido. Esa resolución no está en la Biblioteca. [VERIFICAR]
+La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)) añade que los contratos sucesivos renovados periódicamente pasan a ser indefinidos desde la segunda contratación, si se trata de labores propias del giro de la empresa, y que si el trabajador sigue trabajando al vencer el plazo, el contrato se renueva tácitamente por tiempo indefinido. La guía cita la [Resolución Administrativa 650/07](/biblioteca/resolucion-administrativa-650-07/leer/), pero esa resolución no dice eso: es un instructivo sobre qué son tareas propias y permanentes y qué debe acreditar el empleador para refrendar un contrato a plazo fijo. Ver [El contrato a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/). [VERIFICAR]
 
 ## El visado o refrendo del contrato
 
@@ -84,6 +86,14 @@ La Ley General del Trabajo regula además el contrato de aprendizaje (artículos
 
 ## El certificado de trabajo
 
-El certificado de trabajo acredita la experiencia y la formación del trabajador y le sirve para buscar un nuevo empleo. Según la guía del Ministerio de Trabajo de 2020 ([págs. 11 y 12](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=11)), que cita un Decreto Supremo 1060 de 25 de febrero de 1948, el empleador debe entregarlo; si se niega, el trabajador puede acudir a la Inspección del Trabajo para que cite al empleador y lo extienda. Ese decreto no está en la Biblioteca. [VERIFICAR]
+Al terminar cualquier contrato de trabajo, el empleador debe dar al trabajador que lo pide un certificado con la fecha de ingreso, la de salida, la clase de trabajo hecho y la conducta observada ([Decreto Supremo 1060, de 25 de febrero de 1948](/biblioteca/decreto-supremo-1060/leer/), artículo 1). Las reglas para calificar la conducta son estrictas:
 
-!! Esta guía se apoya en parte en la guía del Ministerio de Trabajo de octubre de 2020. Las normas que esa guía cita y que no están en la Biblioteca se nombran tal como ella las cita; lo posterior a 2020 debe confirmarse en la fuente oficial. [VERIFICAR]
+- Solo puede calificarse como excelente, buena, regular o mala (artículo 2).
+- Las tres primeras se refieren solo al cumplimiento del contrato y del reglamento interno y a la eficiencia del trabajador (artículo 3).
+- «Mala» debe fundarse en una de las causas que enumera el decreto, escrita en el certificado: daño intencional a máquinas o productos, revelación de secretos industriales, incumplimiento grave del reglamento interno, abuso de confianza, robo o hurto, o vías de hecho, injurias o conducta inmoral en el trabajo (artículo 4).
+- Está prohibido poner signos o señales en el certificado; el Inspector del Trabajo multa al empleador que lo haga (artículo 5).
+
+Si el empleador se niega a entregarlo, el trabajador puede acudir a la Inspección del Trabajo ([guía del Ministerio de Trabajo de 2020, págs. 11 y 12](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=11)).
+
+> El decreto de 1948 nació porque algunas empresas mineras entregaban certificados de retiro con la conducta tachada con letras X, lo que impedía a los trabajadores conseguir otro empleo.
+

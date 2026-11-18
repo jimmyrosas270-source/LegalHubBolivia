@@ -295,7 +295,7 @@ Hasta 8 horas por día y 48 por semana; de noche, hasta 7 horas. Para mujeres y 
 
 ### ¿Cuántas horas trabaja una trabajadora asalariada del hogar?
 
-Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=13), que cita el artículo 11 de la Ley 2450: hasta 10 horas de trabajo efectivo si vive en el hogar donde trabaja y hasta 8 si no vive allí; el tiempo de comida no se cuenta. Ver [La jornada de trabajo](/guias/laboral/jornada-de-trabajo/). [VERIFICAR]
+Hasta 10 horas de trabajo efectivo si vive en el hogar donde trabaja y hasta 8 horas diarias si no vive allí; el tiempo de comida no se cuenta ([Ley 2450](/biblioteca/ley-2450/leer/), artículo 11). Tiene un día de descanso a la semana y los feriados de ley (artículo 12). Ver [La jornada de trabajo](/guias/laboral/jornada-de-trabajo/).
 
 ### ¿Cuántos días de vacación me corresponden?
 
@@ -315,7 +315,7 @@ No se permiten más de dos contratos sucesivos a plazo fijo, ni contratos a plaz
 
 ### ¿Qué hago si mi empleador no me da el certificado de trabajo?
 
-Según la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=11), puedes acudir a la Inspección del Trabajo para que cite al empleador y lo extienda. La guía cita un Decreto Supremo 1060 de 1948, que no está en la Biblioteca. [VERIFICAR]
+Al terminar el contrato, el empleador debe darte, si lo pides, un certificado con la fecha de ingreso y de salida, la clase de trabajo y tu conducta, calificada solo como excelente, buena, regular o mala; «mala» debe justificarse con una de las causas del decreto ([Decreto Supremo 1060](/biblioteca/decreto-supremo-1060/leer/), 1948). Si se niega, acude a la Inspección del Trabajo. Ver [El contrato de trabajo y la relación laboral](/guias/laboral/contrato-de-trabajo/).
 
 ### ¿Me pueden bajar el sueldo si paso a teletrabajo?
 
@@ -444,3 +444,15 @@ El contrato de trabajo puede ser verbal y su existencia se acredita por todos lo
 ### ¿Puedo firmar digitalmente el contrato o la adenda de teletrabajo?
 
 El [Decreto Supremo 4570](/biblioteca/decreto-supremo-4570/leer/) (2021) pide que el acuerdo de teletrabajo conste por escrito, «mediante mecanismos idóneos de prueba» (artículo 13), pero no habla de firma digital. Los materiales de apoyo dicen que puede firmarse a distancia con firma electrónica o digital que garantice su autenticidad e integridad, sin costo para el trabajador; ese punto no está en ningún texto publicado aquí. Ver [Teletrabajo y trabajo a distancia](/guias/laboral/teletrabajo/). [VERIFICAR]
+
+### ¿Tengo derecho a no responder mensajes de trabajo fuera de mi horario?
+
+Si trabajas en teletrabajo o trabajo a distancia, sí: el reglamento de 2021 reconoce el derecho a la desconexión digital fuera de la jornada y durante las licencias, sin sanción por usarlo. No alcanza a los puestos de dirección o confianza ni a quienes, por su responsabilidad, no pueden desconectarse ([Reglamento de teletrabajo](/biblioteca/reglamento-de-teletrabajo-y-trabajo-a-distancia/leer/), artículo 4). Ver [Teletrabajo y trabajo a distancia](/guias/laboral/teletrabajo/).
+
+### ¿Tengo permiso en el trabajo si soy víctima de violencia?
+
+Sí. Tienes como mínimo 2 horas por semana de tolerancia para ir a las audiencias, informarte de tu proceso o recibir atención médica o psicológica, sin descuento del salario y sin que pueda ser motivo de despido. Se pide por nota con la certificación del SIPASSE y las horas se compensan con un tiempo igual ([Resolución Bi-Ministerial 002/15](/leyes/laboral/normas-transcritas/resolucion-bi-ministerial-002-15/), artículos 3 y 4). Ver [Licencias especiales](/guias/laboral/licencias-especiales/).
+
+### ¿Desde cuándo tiene fuero un dirigente sindical?
+
+Desde la fecha de su elección ([Decreto Supremo 29539](/biblioteca/decreto-supremo-29539/leer/), artículo 2), y hasta un año después de terminar su gestión ([Constitución](/leyes/constitucional/constitucion-politica-del-estado/articulo-51/), art. 51.VI). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).

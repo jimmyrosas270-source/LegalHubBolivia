@@ -59,7 +59,7 @@ La [Resolución Ministerial 001/24](/biblioteca/resolucion-ministerial-001-24/le
 
 > Si el empleador presenta el contrato a plazo fijo fuera de plazo, el reglamento presume un contrato verbal por tiempo indefinido: el plazo pactado deja de servirle para terminar la relación.
 
-Los materiales de apoyo añaden que en los contratos con plazo determinado debe justificarse el plazo con respaldo documentado, según una Resolución Administrativa 650/07 que no está en la Biblioteca. [VERIFICAR]
+En los contratos a plazo fijo, la [Resolución Administrativa 650/07](/biblioteca/resolucion-administrativa-650-07/leer/) exige además acreditar que la tarea es temporal (suplencia, temporada o entidad con cierre fijado), con documentos y una nota del empleador que vale como declaración jurada. Ver [El contrato a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/).
 
 El costo del trámite y la cuenta bancaria que trae el reglamento no se publican aquí: deben consultarse en el Ministerio de Trabajo.
 
@@ -67,7 +67,7 @@ El costo del trámite y la cuenta bancaria que trae el reglamento no se publican
 - Para nacionales pide, entre otros: copia de la cédula del empleador o su representante, poder del representante con facultades para contratar y tramitar el refrendo (si corresponde), certificado del Registro Obligatorio de Empleadores, NIT, la última declaración de planilla de sueldos reportada en la Oficina Virtual de Trámites, tres ejemplares originales del contrato, copia de la cédula del trabajador y el comprobante de pago del costo del trámite.
 - Para extranjeros añade una nota de solicitud, la cédula de extranjero o la visa de trabajo y la resolución de Migración que concede el estatus migratorio. En La Paz, el material cita además un croquis del establecimiento.
 - Plazo: 60 días desde el inicio de la relación laboral para trabajadores nacionales y 30 días para extranjeros.
-- En contratos con plazo determinado hay que justificar el plazo con respaldo documentado y una nota expresa, según una Resolución Administrativa 650/07 que tampoco está en la Biblioteca.
+- En contratos con plazo determinado hay que justificar el plazo con respaldo documentado y una nota expresa, según la Resolución Administrativa 650/07, que ya está en la Biblioteca.
 - El refrendo no tiene carácter regularizatorio: fuera de plazo, la solicitud se niega.
 - No refrendar se considera infracción a las leyes sociales. Para trabajadores extranjeros hay multa según el número de extranjeros de la empresa.
 - En contratos eventuales o a plazo fijo sin refrendo, se presumiría una relación verbal por tiempo indefinido. Ver [Contratos a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/).

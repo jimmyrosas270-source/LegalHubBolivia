@@ -2,7 +2,7 @@
 titulo: Contratos a plazo fijo y contratos sucesivos
 materia: Laboral
 publico: Trabajadores y empleadores
-actualizada: 16/11/2026
+actualizada: 17/11/2026
 resumen: Cuándo se puede contratar con fecha de término, cuántas veces se puede renovar, qué pasa si el trabajador sigue después del vencimiento y cómo se cuenta la antigüedad cuando los contratos se encadenan.
 articulos:
 - /biblioteca/decreto-ley-16187/ | Decreto Ley 16187 (PDF) | Artículos 1 a 5
@@ -10,6 +10,7 @@ articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-21/ | Artículo 21 | Ley General del Trabajo
 - /biblioteca/decreto-supremo-0012/ | Decreto Supremo 0012 (PDF) | Artículo 5
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Pág. 24
+- /biblioteca/resolucion-administrativa-650-07/ | Resolución Administrativa 650/07 (PDF) | Tareas propias y permanentes
 ---
 ## Qué es
 
@@ -26,7 +27,15 @@ El mismo decreto ley pone dos prohibiciones (artículo 2):
 
 Si el empleador las incumple, se dispone que el contrato a plazo fijo se convierta en contrato por tiempo indefinido (artículo 2). Para vigilarlo, el Ministerio de Trabajo hace inspecciones periódicas en los centros de trabajo (artículo 5).
 
-!! Hay una diferencia de cifras que conviene tener presente. El decreto ley prohíbe pasar de dos contratos sucesivos. La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)), que cita una Resolución Administrativa 650/07 que no está en la Biblioteca, y los materiales de apoyo dicen que el contrato pasa a ser indefinido desde la segunda contratación cuando se trata de labores propias de la empresa. El texto del decreto ley no dice eso con esas palabras. [VERIFICAR]
+!! Hay una diferencia que conviene tener presente. El decreto ley prohíbe pasar de dos contratos sucesivos. La guía del Ministerio de Trabajo de 2020 ([pág. 24](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=24)) y los materiales de apoyo dicen que el contrato pasa a ser indefinido desde la segunda contratación cuando se trata de labores propias de la empresa, y citan la Resolución Administrativa 650/07; pero esa resolución, que ya está en la Biblioteca, no lo dice. [VERIFICAR]
+
+## Cuándo una tarea admite contrato a plazo
+
+La [Resolución Administrativa 650/07](/biblioteca/resolucion-administrativa-650-07/leer/), de 27 de abril de 2007, es un instructivo para refrendar contratos por cierto tiempo o a plazo fijo:
+
+- **Tareas propias y permanentes** son las vinculadas al giro habitual o actividad principal de la empresa, sin las cuales la empresa no tendría razón de existir. Para ellas no se admite el contrato a plazo.
+- **Tareas propias y no permanentes** son las que, aun vinculadas al giro de la empresa, son extraordinariamente temporales. La resolución da tres ejemplos: suplir a quien está con licencia, baja médica, descanso pre o posnatal o en comisión; atender una necesidad de temporada o una demanda extraordinaria; y trabajar en entidades cuya fecha de cierre ya está fijada.
+- Para refrendar el contrato, el empleador debe acreditarlo: en una suplencia, nombrar a quien se suple y adjuntar la baja, licencia o comisión con su duración; en una necesidad de temporada, adjuntar contratos, pedidos o planificación y una nota firmada que vale como declaración jurada; en una entidad con cierre fijado, los programas, convenios o contratos.
 
 ## Si el trabajador sigue después del vencimiento
 

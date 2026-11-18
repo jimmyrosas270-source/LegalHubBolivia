@@ -25,7 +25,7 @@ El [artículo 25 del Decreto Supremo 21637](/biblioteca/decreto-supremo-21637/le
 - **Subsidio de lactancia:** la entrega a la madre de productos lácteos u otros equivalentes por cada hijo, durante sus primeros doce meses de vida.
 - **Subsidio de sepelio:** un pago único a la madre por la muerte de cada hijo beneficiario menor de 19 años.
 
-El monto de cada subsidio lo fija el Decreto Supremo 3546. Antes de calcularlo, conviene confirmar que no haya un decreto posterior que lo actualice. [VERIFICAR] El Ministerio de Salud vela por que se cumplan.
+El monto de cada subsidio lo fija el Decreto Supremo 3546. Antes de calcularlo, conviene confirmar que no haya un decreto posterior que lo actualice. [VERIFICAR] El Ministerio de Salud vela por que se cumplan. Las asignaciones protegen al hijo: aunque el padre o la madre hayan sido despedidos con causa, el empleador debe pagar las que no pagó ([Sentencia Constitucional Plurinacional 1443/2016-S3](/biblioteca/sentencia-constitucional-plurinacional-1443-2016-s3/leer/#page=16)).
 
 > La guía del Ministerio de Trabajo de 2020 decía que los subsidios prenatal y de lactancia se entregan en alimentos; el decreto de 2018 permite pagar el prenatal en dinero o en especie.
 
