@@ -43,7 +43,7 @@
 .conteo.no{color:var(--rojo);font-weight:600}
 .lector-herr{display:flex;align-items:center;gap:2px}
 .pagnum{display:flex;align-items:center;gap:4px;font-size:14px;color:var(--sec);margin:0 4px}
-.pagnum input{width:52px;height:36px;border:1.5px solid var(--linea);border-radius:8px;text-align:center;font:inherit;font-size:15px;color:var(--tinta);-moz-appearance:textfield}
+.pagnum input{width:52px;height:36px;border:1.5px solid var(--linea);border-radius:8px;background:#fff;text-align:center;font:inherit;font-size:15px;color:var(--tinta);-moz-appearance:textfield}
 .pagnum input::-webkit-inner-spin-button{-webkit-appearance:none}
 #lector{flex:1;position:relative;min-height:0}
 #visor-cont{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch}
@@ -112,3 +112,7 @@
 /* Recuadro para reportar errores (construir.py, reportes_url) */
 .reportar{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;margin-top:28px;margin-bottom:28px;padding:16px 18px;background:var(--menta,#E4EFE8);border-radius:12px;font-size:15px}
 .reportar .btn-rep{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--verde,#1F5B44);color:#fff;text-decoration:none;font-weight:600}
+
+/* El CSS de pdf.js declara «color-scheme: light dark»: en celulares con modo oscuro, los campos del visor salían oscuros. El sitio es solo claro. */
+:root{color-scheme:light}
+.lector-busca input,.pagnum input{background-color:#fff;color:var(--tinta)}
