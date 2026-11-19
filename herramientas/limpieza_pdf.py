@@ -2,6 +2,7 @@
 """Limpieza de PDF al publicar (se ejecuta dentro de construir.py con exec).
 
 - Quita hipervínculos y resaltados o notas de lector. El texto no cambia.
+  Los enlaces internos (a otra página del mismo PDF, como los de un índice) se conservan.
 - Si algún enlace apuntaba a una página que no es oficial del Estado (LexiVox,
   InfoLeyes, «javascript:», etc.), además pone en negro el texto azul de esos
   enlaces, quita su subrayado y quita los iconos de barra de herramientas del
@@ -9,8 +10,18 @@
 """
 import re as _re
 
-OFICIALES = _re.compile(r'^https?://([a-z0-9-]+\.)*(gob\.bo|tcpbolivia\.bo|tsj\.bo|organojudicial\.gob\.bo|oep\.org\.bo|asfi\.gob\.bo)(/|$)', _re.I)
+OFICIALES = _re.compile(r'^(https?://)?([a-z0-9-]+\.)*(gob\.bo|tcpbolivia\.bo|tsj\.bo|organojudicial\.gob\.bo|oep\.org\.bo|asfi\.gob\.bo)(/|$)', _re.I)
 QUITAR = ('/Link', '/Highlight', '/Popup')
+
+
+def _interno(a):
+    """Enlace a otra página del mismo PDF (por ejemplo, el índice de una revista): se conserva."""
+    if a.get('/Subtype') != '/Link':
+        return False
+    act = a.get('/A')
+    if act is None:
+        return '/Dest' in a
+    return str(act.get_object().get('/S')) == '/GoTo'
 
 
 def _uri(a):
@@ -72,7 +83,7 @@ def quitar_enlaces(origen, destino):
     try:
         r = pypdf.PdfReader(origen)
         anots = [a.get_object() for pg in r.pages for a in (pg.get('/Annots') or [])]
-        anots = [a for a in anots if a.get('/Subtype') in QUITAR]
+        anots = [a for a in anots if a.get('/Subtype') in QUITAR and not _interno(a)]
         if not anots:
             return False
         no_oficial = any(a.get('/Subtype') == '/Link' and _uri(a) and not OFICIALES.match(_uri(a)) for a in anots)
@@ -81,7 +92,7 @@ def quitar_enlaces(origen, destino):
         for pg in w.pages:
             an = pg.get('/Annots')
             if an:
-                quedan = ArrayObject([a for a in an.get_object() if a.get_object().get('/Subtype') not in QUITAR])
+                quedan = ArrayObject([a for a in an.get_object() if a.get_object().get('/Subtype') not in QUITAR or _interno(a.get_object())])
                 if quedan:
                     pg[NameObject('/Annots')] = quedan
                 else:

@@ -24,7 +24,7 @@ DESC_TIPO = {
     'Resoluciones': 'Resoluciones ministeriales y administrativas.',
     'Reglamentos y protocolos': 'Reglamentos y protocolos de aplicación.',
     'Sentencias constitucionales': 'Sentencias del Tribunal Constitucional Plurinacional: amparos y acciones de inconstitucionalidad.',
-    GRUPO_AUTOS: 'Autos supremos del Tribunal Supremo de Justicia, publicados en las revistas de Jurisprudencia.',
+    GRUPO_AUTOS: 'Autos supremos del Tribunal Supremo de Justicia: los publicados completos en PDF y los resumidos en las revistas de Jurisprudencia.',
     'Otros documentos': 'Compilaciones, guías y otros documentos de consulta.',
 }
 
@@ -98,8 +98,10 @@ def paginas_por_tipo(S, DOCS, tarjeta, por_materia):
         for m, k in totales[g]:
             if g == GRUPO_AUTOS:
                 tarj = ''.join(tarjeta_auto(a) for a in sorted(autos_de(m), key=lambda a: a['pagina']))
-                secciones.append(f'<section class="grupo-lib"><h2 class="grupo-tit">{E(m)} <small>({k})</small></h2><div class="rejilla autos">{tarj}</div>'
-                                 f'<p><a class="mas" href="/biblioteca/{slug(m)}/{slug(g)}/">Solo {E(m.lower())}</a></p></section>')
+                pdfs = ''.join(tarjeta(d, etq=d['tipo']) for d in por_materia.get(m, []) if d['tgrupo'] == g)
+                secciones.append(f'<section class="grupo-lib"><h2 class="grupo-tit">{E(m)} <small>({k})</small></h2>'
+                                 + (f'<div class="rejilla autos">{tarj}</div>' if tarj else '') + (f'<div class="estante">{pdfs}</div>' if pdfs else '')
+                                 + f'<p><a class="mas" href="/biblioteca/{slug(m)}/{slug(g)}/">Solo {E(m.lower())}</a></p></section>')
             else:
                 tarj = ''.join(tarjeta(d, etq=d['tipo']) for d in por_materia[m] if d['tgrupo'] == g)
                 secciones.append(f'<section class="grupo-lib"><h2 class="grupo-tit">{E(m)} <small>({k})</small></h2><div class="estante">{tarj}</div>'

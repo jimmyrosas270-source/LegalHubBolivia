@@ -70,7 +70,7 @@ def indice_ampliado():
                        't': f'Auto Supremo {a["numero"]} {a["fecha"]} {a["sala"]}. {a["tema"]}'})
     json.dump(idx + nuevos, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     # texto de los PDF, página por página
-    paginas = []
+    paginas, extensos, nombres_ext = [], [], []
     for ruta_s, carpeta, docs in (('biblioteca', 'biblioteca', DOCS), ('jurisprudencia', 'jurisprudencia', DOCS_JUR)):
         for d in docs:
             ruta = d.get('ruta_pdf') or next(iter(_glob.glob(os.path.join(RAIZ, carpeta, 'pdf', '**', d['archivo']), recursive=True)), None)
@@ -81,14 +81,25 @@ def indice_ampliado():
             except Exception as e:
                 AVISOS.append(f'Buscador: no se pudo leer el texto de «{d["archivo"]}»: {e}')
                 continue
-            for n, pg in enumerate(txt.split('\f'), 1):
+            hojas = txt.split('\f')
+            destino = paginas
+            if len(hojas) > PAGINAS_EXTENSO:
+                destino = extensos
+                nombres_ext.append(d['titulo'])
+            for n, pg in enumerate(hojas, 1):
                 pg = re.sub(r'\s+', ' ', pg).strip()
                 if len(pg) < 20:
                     continue
-                paginas.append({'n': 0, 'u': f'/{ruta_s}/{d["slug"]}/leer/#page={n}', 'r': f'{d["titulo"]} · pág. {n}',
+                destino.append({'n': 0, 'u': f'/{ruta_s}/{d["slug"]}/leer/#page={n}', 'r': f'{d["titulo"]} · pág. {n}',
                                 'k': 'Texto del PDF · ' + ('Biblioteca' if ruta_s == 'biblioteca' else 'Jurisprudencia'),
                                 'c': 'pdf' if ruta_s == 'biblioteca' else 'jur', 't': pg})
     escribe('buscar/pdf.json', json.dumps(paginas, ensure_ascii=False, separators=(',', ':')))
+    # los documentos muy extensos van aparte: solo se descargan al filtrar por «Texto de los PDF» o «revistas»
+    escribe('buscar/extensos.json', json.dumps(extensos, ensure_ascii=False, separators=(',', ':')))
+    global HAY_EXTENSOS
+    HAY_EXTENSOS = bool(nombres_ext)
+    if nombres_ext:
+        print(f'Buscador: {len(nombres_ext)} documento(s) extenso(s) en buscar/extensos.json: {", ".join(nombres_ext)}.')
     # página de búsqueda: texto y filtro
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()
@@ -105,6 +116,11 @@ def indice_ampliado():
     print(f'Buscador: {len(idx)} artículos + {len(nuevos)} guías, preguntas, términos, fichas y autos; {len(paginas)} páginas de PDF.')
 
 
+# Documentos con más páginas que esto no entran en la búsqueda general (pesarían demasiado al buscar desde el celular):
+# se buscan con el filtro «Texto de los PDF» o «Texto de las revistas», y dentro de su propio visor.
+PAGINAS_EXTENSO = 500
+HAY_EXTENSOS = False
+
 JS_BUSQUEDA = r"""var NOMBRE={glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
 var ORDEN=['glo','gui','pre','aut','cpe','lgt','rgl','cpt','cmp','trn','bib','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
@@ -120,7 +136,7 @@ if(num){lista=datos.filter(function(a){return a.n===+num[1]&&(!a.x||fn===a.c)});
 lista=lista.map(function(a,i){return [a,i]}).sort(function(x,y){return rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]});
 est.textContent=lista.length?(lista.length+(lista.length===1?' resultado':' resultados')+(lista.length>60?'; se muestran los primeros 60':'')):'Sin resultados. Prueba con otra palabra o con el número del artículo.';if(!fn)resumen(lista);pinta(lista,palabras)}
 if(q){est.textContent='Buscando…';var quiere=!fn||fn==='pdf'||fn==='jur';
-Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?fetch('/buscar/pdf.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1]))}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
+Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?fetch('/buscar/pdf.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([]),fn==='pdf'||fn==='jur'?fetch('/buscar/extensos.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de los documentos muy extensos (por ejemplo, los tomos de la Gaceta Judicial). Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
 """
 
 
@@ -135,7 +151,8 @@ def parchar_sitio_js():
     if i < 0 or j < i:
         AVISOS.append('No se pudo ampliar la búsqueda en assets/sitio.js (cambió la base).')
         return
-    open(p, 'w', encoding='utf-8').write(t[:i] + JS_BUSQUEDA + t[j:])
+    js = JS_BUSQUEDA.replace('if(!fn){var nt', 'if(!fn&&' + ('true' if HAY_EXTENSOS else 'false') + '){var nt')
+    open(p, 'w', encoding='utf-8').write(t[:i] + js + t[j:])
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()
     if '/assets/biblioteca.css' not in doc:

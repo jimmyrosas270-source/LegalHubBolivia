@@ -6,7 +6,7 @@ Sitio legal boliviano. Cada cambio que se guarda en este repositorio (rama `main
 
 | Carpeta | Qué va ahí | Quién la toca |
 | --- | --- | --- |
-| `biblioteca/pdf/<materia>/` | Los PDF de la Biblioteca, uno por norma, dentro de la carpeta de su materia: `laboral/`, `familia/`, `constitucional/`, `civil/`, `procesal-civil/`, `penal/`, `procesal-penal/`, `administrativa/`, `personas-con-discapacidad/` (máximo 25 MB cada uno) | Titular |
+| `biblioteca/pdf/<materia>/` | Los PDF de la Biblioteca, uno por norma, dentro de la carpeta de su materia: `laboral/`, `familia/`, `constitucional/`, `civil/`, `procesal-civil/`, `penal/`, `procesal-penal/`, `administrativa/`, `agraria/`, `personas-con-discapacidad/` (máximo 25 MB cada uno) | Titular |
 | `biblioteca/catalogo.csv` | Una fila por PDF: título, tipo, número, fecha, materia, estado | Titular |
 | `jurisprudencia/pdf/` | Las revistas jurisprudenciales en PDF, una por año o tomo (máximo 25 MB cada una) | Titular |
 | `jurisprudencia/catalogo.csv` | Una fila por revista: título, tipo, número, fecha (año), materia | Titular |
@@ -75,7 +75,7 @@ Requiere Python 3 y poppler-utils (`pdfinfo`, `pdftoppm`, `pdftotext`).
 
 ## Hipervínculos en los PDF
 
-Al publicar, el generador (`herramientas/limpieza_pdf.py`) quita solo los hipervínculos y los resaltados o notas de lector que traigan los PDF. Si los enlaces iban a páginas que no son oficiales del Estado (LexiVox, InfoLeyes y similares), también pone en negro el texto azul de esos enlaces, quita su subrayado y los iconos de la barra del sitio web. El texto no cambia. No hace falta limpiarlos a mano antes de subirlos.
+Al publicar, el generador (`herramientas/limpieza_pdf.py`) quita solo los hipervínculos y los resaltados o notas de lector que traigan los PDF. Si los enlaces iban a páginas que no son oficiales del Estado (LexiVox, InfoLeyes y similares), también pone en negro el texto azul de esos enlaces, quita su subrayado y los iconos de la barra del sitio web. Los enlaces internos (de un índice a otra página del mismo PDF) se conservan. El texto no cambia. No hace falta limpiarlos a mano antes de subirlos.
 
 ## Secciones por tipo de norma y autos supremos
 
@@ -85,6 +85,7 @@ Al publicar, el generador (`herramientas/limpieza_pdf.py`) quita solo los hiperv
 ## Buscador
 
 El buscador (`/buscar/`) busca en las normas por artículos, las guías, las preguntas, el glosario, las fichas de la Biblioteca, los autos supremos y el texto de todas las páginas de los PDF. Se arma solo al publicar (`herramientas/buscador.py`).
+Los PDF de más de 500 páginas (por ejemplo, un tomo de la Gaceta Judicial) no entran en la búsqueda general, para que no pese demasiado en el celular: se buscan con el filtro «Texto de los PDF» o «Texto de las revistas de jurisprudencia», o dentro de su propio visor.
 
 ## Recuadro «Reportar un error»
 
