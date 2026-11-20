@@ -26,10 +26,13 @@
    {"archivo": "ley-439-codigo-procesal-civil.pdf", "portada": {"tipo": "Ley N.º 439", "lineas": ["Código", "Procesal", "Civil"], "pie": "2013", "color": "verde"}}
   ],
   "Procesal penal": [
-   {"archivo": "ley-1970-codigo-de-procedimiento-penal.pdf", "portada": {"tipo": "Ley N.º 1970", "lineas": ["Código de", "Procedimiento", "Penal"], "pie": "1999 · Texto original", "color": "tinta"}}
+   {"archivo": "ley-1970-codigo-de-procedimiento-penal-2025.pdf", "portada": {"tipo": "Ley N.º 1970", "lineas": ["Código de", "Procedimiento", "Penal"], "pie": "1999 · Edición 2025", "color": "tinta"}}
   ],
   "Tributario": [
    {"archivo": "ley-843.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Compilación hasta 2003", "color": "bosque"}}
+  ],
+  "Penal": [
+   {"archivo": "codigo-penal-2025.pdf", "portada": {"tipo": "Decreto Ley N.º 10426", "lineas": ["Código", "Penal"], "pie": "1972 · Edición 2025", "color": "kantuta"}}
   ]
  }
 }
