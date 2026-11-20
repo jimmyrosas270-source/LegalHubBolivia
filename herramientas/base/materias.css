@@ -1,0 +1,152 @@
+/* LegalHubBolivia: color por materia, Temas de interés y tarjetas «¿Sabías que?».
+   Lo copia construir.py (decorar.py) a assets/materias.css. El menú sigue blanco; cada materia
+   aporta su color con --m (color) y --m2 (tinte claro). Contraste del blanco sobre cada color: 5,9:1 o más. */
+:root{--m:#1F5B44;--m2:#E4EFE8}
+[data-m=constitucional],[data-mc=constitucional],.libro[data-materia="Constitucional"]{--m:#24497F;--m2:#E9EDF2}
+[data-m=laboral],[data-mc=laboral],.libro[data-materia="Laboral"]{--m:#1F5B44;--m2:#E9EFEC}
+[data-m=familia],[data-mc=familia],.libro[data-materia="Familia"]{--m:#6B3A7D;--m2:#F0EBF2}
+[data-m=civil],[data-mc=civil],.libro[data-materia="Civil"]{--m:#1E6B73;--m2:#E8F0F1}
+[data-m=procesal-civil],[data-mc=procesal-civil],.libro[data-materia="Procesal civil"]{--m:#154C52;--m2:#E8EDEE}
+[data-m=penal],[data-mc=penal],.libro[data-materia="Penal"]{--m:#A3241B;--m2:#F6E9E8}
+[data-m=procesal-penal],[data-mc=procesal-penal],.libro[data-materia="Procesal penal"]{--m:#741B14;--m2:#F1E8E8}
+[data-m=administrativa],[data-mc=administrativa],.libro[data-materia="Administrativa"]{--m:#4A5868;--m2:#EDEEF0}
+[data-m=agraria],[data-mc=agraria],.libro[data-materia="Agraria"]{--m:#5A6B1F;--m2:#EEF0E9}
+[data-m=tributario],[data-mc=tributario],.libro[data-materia="Tributario"]{--m:#8A5A0F;--m2:#F3EEE7}
+[data-m=personas-con-discapacidad],[data-mc=personas-con-discapacidad],.libro[data-materia="Personas con discapacidad"]{--m:#3B4FA3;--m2:#EBEDF6}
+[data-m=comercial],[data-mc=comercial],.libro[data-materia="Comercial"]{--m:#5B4636;--m2:#EFECEB}
+[data-m=otras],[data-mc=otras],.libro[data-materia="Otras"]{--m:#55615A;--m2:#EEEFEE}
+
+/* páginas con materia */
+body[data-m] .cab{border-bottom:4px solid var(--m)}
+body[data-m] .pag>h1,body[data-m] .pag h1,body[data-m] .guia h2{color:var(--m)}
+body[data-m] .chip{background:var(--m2);color:var(--m)}
+body[data-m] .migas a{color:var(--m)}
+body[data-m] .fila svg{color:var(--m)}
+body[data-m] .fila:hover{border-color:var(--m)}
+a.materia[data-mc]{border-left:6px solid var(--m)}
+a.materia[data-mc] b{color:var(--m)}
+a.materia[data-mc]:hover{background:var(--m2)}
+.libro[data-materia] .etq,.etq[data-mc]{color:var(--m)}
+@media(min-width:900px){.nav{gap:22px}}
+@media(min-width:900px) and (max-width:1199px){.nav{gap:15px;font-size:15px}}
+
+/* tarjetas de tema */
+.temas-r{display:grid;gap:16px;grid-template-columns:1fr}
+.tema-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--linea);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--tinta)}
+.tema-card:hover{border-color:var(--m)}
+.tema-card:hover h2,.tema-card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.tema-card-i{display:block;aspect-ratio:5/3;background:var(--m)}
+.tema-card-i svg,.tema-hero-i svg{display:block;width:100%;height:100%}
+.tema-card-t{display:flex;flex-direction:column;gap:6px;padding:14px 16px 18px}
+.tema-card-t small{color:var(--m);font-weight:600;font-size:13px}
+.tema-card-t h2,.tema-card-t h3{font-size:18px;line-height:1.3;margin:0;color:var(--tinta)}
+.tema-card-t>span{color:var(--sec);font-size:15px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.filtro-temas{display:flex;flex-wrap:wrap;gap:8px}
+.filtro-temas button{font:inherit;font-size:14px;font-weight:600;padding:7px 14px;min-height:40px;border-radius:999px;border:1.5px solid var(--linea);background:#fff;color:var(--m);cursor:pointer}
+.filtro-temas button[aria-pressed="true"]{background:var(--m);border-color:var(--m);color:#fff}
+.tema-card[hidden]{display:none}
+
+/* página de un tema */
+.tema-hero{background:var(--m2);border-bottom:1px solid var(--linea);padding:16px 0 28px}
+.tema-hero .migas{margin-bottom:12px}
+.tema-hero-in{display:flex;flex-direction:column;gap:20px}
+.tema-hero-t{display:flex;flex-direction:column;gap:10px}
+.tema-hero h1{color:var(--m);font-size:30px;margin:0;letter-spacing:-.4px}
+.tema-hero .chip{background:#fff}
+.tema-hero .entrada{color:var(--tinta);font-size:17px}
+.tema-hero-i{border-radius:16px;overflow:hidden;aspect-ratio:5/3;max-height:240px}
+.tema-cols{display:block}
+.tema-cuerpo{display:flex;flex-direction:column;gap:14px;min-width:0}
+.tema-cuerpo h2{margin-top:14px;scroll-margin-top:16px}
+.tema-cuerpo section>h2{margin-top:14px}
+.tema-indice{display:none}
+.claves-r{display:grid;gap:10px;grid-template-columns:1fr}
+.clave{display:flex;flex-direction:column;gap:6px;padding:12px 14px;background:var(--m2);border-left:4px solid var(--m);border-radius:0 10px 10px 0;color:var(--tinta);text-decoration:none}
+.clave p{margin:0;font-family:var(--serif);font-size:16.5px;line-height:1.45}
+.clave:hover p{text-decoration:underline;text-decoration-color:var(--m);text-underline-offset:3px}
+.otros{margin-top:20px;border-top:1px solid var(--linea);padding-top:24px}
+@media(min-width:640px){.temas-r{grid-template-columns:repeat(2,minmax(0,1fr))}.claves-r{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:900px){
+.tema-hero{padding:20px 0 36px}
+.tema-hero-in{flex-direction:row;align-items:center;gap:48px}
+.tema-hero-t{flex:1 1 0}.tema-hero-i{flex:0 0 380px;max-height:none}
+.tema-hero h1{font-size:38px}
+.tema-cols{display:grid;grid-template-columns:minmax(0,760px) 240px;gap:56px;align-items:start}
+.tema-indice{display:block;position:sticky;top:16px}
+.tema-indice nav{display:flex;flex-direction:column;border-left:2px solid var(--linea);padding:4px 0}
+.tema-indice b{font-size:14px;padding:0 0 8px 14px}
+.tema-indice a{font-size:14px;line-height:1.35;padding:6px 0 6px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--sec);text-decoration:none}
+.tema-indice a:hover{color:var(--m);border-left-color:var(--m)}
+.temas-r{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+/* «¿Sabías que?» */
+.sabias{background:#fff;border:1px solid var(--linea);border-radius:16px;padding:18px 16px 20px;display:flex;flex-direction:column;gap:14px}
+.sabias-cab{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.sabias-cab h2{margin:0 0 4px}
+.sabias-ctl{display:flex;gap:6px;flex:none}
+.sabias-ctl .ico-btn{border:1.5px solid var(--linea);border-radius:999px}
+.sabias-ctl .ico-btn:hover{border-color:var(--verde);color:var(--verde)}
+.sabias-pista{display:grid;grid-auto-flow:column;grid-auto-columns:88%;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain;padding-bottom:6px;scrollbar-width:thin}
+.dato{position:relative;scroll-snap-align:start;display:flex;flex-direction:column;gap:10px;background:var(--m2);border-top:5px solid var(--m);border-radius:12px;padding:14px 16px 16px;min-height:210px}
+.dato-m{font-size:13px;font-weight:600;color:var(--m)}
+.dato p{flex:1;margin:0;font-family:var(--serif);font-size:18px;line-height:1.45;color:var(--tinta)}
+.dato footer{display:flex;flex-direction:column;gap:4px}
+.dato footer small{font-size:13px}
+.dato footer a{color:var(--m);font-weight:600;font-size:15px}
+.dato footer a::after{content:"";position:absolute;inset:0;border-radius:12px}
+.dato:focus-within{outline:3px solid var(--ocre);outline-offset:2px}
+.dato footer a:focus-visible{outline:none}
+.dato:hover footer a{color:var(--tinta)}
+@media(min-width:700px){.sabias{padding:22px 24px 24px}.sabias-pista{grid-auto-columns:calc((100% - 14px)/2)}}
+@media(min-width:1000px){.sabias-pista{grid-auto-columns:calc((100% - 28px)/3)}}
+@media(prefers-reduced-motion:reduce){.sabias-pista{scroll-behavior:auto}}
+
+/* tarjeta suelta dentro de las páginas y tarjeta flotante */
+.dato-suelto{display:flex;flex-direction:column;gap:8px;margin-top:24px}
+.dato-suelto>b{font-size:15px}
+.dato-suelto .dato{min-height:0}
+.dato-flota{position:fixed;right:16px;bottom:16px;z-index:50;border-radius:12px;width:min(360px,calc(100vw - 32px));box-shadow:0 12px 32px rgba(22,33,28,.22);animation:dato-entra .35s ease-out;background:#fff}
+.dato-flota .dato{min-height:0;background:#fff}
+.dato-flota .dato p{font-size:16.5px}
+.dato-flota .cerrar{position:absolute;top:6px;right:6px;z-index:2;width:40px;height:40px;border:0;background:transparent;border-radius:10px;color:var(--sec);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.dato-flota .cerrar:hover{color:var(--tinta);background:var(--papel)}
+.dato-flota .dato-m{padding-right:36px}
+@keyframes dato-entra{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){.dato-flota{animation:none}}
+@media print{.dato-flota,.dato-suelto,.sabias{display:none}}
+
+/* portada */
+.portada .atajos{font-size:15px;color:#DCEBE3}
+.portada .atajos a{color:#fff;margin:0 6px;white-space:nowrap}
+.portada-pag{gap:36px;padding-top:28px}
+.portada-pag h2{font-size:22px}
+.portada-pag .entre{align-items:baseline}
+.temas-portada .entre{margin-bottom:6px}
+.mat-r{display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr));margin-top:12px}
+.mat-tile{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;min-height:96px;padding:14px 16px;border-radius:12px;background:var(--m);color:#fff;text-decoration:none;overflow:hidden}
+.mat-tile::before{content:"";position:absolute;right:-6px;top:10px;width:84px;height:32px;opacity:.2;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 84 32'%3E%3Cpath d='M0 32V24h8v-8h8V8h8V0h8v8h8v8h8v8h8v-8h8V8h8V0h4v32z' fill='%23fff'/%3E%3C/svg%3E") no-repeat}
+.mat-tile b{font-size:17px;line-height:1.25}
+.mat-tile small{color:rgba(255,255,255,.88);font-size:13px}
+.mat-tile:hover{color:#fff;filter:brightness(1.12)}
+.mat-tile:hover b{text-decoration:underline;text-underline-offset:3px}
+@media(min-width:700px){.mat-r{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:1000px){.mat-r{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* celular: tarjetas de tema más compactas */
+@media(max-width:639px){
+.tema-card{flex-direction:row}
+.tema-card-i{flex:0 0 108px;aspect-ratio:auto;min-height:118px}
+.tema-card-t{padding:12px 14px 14px}
+.tema-card-t h2,.tema-card-t h3{font-size:16.5px}
+.tema-card-t>span{font-size:14px;-webkit-line-clamp:2}
+.tema-hero-i{max-height:170px;aspect-ratio:auto;height:170px}
+.tema-hero h1{font-size:27px}
+}
+.entre{flex-wrap:wrap}
+.entre>.mas{white-space:nowrap}
+
+/* salida rápida (temas sobre violencia) */
+.salida-rapida{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:60;display:inline-flex;align-items:center;gap:8px;padding:10px 18px;min-height:44px;border-radius:999px;background:var(--tinta);color:#fff;font:inherit;font-weight:700;font-size:15px;border:2px solid #fff;box-shadow:0 6px 20px rgba(0,0,0,.25);cursor:pointer}
+.salida-rapida:hover{background:#000}
+body:has(.salida-rapida) .dato-flota{bottom:76px}

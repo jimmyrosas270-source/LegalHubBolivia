@@ -36,6 +36,10 @@ def indice_ampliado():
         return
     idx = json.load(open(p, encoding='utf-8'))
     nuevos = []
+    # temas de interés
+    for t in globals().get('TEMAS', []):
+        nuevos.append({'n': 0, 'u': f'/temas/{t["slug"]}/', 'r': 'Tema: ' + t['titulo'], 'k': 'Tema de interés · ' + t['materia'], 'c': 'tem',
+                       't': f'{t["titulo"]}. {t["resumen"]} ' + ' '.join(k['t'] for k in t['tarjetas']) + ' ' + _plano(t['cuerpo'])})
     # guías
     for f in sorted(_glob.glob(os.path.join(RAIZ, 'contenido', 'guias', '*', '*.md'))):
         meta, cuerpo = _frontmatter(open(f, encoding='utf-8').read())
@@ -104,8 +108,8 @@ def indice_ampliado():
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()
     doc = doc.replace('Escribe un número de artículo o una o varias palabras. Se busca en el texto literal de las normas cargadas.',
-                      'Escribe una o varias palabras, o un número de artículo. Se busca en las normas por artículos, las guías, las preguntas frecuentes, el glosario, las fichas de la Biblioteca, los autos supremos y el texto de todos los PDF.')
-    extra = ('<option value="gui">Guías</option><option value="pre">Preguntas frecuentes</option><option value="glo">Glosario</option>'
+                      'Escribe una o varias palabras, o un número de artículo. Se busca en los temas de interés, las normas por artículos, las guías, las preguntas frecuentes, el glosario, las fichas de la Biblioteca, los autos supremos y el texto de todos los PDF.')
+    extra = ('<option value="tem">Temas de interés</option><option value="gui">Guías</option><option value="pre">Preguntas frecuentes</option><option value="glo">Glosario</option>'
              '<option value="bib">Fichas de la Biblioteca y Jurisprudencia</option><option value="aut">Autos supremos</option>'
              '<option value="pdf">Texto de los PDF de la Biblioteca</option><option value="jur">Texto de las revistas de jurisprudencia</option>')
     if 'value="gui"' not in doc:
@@ -121,8 +125,8 @@ def indice_ampliado():
 PAGINAS_EXTENSO = 500
 HAY_EXTENSOS = False
 
-JS_BUSQUEDA = r"""var NOMBRE={glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
-var ORDEN=['glo','gui','pre','aut','cpe','lgt','rgl','cpt','cmp','trn','bib','pdf','jur'];
+JS_BUSQUEDA = r"""var NOMBRE={tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
+var ORDEN=['tem','glo','gui','pre','aut','cpe','lgt','rgl','cpt','cmp','trn','bib','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
 function pinta(lista,palabras){R.innerHTML='';lista.slice(0,60).forEach(function(a){var t=a.t,n=norm(t),p=0;for(var i=0;i<palabras.length;i++){var k=n.indexOf(palabras[i]);if(k>=0){p=k;break}}
 var ini=Math.max(0,p-70),frag=(ini>0?'…':'')+t.slice(ini,ini+220)+(ini+220<t.length?'…':'');var h=esc(frag);

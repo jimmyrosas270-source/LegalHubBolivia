@@ -45,7 +45,7 @@ def ico(n, s=22):
 
 
 MARCA = '<svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5B44"/><path d="M40 0h10v24l-5-5-5 5z" fill="#E0B04A"/><path d="M14 24h18M14 34h36M14 44h26" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none"/></svg>'
-NAV = [('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudencia', '/jurisprudencia/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
+NAV = [('Temas', '/temas/'), ('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudencia', '/jurisprudencia/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
 PIE = [('Aviso legal', '/legal/aviso-legal/'), ('Privacidad', '/legal/privacidad/'), ('Términos', '/legal/terminos/'), ('Cookies', '/legal/cookies/'), ('Contacto', '/contacto/'), ('Historial de cambios', '/cambios/')]
 ESTADOS = {'vigente': ('Vigente', 'vig'), 'con modificaciones': ('Con modificaciones', 'mod'), 'vigente con modificaciones': ('Con modificaciones', 'mod'),
            'verificar': ('Verificar', 'ver'), 'desactualizada': ('Desactualizada', 'des'), 'derogada': ('Derogada', 'der'), 'abrogada': ('Abrogada', 'abr')}
@@ -519,6 +519,9 @@ exec(open(os.path.join(HERR, 'editorial.py'), encoding='utf-8').read())
 # ---------------------------------------------------------------- 2c. cuestionarios de estudio (Estudiantes)
 exec(open(os.path.join(HERR, 'cuestionarios.py'), encoding='utf-8').read())
 
+# ---------------------------------------------------------------- 2d. temas de interés, tarjetas y portada
+exec(open(os.path.join(HERR, 'temas.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- 3. menú en las páginas de base
 ENLACE_NORM = re.compile(r'(<a href="/leyes/"[^>]*>Normativa</a>)')
 n_menu = 0
@@ -666,6 +669,9 @@ if URL_REPORTE:
                 open(p, 'w', encoding='utf-8').write(doc)
                 n_rep += 1
     print(f'Recuadro «Reportar un error» en {n_rep} páginas.')
+
+# ---------------------------------------------------------------- colores por materia, menú «Temas» y tarjetas en todas las páginas
+exec(open(os.path.join(HERR, 'decorar.py'), encoding='utf-8').read())
 
 # ---------------------------------------------------------------- buscador ampliado
 exec(open(os.path.join(HERR, 'buscador.py'), encoding='utf-8').read())
