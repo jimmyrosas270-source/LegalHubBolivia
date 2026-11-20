@@ -6,7 +6,7 @@ Sitio legal boliviano. Cada cambio que se guarda en este repositorio (rama `main
 
 | Carpeta | Qué va ahí | Quién la toca |
 | --- | --- | --- |
-| `biblioteca/pdf/<materia>/` | Los PDF de la Biblioteca, uno por norma, dentro de la carpeta de su materia: `laboral/`, `familia/`, `constitucional/`, `civil/`, `procesal-civil/`, `penal/`, `procesal-penal/`, `administrativa/`, `agraria/`, `personas-con-discapacidad/` (máximo 25 MB cada uno) | Titular |
+| `biblioteca/pdf/<materia>/` | Los PDF de la Biblioteca, uno por norma, dentro de la carpeta de su materia: `laboral/`, `familia/`, `constitucional/`, `civil/`, `procesal-civil/`, `penal/`, `procesal-penal/`, `administrativa/`, `agraria/`, `tributario/`, `personas-con-discapacidad/` (máximo 25 MB cada uno) | Titular |
 | `biblioteca/catalogo.csv` | Una fila por PDF: título, tipo, número, fecha, materia, estado | Titular |
 | `jurisprudencia/pdf/` | Las revistas jurisprudenciales en PDF, una por año o tomo (máximo 25 MB cada una) | Titular |
 | `jurisprudencia/catalogo.csv` | Una fila por revista: título, tipo, número, fecha (año), materia | Titular |
@@ -30,7 +30,7 @@ Sitio legal boliviano. Cada cambio que se guarda en este repositorio (rama `main
    Si un PDF no tiene fila, igual se publica con el nombre del archivo y estado «Verificar».
 3. Espera la marca verde en **Actions**. El documento aparece en `/biblioteca/<materia>/`.
 
-**Materia nueva** (por ejemplo tributaria): en `biblioteca/pdf/` → **Add file** → **Create new file** → escribe `tributaria/.gitkeep` → **Commit changes**. Luego sube los PDF dentro de esa carpeta.
+**Materia nueva** (por ejemplo comercial): en `biblioteca/pdf/` → **Add file** → **Create new file** → escribe `comercial/.gitkeep` → **Commit changes**. Luego sube los PDF dentro de esa carpeta.
 
 Para retirar un PDF: bórralo de su carpeta (y su fila del catálogo). Para cambiarlo de materia: bórralo y súbelo a la otra carpeta. Los enlaces de cada norma (`/biblioteca/<nombre>/`) no cambian al moverla de carpeta, porque salen del título.
 

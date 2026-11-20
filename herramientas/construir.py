@@ -176,7 +176,7 @@ def leer_catalogo(carpeta):
     return filas
 
 
-ORDEN_MATERIAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Administrativa', 'Agraria', 'Tributaria',
+ORDEN_MATERIAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Administrativa', 'Agraria', 'Tributario',
                   'Comercial', 'Personas con discapacidad', 'Otras']
 # Carpetas que se muestran siempre en /biblioteca/ (vacías: «Próximamente» o enlace a Normativa)
 MATERIAS_FIJAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civil', 'Penal', 'Procesal penal', 'Administrativa']

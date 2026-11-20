@@ -27,6 +27,9 @@
   ],
   "Procesal penal": [
    {"archivo": "ley-1970-codigo-de-procedimiento-penal.pdf", "portada": {"tipo": "Ley N.º 1970", "lineas": ["Código de", "Procedimiento", "Penal"], "pie": "1999 · Texto original", "color": "tinta"}}
+  ],
+  "Tributario": [
+   {"archivo": "ley-843.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Compilación hasta 2003", "color": "bosque"}}
   ]
  }
 }
