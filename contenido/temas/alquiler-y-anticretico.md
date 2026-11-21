@@ -22,6 +22,10 @@ normas:
 - /biblioteca/codigo-procesal-civil/leer/#page=78 | Código Procesal Civil, artículos 369 y 392 | Desalojo
 guias:
 - /guias/civil/arras-y-clausula-penal/ | Arras, seña y cláusula penal
+autos:
+- 434/2017 | Desalojo por falta de pago: el inquilino debe probar que pagó el alquiler, por cualquier medio.
+- 525/2017 | Resolución de un contrato de arrendamiento.
+- 528/2017 | Resolución de un contrato de anticresis: el Tribunal anula el proceso porque la demanda no podía plantearse así (improponibilidad).
 ---
 !! Esta página resume los artículos del Código Civil. El alquiler y el anticrético pueden estar regulados también por normas posteriores. [VERIFICAR]
 

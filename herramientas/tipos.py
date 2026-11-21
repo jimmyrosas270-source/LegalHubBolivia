@@ -4,12 +4,27 @@
 - /biblioteca/<materia>/<tipo>/: solo un tipo de norma de una materia (p. ej. Laboral › Sentencias constitucionales).
 - /biblioteca/tipos/<tipo>/: un tipo de norma en todas las materias.
 - Autos supremos: vienen de contenido/autos_supremos.json (están dentro de las revistas de Jurisprudencia).
+  Cada auto puede llevar su propia clave 'revista' (slug del PDF en jurisprudencia/); si no la lleva, vale la 'revista' general.
 """
 
 _aut = json.load(open(os.path.join(RAIZ, 'contenido', 'autos_supremos.json'), encoding='utf-8'))
 AUTOS = _aut['autos']
 REVISTA_AUTOS = _aut['revista']
 GRUPO_AUTOS = 'Autos supremos'
+for _a in AUTOS:
+    _a.setdefault('revista', REVISTA_AUTOS)
+TITULO_REVISTA = {}
+for _f in csv.DictReader(open(os.path.join(RAIZ, 'jurisprudencia', 'catalogo.csv'), encoding='utf-8-sig'), delimiter=';'):
+    TITULO_REVISTA[os.path.splitext(_f['archivo'])[0]] = _f['titulo']
+ORDEN_REVISTAS = list(dict.fromkeys(a['revista'] for a in AUTOS))
+
+
+def url_auto(a):
+    return f'/jurisprudencia/{a["revista"]}/leer/#page={a["pagina"]}'
+
+
+def orden_autos(lista):
+    return sorted(lista, key=lambda a: (ORDEN_REVISTAS.index(a['revista']), a['pagina'], a['numero']))
 import glob
 GUIA_TITULO = {}
 for _f in glob.glob(os.path.join(RAIZ, 'contenido', 'guias', '*', '*.md')):
@@ -34,12 +49,42 @@ def autos_de(m=None):
 
 
 def tarjeta_auto(a, con_materia=False):
-    u = f'/jurisprudencia/{REVISTA_AUTOS}/leer/#page={a["pagina"]}'
+    u = url_auto(a)
     guias = ''.join(f'<a href="{g}">Guía: {E(GUIA_TITULO.get(g, "relacionada"))}</a>' for g in a.get('guias', [])[:2])
     etq = f'<span class="etq">{E(a["materia"])}</span>' if con_materia else ''
-    return (f'<article class="tarjeta auto">{etq}<h3><a href="{u}">Auto Supremo {E(a["numero"])}</a></h3>'
+    resumen = 'resumen' in a['revista']
+    txt = f'Auto Supremo {a["numero"]} {a["fecha"]} {a["sala"]} {a["tema"]}'
+    return (f'<article class="tarjeta auto" data-texto="{E(txt)}">{etq}<h3><a href="{u}">Auto Supremo {E(a["numero"])}</a></h3>'
             f'<small>{E(a["fecha"])} · {E(a["sala"])}</small><p>{E(a["tema"])}</p>'
-            f'<p class="libro-acc"><a href="{u}">Leer el resumen (pág. {a["pagina"]})</a>{guias}</p></article>')
+            f'<p class="libro-acc"><a href="{u}">{"Leer el resumen" if resumen else "Leer el auto"} (pág. {a["pagina"]})</a>{guias}</p></article>')
+
+
+def indice_autos(d):
+    """Índice desplegable de los autos de una publicación de Jurisprudencia (en su ficha)."""
+    lista = orden_autos([a for a in AUTOS if a['revista'] == d['slug']])
+    if not lista:
+        return ''
+    filas = ''.join(f'<li><a href="{url_auto(a)}"><b>Auto Supremo {E(a["numero"])}</b></a> <small>· {E(a["fecha"])} · '
+                    f'<a href="/biblioteca/{slug(a["materia"])}/{slug(GRUPO_AUTOS)}/">{E(a["materia"])}</a> · pág. {a["pagina"]}</small><br>{E(a["tema"])}</li>' for a in lista)
+    return (f'<details class="tarjeta indice-autos"><summary><b>Índice de {plural(len(lista), "auto", "autos")}</b> con fecha, materia, tema y página del visor</summary>'
+            f'<p class="sec">Temas descritos con palabras propias, sin nombres de las partes; pendientes de revisión legal humana.</p><ol>{filas}</ol></details>')
+
+
+def bloque_autos(lista, filtro=False):
+    """Tarjetas de autos agrupadas por revista (con título y enlace a la revista)."""
+    salida = ''
+    for r in ORDEN_REVISTAS:
+        sub = [a for a in orden_autos(lista) if a['revista'] == r]
+        if not sub:
+            continue
+        salida += (f'<section class="grupo-lib"><h3 class="grupo-tit">{E(TITULO_REVISTA.get(r, r))} <small>({len(sub)})</small></h3>'
+                   f'<div class="rejilla autos">{"".join(tarjeta_auto(a) for a in sub)}</div>'
+                   f'<p><a class="mas" href="/jurisprudencia/{r}/">Ver la publicación completa</a></p></section>')
+    if filtro:
+        salida = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por número, fecha o tema" aria-label="Filtrar autos"></label></div>'
+                  f'<p id="cuenta" class="sec" role="status" aria-live="polite" data-sing="auto supremo" data-plur="autos supremos">{plural(len(lista), "auto supremo", "autos supremos")}</p>'
+                  + salida + '<div id="nada" class="vacio" hidden>Ninguna coincidencia.</div>')
+    return salida
 
 
 def tipos_de_materia(docs, m):
@@ -74,10 +119,10 @@ def paginas_por_tipo(S, DOCS, tarjeta, por_materia):
         for g, k in tipos_de_materia(docs, m):
             totales.setdefault(g, []).append((m, k))
             if g == GRUPO_AUTOS:
-                cuerpo = (f'<div class="rejilla autos">{"".join(tarjeta_auto(a) for a in sorted(autos_de(m), key=lambda a: a["pagina"]))}</div>'
-                          f'<div class="estante">{"".join(tarjeta(d, etq=d["tipo"]) for d in docs if d["tgrupo"] == g)}</div>'
-                          f'<p class="sec">Los temas se describen con palabras propias a partir del resumen publicado por el Tribunal, sin nombres de las partes. '
-                          f'Ver la revista completa en <a href="/jurisprudencia/">Jurisprudencia</a>.</p>')
+                cuerpo = (f'<div class="estante">{"".join(tarjeta(d, etq=d["tipo"]) for d in docs if d["tgrupo"] == g)}</div>'
+                          + bloque_autos(autos_de(m), filtro=True) +
+                          f'<p class="sec">Los temas se describen con palabras propias a partir del texto publicado por el Tribunal, sin nombres de las partes, y quedan pendientes de revisión legal humana. '
+                          f'Ver las publicaciones completas en <a href="/jurisprudencia/">Jurisprudencia</a>.</p>')
             else:
                 cuerpo = (f'<div class="filtros"><label class="filtro">{ico("search", 20)}<input type="search" id="filtro" placeholder="Filtrar por nombre, número o tema" aria-label="Filtrar"></label></div>'
                           f'<p id="cuenta" class="sec" role="status" aria-live="polite">{plural(k, "documento", "documentos")}</p>'
@@ -90,17 +135,20 @@ def paginas_por_tipo(S, DOCS, tarjeta, por_materia):
 {enlaces_tipo(m, docs)}
 {cuerpo}
 <p><a class="mas" href="/biblioteca/{slug(m)}/">Ver todo {E(m.lower())}</a> · <a class="mas" href="/biblioteca/tipos/{slug(g)}/">{E(g)} de todas las materias</a></p>{alerta(S["aviso"])}</div>''',
-                'Biblioteca', scripts='' if g == GRUPO_AUTOS else '<script src="/assets/biblioteca.js" defer></script>\n'))
+                'Biblioteca', scripts='<script src="/assets/biblioteca.js" defer></script>\n'))
             n_pag += 1
     orden_g = [g for g in NOMBRES_GRUPO if g in totales]
     for g in orden_g:
         secciones = []
         for m, k in totales[g]:
             if g == GRUPO_AUTOS:
-                tarj = ''.join(tarjeta_auto(a) for a in sorted(autos_de(m), key=lambda a: a['pagina']))
                 pdfs = ''.join(tarjeta(d, etq=d['tipo']) for d in por_materia.get(m, []) if d['tgrupo'] == g)
+                autos_m = autos_de(m)
+                muestra = orden_autos(autos_m)[:6]
                 secciones.append(f'<section class="grupo-lib"><h2 class="grupo-tit">{E(m)} <small>({k})</small></h2>'
-                                 + (f'<div class="rejilla autos">{tarj}</div>' if tarj else '') + (f'<div class="estante">{pdfs}</div>' if pdfs else '')
+                                 + (f'<div class="rejilla autos">{"".join(tarjeta_auto(a) for a in muestra)}</div>' if muestra else '')
+                                 + (f'<p class="sec">Se muestran {len(muestra)} de {len(autos_m)} autos.</p>' if len(autos_m) > len(muestra) else '')
+                                 + (f'<div class="estante">{pdfs}</div>' if pdfs else '')
                                  + f'<p><a class="mas" href="/biblioteca/{slug(m)}/{slug(g)}/">Solo {E(m.lower())}</a></p></section>')
             else:
                 tarj = ''.join(tarjeta(d, etq=d['tipo']) for d in por_materia[m] if d['tgrupo'] == g)

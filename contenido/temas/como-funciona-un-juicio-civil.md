@@ -26,6 +26,12 @@ guias:
 - /guias/procesal-civil/proceso-ordinario-paso-a-paso/ | El proceso civil ordinario, paso a paso
 - /guias/procesal-civil/recursos-reposicion-apelacion-y-casacion/ | Recursos: reposición, apelación y casación
 - /guias/procesal-civil/litigar-sin-dinero/ | Litigar sin dinero suficiente
+autos:
+- 428/2017 | El tribunal de apelación debe responder con razones a cada agravio de la apelación.
+- 468/2017 | Si la sentencia omitió resolver algo, el tribunal de apelación debe resolverlo en el fondo en lugar de anular.
+- 534/2017 | El vencimiento del plazo para resolver ya no causa la nulidad de lo actuado.
+- 604/2017 | Una citación o notificación vale si cumplió su finalidad, aunque le falte alguna formalidad.
+- 444/2017 | Pedir explicación, complementación y enmienda del auto de vista suspende el plazo para el recurso de casación.
 ---
 ## Los principios
 

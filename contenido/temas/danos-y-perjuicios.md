@@ -17,6 +17,10 @@ normas:
 - /biblioteca/codigo-civil/leer/#page=115 | Código Civil, artículos 991 a 999 | Responsabilidad por otros, cosas y animales
 - /biblioteca/codigo-civil/leer/#page=176 | Código Civil, artículo 1508 | Prescripción trienal
 - /biblioteca/codigo-procesal-civil/leer/#page=42 | Código Procesal Civil, artículo 215 | Condena al resarcimiento
+autos:
+- 472/2017 | Para reclamar el resarcimiento civil no hace falta una sentencia penal ejecutoriada.
+- 515/2017 | Resarcimiento de daños por hecho ilícito: valoración de la prueba y cosa juzgada.
+- 453/2017 | Responsabilidad por los daños de un accidente de tránsito.
 ---
 ## La regla general
 

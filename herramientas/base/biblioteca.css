@@ -116,3 +116,9 @@
 /* El CSS de pdf.js declara «color-scheme: light dark»: en celulares con modo oscuro, los campos del visor salían oscuros. El sitio es solo claro. */
 :root{color-scheme:light}
 .lector-busca input,.pagnum input{background-color:#fff;color:var(--tinta)}
+.indice-autos{margin-top:18px}
+.indice-autos summary{cursor:pointer}
+.indice-autos ol{padding-left:22px;margin:8px 0 0}
+.indice-autos li{margin:0 0 10px;line-height:1.45}
+.indice-autos li small{color:var(--sec)}
+.tapa img.ancha{object-fit:contain;object-position:center;background:#fff}

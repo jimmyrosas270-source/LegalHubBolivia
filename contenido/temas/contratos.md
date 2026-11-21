@@ -22,6 +22,12 @@ guias:
 - /guias/civil/nulidad-y-anulabilidad-de-contratos/ | Nulidad y anulabilidad de los contratos
 - /guias/civil/arras-y-clausula-penal/ | Arras, seña y cláusula penal
 - /guias/civil/eviccion-y-vicios-ocultos/ | Evicción y vicios ocultos en la compraventa
+autos:
+- 493/2017 | El error esencial como causa de nulidad del contrato y la nulidad del pacto comisorio.
+- 516/2017 | Causa ilícita y motivo ilícito como causas de nulidad del contrato.
+- 522/2017 | Rescisión de un contrato por lesión.
+- 539/2017 | Interpretación del artículo 568 del Código Civil: resolución del contrato por incumplimiento.
+- 456/2017 | Resolución extrajudicial del contrato y suspensión de las prestaciones.
 ---
 ## Qué es un contrato
 

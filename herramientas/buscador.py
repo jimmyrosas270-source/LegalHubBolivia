@@ -131,8 +131,8 @@ def indice_ampliado():
                        't': alias.replace('|', '. ')})
     # autos supremos
     for a in AUTOS:
-        nuevos.append({'n': 0, 'u': f'/jurisprudencia/{REVISTA_AUTOS}/leer/#page={a["pagina"]}', 'r': f'Auto Supremo {a["numero"]}',
-                       'k': f'Auto supremo · {a["materia"]} · {a["fecha"]}', 'c': 'aut',
+        nuevos.append({'n': 0, 'u': url_auto(a), 'r': f'Auto Supremo {a["numero"]}',
+                       'k': f'Auto supremo · {a["materia"]} · {a["fecha"]} · {TITULO_REVISTA.get(a["revista"], "")}'.rstrip(' ·'), 'c': 'aut',
                        't': f'Auto Supremo {a["numero"]} {a["fecha"]} {a["sala"]}. {a["tema"]}'})
     json.dump(idx + nuevos, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     # texto de los PDF, página por página

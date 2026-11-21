@@ -21,6 +21,10 @@ normas:
 guias:
 - /guias/procesal-civil/proceso-ejecutivo/ | El proceso ejecutivo para cobrar deudas
 - /guias/procesal-civil/medidas-cautelares-y-embargo/ | Medidas cautelares, embargo y bienes inembargables
+autos:
+- 436/2017 | Cumplimiento de obligación sobre un documento privado cuyas firmas se reconocieron antes del juicio.
+- 596/2017 | Lo resuelto en un proceso ejecutivo y su revisión posterior en proceso ordinario.
+- 432/2017 | Lo resuelto en un proceso coactivo de estructura monitoria no admite recurso de casación.
 ---
 ## Antes de demandar
 

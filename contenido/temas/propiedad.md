@@ -22,6 +22,11 @@ normas:
 - /biblioteca/codigo-penal/leer/#page=86 | Código Penal, artículos 337 bis, 351 y 351 bis | Tráfico de tierras, despojo y avasallamiento
 - /biblioteca/ley-483/leer/#page=13 | Ley 483, artículos 30 y 39 | Fe pública notarial y documentos notariales
 - /biblioteca/codigo-de-las-familias-y-del-proceso-familiar/ | Código de las Familias | Bienes propios y comunes de la pareja
+autos:
+- 496/2017 | Requisitos de la acción reivindicatoria y su diferencia con la posesión.
+- 521/2017 | Diferencia entre la acción negatoria y la acción reivindicatoria.
+- 518/2017 | Cómo se decide quién tiene mejor derecho de propiedad sobre un inmueble.
+- 457/2017 | Un título que no se inscribió en Derechos Reales no puede oponerse a terceros.
 ---
 ## Lo que garantiza la Constitución
 

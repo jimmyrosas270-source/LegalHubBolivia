@@ -20,6 +20,11 @@ normas:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-394/ | Constitución, artículos 393, 394 y 397 | Propiedad de la tierra
 - /biblioteca/codigo-procesal-civil/ | Código Procesal Civil (Ley 439) | Procesos civiles
 - /biblioteca/ley-3545/ | Ley 3545 | Reconducción de la Reforma Agraria
+autos:
+- 435/2017 | Explica los requisitos de la usucapión (posesión con corpus y animus) y las formas de interrumpir la prescripción.
+- 461/2017 | En la usucapión decenal la demanda debe dirigirse contra quien figura como último propietario en Derechos Reales.
+- 523/2017 | Los bienes de dominio público no pueden adquirirse por usucapión.
+- 573/2017 | Para la usucapión quinquenal hace falta un justo título sobre el bien concreto que se posee.
 ---
 ## Qué es
 
