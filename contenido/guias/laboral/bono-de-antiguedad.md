@@ -2,7 +2,7 @@
 titulo: El bono de antigüedad
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 16/11/2026
+actualizada: 21/11/2026
 resumen: Es un pago adicional al sueldo por los años de trabajo continuo. Esta guía explica cómo se calcula, qué cambia entre empresas productivas y no productivas y cómo reclamarlo si no se pagó. La escala y las bases salen de decretos que están en la Biblioteca; lo que falta confirmar es qué es una empresa productiva.
 articulos:
 - /biblioteca/decreto-supremo-24067/ | Decreto Supremo 24067 (PDF) | Artículos 8 y 11
@@ -17,6 +17,7 @@ articulos:
 - /biblioteca/decreto-supremo-23474/ | Decreto Supremo 23474 (PDF) | Artículo único
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 16 y 17
+- /biblioteca/auto-supremo-473-2021/ | Auto Supremo 473/2021 (PDF) | Bono de antigüedad y contratos por gestión
 ---
 ## Qué es
 
@@ -48,12 +49,16 @@ La fórmula, entonces, es: porcentaje de la escala × base. Por ejemplo, con 10 
 
 ## Empresa productiva y no productiva
 
-Los decretos de 1992 y 1993 usan la expresión «empresas productivas» sin definirla. El Decreto Supremo 24067 (1995, artículo 11) solo define «empresas» para el sector público: las entidades con patrimonio propio, autonomía de gestión administrativa y financiera y creadas legalmente como tales, productoras de bienes o proveedoras de servicios, cuyo bono se calcula sobre tres salarios mínimos nacionales y con la escala del Decreto Supremo 21060. Los materiales de apoyo reúnen dos autos supremos (AS 050/2014 y AS 033/2019), que no están en el sitio, con estos criterios: [VERIFICAR]
+Los decretos de 1992 y 1993 usan la expresión «empresas productivas» sin definirla. El Decreto Supremo 24067 (1995, artículo 11) solo define «empresas» para el sector público: las entidades con patrimonio propio, autonomía de gestión administrativa y financiera y creadas legalmente como tales, productoras de bienes o proveedoras de servicios, cuyo bono se calcula sobre tres salarios mínimos nacionales y con la escala del Decreto Supremo 21060. Los materiales de apoyo atribuyen a un auto supremo de 2014 (AS 050/2014), que no está en el sitio, estos criterios: [VERIFICAR]
 
 - Una empresa es **productiva** cuando crea o transforma bienes materiales, o cuando obtiene ganancias con un aparato productivo, incluso si lo que vende es un servicio convertido en un producto con componentes físicos o tecnológicos (los autos lo llaman «servucto»).
 - Es **no productiva** la que presta solo servicios intangibles, sin transformar nada ni generar un producto.
 
-La frontera entre las dos se decide caso por caso, y los materiales de apoyo advierten que el concepto de «servucto» es impreciso. Hay además una lectura según la cual, con ese concepto, la distinción deja de importar y la base sería siempre de tres salarios mínimos. Cuál se aplica en un caso concreto debe confirmarlo un profesional. [VERIFICAR]
+La frontera entre las dos se decide caso por caso, y los materiales de apoyo advierten que el concepto de «servucto» es impreciso. El [Auto Supremo 473/2021](/biblioteca/auto-supremo-473-2021/leer/#page=2), que sí está en la Biblioteca, menciona el AS 050/2014 solo porque una de las partes lo citó para hablar de la interrupción del tiempo de servicio; no reproduce su contenido. Hay además una lectura según la cual, con ese concepto, la distinción deja de importar y la base sería siempre de tres salarios mínimos. Cuál se aplica en un caso concreto debe confirmarlo un profesional. [VERIFICAR]
+
+## Contratos por gestión y bono de antigüedad
+
+En el [Auto Supremo 473/2021](/biblioteca/auto-supremo-473-2021/leer/#page=8), el Tribunal Supremo describió el bono como una remuneración adicional que el trabajador adquiere por la antigüedad y la experiencia que pone al servicio del empleador, con la escala única del Decreto Supremo 21060 y la base del Decreto Supremo 21137, ampliada a tres salarios mínimos para las empresas productivas por el Decreto Supremo 23474. En ese caso, un colegio particular firmaba con una docente un contrato y un finiquito por cada gestión escolar; el Tribunal entendió que esa forma de contratar buscaba que la trabajadora no acumulara antigüedad, que la relación fue continua y que correspondía pagar el bono (págs. 7 y 8). Ver [Contratos a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/).
 
 ## Qué parte del finiquito es
 

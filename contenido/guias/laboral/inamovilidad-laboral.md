@@ -2,7 +2,7 @@
 titulo: Inamovilidad laboral
 materia: Laboral
 publico: Trabajadores y empleadores del sector público y privado
-actualizada: 17/11/2026
+actualizada: 21/11/2026
 resumen: Quiénes no pueden ser despedidos sin una causa legal: madres y padres desde el embarazo hasta que el hijo cumple un año, dirigentes sindicales y personas con discapacidad o con hijos con discapacidad. Qué documentos se presentan y qué hacer si se incumple.
 articulos:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
@@ -19,6 +19,8 @@ articulos:
 - /biblioteca/decreto-supremo-29539/ | Decreto Supremo 29539 (PDF) | Fuero desde la elección
 - /biblioteca/sentencia-constitucional-plurinacional-1443-2016-s3/ | Sentencia Constitucional Plurinacional 1443/2016-S3 (PDF) | Inamovilidad del padre
 - /biblioteca/decreto-supremo-29608/ | Decreto Supremo 29608 (PDF) | Discapacidad
+- /biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/ | Sentencia Constitucional Plurinacional 0167/2019-S2 (PDF) | Traslado y subsidios
+- /biblioteca/sentencia-constitucional-plurinacional-0898-2015-s1/ | Sentencia Constitucional Plurinacional 0898/2015-S1 (PDF) | Plazo fijo
 ---
 ## Qué es
 
@@ -39,6 +41,10 @@ La [Sentencia Constitucional Plurinacional 1443/2016-S3](/biblioteca/sentencia-c
 > No hace falta estar casado: la inamovilidad protege a la madre y al padre sea cual sea su estado civil (Decreto Supremo 0012, artículo 2).
 
 Además, la trabajadora embarazada cuyo puesto exige esfuerzos que afectan su salud debe recibir un trato especial que le permita trabajar en condiciones adecuadas, sin bajar su salario ni cambiar su ubicación ([Ley 975](/biblioteca/ley-975/leer/), artículo 2).
+
+**Tampoco se la puede trasladar en su perjuicio.** En la [Sentencia Constitucional Plurinacional 0167/2019-S2](/biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/leer/#page=5), el Tribunal Constitucional explicó que la inamovilidad protege de dos maneras: impide cortar la relación de trabajo y también impide empeorar las condiciones de la trabajadora embarazada, sea bajando su salario o categoría, agravando sus tareas o enviándola a otro lugar sin su consentimiento en condiciones que dañen su salud o su economía; solo se admite el cambio que la asciende o la beneficia (fundamento III.5, págs. 5 y 6). En ese caso ordenó que la trabajadora, ya devuelta a su ciudad, no fuera cambiada de destino hasta que su hijo cumpliera un año y que se le pagaran los subsidios prenatales adeudados ([pág. 11](/biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/leer/#page=11)). Ver [Asignaciones familiares](/guias/laboral/asignaciones-familiares/).
+
+**Contratos a plazo fijo.** La excepción para los contratos temporales no se aplica si la relación ya se volvió indefinida, por ejemplo cuando la trabajadora firmó dos contratos y siguió en las mismas funciones ([Sentencia Constitucional Plurinacional 0898/2015-S1](/biblioteca/sentencia-constitucional-plurinacional-0898-2015-s1/leer/#page=12)). Ver [Contratos a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/).
 
 ## Dirigentes sindicales (fuero sindical)
 

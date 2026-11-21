@@ -194,7 +194,7 @@ MATERIAS_FIJAS = ['Constitucional', 'Laboral', 'Familia', 'Civil', 'Procesal civ
 MATERIA_DE_CARPETA = {slug(m): m for m in ORDEN_MATERIAS}
 
 # Grupos por tipo de norma dentro de cada materia, en este orden
-GRUPOS_TIPO = [('Códigos', ('constitucion', 'codigo')), ('Leyes', ('ley',)), ('Decretos leyes', ('decreto ley',)),
+GRUPOS_TIPO = [('Códigos', ('constitucion', 'codigo')), ('Leyes', ('ley',)), ('Convenios internacionales', ('convenio',)), ('Decretos leyes', ('decreto ley',)),
                ('Decretos supremos', ('decreto', 'fe de erratas')),
                ('Resoluciones', ('resolucion',)), ('Reglamentos y protocolos', ('reglamento', 'protocolo')),
                ('Sentencias constitucionales', ('sentencia constitucional',)), ('Autos supremos', ('auto supremo',)),

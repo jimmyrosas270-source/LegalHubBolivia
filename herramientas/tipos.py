@@ -34,6 +34,7 @@ for _f in glob.glob(os.path.join(RAIZ, 'contenido', 'guias', '*', '*.md')):
 DESC_TIPO = {
     'Códigos': 'Constituciones y códigos.',
     'Leyes': 'Leyes de la República y del Estado Plurinacional.',
+    'Convenios internacionales': 'Convenios de la Organización Internacional del Trabajo y otros tratados.',
     'Decretos leyes': 'Decretos leyes, dictados por gobiernos de facto con fuerza de ley.',
     'Decretos supremos': 'Decretos supremos del Órgano Ejecutivo y sus fe de erratas.',
     'Resoluciones': 'Resoluciones ministeriales y administrativas.',

@@ -2,7 +2,7 @@
 titulo: El refrendo o visado del contrato de trabajo
 materia: Laboral
 publico: Empleadores y trabajadores
-actualizada: 17/11/2026
+actualizada: 21/11/2026
 resumen: Qué es el refrendo del contrato ante el Ministerio de Trabajo, qué dicen la ley y el Reglamento, qué debe contener un contrato escrito, qué piden las fuentes de apoyo y dónde hay datos que no coinciden.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-22/ | Artículo 22 | Ley General del Trabajo
@@ -70,6 +70,7 @@ El costo del trámite y la cuenta bancaria que trae el reglamento no se publican
 - En contratos con plazo determinado hay que justificar el plazo con respaldo documentado y una nota expresa, según la Resolución Administrativa 650/07, que ya está en la Biblioteca.
 - El refrendo no tiene carácter regularizatorio: fuera de plazo, la solicitud se niega.
 - No refrendar se considera infracción a las leyes sociales. Para trabajadores extranjeros hay multa según el número de extranjeros de la empresa.
+- La escala de multas de 2008 por falta de visado (según el número de trabajadores, y para extranjeros después de 30 días) está en la [Resolución Ministerial 448/08](/biblioteca/resolucion-ministerial-448-08/leer/#page=5), artículos décimo segundo y décimo cuarto. Ver [Planillas de sueldos y multas del Ministerio de Trabajo](/guias/laboral/planillas-y-multas-del-ministerio-de-trabajo/).
 - En contratos eventuales o a plazo fijo sin refrendo, se presumiría una relación verbal por tiempo indefinido. Ver [Contratos a plazo fijo](/guias/laboral/contrato-a-plazo-fijo/).
 - Se presenta en la ventanilla única del Ministerio o en la Jefatura Departamental o Regional del lugar donde se presta el servicio.
 

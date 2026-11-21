@@ -2,8 +2,8 @@
 titulo: Cómo, cuándo y en qué moneda debe pagarse el salario
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 17/11/2026
-resumen: El salario no puede ser menor al mínimo, se paga en plazos fijos, en día de trabajo y en moneda de curso legal. Esta guía explica esas reglas, qué dicen la Ley 901 y los materiales de apoyo sobre pagar en dólares y qué hacer si el pago se atrasa.
+actualizada: 21/11/2026
+resumen: El salario no puede ser menor al mínimo, se paga en plazos fijos, en día de trabajo y en bolivianos. Esta guía explica esas reglas, qué pasa con un sueldo pactado en dólares, qué cambió con el tipo de cambio flexible de 2026 y qué hacer si el pago se atrasa.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-52/ | Artículo 52 | Ley General del Trabajo
 - /leyes/laboral/ley-general-del-trabajo/articulo-53/ | Artículo 53 | Ley General del Trabajo
@@ -16,6 +16,9 @@ articulos:
 - /biblioteca/protocolo-de-actuacion-de-la-ley-1468/ | Protocolo de la Ley 1468 (PDF) | Artículo 3
 - /leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-39/ | Artículo 39 | Reglamento de la Ley General del Trabajo
 - /biblioteca/decreto-supremo-21060/ | Decreto Supremo 21060 (PDF) | Artículo 65
+- /biblioteca/resolucion-ministerial-245-2026/ | Resolución Ministerial 245/2026 (PDF) | Régimen cambiario flexible
+- /biblioteca/resolucion-ministerial-416-2026/ | Resolución Ministerial 416/2026 (PDF) | Sin efecto retroactivo
+- /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículo 4 (principio protector)
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 13 y 14
 ---
 ## El piso: el salario mínimo
@@ -45,12 +48,21 @@ La Biblioteca no tiene los Códigos Civil y de Comercio, así que no se puede de
 
 El [Decreto Ley 7182, de 23 de mayo de 1965](/biblioteca/decreto-ley-7182/leer/#page=2), es un decreto de medidas de austeridad del gobierno de esa época. Su artículo 7 prohíbe, desde el 1 de julio de ese año y «con carácter general», el pago de sueldos en moneda extranjera dentro del territorio nacional, y a continuación dice que las reparticiones del sector público, centralizado o descentralizado, deben pagar a su personal, nacional y extranjero, en pesos bolivianos. El artículo 8 exceptúa al personal extranjero con contrato celebrado en el exterior o con convenios internacionales en vigencia.
 
-**Cómo se aplica en el sector privado.** El editor del sitio, que revisa el contenido legal, explica la aparente contradicción así:
+**Cómo se aplica en la práctica.** El editor del sitio, que revisa el contenido legal y ejerce ante los juzgados, lo explica así:
 
+- **El salario se paga en bolivianos.** Es lo que manda el artículo 53 de la Ley General del Trabajo y lo que se hace en la práctica, también en el sector privado.
 - **El decreto de 1965 mira sobre todo al sector público.** Es un decreto de austeridad: sus primeros artículos rebajan sueldos y suprimen cargos del Estado. Su artículo 7, después de la prohibición general, manda que las reparticiones públicas paguen en moneda nacional, y el artículo 8 solo exceptúa al personal extranjero contratado en el exterior o por convenios internacionales.
-- **En las relaciones entre privados, el Ministerio de Trabajo admite el pago en moneda extranjera si está pactado por escrito en el contrato.** Así lo dice la [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14) (pág. 14). La regla general sigue siendo el pago en moneda de curso legal (Ley General del Trabajo, [artículo 53](/leyes/laboral/ley-general-del-trabajo/articulo-53/)).
-- **El criterio de fondo es la protección del trabajador.** Si cobrar en moneda extranjera le resulta más favorable y no recorta sus derechos mínimos, la autoridad laboral lo valida (Constitución, [artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)).
-- **Si el contrato fija el sueldo en moneda extranjera, el empleador debe respetar lo pactado.** Si hay dificultades para conseguir divisas o el tipo de cambio varía, según el editor se aplica el tipo de cambio pactado o, a falta de él, el oficial del Banco Central a la fecha del contrato. Esa regla del tipo de cambio no está todavía en un texto de la Biblioteca. [VERIFICAR]
+- **Un contrato en moneda extranjera vale en lo que favorece al trabajador.** Si el contrato fija el sueldo en dólares u otra moneda, ese pacto se toma en cuenta solo en la medida en que beneficie al trabajador; es el criterio que se aplica en los estrados. Se apoya en el principio protector, por el que, en caso de duda, se prefiere la interpretación más favorable al trabajador y se respeta la condición más beneficiosa ya reconocida ([Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/leer/#page=2), artículo 4; [Constitución, artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/)). Ninguna norma publicada aquí aplica ese principio de forma expresa al tipo de cambio del salario. [VERIFICAR] Ver [Los principios del derecho del trabajo](/guias/laboral/principios-del-derecho-del-trabajo/).
+- **El Ministerio de Trabajo conoce estos contratos.** La [guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14) (pág. 14) admite el pago en moneda extranjera si está pactado por escrito, y la [Resolución Ministerial 448/08](/biblioteca/resolucion-ministerial-448-08/leer/#page=6) manda convertir los contratos en moneda extranjera al tipo de cambio oficial vigente el día en que se aplica una multa (artículo décimo cuarto). La regla general sigue siendo el pago en moneda de curso legal.
+
+## El tipo de cambio desde junio de 2026
+
+Durante años el tipo de cambio oficial del boliviano fue fijo. En 2026 el Ministerio de Economía y Finanzas Públicas lo cambió:
+
+- **Régimen cambiario flexible.** La [Resolución Ministerial 245/2026, de 26 de junio](/biblioteca/resolucion-ministerial-245-2026/leer/#page=3), establece un régimen cambiario flexible y encarga la transición al Banco Central de Bolivia, sobre la base de la oferta y la demanda diaria de divisas en el sistema financiero (puntos primero y segundo). Sus considerandos explican que el Banco Central ya no tenía divisas suficientes para sostener el tipo de cambio fijo, que desde 2023 había aparecido un tipo de cambio paralelo más alto y variable, y que un informe técnico propuso fijar a diario el valor del tipo de cambio oficial con las operaciones del sistema financiero ([págs. 2 y 3](/biblioteca/resolucion-ministerial-245-2026/leer/#page=2)). En la práctica, el tipo de cambio oficial se actualiza cada día.
+- **Sin efecto retroactivo.** La [Resolución Ministerial 416/2026, de 29 de octubre](/biblioteca/resolucion-ministerial-416-2026/leer/#page=2), declara que la Resolución 245 se aplica solo desde la fecha en que se emitió, hacia el futuro, conforme al artículo 123 de la Constitución. Sus considerandos explican que las operaciones hechas antes de su vigencia se aprecian con las normas vigentes cuando se hicieron.
+
+**Qué significa para un sueldo pactado en dólares.** Ninguna de las dos resoluciones habla de salarios. Con un tipo de cambio que cambia cada día, el monto en bolivianos de un sueldo pactado en dólares puede variar de un mes a otro. Según el criterio del editor, la conversión debe hacerse de la forma que más favorezca al trabajador y nunca puede dejarlo por debajo del salario mínimo ni de lo que venía cobrando, y lo pagado o adeudado antes del 26 de junio de 2026 se rige por las reglas de entonces. [VERIFICAR] Si hay desacuerdo, el reclamo va al Ministerio de Trabajo (ver «Si el pago se atrasa», más abajo).
 
 > El decreto de 1965 que prohíbe pagar sueldos en moneda extranjera empieza rebajando los sueldos del Presidente y de los ministros: era una medida para ahorrar dinero del Estado.
 

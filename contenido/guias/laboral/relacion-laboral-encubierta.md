@@ -2,7 +2,7 @@
 titulo: Cuando un contrato civil o comercial encubre una relación laboral
 materia: Laboral
 publico: Trabajadores, empleadores y estudiantes
-actualizada: 16/11/2026
+actualizada: 21/11/2026
 resumen: Qué dice la ley cuando alguien trabaja bajo un contrato de servicios, de consultoría u otro nombre que no es laboral, pero en los hechos hay dependencia, trabajo por cuenta ajena y pago. Incluye dos autos supremos de 2022.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-1/ | Artículo 1 | Ley General del Trabajo
@@ -10,6 +10,7 @@ articulos:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-48/ | Artículo 48 | Constitución Política del Estado
 - /biblioteca/decreto-supremo-28699/ | Decreto Supremo 28699 (PDF) | Artículos 2 a 5
 - /biblioteca/decreto-supremo-0521/ | Decreto Supremo 0521 (PDF) | Artículos 2, 4 y 6
+- /biblioteca/decreto-supremo-23570/ | Decreto Supremo 23570 (PDF) | Artículos 1 a 3
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-44/ | Artículo 44 | Código Procesal del Trabajo
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-66/ | Artículo 66 | Código Procesal del Trabajo
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-151/ | Artículo 151 | Código Procesal del Trabajo
@@ -25,6 +26,14 @@ Lo que decide si una relación es laboral no es el nombre del contrato, sino lo 
 3. La percepción de una remuneración o salario, en cualquiera de sus formas y manifestaciones.
 
 Cuando esas tres características concurren, la persona que presta servicios, intelectuales o materiales, a otra persona natural o jurídica queda dentro de la Ley General del Trabajo, sin importar el rubro ni si el contrato fue expreso o verbal (artículo 3). Ver [El contrato de trabajo y la relación laboral](/guias/laboral/contrato-de-trabajo/).
+
+**El antecedente de 1993.** Esas tres características ya estaban en el [Decreto Supremo 23570, de 26 de julio de 1993](/biblioteca/decreto-supremo-23570/leer/), dictado porque la Ley General del Trabajo no precisaba qué identifica a una relación laboral y eso dejaba fuera a varios grupos de asalariados (considerandos). El decreto dice:
+
+- Son características esenciales de la relación laboral la dependencia y subordinación, el trabajo por cuenta ajena y la remuneración en cualquiera de sus formas (artículo primero).
+- Quien presta servicios intelectuales o materiales a otra persona con esas características está dentro de la Ley General del Trabajo y goza de todos sus derechos, sea cual sea el rubro y aunque el contrato sea verbal (artículo segundo).
+- Todo pago acordado a cambio de esos servicios es salario, cualquiera sea su modalidad: sueldo mensual, pago quincenal o semanal, jornal, pago por horas, comisiones, pago por obra o producción, a porcentaje, en metálico o en especie cuando esté permitido (artículo tercero).
+
+> El mismo decreto de 1993 incluyó a los deportistas profesionales en la Ley General del Trabajo: su contrato debe ser escrito y con intervención de la autoridad del trabajo, y el club no es «dueño» del deportista, solo del derecho exclusivo a su trabajo ([Decreto Supremo 23570](/biblioteca/decreto-supremo-23570/leer/), artículos cuarto y quinto).
 
 ## Qué pasa con un contrato civil o comercial
 
@@ -53,7 +62,7 @@ Los dos autos que siguen se toman del resumen publicado por el Tribunal Supremo 
 
 En ese caso, una entidad sin fines de lucro sostenía que las personas demandantes habían colaborado como voluntarias y sin sueldo. El resumen recoge que el Tribunal consideró irrelevante que la entidad fuera civil y sin fines de lucro, porque eso no la libera de las obligaciones laborales (véase también el [artículo 1](/leyes/laboral/ley-general-del-trabajo/articulo-1/) de la Ley General del Trabajo, que alcanza a asociaciones públicas o privadas aunque no persigan fines de lucro, salvo las excepciones que se determinen). Entendió además que las tareas no habían sido esporádicas sino continuas. La forma de resolución indicada es CASA y el precedente citado es el artículo 2 del Decreto Supremo 28699.
 
-**Auto Supremo 146/2022, de 20 de abril (Sala Social y Administrativa Segunda).** Trata de un contrato presentado como civil o comercial que, según el Tribunal, encubría una relación laboral ([página 150 de la revista](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=150)). La entidad recurrente decía que la persona asistía un solo día a la semana, que por eso no había subordinación y que lo pagado era un incentivo y no un salario. El Tribunal respondió con el artículo 1 de la Ley General del Trabajo y el artículo 2 del Decreto Supremo 28699: si el servicio se presta con dependencia, por cuenta ajena y a cambio de una remuneración, el contrato se considera laboral sin importar la forma o el nombre que se le dio. Concluyó que había relación laboral por la presencia de trabajo por cuenta ajena, pago mensual y asistencia en horarios y días definidos según un rol de turnos. La forma de resolución indicada es INFUNDADO. Entre los precedentes cita los artículos 2 y 5 del Decreto Supremo 28699 y un decreto supremo 23570 que no está en la Biblioteca.
+**Auto Supremo 146/2022, de 20 de abril (Sala Social y Administrativa Segunda).** Trata de un contrato presentado como civil o comercial que, según el Tribunal, encubría una relación laboral ([página 150 de la revista](/jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=150)). La entidad recurrente decía que la persona asistía un solo día a la semana, que por eso no había subordinación y que lo pagado era un incentivo y no un salario. El Tribunal respondió con el artículo 1 de la Ley General del Trabajo y el artículo 2 del Decreto Supremo 28699: si el servicio se presta con dependencia, por cuenta ajena y a cambio de una remuneración, el contrato se considera laboral sin importar la forma o el nombre que se le dio. Concluyó que había relación laboral por la presencia de trabajo por cuenta ajena, pago mensual y asistencia en horarios y días definidos según un rol de turnos. La forma de resolución indicada es INFUNDADO. Entre los precedentes cita los artículos 2 y 5 del Decreto Supremo 28699 y el artículo 1 del [Decreto Supremo 23570](/biblioteca/decreto-supremo-23570/leer/).
 
 !! En la revista hay varios autos con el mismo número 146/2022. Este es el de 20 de abril, de la Sala Social y Administrativa Segunda. El de 16 de marzo trata de otro tema, la seguridad social.
 

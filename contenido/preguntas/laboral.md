@@ -239,7 +239,7 @@ Es el pago de un jornal por el domingo no trabajado que reciben los obreros que 
 
 ### ¿Se puede pagar el sueldo en dólares?
 
-La regla general es el pago en moneda de curso legal ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/), art. 53). El [Decreto Ley 7182](/biblioteca/decreto-ley-7182/leer/#page=2) (1965) prohíbe pagar sueldos en moneda extranjera y manda al sector público pagar en moneda nacional. Según el editor, ese decreto apunta sobre todo al sector público: en las relaciones entre privados, el Ministerio de Trabajo admite el pago en moneda extranjera si está pactado por escrito en el contrato ([guía del Ministerio de Trabajo de 2020](/biblioteca/guia-de-derechos-laborales-2020/leer/#page=14)). Ver [El pago del salario](/guias/laboral/pago-del-salario/).
+La regla es el pago en moneda de curso legal, es decir, en bolivianos ([Ley General del Trabajo](/leyes/laboral/ley-general-del-trabajo/articulo-53/), art. 53), y así se paga en la práctica. El [Decreto Ley 7182](/biblioteca/decreto-ley-7182/leer/#page=2) (1965) prohíbe pagar sueldos en moneda extranjera y manda al sector público pagar en moneda nacional. Si un contrato fija el sueldo en moneda extranjera, según el editor ese pacto se toma en cuenta solo en lo que beneficie al trabajador, por el principio protector ([Decreto Supremo 28699](/biblioteca/decreto-supremo-28699/leer/#page=2), artículo 4). [VERIFICAR] Desde junio de 2026 el tipo de cambio oficial es flexible ([Resolución Ministerial 245/2026](/biblioteca/resolucion-ministerial-245-2026/leer/#page=3)), sin efecto retroactivo ([Resolución Ministerial 416/2026](/biblioteca/resolucion-ministerial-416-2026/leer/#page=2)). Ver [El pago del salario](/guias/laboral/pago-del-salario/).
 
 ### ¿Cada cuánto debe pagarse el sueldo?
 
@@ -415,7 +415,7 @@ Es el que se realiza por cuenta ajena y con remuneración determinada en el luga
 
 ### ¿Qué normas rigen el trabajo del hogar?
 
-El Reglamento de la Ley General del Trabajo tiene un capítulo propio, con dos artículos: manda incluir en el contrato de trabajo doméstico con menores la obligación de dar las horas necesarias para ir a la escuela ([artículo 27](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-27/)) y dice que, para el primer período del artículo 37 de la Ley, solo se toma en cuenta la remuneración mensual en dinero del doméstico ([artículo 28](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-28/)). La Ley General del Trabajo dice que el período de pago de los domésticos no puede pasar de un mes ([artículo 53](/leyes/laboral/ley-general-del-trabajo/articulo-53/)). La jornada y otros derechos, según la guía del Ministerio de Trabajo de 2020, están en la Ley 2450 (ver [Jornada de trabajo](/guias/laboral/jornada-de-trabajo/)), que no está en la Biblioteca. Los materiales de apoyo añaden que el Convenio 189 de la OIT, ratificado por Bolivia, pide un contrato escrito con las condiciones de trabajo; ese convenio tampoco está en la Biblioteca. [VERIFICAR]
+El Reglamento de la Ley General del Trabajo tiene un capítulo propio, con dos artículos: manda incluir en el contrato de trabajo doméstico con menores la obligación de dar las horas necesarias para ir a la escuela ([artículo 27](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-27/)) y dice que, para el primer período del artículo 37 de la Ley, solo se toma en cuenta la remuneración mensual en dinero del doméstico ([artículo 28](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-28/)). La Ley General del Trabajo dice que el período de pago de los domésticos no puede pasar de un mes ([artículo 53](/leyes/laboral/ley-general-del-trabajo/articulo-53/)). La jornada, el descanso y otros derechos están en la [Ley 2450](/biblioteca/ley-2450/leer/), de regulación del trabajo asalariado del hogar (ver [Jornada de trabajo](/guias/laboral/jornada-de-trabajo/)). El [Convenio 189 de la OIT](/biblioteca/convenio-189-de-la-oit/leer/#page=3) pide que las condiciones de empleo se informen de forma clara, de preferencia por contrato escrito, con datos como el lugar de trabajo, la remuneración, el horario, las vacaciones y descansos, la alimentación y el alojamiento y la forma de terminar la relación (artículo 7); que la trabajadora pueda acordar libremente si vive o no en el hogar y conserve sus documentos (artículo 9); un descanso semanal de al menos 24 horas seguidas (artículo 10), y el pago del salario en efectivo al menos una vez al mes (artículo 12). Según los materiales de apoyo, Bolivia lo ratificó; la fecha no figura en el PDF. [VERIFICAR]
 
 ### ¿Qué es un contrato colectivo de trabajo?
 
@@ -435,7 +435,7 @@ El Reglamento pide, por lo menos: nombres o razón social de las partes; edad, n
 
 ### ¿Qué es el Registro Obligatorio de Empleadores (ROE)?
 
-Es un registro donde el empleador declara sus datos; según los materiales de apoyo, lo lleva el Ministerio de Trabajo y se creó por un decreto supremo de 2017 que no está en la Biblioteca. La guía del Ministerio de 2020 pide su formulario para el visado de contratos, y el Protocolo de la Ley 1468 permite notificar al empleador en el domicilio o por el correo o WhatsApp que consignó en el ROE. Ver [Registro obligatorio de empleadores](/guias/laboral/registro-de-empleadores/). [VERIFICAR]
+Es el registro de información laboral de los empleadores, a cargo del Ministerio de Trabajo, creado por el [Decreto Supremo 3433](/biblioteca/decreto-supremo-3433/leer/) de 2017 y tramitado en la Oficina Virtual de Trámites. La inscripción es obligatoria y gratuita para todas las empresas privadas y para las instituciones públicas que señala el decreto (artículos 3 y 4); lo declarado vale como declaración jurada. Sin el ROE no se puede registrar al empleador en el seguro social ni actualizar la matrícula de comercio (artículo 6), y el Protocolo de la Ley 1468 permite notificar al empleador en el domicilio o por el correo o WhatsApp que consignó en él. Ver [El Registro Obligatorio de Empleadores](/guias/laboral/registro-de-empleadores/).
 
 ### ¿Cómo pruebo que trabajé si no tengo contrato escrito?
 
@@ -456,3 +456,23 @@ Sí. Tienes como mínimo 2 horas por semana de tolerancia para ir a las audienci
 ### ¿Desde cuándo tiene fuero un dirigente sindical?
 
 Desde la fecha de su elección ([Decreto Supremo 29539](/biblioteca/decreto-supremo-29539/leer/), artículo 2), y hasta un año después de terminar su gestión ([Constitución](/leyes/constitucional/constitucion-politica-del-estado/articulo-51/), art. 51.VI). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).
+
+### ¿Debo presentar las planillas de sueldos al Ministerio de Trabajo?
+
+Sí. Las empresas privadas y las instituciones públicas inscritas en el ROE deben presentar cada mes sus planillas de sueldos, salarios y accidentes de trabajo, con calidad de declaración jurada ([Decreto Supremo 3433](/biblioteca/decreto-supremo-3433/leer/#page=2), artículo 5). La [Resolución Ministerial 448/08](/biblioteca/resolucion-ministerial-448-08/leer/#page=3) calcula la multa por presentar tarde con un factor por día de retraso aplicado al total ganado de la planilla: 5 % a los 30 días, 10 % a los 60 y hasta 40 % a los 180 (artículo cuarto). Si esas cifras siguen vigentes debe confirmarse. [VERIFICAR] Ver [Planillas de sueldos y multas del Ministerio de Trabajo](/guias/laboral/planillas-y-multas-del-ministerio-de-trabajo/).
+
+### ¿Me deben dar un certificado de trabajo cuando me voy?
+
+Sí. Al terminar cualquier contrato, si el trabajador lo pide aunque sea de palabra, el empleador debe darle un certificado que diga la fecha de ingreso y de salida, la clase de trabajo hecho, la causa del retiro y la conducta observada ([Reglamento de la Ley General del Trabajo](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-16/), artículo 16).
+
+### ¿Me pueden cambiar de ciudad o de puesto si estoy embarazada?
+
+No en tu perjuicio. El Tribunal Constitucional ha dicho que la inamovilidad de la mujer embarazada no solo impide despedirla: también impide bajarle el salario o la categoría y trasladarla sin su consentimiento a otro lugar en condiciones que agraven su situación, salvo un ascenso o un cambio que la beneficie ([Sentencia Constitucional Plurinacional 0167/2019-S2](/biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/leer/#page=6)). La protección dura hasta que el hijo cumpla un año ([Constitución](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/), art. 48.VI). Ver [Inamovilidad laboral](/guias/laboral/inamovilidad-laboral/).
+
+### ¿Qué pasa con los beneficios sociales si la empresa quiebra o cierra?
+
+La Ley General del Trabajo dice que la indemnización también se paga cuando la empresa cierra por liquidación o por muerte del propietario; en este último caso, la deuda pasa a sus herederos ([artículo 15](/leyes/laboral/ley-general-del-trabajo/articulo-15/)). Para la quiebra o pérdida comprobada, el artículo 14 dice que la indemnización se reduce a la mitad y que el crédito del trabajador tiene preferencia; los materiales de apoyo indican que un decreto de 1954 suprimió esa reducción, pero ese decreto no está en la Biblioteca ([artículo 14](/leyes/laboral/ley-general-del-trabajo/articulo-14/)). [VERIFICAR] La Constitución da a los sueldos devengados y beneficios sociales no pagados preferencia sobre cualquier otra deuda ([artículo 48](/leyes/constitucional/constitucion-politica-del-estado/articulo-48/), parágrafo IV).
+
+### ¿Qué empresas deben tener reglamento interno?
+
+Las empresas industriales o comerciales con más de 20 empleados u obreros deben tener un reglamento interno legalmente aprobado ([Reglamento de la Ley General del Trabajo](/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/articulo-62/), artículo 62). Ver [El reglamento interno de trabajo](/guias/laboral/reglamento-interno-de-trabajo/).

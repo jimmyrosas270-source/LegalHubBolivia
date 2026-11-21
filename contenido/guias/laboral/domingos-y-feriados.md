@@ -2,7 +2,7 @@
 titulo: Trabajo en domingos y feriados
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 17/11/2026
+actualizada: 21/11/2026
 resumen: Los domingos y los feriados son días de descanso. Solo algunas actividades pueden trabajar en ellos, y quien lo hace recibe un recargo del 100 % o un día de descanso a cambio. Esta guía explica la regla, el salario dominical, los dos casos en que el domingo no se paga triple y los puntos en que los textos no coinciden.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-41/ | Artículo 41 | Ley General del Trabajo
@@ -19,6 +19,7 @@ articulos:
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 13 a 15 y 22 y 23
 - /biblioteca/decreto-supremo-29010/ | Decreto Supremo 29010 (PDF) | Salario dominical
 - /biblioteca/decreto-supremo-2750/ | Decreto Supremo 2750 (PDF) | Feriados nacionales
+- /biblioteca/decreto-supremo-09113/ | Decreto Supremo 09113 (PDF) | Descanso dominical de la prensa
 ---
 ## La regla: descanso
 
@@ -26,16 +27,33 @@ Para la Ley General del Trabajo, los días hábiles son todos los del año menos
 
 En los feriados no se puede trabajar, ni siquiera en enseñanza profesional o beneficencia. La excepción son las empresas cuyo trabajo no puede suspenderse por razones de interés público o por la naturaleza de la labor; sus trabajadores tienen un descanso de dos horas a mitad del día feriado (artículo 42). El Reglamento añade que en domingos y feriados solo pueden hacerse los trabajos que enumera un decreto supremo de 30 de agosto de 1927 (artículo 30).
 
+## De dónde viene el descanso dominical
+
+El descanso del domingo es anterior a la Ley General del Trabajo. Un decreto de 1970, publicado en la Biblioteca, recuerda que una ley de 23 de noviembre de 1915 y su decreto reglamentario de 30 de agosto de 1927 reconocieron el descanso dominical remunerado para todos los trabajadores del país y fijaron las reglas para aplicarlo, y que esas normas concuerdan con el artículo 41 de la Ley General del Trabajo ([Decreto Supremo 09113](/biblioteca/decreto-supremo-09113/leer/), considerandos). Ni la ley de 1915 ni el decreto de 1927 están todavía en la Biblioteca: lo que sigue sobre su contenido viene de los materiales de apoyo del editor.
+
 ## Quiénes pueden trabajar en domingo o feriado
 
-Ese decreto de 1927 no está todavía en la Biblioteca. Los materiales de apoyo resumen así las actividades permitidas: [VERIFICAR]
+Según los materiales de apoyo, el decreto de 1927 admite el trabajo en domingo por dos clases de razones: [VERIFICAR]
 
-- Transporte de pasajeros y de carga, correos y encomiendas.
-- Alumbrado público y energía.
-- Mercados y ferias, tiendas de alimentos, carnicerías, lecherías, panaderías y su reparto.
-- Hoteles, restaurantes, estudios fotográficos y distribuidores de diarios y revistas.
-- Farmacias de turno, hospitales y clínicas, servicios funerarios.
-- Museos y bibliotecas, y espectáculos públicos y de recreación popular.
+1. **Interés público:** servicios que la población necesita también ese día.
+2. **Razones técnicas:** cuando la materia prima se puede alterar si no se la trata a tiempo, o cuando su preparación, elaboración y terminación exige un proceso de más de 24 horas seguidas.
+
+Las actividades que esos materiales mencionan como permitidas son: [VERIFICAR]
+
+- Ferrocarriles de pasajeros y de carga, y la recepción y entrega de correspondencia, encomiendas, equipajes y cargas que se pueden deteriorar.
+- Tranvías, automóviles y coches; teléfonos y telégrafos.
+- Alumbrado público y fuerza motriz.
+- Mercados y ferias; carnicerías, lecherías y panaderías con su reparto; tiendas de víveres y alimentos al por menor, solo para vender; puestos de flores naturales.
+- Hoteles, restaurantes, cigarrerías, estudios fotográficos y distribuidores de diarios y revistas.
+- Museos y bibliotecas.
+- Farmacias de turno, hospitales y clínicas, y servicios funerarios.
+- Teatros, circos, hipódromos, cines y demás espectáculos públicos y de recreación popular.
+
+Uno de los materiales añade que en la empresa privada estas situaciones suelen ordenarse por acuerdo entre las partes. [VERIFICAR]
+
+> En 1970 se dio descanso dominical obligatorio a los trabajadores de la prensa, y por eso los diarios de la mañana no podían circular los lunes; los sindicatos de prensa podían pedir permiso para publicar un semanario ese día ([Decreto Supremo 09113](/biblioteca/decreto-supremo-09113/leer/), artículos 1 a 3).
+
+La Ley General del Trabajo pide además que los días y horas de descanso se anuncien en la empresa con carteles especiales ([artículo 43](/leyes/laboral/ley-general-del-trabajo/articulo-43/)).
 
 ## Cuánto se paga
 

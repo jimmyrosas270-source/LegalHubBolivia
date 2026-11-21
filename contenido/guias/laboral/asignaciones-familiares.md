@@ -2,7 +2,7 @@
 titulo: Asignaciones familiares, maternidad y lactancia
 materia: Laboral
 publico: Trabajadoras, trabajadores y empleadores
-actualizada: 17/11/2026
+actualizada: 21/11/2026
 resumen: Los subsidios prenatal, de natalidad, de lactancia y de sepelio que paga el empleador, el subsidio de maternidad, el subsidio universal prenatal y el derecho a amamantar durante la jornada.
 articulos:
 - /leyes/laboral/ley-general-del-trabajo/articulo-61/ | Artículo 61 | Ley General del Trabajo
@@ -11,6 +11,7 @@ articulos:
 - /biblioteca/decreto-ley-13214/ | Decreto Ley 13214 (PDF) | Subsidio de maternidad
 - /biblioteca/ley-3460/ | Ley 3460 y Decreto Supremo 0115 (PDF) | Lactancia
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 41 a 43
+- /biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/ | Sentencia Constitucional Plurinacional 0167/2019-S2 (PDF) | Subsidios de maternidad
 ---
 ## Descanso y subsidio de maternidad
 
@@ -25,7 +26,7 @@ El [artículo 25 del Decreto Supremo 21637](/biblioteca/decreto-supremo-21637/le
 - **Subsidio de lactancia:** la entrega a la madre de productos lácteos u otros equivalentes por cada hijo, durante sus primeros doce meses de vida.
 - **Subsidio de sepelio:** un pago único a la madre por la muerte de cada hijo beneficiario menor de 19 años.
 
-El monto de cada subsidio lo fija el Decreto Supremo 3546. Antes de calcularlo, conviene confirmar que no haya un decreto posterior que lo actualice. [VERIFICAR] El Ministerio de Salud vela por que se cumplan. Las asignaciones protegen al hijo: aunque el padre o la madre hayan sido despedidos con causa, el empleador debe pagar las que no pagó ([Sentencia Constitucional Plurinacional 1443/2016-S3](/biblioteca/sentencia-constitucional-plurinacional-1443-2016-s3/leer/#page=16)).
+El monto de cada subsidio lo fija el Decreto Supremo 3546. Antes de calcularlo, conviene confirmar que no haya un decreto posterior que lo actualice. [VERIFICAR] El Ministerio de Salud vela por que se cumplan. Las asignaciones protegen al hijo: aunque el padre o la madre hayan sido despedidos con causa, el empleador debe pagar las que no pagó ([Sentencia Constitucional Plurinacional 1443/2016-S3](/biblioteca/sentencia-constitucional-plurinacional-1443-2016-s3/leer/#page=16)). En otros dos casos el Tribunal Constitucional ordenó pagar las asignaciones adeudadas a trabajadoras embarazadas: junto con la reincorporación ([Sentencia Constitucional Plurinacional 0898/2015-S1](/biblioteca/sentencia-constitucional-plurinacional-0898-2015-s1/leer/#page=13)) y, en otro caso, los subsidios prenatales que no se habían pagado, porque garantizan a la madre y al hijo un mínimo para vivir ([Sentencia Constitucional Plurinacional 0167/2019-S2](/biblioteca/sentencia-constitucional-plurinacional-0167-2019-s2/leer/#page=7), fundamento III.6).
 
 > La guía del Ministerio de Trabajo de 2020 decía que los subsidios prenatal y de lactancia se entregan en alimentos; el decreto de 2018 permite pagar el prenatal en dinero o en especie.
 
