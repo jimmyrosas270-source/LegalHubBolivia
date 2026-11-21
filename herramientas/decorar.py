@@ -72,6 +72,9 @@ for dp, _, fs in os.walk(OUT):
         mat = materia_de_ruta(partes)
         if mat and 'data-m=' not in doc[doc.find('<body'):doc.find('<body') + 120]:
             doc = re.sub(r'<body( class="[^"]*")?>', lambda m: f'<body{m.group(1) or ""} data-m="{mat}">', doc, count=1)
+        # 3b. aviso nuevo del pie también en las páginas de la base
+        if PIE_AVISO_VIEJO in doc:
+            doc = doc.replace(PIE_AVISO_VIEJO, PIE_AVISO)
         # 4. recuadros y etiquetas de materia
         doc = ETQ_MAT.sub(lambda m: f'<span class="etq" data-mc="{slug(html.unescape(m.group(1)))}">{m.group(1)}</span>', doc)
         doc = re.sub(r'(<a class="materia[^"]*" href="([^"]+)")(?! data-mc)', _mc, doc)
