@@ -147,3 +147,9 @@ a.materia[data-mc]:hover{background:var(--m2)}
 .entre>.mas{white-space:nowrap}
 .portada h1.lema{max-width:22ch;margin-left:auto;margin-right:auto;text-wrap:balance}
 h2 a[data-mc]{color:var(--m)}
+/* buscador: la norma primero */
+.res-sec{font-size:15px;font-weight:700;color:var(--sec);margin:18px 0 8px}
+.res-sec:first-child{margin-top:4px}
+.res.norma{border-left:5px solid var(--verde);background:#fff}
+.res.norma b{font-size:18px}
+#resultados > .por-tipo{margin:14px 0 4px}

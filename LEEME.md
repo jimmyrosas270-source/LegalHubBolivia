@@ -85,7 +85,8 @@ Al publicar, el generador (`herramientas/limpieza_pdf.py`) quita solo los hiperv
 ## Buscador
 
 El buscador (`/buscar/`) busca en las normas por artículos, las guías, las preguntas, el glosario, las fichas de la Biblioteca, los autos supremos y el texto de todas las páginas de los PDF. Se arma solo al publicar (`herramientas/buscador.py`).
-Los PDF de más de 500 páginas (por ejemplo, un tomo de la Gaceta Judicial) no entran en la búsqueda general, para que no pese demasiado en el celular: se buscan con el filtro «Texto de los PDF» o «Texto de las revistas de jurisprudencia», o dentro de su propio visor.
+Si lo que se escribe coincide con el nombre de una norma o de una materia («procesal civil», «Constitución», «familia», «Ley 348», «CPC»), primero aparece la norma como tal (su ficha o su página por artículos) y la materia; después, los artículos y lo demás. Las siglas y nombres comunes de cada norma están en la lista `_ALIAS` de `herramientas/buscador.py`; para una norma nueva basta con su título, tipo y número en el catálogo, y la primera frase de su descripción si empieza con su nombre («Ley del Notariado Plurinacional.»).
+Las revistas de jurisprudencia y los PDF de más de 500 páginas (por ejemplo, un tomo de la Gaceta Judicial) no entran en la búsqueda general, para que no pese demasiado en el celular: se buscan con el filtro «Texto de los PDF» o «Texto de las revistas de jurisprudencia», o dentro de su propio visor.
 
 ## Recuadro «Reportar un error»
 
