@@ -44,6 +44,12 @@ def ico(n, s=22):
     return f'<svg width="{s}" height="{s}" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{P[n]}</svg>'
 
 
+# Aviso del pie de página (texto pedido por el titular, 21 nov 2026); «reportarlo» abre el formulario de reportes.
+_form_pie = (CONF.get('reportes_url') or '').strip().replace('{pagina}', '')
+PIE_AVISO = ('Recuerda que el sitio web LegalHubBolivia está en constante desarrollo: si observas algún error, no dudes en '
+             + (f'<a href="{html.escape(_form_pie)}" target="_blank" rel="noopener">reportarlo</a>' if _form_pie else 'reportarlo')
+             + '. LegalHubBolivia no sustituye la asesoría de un profesional; acude a uno si lo necesitas.')
+PIE_AVISO_VIEJO = 'Información general. No sustituye asesoría profesional. Los textos del sitio no son oficiales; verifica en la publicación oficial.'
 MARCA = '<svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5B44"/><path d="M40 0h10v24l-5-5-5 5z" fill="#E0B04A"/><path d="M14 24h18M14 34h36M14 44h26" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none"/></svg>'
 NAV = [('Temas', '/temas/'), ('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudencia', '/jurisprudencia/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
 PIE = [('Aviso legal', '/legal/aviso-legal/'), ('Privacidad', '/legal/privacidad/'), ('Términos', '/legal/terminos/'), ('Cookies', '/legal/cookies/'), ('Contacto', '/contacto/'), ('Historial de cambios', '/cambios/')]
@@ -102,7 +108,7 @@ def pagina(titulo, desc, cuerpo, activo='', cuerpo_clase='', extra_head='', scri
 </main>
 <footer class="pie"><div class="cont">
 <div class="pie-a"><a class="logo claro" href="/">{MARCA}<span><b>LegalHub</b><span>Bolivia</span></span></a>
-<p>Información general. No sustituye asesoría profesional. Los textos del sitio no son oficiales; verifica en la publicación oficial.</p></div>
+<p>{PIE_AVISO}</p></div>
 <nav class="pie-b" aria-label="Pie de página">{pie}</nav>
 </div></footer>
 <script src="/assets/sitio.js" defer></script>
