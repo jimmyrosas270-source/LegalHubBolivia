@@ -4,7 +4,6 @@ materia: Penal
 imagen: mujer
 orden: 2
 actualizada: 20/11/2026
-salida_rapida: si
 resumen: Qué formas de violencia reconoce la ley, dónde denunciar, qué apoyo gratuito existe y qué medidas de protección se pueden pedir. Con la Ley 348, el Código Penal y el Código de Procedimiento Penal.
 tarjetas:
 - La violencia contra una mujer puede denunciarla ella misma o cualquier persona que sepa del hecho, ante la Policía o el Ministerio Público. | Dónde denunciar | Ley 348, art. 42

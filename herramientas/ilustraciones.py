@@ -4,7 +4,7 @@ Lo ejecuta construir.py. Cada tema elige una clave en su encabezado («imagen: n
 la ilustración toma el color de la materia del tema. Motivo escalonado como en las portadas.
 
 Claves disponibles: ninez, mujer, beneficios, asistencia, usucapion, propiedad, denuncia,
-discriminacion, discapacidad, animales, divorcio, defensa. Una clave desconocida usa «defensa».
+discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas. Una clave desconocida usa «defensa».
 """
 
 COLOR_MATERIA = {
@@ -102,6 +102,26 @@ def _fig_ilus(clave, c):
                    f'<path d="M200 70v20M200 158v20" stroke="{_W}" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10" opacity=".7"/>')
         hoja = f'<rect x="300" y="82" width="58" height="76" rx="6" fill="{_W}" opacity=".9"/>' + ''.join(f'<rect x="310" y="{y}" width="38" height="6" rx="3" fill="{c}" opacity=".45"/>' for y in (98, 112, 126))
         return anillos + hoja
+    if clave == 'herencia':
+        hoja = (f'<path d="M96 60h104v130H96z" fill="{_W}"/><path d="M96 60c-14 0-14 20 0 20M200 190c14 0 14-20 0-20" fill="none" stroke="{_W}" stroke-width="6"/>'
+                + ''.join(f'<rect x="112" y="{y}" width="{w}" height="6" rx="3" fill="{c}" opacity=".45"/>' for y, w in ((92, 72), (106, 58), (120, 72), (134, 46)))
+                + f'<circle cx="176" cy="164" r="15" fill="{_OC}"/><path d="M168 176l-4 20 12-7 12 7-4-20" fill="{_OC}"/>')
+        arbol = (f'<path d="M290 82v30M290 112h-40v26M290 112h40v26M250 160v14M330 160v14M250 174h-18v12M250 174h18v12M330 174h-18v12M330 174h18v12" fill="none" stroke="{_W}" stroke-width="4" opacity=".75"/>'
+                 f'<circle cx="290" cy="70" r="15" fill="{_OC}"/><circle cx="250" cy="148" r="12" fill="{_W}"/><circle cx="330" cy="148" r="12" fill="{_W}"/>'
+                 + ''.join(f'<circle cx="{x}" cy="194" r="8" fill="{_W}" opacity=".85"/>' for x in (232, 268, 312, 348)))
+        return hoja + arbol
+    if clave == 'alquiler':
+        cartel = (f'<path d="M262 60v120" stroke="{_W}" stroke-width="7" stroke-linecap="round"/><path d="M262 76h70" stroke="{_W}" stroke-width="6" stroke-linecap="round"/>'
+                  f'<path d="M282 76v14M322 76v14" stroke="{_W}" stroke-width="3"/><rect x="270" y="90" width="64" height="44" rx="6" fill="{_OC}"/>'
+                  f'<circle cx="290" cy="112" r="8" fill="none" stroke="{_W}" stroke-width="4"/><path d="M298 112h22M312 112v8M318 112v6" stroke="{_W}" stroke-width="4" stroke-linecap="round"/>')
+        return _casa_ilus(92, 66, 140, c) + cartel
+    if clave == 'deudas':
+        cal = (f'<rect x="96" y="64" width="128" height="124" rx="10" fill="{_W}"/><rect x="96" y="64" width="128" height="28" rx="10" fill="{_OC}"/><rect x="96" y="82" width="128" height="10" fill="{_OC}"/>'
+               f'<path d="M124 54v20M196 54v20" stroke="{_W}" stroke-width="7" stroke-linecap="round"/>'
+               + ''.join(f'<rect x="{110 + i * 26}" y="{104 + j * 26}" width="16" height="14" rx="3" fill="{c}" opacity="{.75 if (i, j) == (2, 1) else .3}"/>' for i in range(4) for j in range(3)))
+        pct = (f'<circle cx="298" cy="126" r="48" fill="{_OC}"/><path d="M276 152l44-52" stroke="{_W}" stroke-width="8" stroke-linecap="round"/>'
+               f'<circle cx="280" cy="108" r="9" fill="none" stroke="{_W}" stroke-width="6"/><circle cx="316" cy="144" r="9" fill="none" stroke="{_W}" stroke-width="6"/>')
+        return cal + pct
     # defensa (y valor por defecto): escudo con balanza
     return (f'<path d="M200 40l70 24v58c0 50-34 80-70 94-36-14-70-44-70-94V64z" fill="{_W}"/>'
             f'<path d="M200 74v96M160 92h80M178 182h44" stroke="{c}" stroke-width="7" stroke-linecap="round"/>'

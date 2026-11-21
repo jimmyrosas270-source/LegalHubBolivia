@@ -2,7 +2,7 @@
    - Carrusel en [data-tarjetas]: avanza solo cada 9 s (se detiene al pasar el mouse, al enfocar,
      si la pestaña no está visible y nunca con «reducir movimiento»); botones anterior y siguiente.
    - Una tarjeta al azar dentro de las páginas de contenido (antes del recuadro «Reportar un error»).
-   - Una tarjeta flotante, una sola vez por sesión del navegador (sessionStorage), a los 25 s; se puede cerrar.
+   - Una tarjeta flotante, una sola vez por sesión del navegador (sessionStorage), a los 25 s; se cierra con «¡Lo tengo!» o con Esc.
    - Filtro por materia en /temas/.
    Los datos salen de /assets/tarjetas.json (temas y guías del sitio). */
 (function () {
@@ -58,15 +58,6 @@
       mueve(1);
     }, 9000);
   });
-
-  /* ---------- salida rápida ---------- */
-  var sal = d.querySelector('[data-salida]');
-  if (sal) {
-    var vete = function () { try { d.body.style.display = 'none'; } catch (e) {} location.replace('https://www.google.com/search?q=clima'); };
-    sal.addEventListener('click', vete);
-    var ultEsc = 0;
-    d.addEventListener('keydown', function (e) { if (e.key === 'Escape') { var t = Date.now(); if (t - ultEsc < 800) vete(); ultEsc = t; } });
-  }
 
   /* ---------- filtro de temas ---------- */
   var filtro = d.querySelector('.filtro-temas'), rejilla = d.querySelector('[data-temas]');
@@ -125,10 +116,15 @@
       f.className = 'dato-flota';
       f.setAttribute('role', 'complementary');
       f.setAttribute('aria-label', '¿Sabías que?');
-      f.innerHTML = '<button type="button" class="cerrar" aria-label="Cerrar la tarjeta"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>' + datoHTML(otro);
+      f.innerHTML = datoHTML(otro);
+      var ok = d.createElement('button');
+      ok.type = 'button';
+      ok.className = 'lo-tengo';
+      ok.textContent = '¡Lo tengo!';
+      f.querySelector('.dato').appendChild(ok);
       var cierra = function () { if (f.parentNode) f.parentNode.removeChild(f); d.removeEventListener('keydown', esc2); };
       var esc2 = function (e) { if (e.key === 'Escape') cierra(); };
-      f.querySelector('.cerrar').addEventListener('click', cierra);
+      ok.addEventListener('click', cierra);
       d.addEventListener('keydown', esc2);
       d.body.appendChild(f);
     }, 25000);

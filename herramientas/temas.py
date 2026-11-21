@@ -121,9 +121,6 @@ def muestra(n, semilla=7):
 
 
 # ------------------------------------------------ páginas de cada tema
-# «Salir rápido»: en temas de violencia, un botón que abre otra página sin dejar esta en el historial (Esc dos veces también).
-SALIDA = ('<button type="button" class="salida-rapida" data-salida>Salir rápido de esta página</button>'
-          '<p class="sec">Si alguien puede ver tu pantalla, el botón «Salir rápido» abre otra página. Recuerda borrar el historial del navegador.</p>')
 CAJA_REV = alerta('Información general. No sustituye asesoría profesional. ' + REVISION + '. Los datos marcados [VERIFICAR CON FUENTE OFICIAL] deben confirmarse en la publicación oficial.'.replace('[VERIFICAR CON FUENTE OFICIAL]', f'<code>{VERIF}</code>'))
 for t in TEMAS:
     m = t['meta']
@@ -147,7 +144,7 @@ for t in TEMAS:
 {f'<section><h2 id="guias">Guías relacionadas</h2>{filas_g}</section>' if guias else ''}
 {CAJA_REV}
 </article><aside class="tema-indice"><nav aria-label="En esta página"><b>En esta página</b>{"".join(f'<a href="#{i}">{E(x)}</a>' for i, x in toc)}</nav></aside></div>
-{SALIDA if m.get('salida_rapida', '').lower() in ('si', 'sí') else ''}<section class="otros"><h2>Otros temas</h2><div class="temas-r">{"".join(tarjeta_tema(o) for o in otros[:3])}</div><p><a class="mas" href="/temas/">Ver todos los temas</a></p></section>
+<section class="otros"><h2>Otros temas</h2><div class="temas-r">{"".join(tarjeta_tema(o) for o in otros[:3])}</div><p><a class="mas" href="/temas/">Ver todos los temas</a></p></section>
 </div>''', 'Temas'))
 
 # Enlace «Explicado en un tema» en los artículos de la Constitución y de las leyes por artículos que cita cada tema
@@ -198,8 +195,8 @@ accesos = [('Biblioteca', '/biblioteca/', 'Normas completas en PDF, con visor y 
            ('Cuestionarios', '/estudiantes/cuestionarios/', 'Para repasar y prepararse'),
            ('Glosario', '/glosario/', 'Términos jurídicos en lenguaje claro')]
 if TEMAS:
-    escribe('index.html', pagina('Leyes de Bolivia, al pie de la letra', 'Normas bolivianas en texto literal y en PDF, temas de interés y guías en lenguaje claro.',
-        f'''<section class="hero portada"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p>El texto de las normas, explicado en lenguaje claro.</p>
+    escribe('index.html', pagina('Leyes de Bolivia, al pie de la letra', 'Tu lugar: el repositorio jurídico que necesitas. Normas bolivianas completas, jurisprudencia, temas de interés y guías en lenguaje claro.',
+        f'''<section class="hero portada"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p class="lema">Tu lugar: el repositorio jurídico que necesitas.</p>
 <form class="buscador grande" role="search" action="/buscar/" method="get">{ico("search", 20)}<input type="search" name="q" aria-label="Buscar en todo el sitio" placeholder="Busca un tema, una norma o un artículo" autocomplete="off"><button type="submit">Buscar</button></form>
 <p class="atajos">Consultas frecuentes: {" ".join(f'<a href="{url_tema(t)}">{E(t["titulo"].split(":")[0])}</a>' for t in TEMAS[:5])}</p></div></section>
 <div class="cont pag portada-pag">

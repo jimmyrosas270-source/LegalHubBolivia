@@ -87,7 +87,7 @@ def indice_ampliado():
                 continue
             hojas = txt.split('\f')
             destino = paginas
-            if len(hojas) > PAGINAS_EXTENSO:
+            if len(hojas) > PAGINAS_EXTENSO or ruta_s == 'jurisprudencia':  # revistas: solo con el filtro de jurisprudencia o de PDF
                 destino = extensos
                 nombres_ext.append(d['titulo'])
             for n, pg in enumerate(hojas, 1):
@@ -103,7 +103,7 @@ def indice_ampliado():
     global HAY_EXTENSOS
     HAY_EXTENSOS = bool(nombres_ext)
     if nombres_ext:
-        print(f'Buscador: {len(nombres_ext)} documento(s) extenso(s) en buscar/extensos.json: {", ".join(nombres_ext)}.')
+        print(f'Buscador: {len(nombres_ext)} documento(s) en buscar/extensos.json (revistas y documentos extensos): {", ".join(nombres_ext)}.')
     # página de búsqueda: texto y filtro
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()
@@ -140,7 +140,7 @@ if(num){lista=datos.filter(function(a){return a.n===+num[1]&&(!a.x||fn===a.c)});
 lista=lista.map(function(a,i){return [a,i]}).sort(function(x,y){return rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]});
 est.textContent=lista.length?(lista.length+(lista.length===1?' resultado':' resultados')+(lista.length>60?'; se muestran los primeros 60':'')):'Sin resultados. Prueba con otra palabra o con el número del artículo.';if(!fn)resumen(lista);pinta(lista,palabras)}
 if(q){est.textContent='Buscando…';var quiere=!fn||fn==='pdf'||fn==='jur';
-Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?fetch('/buscar/pdf.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([]),fn==='pdf'||fn==='jur'?fetch('/buscar/extensos.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de los documentos muy extensos (por ejemplo, los tomos de la Gaceta Judicial). Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
+Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?fetch('/buscar/pdf.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([]),fn==='pdf'||fn==='jur'?fetch('/buscar/extensos.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de las revistas de jurisprudencia ni de los documentos muy extensos. Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
 """
 
 

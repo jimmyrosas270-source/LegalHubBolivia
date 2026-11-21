@@ -15,6 +15,8 @@ tarjetas:
 - La pequeña propiedad agraria es indivisible y patrimonio familiar inembargable. | La tierra | Constitución, art. 394
 normas:
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-56/ | Constitución, artículos 56 y 57 | Propiedad y expropiación
+- /biblioteca/codigo-civil/leer/#page=16 | Código Civil, artículos 105 a 110 | Concepto de propiedad y modos de adquirirla
+- /biblioteca/codigo-civil/leer/#page=180 | Código Civil, artículos 1538 y 1540 | Registro de Derechos Reales
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-393/ | Constitución, artículos 393 a 397 | Tierra y territorio
 - /biblioteca/ley-477/ | Ley 477 | Contra el avasallamiento y tráfico de tierras
 - /biblioteca/codigo-penal/leer/#page=86 | Código Penal, artículos 337 bis, 351 y 351 bis | Tráfico de tierras, despojo y avasallamiento
@@ -26,13 +28,11 @@ normas:
 - Toda persona tiene derecho a la propiedad privada, individual o colectiva, siempre que cumpla una **función social** y su uso no perjudique al interés colectivo. También se garantiza el derecho a la herencia ([artículo 56](/leyes/constitucional/constitucion-politica-del-estado/articulo-56/)).
 - La **expropiación** solo procede por necesidad o utilidad pública, calificada por ley, y con una indemnización justa pagada antes. La propiedad inmueble urbana no está sujeta a reversión ([artículo 57](/leyes/constitucional/constitucion-politica-del-estado/articulo-57/)).
 
-El Código Civil define la propiedad como el poder de usar, gozar y disponer de una cosa, en armonía con el interés colectivo, y permite al propietario reclamar la cosa a quien la tenga (artículos 105 y 106). [VERIFICAR]
+El Código Civil define la propiedad como el poder jurídico de usar, gozar y disponer de una cosa, en forma compatible con el interés colectivo, y permite al propietario reivindicarla de manos de un tercero ([artículo 105](/biblioteca/codigo-civil/leer/#page=16)). La propiedad debe cumplir una función social ([artículo 106](/biblioteca/codigo-civil/leer/#page=16)). Se adquiere, entre otros modos, por contrato, por sucesión, por [usucapión](/temas/usucapion/) y por ocupación ([artículo 110](/biblioteca/codigo-civil/leer/#page=16)).
 
 ## Registrar en Derechos Reales
 
-Comprar un inmueble no basta para protegerse frente a terceros. Un derecho real sobre un inmueble produce efectos contra terceros recién cuando se hace público, y eso se logra **inscribiendo el título en el registro de Derechos Reales**. Si no se inscribe, el acto solo vale entre las partes (Código Civil, artículo 1538). Deben inscribirse, entre otros, las ventas y donaciones de inmuebles, las hipotecas y la constitución del patrimonio familiar (artículo 1540). [VERIFICAR]
-
-!! El Código Civil todavía no está en la Biblioteca del sitio; sus artículos se citan desde una copia del archivo del editor.
+Comprar un inmueble no basta para protegerse frente a terceros. Un derecho real sobre un inmueble produce efectos contra terceros recién cuando se hace público, y eso se logra **inscribiendo el título en el registro de Derechos Reales**. Si no se inscribe, el acto solo vale entre las partes ([Código Civil, artículo 1538](/biblioteca/codigo-civil/leer/#page=180)). Deben inscribirse, entre otros, las ventas y donaciones de inmuebles, las hipotecas, los contratos de anticrético, los alquileres de inmuebles por más de tres años, la división de inmuebles y la constitución del patrimonio familiar ([artículo 1540](/biblioteca/codigo-civil/leer/#page=180)).
 
 ## La notaría
 
@@ -40,8 +40,8 @@ La notaria o el notario de fe pública da certeza y veracidad a los actos y cont
 
 ## Defender la propiedad
 
-- **Acción reivindicatoria:** el propietario que perdió la posesión puede reclamar la cosa a quien la tiene. Esta acción no prescribe, salvo que otra persona haya adquirido el bien por usucapión (Código Civil, artículos 1453 y 1454). Ver [Usucapión](/temas/usucapion/).
-- **Acción negatoria:** permite pedir que se declare que otra persona no tiene los derechos que afirma tener sobre el bien, y que cesen las molestias (artículo 1455). [VERIFICAR]
+- **Acción reivindicatoria:** el propietario que perdió la posesión puede reclamar la cosa a quien la tiene. Esta acción no prescribe, salvo que otra persona haya adquirido el bien por usucapión ([Código Civil, artículos 1453 y 1454](/biblioteca/codigo-civil/leer/#page=170)). Ver [Usucapión](/temas/usucapion/).
+- **Acción negatoria:** permite pedir que se declare que otra persona no tiene los derechos que afirma tener sobre el bien, y que cesen las molestias, con resarcimiento del daño ([artículo 1455](/biblioteca/codigo-civil/leer/#page=170)).
 - **Despojo:** quitar a otro la posesión o tenencia de un inmueble con violencia, amenazas o engaño es delito, con privación de libertad de seis meses a cuatro años ([Código Penal, artículo 351](/biblioteca/codigo-penal/leer/#page=90)).
 
 ## Avasallamiento y tráfico de tierras
@@ -56,5 +56,7 @@ Además de la vía penal, el titular afectado puede pedir el **desalojo** ante l
 ## La tierra
 
 El Estado protege la propiedad individual y la comunitaria o colectiva de la tierra mientras cumpla una función social o una función económica social ([Constitución, artículo 393](/leyes/constitucional/constitucion-politica-del-estado/articulo-393/)). La pequeña propiedad es indivisible, es patrimonio familiar inembargable y no paga impuestos a la propiedad agraria; la propiedad colectiva es indivisible, imprescriptible, inembargable, inalienable e irreversible ([artículo 394](/leyes/constitucional/constitucion-politica-del-estado/articulo-394/)). En la propiedad agraria, el trabajo es la fuente fundamental para adquirirla y conservarla ([artículo 397](/leyes/constitucional/constitucion-politica-del-estado/articulo-397/)).
+
+> Si vas a dar o tomar un inmueble en anticrético o en alquiler, ver [Alquiler y anticrético](/temas/alquiler-y-anticretico/); si el bien viene de una herencia, ver [Herencia y testamento](/temas/herencia-y-testamento/).
 
 > Los bienes de una pareja casada o en unión libre pueden ser propios o comunes, y el Código de las Familias regula cómo se administran y se dividen. Ver [Divorcio y desvinculación](/temas/divorcio/).

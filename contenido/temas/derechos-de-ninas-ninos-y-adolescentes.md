@@ -21,10 +21,11 @@ normas:
 - /biblioteca/guia-para-la-atencion-de-ninas-ninos-y-adolescentes-victimas-de-violencia-sexual/ | Guía de la Defensoría del Pueblo (2021) | Atención a víctimas de violencia sexual
 - /biblioteca/codigo-de-procedimiento-penal/leer/#page=109 | Código de Procedimiento Penal, artículos 389 bis y 389 ter | Medidas de protección especial
 - /biblioteca/ley-223/leer/#page=6 | Ley 223, artículo 10 | Educación inclusiva
+- /biblioteca/codigo-civil/leer/#page=4 | Código Civil, artículos 4 y 5 | Mayoría de edad y capacidad
 ---
 ## Quiénes son y qué principio manda
 
-La Constitución considera niña, niño o adolescente a toda persona menor de edad. Tiene todos los derechos de la Constitución y, además, derechos propios de su etapa de desarrollo ([artículo 58](/leyes/constitucional/constitucion-politica-del-estado/articulo-58/)).
+La Constitución considera niña, niño o adolescente a toda persona menor de edad. Tiene todos los derechos de la Constitución y, además, derechos propios de su etapa de desarrollo ([artículo 58](/leyes/constitucional/constitucion-politica-del-estado/articulo-58/)). La mayoría de edad se alcanza a los **18 años cumplidos** ([Código Civil, artículo 4](/biblioteca/codigo-civil/leer/#page=4)); aun antes, la persona menor de edad puede administrar y disponer libremente de lo que gana con su trabajo ([artículo 5](/biblioteca/codigo-civil/leer/#page=4)).
 
 El Estado, la sociedad y la familia deben dar prioridad a su interés superior: sus derechos van primero, deben recibir protección antes que nadie y tienen prioridad en los servicios públicos y privados y en la justicia ([artículo 60](/leyes/constitucional/constitucion-politica-del-estado/articulo-60/)). El Código Niña, Niño y Adolescente (Ley 548) desarrolla esos derechos y crea un sistema de protección en el que el Estado, la familia y la sociedad comparten la responsabilidad ([artículo 1](/biblioteca/codigo-nina-nino-y-adolescente/leer/#page=11)). Entre sus principios están el interés superior y la prioridad absoluta en la atención ([artículo 12](/biblioteca/codigo-nina-nino-y-adolescente/leer/#page=12)).
 
@@ -60,6 +61,7 @@ Las niñas, niños y adolescentes tienen derecho a servicios de salud gratuitos 
 
 - Toda niña, niño y adolescente tiene derecho a la identidad y a la filiación respecto de sus progenitores. Si no se conoce a los progenitores, lleva un apellido convencional ([Constitución, artículo 59](/leyes/constitucional/constitucion-politica-del-estado/articulo-59/)).
 - Tiene derecho a un nombre propio y a dos apellidos. Si falta uno, se completa con un apellido convencional ([Código, artículo 109](/biblioteca/codigo-nina-nino-y-adolescente/leer/#page=38)).
+- El Código Civil reconoce a toda persona el derecho al nombre, que comprende el nombre propio y los apellidos paterno y materno ([artículo 9](/biblioteca/codigo-civil/leer/#page=5)).
 - La inscripción en el Registro Civil y el primer certificado de nacimiento son gratuitos ([artículo 114](/biblioteca/codigo-nina-nino-y-adolescente/leer/#page=39)).
 
 ## Buen trato y protección contra la violencia

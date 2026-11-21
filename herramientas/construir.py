@@ -327,7 +327,11 @@ def construir_seccion(S):
         DOCS.sort(key=lambda d: (d['grupo'] == 'Sin año', -int(d['grupo']) if d['grupo'].isdigit() else 0, d['titulo'].lower()))
 
     def subtitulo(d):
-        partes = [x for x in (' '.join(p for p in (d['tipo'], f"N.º {d['numero']}" if d['numero'] else '') if p), d['fecha']) if x]
+        if d['numero'] and not d['numero'][:1].isdigit():
+            norma_txt = f"{d['tipo']} · {d['numero']}" if d['tipo'] and not d['numero'].startswith(d['tipo']) else d['numero']  # «Código · Decreto Ley 12760»
+        else:
+            norma_txt = ' '.join(p for p in (d['tipo'], f"N.º {d['numero']}" if d['numero'] else '') if p)
+        partes = [x for x in (norma_txt, d['fecha']) if x]
         return ' · '.join(partes)
 
     def url(d, sub=''):

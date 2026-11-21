@@ -109,9 +109,9 @@ a.materia[data-mc]:hover{background:var(--m2)}
 .dato-flota{position:fixed;right:16px;bottom:16px;z-index:50;border-radius:12px;width:min(360px,calc(100vw - 32px));box-shadow:0 12px 32px rgba(22,33,28,.22);animation:dato-entra .35s ease-out;background:#fff}
 .dato-flota .dato{min-height:0;background:#fff}
 .dato-flota .dato p{font-size:16.5px}
-.dato-flota .cerrar{position:absolute;top:6px;right:6px;z-index:2;width:40px;height:40px;border:0;background:transparent;border-radius:10px;color:var(--sec);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
-.dato-flota .cerrar:hover{color:var(--tinta);background:var(--papel)}
-.dato-flota .dato-m{padding-right:36px}
+.dato-flota .lo-tengo{position:relative;z-index:2;align-self:flex-end;margin-top:2px;min-height:44px;padding:10px 20px;border:0;border-radius:999px;background:var(--m);color:#fff;font:inherit;font-weight:700;font-size:15px;cursor:pointer}
+.dato-flota .lo-tengo:hover{filter:brightness(1.15)}
+.dato-flota .lo-tengo:focus-visible{outline:3px solid var(--ocre);outline-offset:2px}
 @keyframes dato-entra{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
 @media(prefers-reduced-motion:reduce){.dato-flota{animation:none}}
 @media print{.dato-flota,.dato-suelto,.sabias{display:none}}
@@ -145,8 +145,5 @@ a.materia[data-mc]:hover{background:var(--m2)}
 }
 .entre{flex-wrap:wrap}
 .entre>.mas{white-space:nowrap}
-
-/* salida rápida (temas sobre violencia) */
-.salida-rapida{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:60;display:inline-flex;align-items:center;gap:8px;padding:10px 18px;min-height:44px;border-radius:999px;background:var(--tinta);color:#fff;font:inherit;font-weight:700;font-size:15px;border:2px solid #fff;box-shadow:0 6px 20px rgba(0,0,0,.25);cursor:pointer}
-.salida-rapida:hover{background:#000}
-body:has(.salida-rapida) .dato-flota{bottom:76px}
+.portada .lema{font-size:20px;line-height:1.4;color:#fff;font-weight:500;margin-top:6px}
+@media(min-width:900px){.portada .lema{font-size:23px}}

@@ -14,37 +14,37 @@ tarjetas:
 - La acción del dueño para recuperar su bien no prescribe, salvo que otra persona ya lo haya adquirido por usucapión. | El dueño anterior | Código Civil, art. 1454
 - La propiedad colectiva de la tierra, como el territorio indígena originario campesino, es imprescriptible. | Tierras rurales y propiedad colectiva | Constitución, art. 394
 normas:
+- /biblioteca/codigo-civil/leer/#page=20 | Código Civil, artículos 134 a 138 | Usucapión quinquenal y decenal
+- /biblioteca/codigo-civil/leer/#page=170 | Código Civil, artículos 1453 y 1454 | Acción reivindicatoria
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-56/ | Constitución, artículo 56 | Derecho a la propiedad
 - /leyes/constitucional/constitucion-politica-del-estado/articulo-394/ | Constitución, artículos 393, 394 y 397 | Propiedad de la tierra
 - /biblioteca/codigo-procesal-civil/ | Código Procesal Civil (Ley 439) | Procesos civiles
 - /biblioteca/ley-3545/ | Ley 3545 | Reconducción de la Reforma Agraria
 ---
-!! El Código Civil todavía no está en la Biblioteca del sitio. Los artículos citados en esta página se tomaron de una copia del archivo del editor y deben confirmarse en la publicación oficial. [VERIFICAR]
-
 ## Qué es
 
-La ley reconoce varias formas de adquirir la propiedad. Una de ellas es la **usucapión**: llegar a ser dueño de un bien por haberlo poseído durante el tiempo que la ley exige (Código Civil, artículo 110).
+La ley reconoce varias formas de adquirir la propiedad. Una de ellas es la **usucapión**: llegar a ser dueño de un bien por haberlo poseído durante el tiempo que la ley exige ([Código Civil, artículo 110](/biblioteca/codigo-civil/leer/#page=16)).
 
-Poseer no es lo mismo que tener un papel: la posesión es el poder de hecho sobre una cosa, ejercido con actos que muestran la intención de ser su dueño. Se puede poseer en persona o por medio de otra persona que tiene la cosa (artículo 87).
+Poseer no es lo mismo que tener un papel: la posesión es el poder de hecho sobre una cosa, ejercido con actos que muestran la intención de ser su dueño. Se puede poseer en persona o por medio de otra persona que tiene la cosa ([artículo 87](/biblioteca/codigo-civil/leer/#page=14)).
 
 ## Las dos formas
 
-- **Usucapión quinquenal u ordinaria (5 años).** Es para quien compró o recibió un inmueble de buena fe, con un título que sirve para transferir la propiedad, pero de alguien que no era el verdadero dueño. Se cumple con cinco años de posesión contados desde que ese título se inscribió (artículo 134).
-- **Usucapión decenal o extraordinaria (10 años).** Basta la posesión continuada durante diez años, aunque no haya título (artículo 138).
+- **Usucapión quinquenal u ordinaria (5 años).** Es para quien compró o recibió un inmueble de buena fe, con un título que sirve para transferir la propiedad, pero de alguien que no era el verdadero dueño. Se cumple con cinco años de posesión contados desde que ese título se inscribió ([artículo 134](/biblioteca/codigo-civil/leer/#page=20)).
+- **Usucapión decenal o extraordinaria (10 años).** Basta la posesión continuada durante diez años, aunque no haya título ([artículo 138](/biblioteca/codigo-civil/leer/#page=20)).
 
 ## La posesión que no sirve
 
-- La posesión obtenida con **violencia** o de forma **clandestina** no cuenta, sino desde el día en que la violencia o la clandestinidad terminan (artículo 135).
-- La usucapión se **interrumpe** si el poseedor pierde la posesión por más de un año. No se interrumpe si, dentro de ese año, demanda para recuperarla y la recupera (artículo 137).
-- Las reglas sobre suspensión e interrupción de la prescripción se aplican también a la usucapión, en lo que corresponda (artículo 136).
+- La posesión obtenida con **violencia** o de forma **clandestina** no cuenta, sino desde el día en que la violencia o la clandestinidad terminan ([artículo 135](/biblioteca/codigo-civil/leer/#page=20)).
+- La usucapión se **interrumpe** si el poseedor pierde la posesión por más de un año. No se interrumpe si, dentro de ese año, demanda para recuperarla y la recupera ([artículo 137](/biblioteca/codigo-civil/leer/#page=20)).
+- Las reglas sobre suspensión e interrupción de la prescripción se aplican también a la usucapión, en lo que corresponda ([artículo 136](/biblioteca/codigo-civil/leer/#page=20)).
 
 ## El dueño anterior
 
-El dueño que perdió la posesión puede reclamar la cosa de quien la tiene: es la **acción reivindicatoria** (artículo 1453). Esa acción no prescribe, salvo los efectos de que otra persona haya adquirido la propiedad por usucapión (artículo 1454). Por eso la usucapión es importante: si se cumplieron los requisitos, el antiguo dueño ya no puede recuperar el bien.
+El dueño que perdió la posesión puede reclamar la cosa de quien la tiene: es la **acción reivindicatoria** ([artículo 1453](/biblioteca/codigo-civil/leer/#page=170)). Esa acción no prescribe, salvo los efectos de que otra persona haya adquirido la propiedad por usucapión ([artículo 1454](/biblioteca/codigo-civil/leer/#page=170)). Por eso la usucapión es importante: si se cumplieron los requisitos, el antiguo dueño ya no puede recuperar el bien.
 
 ## Cómo se hace valer
 
-La usucapión se hace valer ante la justicia civil, con un proceso regido por el [Código Procesal Civil](/biblioteca/codigo-procesal-civil/). Para que el derecho de propiedad tenga efectos frente a terceros, el título debe inscribirse en el registro de Derechos Reales (Código Civil, artículo 1538). Conviene que una abogada o un abogado revise cada caso: el tipo de proceso, las pruebas de la posesión y la inscripción final. [VERIFICAR]
+La usucapión se hace valer ante la justicia civil, con un proceso regido por el [Código Procesal Civil](/biblioteca/codigo-procesal-civil/). Para que el derecho de propiedad tenga efectos frente a terceros, la sentencia o el título deben inscribirse en el registro de Derechos Reales ([Código Civil, artículo 1538](/biblioteca/codigo-civil/leer/#page=180)). Conviene que una abogada o un abogado revise cada caso: el tipo de proceso, las pruebas de la posesión y la inscripción final.
 
 ## Tierras rurales y propiedad colectiva
 
