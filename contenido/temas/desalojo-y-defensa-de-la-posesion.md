@@ -18,6 +18,10 @@ normas:
 - /biblioteca/codigo-procesal-civil/leer/#page=80 | Código Procesal Civil, artículo 377 | Intimación previa
 - /biblioteca/codigo-civil/leer/#page=84 | Código Civil, artículos 713 a 722 | Alquiler de vivienda
 - /biblioteca/codigo-civil/leer/#page=171 | Código Civil, artículos 1461 a 1464 | Acciones posesorias
+autos:
+- 434/2017 | En el desalojo por falta de pago, el pago del alquiler puede probarse por cualquier medio, y probarlo le corresponde al inquilino.
+- 479/2017 | Desalojo por falta de pago de alquileres: valoración de la prueba por los jueces.
+- 597/2017 | Requisitos de la acción reivindicatoria para recuperar un inmueble.
 ---
 ## Dos caminos según el inmueble
 

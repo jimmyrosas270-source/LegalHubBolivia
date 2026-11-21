@@ -22,6 +22,9 @@ normas:
 guias:
 - /guias/procesal-civil/proceso-ejecutivo/ | El proceso ejecutivo para cobrar deudas
 - /guias/procesal-civil/medidas-cautelares-y-embargo/ | Medidas cautelares, embargo y bienes inembargables
+autos:
+- 567/2017 | Prescripción de una obligación en un proceso de cumplimiento de obligación.
+- 601/2017 | Acción pauliana: el acreedor puede pedir que los actos con que el deudor se empobrece no tengan efecto frente a él.
 ---
 ## Cumplir la obligación
 

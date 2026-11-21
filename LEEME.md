@@ -80,7 +80,7 @@ Al publicar, el generador (`herramientas/limpieza_pdf.py`) quita solo los hiperv
 ## Secciones por tipo de norma y autos supremos
 
 - Cada materia tiene páginas por tipo: `/biblioteca/<materia>/<tipo>/` (por ejemplo `/biblioteca/laboral/sentencias-constitucionales/`), y cada tipo tiene una página con todas las materias: `/biblioteca/tipos/<tipo>/`. Se generan solas a partir de la columna `tipo` del catálogo.
-- Los autos supremos que están dentro de las revistas se listan desde `contenido/autos_supremos.json` (número, fecha, sala, materia, página de la revista, tema con palabras propias y guías relacionadas). Para añadir uno, copia una entrada.
+- Los autos supremos que están dentro de las revistas se listan desde `contenido/autos_supremos.json` (número, fecha, sala, materia, página de la revista, tema con palabras propias y guías relacionadas). Si el auto está en otra publicación distinta de la general, lleva su clave `revista` (nombre del PDF de `jurisprudencia/pdf/` sin `.pdf`; así están los 177 autos de la Gaceta Judicial Tomo 4). La ficha de cada publicación muestra el índice de sus autos. Para añadir uno, copia una entrada.
 
 ## Buscador
 
@@ -95,7 +95,7 @@ Si `contenido/sitio.json` tiene `"reportes_url"` (la dirección de un formulario
 ## Temas de interés y tarjetas «¿Sabías que?»
 
 - Cada tema es un archivo en `contenido/temas/<nombre>.md` y se publica en `/temas/<nombre>/`. Copia uno existente para empezar.
-- Encabezado: `titulo`, `materia` (decide el color), `imagen` (ilustración: ninez, mujer, beneficios, asistencia, usucapion, propiedad, denuncia, discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos), `orden` (posición en la portada), `actualizada`, `resumen`, y las listas `tarjetas`, `normas` y `guias`.
+- Encabezado: `titulo`, `materia` (decide el color), `imagen` (ilustración: ninez, mujer, beneficios, asistencia, usucapion, propiedad, denuncia, discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos), `orden` (posición en la portada), `actualizada`, `resumen`, y las listas `tarjetas`, `normas`, `guias` y `autos` (`- 435/2017 | por qué sirve, con palabras propias`: sale en «Jurisprudencia relacionada» con enlace a la página del visor).
 - Cada tarjeta: `- Texto breve | Título exacto de una sección ## del tema | Norma, art. N`. Al tocarla se abre esa sección. Si el título no coincide, el generador avisa.
 - Las tarjetas también salen de las líneas `> ` (¿Sabías que?) de las guías. Todas van a `assets/tarjetas.json` y aparecen en la portada, en `/temas/`, dentro de las páginas y, una vez por visita, como tarjeta flotante.
 - Los artículos de `/leyes/` que cita un tema muestran «Explicado en un tema».

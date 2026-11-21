@@ -7,7 +7,9 @@ Fuentes:
   contenido/temas/<nombre>.md  -> /temas/<nombre>/
   Encabezado: titulo, materia, imagen (clave de ilustraciones.py), orden, actualizada, resumen,
   tarjetas (- texto | título exacto de una sección ## | norma y artículo),
-  normas (- /ruta | nombre | detalle) y guias (- /ruta | título).
+  normas (- /ruta | nombre | detalle), guias (- /ruta | título) y
+  autos (- número del auto, p. ej. 435/2017 | por qué sirve, con palabras propias): se buscan en
+  contenido/autos_supremos.json y se enlazan a la página del visor; van en «Jurisprudencia relacionada».
 
 Salidas:
   /temas/ y /temas/<nombre>/
@@ -129,7 +131,20 @@ for t in TEMAS:
     normas = m.get('normas') if isinstance(m.get('normas'), list) else []
     guias = m.get('guias') if isinstance(m.get('guias'), list) else []
     filas_g = ''.join(f'<a class="fila" href="{E(g.split("|")[0].strip())}"><span><b>{E(g.split("|")[1].strip() if "|" in g else g)}</b><small>Guía</small></span>{ico("chev")}</a>' for g in guias)
-    toc = ([('lo-mas-importante', 'Lo más importante')] if claves else []) + indice + ([('normas', 'Normas que lo respaldan')] if normas else []) + ([('guias', 'Guías relacionadas')] if guias else [])
+    autos_t = m.get('autos') if isinstance(m.get('autos'), list) else []
+    filas_a = ''
+    for x in autos_t:
+        num, _, nota = (p.strip() for p in x.partition('|'))
+        a = next((a for a in AUTOS if a['numero'] == num), None)
+        if not a:
+            print(f'AVISO: el tema {t["slug"]} cita el auto {num}, que no está en contenido/autos_supremos.json.')
+            continue
+        filas_a += (f'<a class="fila" href="{url_auto(a)}"><span><b>Auto Supremo {E(a["numero"])} · {E(a["sala"])}</b>'
+                    f'<small>{E(a["fecha"])} · {E(TITULO_REVISTA.get(a["revista"], ""))}, pág. {a["pagina"]}</small><small>{E(nota or a["tema"])}</small></span>{ico("chev")}</a>')
+    sec_autos = (f'<section><h2 id="jurisprudencia">Jurisprudencia relacionada</h2><p class="sec">Resoluciones del Tribunal Supremo de Justicia publicadas en '
+                 f'<a href="/jurisprudencia/">Jurisprudencia</a>. Lo que se dice de cada una es una descripción propia, sin nombres de las partes: no es texto legal ni reemplaza la lectura del auto. '
+                 f'Cada auto resuelve un caso concreto; verifica su vigencia y la jurisprudencia posterior antes de citarlo.</p>{filas_a}</section>') if filas_a else ''
+    toc = ([('lo-mas-importante', 'Lo más importante')] if claves else []) + indice + ([('normas', 'Normas que lo respaldan')] if normas else []) + ([('jurisprudencia', 'Jurisprudencia relacionada')] if filas_a else []) + ([('guias', 'Guías relacionadas')] if guias else [])
     otros = [o for o in TEMAS if o is not t]
     otros = [o for o in otros if o['m'] == t['m']] + [o for o in otros if o['m'] != t['m']]
     escribe(f'temas/{t["slug"]}/index.html', pagina(
@@ -141,6 +156,7 @@ for t in TEMAS:
 {f'<section class="claves" aria-labelledby="lo-mas-importante"><h2 id="lo-mas-importante">Lo más importante</h2><div class="claves-r">{claves}</div></section>' if claves else ''}
 {cuerpo}
 {f'<section><h2 id="normas">Normas que lo respaldan</h2>{filas_articulos(normas)}</section>' if normas else ''}
+{sec_autos}
 {f'<section><h2 id="guias">Guías relacionadas</h2>{filas_g}</section>' if guias else ''}
 {CAJA_REV}
 </article><aside class="tema-indice"><nav aria-label="En esta página"><b>En esta página</b>{"".join(f'<a href="#{i}">{E(x)}</a>' for i, x in toc)}</nav></aside></div>

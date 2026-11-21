@@ -26,6 +26,10 @@ normas:
 - /biblioteca/codigo-civil/leer/#page=130 | Código Civil, artículos 1112 a 1135 | Testamento
 guias:
 - /guias/procesal-civil/tramites-de-la-herencia/ | Trámites de la herencia: aceptación, renuncia y testamento
+autos:
+- 483/2017 | Nulidad de la declaratoria de herederos: cuándo procede.
+- 430/2017 | Solo puede pedir la nulidad de una declaratoria de herederos quien tiene un interés directo en ella.
+- 458/2017 | Petición de herencia frente a los actos que los padres hicieron en vida con sus bienes.
 ---
 ## Qué es la sucesión
 

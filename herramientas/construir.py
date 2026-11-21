@@ -298,6 +298,8 @@ def construir_seccion(S):
         try:
             info = herramienta('pdfinfo', ruta)
             paginas = int(re.search(r'^Pages:\s+(\d+)', info, re.M).group(1))
+            _ps = re.search(r'^Page size:\s+([\d.]+) x ([\d.]+)', info, re.M)
+            ancha = bool(_ps) and float(_ps.group(1)) > 0.9 * float(_ps.group(2))  # portada cuadrada o apaisada
             texto = herramienta('pdftotext', '-l', '20', ruta, '-')  # 20: las revistas abren con varias páginas en imagen
         except Exception as e:
             ERRORES.append(f'«{archivo}» no se pudo leer como PDF ({e.__class__.__name__}). Revisa que no esté dañado ni protegido.')
@@ -314,7 +316,7 @@ def construir_seccion(S):
         DOCS.append({'archivo': archivo, 'slug': sl, 'titulo': titulo, 'tipo': f.get('tipo', ''), 'numero': f.get('numero', ''),
                      'fecha': f.get('fecha', ''), 'materia': materia, 'estado': est,
                      'descripcion': f.get('descripcion', ''), 'revisado': f.get('revisado') or HOY, 'version': f.get('version') or '1',
-                     'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200})
+                     'paginas': paginas, 'mb': mb, 'con_texto': len(re.sub(r'\s+', '', texto)) > 200, 'cls': ' class="ancha"' if ancha else ''})
         os.makedirs(os.path.join(OUT, ruta_s, 'archivos'), exist_ok=True)
         os.makedirs(os.path.join(OUT, ruta_s, 'portadas'), exist_ok=True)
         destino_pdf = os.path.join(OUT, ruta_s, 'archivos', sl + '.pdf')
@@ -355,7 +357,7 @@ def construir_seccion(S):
         filtro = d['grupo'] if filtro is None else filtro
         etq = d['grupo'] if etq is None else etq
         return (f'<article class="libro" data-materia="{E(filtro)}" data-texto="{E((d["titulo"] + " " + sub + " " + d["materia"] + " " + d["grupo"] + " " + d.get("tgrupo", "")).lower())}">'
-                f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor">{tapa_doc(d) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336">'}<span>{ico("book", 18)}Leer</span></a>'
+                f'<a class="tapa" href="{url(d, "leer/")}" aria-label="Abrir {E(d["titulo"])} en el visor">{tapa_doc(d) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="" loading="lazy" width="260" height="336"{d.get("cls", "")}>'}<span>{ico("book", 18)}Leer</span></a>'
                 f'<div class="libro-d"><div class="entre"><span class="etq">{E(etq)}</span>{tag(d["estado"]) if S["con_estado"] else ""}</div>'
                 f'<h2><a href="{url(d)}">{E(d["titulo"])}</a></h2>{f"<small>{E(sub)}</small>" if sub else ""}'
                 f'<small>{d["paginas"]} páginas · PDF {tam(d["mb"])}</small>'
@@ -477,10 +479,10 @@ def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
                 f'''<div class="cont pag">{migas([("Inicio", "/"), (S["nombre"], f"/{ruta_s}/")] + ([(d["materia"], f"/{ruta_s}/{d['mslug']}/")] if d.get('mslug') else []) + [(d["titulo"], "")])}
 <div class="dos"><div>
 <div class="entre"><span class="etq">{E(d["tipo"] or S["tipo_def"])} · PDF</span>{tag(d["estado"]) if S["con_estado"] else ""}</div><h1>{E(d["titulo"])}</h1>{f'<p class="entrada">{E(sub)}</p>' if sub else ''}
-<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor">{tapa_doc(d, "Primera página de " + d["titulo"]) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336">'}<span>{ico("book", 18)}Leer</span></a>
+<div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor">{tapa_doc(d, "Primera página de " + d["titulo"]) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"{d.get("cls", "")}>'}<span>{ico("book", 18)}Leer</span></a>
 <div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a>{f'<a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a>' if DESCARGAS else ''}</p>
 <form class="buscador" action="{url(d, "leer/")}" method="get" role="search">{ico("search", 20)}<input type="search" name="buscar" placeholder="Buscar dentro de este documento" aria-label="Buscar dentro de este documento"{'' if d['con_texto'] else ' disabled'}><button type="submit"{'' if d['con_texto'] else ' disabled'}>Buscar</button></form>{escaneado}</div></div>
-{desc}</div>
+{desc}{indice_autos(d) if ruta_s == 'jurisprudencia' else ''}</div>
 <aside>{sobre}{alerta()}</aside></div></div>''', S['nombre']))
         escribe(f'{ruta_s}/{d["slug"]}/leer/index.html', f'''<!doctype html>
 <html lang="es">

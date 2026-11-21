@@ -25,6 +25,10 @@ guias:
 - /guias/civil/eviccion-y-vicios-ocultos/ | Evicción y vicios ocultos en la compraventa
 - /guias/civil/arras-y-clausula-penal/ | Arras, seña y cláusula penal
 - /guias/civil/nulidad-y-anulabilidad-de-contratos/ | Nulidad y anulabilidad de los contratos
+autos:
+- 459/2017 | Un contrato de venta que no llegó a perfeccionarse ni a inscribirse en Derechos Reales no es oponible a terceros.
+- 537/2017 | Diferencia entre contrato, minuta, protocolo y escritura pública.
+- 457/2017 | Un título no inscrito en Derechos Reales no puede oponerse a terceros.
 ---
 ## Qué es la compraventa
 
