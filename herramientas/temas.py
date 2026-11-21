@@ -121,7 +121,7 @@ def muestra(n, semilla=7):
 
 
 # ------------------------------------------------ páginas de cada tema
-CAJA_REV = alerta('Información general. No sustituye asesoría profesional. ' + REVISION + '. Los datos marcados [VERIFICAR CON FUENTE OFICIAL] deben confirmarse en la publicación oficial.'.replace('[VERIFICAR CON FUENTE OFICIAL]', f'<code>{VERIF}</code>'))
+CAJA_REV = ''  # recuadro genérico quitado el 21 nov 2026 (pedido del titular)
 for t in TEMAS:
     m = t['meta']
     cuerpo, indice = _ids_h2(md_html(t['cuerpo']))

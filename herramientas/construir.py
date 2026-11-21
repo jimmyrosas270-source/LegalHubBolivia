@@ -50,6 +50,8 @@ PIE_AVISO = ('Recuerda que el sitio web LegalHubBolivia está en constante desar
              + (f'<a href="{html.escape(_form_pie)}" target="_blank" rel="noopener">reportarlo</a>' if _form_pie else 'reportarlo')
              + '. LegalHubBolivia no sustituye la asesoría de un profesional; acude a uno si lo necesitas.')
 PIE_AVISO_VIEJO = 'Información general. No sustituye asesoría profesional. Los textos del sitio no son oficiales; verifica en la publicación oficial.'
+# Recuadro genérico dentro de las páginas (también en las de la base): decorar.py lo quita.
+RECUADRO_GENERICO = re.compile(r'<div class="alerta">(?:<svg\b(?:(?!<svg\b|</svg>).)*</svg>)?<div>(?:Material de estudio con información general\. |Información general\. )No sustituye asesoría profesional\.(?:(?!<div).)*?</div></div>', re.S)
 MARCA = '<svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F5B44"/><path d="M40 0h10v24l-5-5-5 5z" fill="#E0B04A"/><path d="M14 24h18M14 34h36M14 44h26" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none"/></svg>'
 NAV = [('Temas', '/temas/'), ('Normativa', '/leyes/'), ('Biblioteca', '/biblioteca/'), ('Jurisprudencia', '/jurisprudencia/'), ('Guías', '/guias/'), ('Estudiantes', '/estudiantes/'), ('Profesionales', '/profesionales/'), ('Glosario', '/glosario/')]
 PIE = [('Aviso legal', '/legal/aviso-legal/'), ('Privacidad', '/legal/privacidad/'), ('Términos', '/legal/terminos/'), ('Cookies', '/legal/cookies/'), ('Contacto', '/contacto/'), ('Historial de cambios', '/cambios/')]
@@ -65,8 +67,10 @@ def tag(estado):
     return f'<span class="tag {c}">{n}</span>'
 
 
-def alerta(t='Información general. No sustituye asesoría profesional.'):
-    return f'<div class="alerta">{ico("info")}<div>{t}</div></div>'
+def alerta(t=''):
+    # Sin texto no se pinta nada: el recuadro genérico «Información general. No sustituye asesoría profesional.»
+    # se quitó el 21 nov 2026 (pedido del titular); el aviso está en el pie de cada página (PIE_AVISO).
+    return f'<div class="alerta">{ico("info")}<div>{t}</div></div>' if t else ''
 
 
 def migas(items):

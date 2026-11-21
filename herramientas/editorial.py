@@ -164,7 +164,7 @@ for g in GUIAS:
 {resumen}
 {md_html(g["cuerpo"])}
 {ley}
-{alerta("Información general. No sustituye asesoría profesional. Los datos marcados [VERIFICAR CON FUENTE OFICIAL] deben confirmarse en la publicación oficial.")}</div>''', 'Guías'))
+</div>''', 'Guías'))
     for item in arts:
         ruta = item.split('|')[0].strip()
         if not ruta.startswith('/leyes/'):
@@ -193,7 +193,7 @@ if os.path.isdir(dir_p):
         escribe(f'preguntas/{mat}/index.html', pagina(titulo, meta.get('resumen', titulo),
             f'''<div class="cont pag estrecha">{migas([("Inicio", "/"), ("Guías", "/guias/"), (titulo, "")])}<span class="chip">{E(meta.get("materia") or mat)}</span><h1>{E(titulo)}</h1>
 <p class="entrada">{en_linea(meta.get("resumen", "Respuestas breves en lenguaje claro."))}</p><p class="sec">{REVISION}</p>{det}
-{alerta("Información general. No sustituye asesoría profesional. Los datos marcados [VERIFICAR CON FUENTE OFICIAL] deben confirmarse en la publicación oficial.")}</div>''', 'Guías'))
+</div>''', 'Guías'))
 
 # ------------------------------------------------ índices de guías
 materias_g = {}

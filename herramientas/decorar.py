@@ -75,6 +75,7 @@ for dp, _, fs in os.walk(OUT):
         # 3b. aviso nuevo del pie también en las páginas de la base
         if PIE_AVISO_VIEJO in doc:
             doc = doc.replace(PIE_AVISO_VIEJO, PIE_AVISO)
+        doc = RECUADRO_GENERICO.sub('', doc)
         # 4. recuadros y etiquetas de materia
         doc = ETQ_MAT.sub(lambda m: f'<span class="etq" data-mc="{slug(html.unescape(m.group(1)))}">{m.group(1)}</span>', doc)
         doc = re.sub(r'(<a class="materia[^"]*" href="([^"]+)")(?! data-mc)', _mc, doc)

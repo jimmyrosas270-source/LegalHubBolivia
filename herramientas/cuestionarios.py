@@ -131,7 +131,7 @@ for c in CQ:
 <script type="application/json" id="cq-datos">{js}</script>
 {CQ_TRAMOS}
 <section><h2>Guías para repasar</h2>{repaso}</section>
-{alerta("Material de estudio con información general. No sustituye asesoría profesional. Las preguntas salen de las normas y guías publicadas en el sitio y están pendientes de revisión legal humana.")}</div>''',
+</div>''',
         'Estudiantes', extra_head=CQ_HEAD, scripts=CQ_JS))
 
 # ---- página de cada materia
@@ -143,7 +143,7 @@ for (ms, mn), cs in materias_cq.items():
 <p class="entrada">Un cuestionario por tema, con preguntas de verdadero o falso. Cada respuesta trae una explicación corta, la norma y un enlace a la guía. {REVISION}.</p>
 <section>{"".join(cq_fila(c) for c in cs)}</section>
 {CQ_TRAMOS}{CQ_BORRAR}
-{alerta("Material de estudio con información general. No sustituye asesoría profesional.")}</div>''',
+</div>''',
         'Estudiantes', extra_head=CQ_HEAD, scripts=CQ_JS))
 
 # ---- /estudiantes/cuestionarios/ y /estudiantes/
