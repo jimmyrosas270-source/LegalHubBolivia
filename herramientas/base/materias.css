@@ -145,5 +145,5 @@ a.materia[data-mc]:hover{background:var(--m2)}
 }
 .entre{flex-wrap:wrap}
 .entre>.mas{white-space:nowrap}
-.portada .lema{font-size:20px;line-height:1.4;color:#fff;font-weight:500;margin-top:6px}
-@media(min-width:900px){.portada .lema{font-size:23px}}
+.portada h1.lema{max-width:22ch;margin-left:auto;margin-right:auto;text-wrap:balance}
+h2 a[data-mc]{color:var(--m)}

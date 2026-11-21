@@ -13,13 +13,19 @@ tarjetas:
 - El plazo para aceptar una herencia en forma pura y simple es de diez años desde el fallecimiento. | Aceptar o renunciar | Código Civil, art. 1029
 - Quien acepta una herencia en forma pura y simple responde también por las deudas de la persona fallecida. | Aceptar o renunciar | Código Civil, art. 1030
 - Dos personas no pueden hacer su testamento en el mismo documento. | El testamento | Código Civil, art. 1114
+- Según el Código Procesal Civil, la aceptación de una herencia se hace ante notario, con los documentos que prueban el parentesco. | Aceptar o renunciar | Código Procesal Civil, art. 455
 - Para hacer testamento hay que haber cumplido 16 años. | El testamento | Código Civil, art. 1119
+- Para abrir un testamento cerrado se acude al juez con el testamento y el certificado de defunción; el juez lo abre, lo hace leer y ordena protocolizarlo. | El testamento | Código Procesal Civil, arts. 460 y 462
 normas:
+- /biblioteca/codigo-procesal-civil/leer/#page=98 | Código Procesal Civil, artículos 455 a 458 | Aceptación de la herencia ante notario
+- /biblioteca/codigo-procesal-civil/leer/#page=99 | Código Procesal Civil, artículos 459 a 469 | Apertura de testamento
 - /biblioteca/codigo-civil/leer/#page=116 | Código Civil, artículos 1000 a 1007 | Apertura de la sucesión y adquisición de la herencia
 - /biblioteca/codigo-civil/leer/#page=119 | Código Civil, artículos 1023 a 1053 | Aceptación y renuncia de la herencia
 - /biblioteca/codigo-civil/leer/#page=124 | Código Civil, artículos 1059 a 1065 | La legítima
 - /biblioteca/codigo-civil/leer/#page=127 | Código Civil, artículos 1083 a 1111 | Sucesión legal
 - /biblioteca/codigo-civil/leer/#page=130 | Código Civil, artículos 1112 a 1135 | Testamento
+guias:
+- /guias/procesal-civil/tramites-de-la-herencia/ | Trámites de la herencia: aceptación, renuncia y testamento
 ---
 ## Qué es la sucesión
 
@@ -54,10 +60,16 @@ Cuando el cónyuge concurre con hijos, recibe una parte igual a la de cada hijo 
 
 La herencia se puede aceptar de dos formas ([artículo 1024](/biblioteca/codigo-civil/leer/#page=119)):
 
-- **Pura y simple.** Los bienes de la persona fallecida y los del heredero se unen, y el heredero responde **también por sus deudas** ([artículo 1030](/biblioteca/codigo-civil/leer/#page=120)). El plazo para aceptar así es de **diez años** desde el fallecimiento ([artículo 1029](/biblioteca/codigo-civil/leer/#page=119)). La aceptación puede ser expresa, por escrito ante el juez, o tácita, cuando el heredero actúa como dueño de los bienes ([artículo 1025](/biblioteca/codigo-civil/leer/#page=119)).
-- **Con beneficio de inventario.** Los patrimonios se mantienen separados y el heredero solo paga las deudas hasta donde alcancen los bienes heredados ([artículo 1041](/biblioteca/codigo-civil/leer/#page=121)). Debe declararse por escrito ante el juez, con un inventario ([artículo 1031](/biblioteca/codigo-civil/leer/#page=120)), y el plazo es de **seis meses** desde el fallecimiento ([artículo 1032](/biblioteca/codigo-civil/leer/#page=120)).
+- **Pura y simple.** Los bienes de la persona fallecida y los del heredero se unen, y el heredero responde **también por sus deudas** ([artículo 1030](/biblioteca/codigo-civil/leer/#page=120)). El plazo para aceptar así es de **diez años** desde el fallecimiento ([artículo 1029](/biblioteca/codigo-civil/leer/#page=119)). La aceptación puede ser expresa o tácita, cuando el heredero actúa como dueño de los bienes ([artículo 1025](/biblioteca/codigo-civil/leer/#page=119)).
+- **Con beneficio de inventario.** Los patrimonios se mantienen separados y el heredero solo paga las deudas hasta donde alcancen los bienes heredados ([artículo 1041](/biblioteca/codigo-civil/leer/#page=121)). Se declara ante el juez, con un inventario ([artículo 1031](/biblioteca/codigo-civil/leer/#page=120)), y el plazo es de **seis meses** desde el fallecimiento ([artículo 1032](/biblioteca/codigo-civil/leer/#page=120)).
 
-La **renuncia** debe ser expresa, por escrito ante el juez ([artículo 1052](/biblioteca/codigo-civil/leer/#page=123)), y el plazo para renunciar es de diez años ([artículo 1053](/biblioteca/codigo-civil/leer/#page=123)). Cualquier interesado puede pedir al juez, pasados nueve días del fallecimiento, que fije un plazo de hasta un mes para que el heredero diga si acepta o renuncia ([artículo 1023](/biblioteca/codigo-civil/leer/#page=119)).
+### Ante notario o ante el juez
+
+El Código Procesal Civil, de 2013, dispone que la **aceptación** de la herencia se hace **ante notario de fe pública**, con los documentos que prueban el parentesco; esa escritura basta para inscribir los bienes ([Código Procesal Civil, artículo 455](/biblioteca/codigo-procesal-civil/leer/#page=98)). La **renuncia** también se hace por escritura pública ([artículo 476](/biblioteca/codigo-procesal-civil/leer/#page=101)). La aceptación **con beneficio de inventario** se declara ante el juez ([artículo 470](/biblioteca/codigo-procesal-civil/leer/#page=100)). Los herederos forzosos no necesitan que el juez les entregue la posesión de los bienes ([artículo 457](/biblioteca/codigo-procesal-civil/leer/#page=98)). El paso a paso está en [Trámites de la herencia](/guias/procesal-civil/tramites-de-la-herencia/).
+
+!! El Código Civil habla de declaraciones ante el juez (artículos 1025, 1031 y 1052) y el Código Procesal Civil, posterior, regula la aceptación y la renuncia ante notario. Confirma qué vía corresponde en tu caso. [VERIFICAR]
+
+Según el Código Civil, la **renuncia** debe ser expresa ([artículo 1052](/biblioteca/codigo-civil/leer/#page=123)), y el plazo para renunciar es de diez años ([artículo 1053](/biblioteca/codigo-civil/leer/#page=123)). Cualquier interesado puede pedir al juez, pasados nueve días del fallecimiento, que fije un plazo de hasta un mes para que el heredero diga si acepta o renuncia ([artículo 1023](/biblioteca/codigo-civil/leer/#page=119)).
 
 > Quien mata o intenta matar a la persona de cuya herencia se trata, o a su familia cercana, es excluido de la herencia como indigno ([Código Civil, artículo 1009](/biblioteca/codigo-civil/leer/#page=117)).
 
@@ -69,6 +81,7 @@ El testamento es un acto **personal y revocable** por el que una persona dispone
 - No pueden testar, entre otros, quienes no cumplieron 16 años y quienes no están en su sano juicio al hacerlo ([artículo 1119](/biblioteca/codigo-civil/leer/#page=131)).
 - **Testamento cerrado:** lo escribe y firma el testador, lo cierra en un sobre y lo entrega al notario ante tres testigos ([artículo 1127](/biblioteca/codigo-civil/leer/#page=132)).
 - **Testamento abierto:** se hace por escrito o de palabra ante notario y testigos, o solo ante testigos ([artículo 1131](/biblioteca/codigo-civil/leer/#page=133)). Ante notario, con tres testigos ([artículo 1132](/biblioteca/codigo-civil/leer/#page=133)); solo ante testigos, con cinco, o al menos tres si no se consiguen cinco ([artículo 1133](/biblioteca/codigo-civil/leer/#page=134)).
+- Para abrir un testamento cerrado, el heredero, el albacea o cualquier interesado acude al juez con el testamento y el certificado de defunción; el juez lo abre, lo hace leer y ordena protocolizarlo en una notaría ([Código Procesal Civil, artículos 460 y 462](/biblioteca/codigo-procesal-civil/leer/#page=99)).
 - En caso de riesgo grave (epidemia, accidente, enfermedad imprevista) se puede testar de palabra o por escrito ante cinco testigos, o al menos tres; ese testamento solo vale si la persona muere por esa causa o dentro de los tres meses ([artículos 1134 y 1135](/biblioteca/codigo-civil/leer/#page=134)).
 
 !! Un testamento no puede quitar la legítima a los herederos forzosos: lo que la afecte se reduce a pedido de ellos ([artículos 1066 a 1070](/biblioteca/codigo-civil/leer/#page=124)).

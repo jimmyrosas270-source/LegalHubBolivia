@@ -12,14 +12,18 @@ tarjetas:
 - Una vivienda no puede estar al mismo tiempo en alquiler y en anticrético; si ocurre, el anticrético es nulo y el dueño debe devolver el dinero con intereses. | Alquiler y anticrético a la vez | Código Civil, art. 716
 - Las reparaciones necesarias de un inmueble alquilado corren por cuenta del dueño; las pequeñas, por cuenta de quien alquila. | Obligaciones de cada parte | Código Civil, art. 690
 - Si no hubo acta de entrega, se presume que el inquilino recibió el inmueble en buen estado. | Obligaciones de cada parte | Código Civil, art. 705
+- El desalojo de una vivienda se tramita en un proceso extraordinario de una sola audiencia. | Cuándo termina el alquiler de vivienda | Código Procesal Civil, arts. 369 y 392
 - Si muere el inquilino de una vivienda, el alquiler continúa a favor del cónyuge o los hijos menores que vivan en ella. | Cuándo termina el alquiler de vivienda | Código Civil, art. 720
 normas:
 - /biblioteca/codigo-civil/leer/#page=81 | Código Civil, artículos 685 a 712 | Arrendamiento
 - /biblioteca/codigo-civil/leer/#page=84 | Código Civil, artículos 713 a 722 | Arrendamiento de vivienda
 - /biblioteca/codigo-civil/leer/#page=167 | Código Civil, artículos 1429 a 1435 | Anticresis (anticrético)
 - /biblioteca/codigo-civil/leer/#page=180 | Código Civil, artículo 1540 | Contratos que se inscriben en Derechos Reales
+- /biblioteca/codigo-procesal-civil/leer/#page=78 | Código Procesal Civil, artículos 369 y 392 | Desalojo
+guias:
+- /guias/civil/arras-y-clausula-penal/ | Arras, seña y cláusula penal
 ---
-!! Esta página resume los artículos del Código Civil. El alquiler y el anticrético pueden estar regulados también por normas posteriores, y el procedimiento de desalojo hoy está en el Código Procesal Civil. [VERIFICAR]
+!! Esta página resume los artículos del Código Civil. El alquiler y el anticrético pueden estar regulados también por normas posteriores. [VERIFICAR]
 
 ## El alquiler
 
@@ -52,6 +56,8 @@ El alquiler de una vivienda se rige por reglas especiales que no se pueden cambi
 1. Cuando el inquilino entrega voluntariamente la vivienda.
 2. Cuando muere el inquilino, salvo que deje cónyuge o hijos menores que vivan en ella: para ellos el contrato continúa.
 3. Por sentencia de desahucio, por las causales que señala la ley ([artículo 721](/biblioteca/codigo-civil/leer/#page=85)).
+
+El desalojo de una vivienda se tramita hoy en el **proceso extraordinario** del Código Procesal Civil, en una sola audiencia; si es por falta de pago de alquileres, antes se intima al inquilino a pagar en diez días ([Código Procesal Civil, artículos 369, 377 y 392](/biblioteca/codigo-procesal-civil/leer/#page=78)). Ver [Desalojo y defensa de la posesión](/temas/desalojo-y-defensa-de-la-posesion/).
 
 El canon de una vivienda se reajusta si cambia el valor catastral, pero el canon anual no puede superar el 10 % del nuevo valor catastral ([artículo 715](/biblioteca/codigo-civil/leer/#page=84)).
 

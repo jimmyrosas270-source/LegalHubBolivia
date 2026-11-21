@@ -44,7 +44,7 @@ El dueño que perdió la posesión puede reclamar la cosa de quien la tiene: es 
 
 ## Cómo se hace valer
 
-La usucapión se hace valer ante la justicia civil, con un proceso regido por el [Código Procesal Civil](/biblioteca/codigo-procesal-civil/). Para que el derecho de propiedad tenga efectos frente a terceros, la sentencia o el título deben inscribirse en el registro de Derechos Reales ([Código Civil, artículo 1538](/biblioteca/codigo-civil/leer/#page=180)). Conviene que una abogada o un abogado revise cada caso: el tipo de proceso, las pruebas de la posesión y la inscripción final.
+La usucapión se reclama ante la justicia civil. Como no tiene un trámite especial, va por el **proceso ordinario**, precedido de la conciliación previa ([Código Procesal Civil, artículo 362](/biblioteca/codigo-procesal-civil/leer/#page=75)). Mientras dura el juicio, se puede pedir la **anotación preventiva** de la demanda en Derechos Reales, para que cualquier comprador sepa que el inmueble está en litigio ([artículo 325](/biblioteca/codigo-procesal-civil/leer/#page=66)). Ver [Cómo funciona un juicio civil](/temas/como-funciona-un-juicio-civil/). Para que el derecho de propiedad tenga efectos frente a terceros, la sentencia o el título deben inscribirse en el registro de Derechos Reales ([Código Civil, artículo 1538](/biblioteca/codigo-civil/leer/#page=180)). Conviene que una abogada o un abogado revise cada caso: el tipo de proceso, las pruebas de la posesión y la inscripción final.
 
 ## Tierras rurales y propiedad colectiva
 

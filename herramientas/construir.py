@@ -635,8 +635,8 @@ for n in NOTAS:
 
 # ---------------------------------------------------------------- 5. portada provisional, robots y cabeceras
 if not hay_base:
-    escribe('index.html', pagina('Leyes de Bolivia, al pie de la letra', 'Normas bolivianas en texto literal y en PDF.',
-            f'''<section class="hero"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p>Normas completas para leer en línea, y buscar dentro del texto.</p>
+    escribe('index.html', pagina('Tu lugar: el repositorio jurídico que necesitas', 'Normas bolivianas en texto literal y en PDF.',
+            f'''<section class="hero"><div class="cont"><h1>Tu lugar: el repositorio jurídico que necesitas.</h1><p>Normas completas para leer en línea, y buscar dentro del texto.</p>
 <p><a class="btn" href="/biblioteca/" style="background:var(--ocre);border-color:var(--ocre);color:var(--tinta)">Abrir la Biblioteca</a></p></div></section>
 <div class="cont pag">{alerta()}</div>'''))
     escribe('404.html', pagina('Página no encontrada', 'La página que buscas no existe.',

@@ -42,6 +42,7 @@ La notaria o el notario de fe pública da certeza y veracidad a los actos y cont
 
 - **Acción reivindicatoria:** el propietario que perdió la posesión puede reclamar la cosa a quien la tiene. Esta acción no prescribe, salvo que otra persona haya adquirido el bien por usucapión ([Código Civil, artículos 1453 y 1454](/biblioteca/codigo-civil/leer/#page=170)). Ver [Usucapión](/temas/usucapion/).
 - **Acción negatoria:** permite pedir que se declare que otra persona no tiene los derechos que afirma tener sobre el bien, y que cesen las molestias, con resarcimiento del daño ([artículo 1455](/biblioteca/codigo-civil/leer/#page=170)).
+- **Acciones posesorias:** quien fue despojado de un inmueble puede demandar que se le devuelva la posesión dentro de un año; quien es perturbado puede pedir que se lo mantenga ([Código Civil, artículos 1461 y 1462](/biblioteca/codigo-civil/leer/#page=171)). Ver [Desalojo y defensa de la posesión](/temas/desalojo-y-defensa-de-la-posesion/).
 - **Despojo:** quitar a otro la posesión o tenencia de un inmueble con violencia, amenazas o engaño es delito, con privación de libertad de seis meses a cuatro años ([Código Penal, artículo 351](/biblioteca/codigo-penal/leer/#page=90)).
 
 ## Avasallamiento y tráfico de tierras

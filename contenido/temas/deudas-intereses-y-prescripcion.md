@@ -18,6 +18,10 @@ normas:
 - /biblioteca/codigo-civil/leer/#page=51 | Código Civil, artículos 409 a 414 | Intereses
 - /biblioteca/codigo-civil/leer/#page=157 | Código Civil, artículo 1335 | Garantía de los acreedores
 - /biblioteca/codigo-civil/leer/#page=174 | Código Civil, artículos 1492 a 1513 | Prescripción
+- /biblioteca/codigo-procesal-civil/leer/#page=80 | Código Procesal Civil, artículos 376 a 386 | Proceso ejecutivo
+guias:
+- /guias/procesal-civil/proceso-ejecutivo/ | El proceso ejecutivo para cobrar deudas
+- /guias/procesal-civil/medidas-cautelares-y-embargo/ | Medidas cautelares, embargo y bienes inembargables
 ---
 ## Cumplir la obligación
 
@@ -39,7 +43,7 @@ El deudor queda **en mora** cuando el acreedor se lo exige por intimación, requ
 
 ## Con qué responde el deudor
 
-Todos los bienes del deudor, presentes y futuros, garantizan sus deudas, salvo los que la ley declara **inembargables** ([artículo 1335](/biblioteca/codigo-civil/leer/#page=157)).
+Todos los bienes del deudor, presentes y futuros, garantizan sus deudas, salvo los que la ley declara **inembargables** ([artículo 1335](/biblioteca/codigo-civil/leer/#page=157)). Entre ellos están los sueldos, las pensiones, los muebles imprescindibles de la vivienda y las herramientas de trabajo ([Código Procesal Civil, artículo 318](/biblioteca/codigo-procesal-civil/leer/#page=64)), y el deudor no puede ser detenido para cobrarle una deuda civil ([Código Civil, artículo 1466](/biblioteca/codigo-civil/leer/#page=172)). Cómo se cobra en juicio: ver [Cobrar una deuda por la vía judicial](/temas/cobrar-una-deuda-en-juicio/).
 
 ## Prescripción
 

@@ -4,7 +4,7 @@ Lo ejecuta construir.py. Cada tema elige una clave en su encabezado («imagen: n
 la ilustración toma el color de la materia del tema. Motivo escalonado como en las portadas.
 
 Claves disponibles: ninez, mujer, beneficios, asistencia, usucapion, propiedad, denuncia,
-discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas. Una clave desconocida usa «defensa».
+discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos. Una clave desconocida usa «defensa».
 """
 
 COLOR_MATERIA = {
@@ -122,6 +122,40 @@ def _fig_ilus(clave, c):
         pct = (f'<circle cx="298" cy="126" r="48" fill="{_OC}"/><path d="M276 152l44-52" stroke="{_W}" stroke-width="8" stroke-linecap="round"/>'
                f'<circle cx="280" cy="108" r="9" fill="none" stroke="{_W}" stroke-width="6"/><circle cx="316" cy="144" r="9" fill="none" stroke="{_W}" stroke-width="6"/>')
         return cal + pct
+    if clave == 'juicio':
+        mazo = (f'<g transform="rotate(-35 170 110)"><rect x="120" y="86" width="100" height="44" rx="10" fill="{_W}"/>'
+                f'<rect x="112" y="80" width="14" height="56" rx="5" fill="{_OC}"/><rect x="214" y="80" width="14" height="56" rx="5" fill="{_OC}"/>'
+                f'<rect x="164" y="130" width="14" height="80" rx="6" fill="{_W}"/></g>')
+        base = f'<rect x="96" y="182" width="120" height="16" rx="6" fill="{_W}" opacity=".85"/><rect x="110" y="170" width="92" height="14" rx="5" fill="{_OC}"/>'
+        hoja = f'<rect x="262" y="66" width="80" height="108" rx="8" fill="{_W}"/>' + ''.join(f'<rect x="276" y="{y}" width="{w}" height="6" rx="3" fill="{c}" opacity=".45"/>' for y, w in ((86, 52), (100, 40), (114, 52), (128, 30))) + f'<circle cx="320" cy="154" r="11" fill="{_OC}"/>'
+        return mazo + base + hoja
+    if clave == 'cobro':
+        hoja = (f'<rect x="100" y="56" width="104" height="136" rx="8" fill="{_W}"/>'
+                + ''.join(f'<rect x="116" y="{y}" width="{w}" height="6" rx="3" fill="{c}" opacity=".45"/>' for y, w in ((76, 70), (90, 56), (104, 70), (118, 44)))
+                + f'<path d="M116 166h40" stroke="{c}" stroke-width="3" opacity=".6"/><circle cx="178" cy="160" r="16" fill="none" stroke="{_OC}" stroke-width="5"/>')
+        mon = ''.join(f'<ellipse cx="{x}" cy="{186 - k * 13}" rx="26" ry="8" fill="{_OC}" stroke="{c}" stroke-opacity=".35" stroke-width="2"/>' for x, n in ((262, 5), (318, 8)) for k in range(n))
+        return hoja + mon
+    if clave == 'desalojo':
+        puerta = f'<rect x="150" y="122" width="40" height="70" rx="3" fill="{c}"/><path d="M150 122l26 8v70l-26-8z" fill="{_OC}"/>'
+        flecha = f'<path d="M232 150h86M296 128l24 22-24 22" fill="none" stroke="{_W}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>'
+        caja = f'<rect x="300" y="176" width="44" height="22" rx="3" fill="{_OC}" opacity=".9"/>'
+        return _casa_ilus(100, 62, 130, c) + puerta + flecha + caja
+    if clave == 'contrato':
+        h1 = f'<rect x="112" y="52" width="108" height="140" rx="8" fill="{_W}" opacity=".7" transform="rotate(-6 166 122)"/>'
+        h2 = f'<rect x="132" y="50" width="108" height="140" rx="8" fill="{_W}"/>' + ''.join(f'<rect x="148" y="{y}" width="{w}" height="6" rx="3" fill="{c}" opacity=".45"/>' for y, w in ((70, 76), (84, 62), (98, 76), (112, 50)))
+        firma = f'<path d="M150 164c10-14 18 8 28-4s14 6 24-2" fill="none" stroke="{c}" stroke-width="3"/><path d="M146 176h80" stroke="{c}" stroke-width="2" opacity=".5"/>'
+        pluma = f'<g transform="rotate(35 300 120)"><rect x="288" y="56" width="20" height="110" rx="8" fill="{_OC}"/><path d="M288 166h20l-10 22z" fill="{_W}"/></g>'
+        return h1 + h2 + firma + pluma
+    if clave == 'compraventa':
+        etiqueta = (f'<g transform="rotate(14 300 110)"><path d="M262 76h70l20 34-20 34h-70z" fill="{_OC}"/><circle cx="332" cy="110" r="7" fill="{c}"/>'
+                    f'<rect x="276" y="98" width="38" height="7" rx="3" fill="{_W}"/><rect x="276" y="114" width="26" height="7" rx="3" fill="{_W}"/></g>')
+        hilo = f'<path d="M220 120c20 0 24-10 44-10" fill="none" stroke="{_W}" stroke-width="3"/>'
+        return _casa_ilus(84, 66, 140, c) + hilo + etiqueta
+    if clave == 'danos':
+        vidrio = (f'<rect x="96" y="60" width="140" height="120" rx="6" fill="{_W}"/><rect x="108" y="72" width="116" height="96" fill="{c}" opacity=".25"/>'
+                  f'<path d="M166 72l-8 30 22 10-14 26 10 30M158 102l-50 6M180 112l44-14M166 138l-58 20" fill="none" stroke="{_W}" stroke-width="4" stroke-linejoin="round"/>')
+        aviso = f'<path d="M300 64l56 100h-112z" fill="{_OC}"/><rect x="295" y="98" width="10" height="36" rx="5" fill="{_W}"/><circle cx="300" cy="148" r="6" fill="{_W}"/>'
+        return vidrio + aviso
     # defensa (y valor por defecto): escudo con balanza
     return (f'<path d="M200 40l70 24v58c0 50-34 80-70 94-36-14-70-44-70-94V64z" fill="{_W}"/>'
             f'<path d="M200 74v96M160 92h80M178 182h44" stroke="{c}" stroke-width="7" stroke-linecap="round"/>'

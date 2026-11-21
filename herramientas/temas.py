@@ -195,8 +195,8 @@ accesos = [('Biblioteca', '/biblioteca/', 'Normas completas en PDF, con visor y 
            ('Cuestionarios', '/estudiantes/cuestionarios/', 'Para repasar y prepararse'),
            ('Glosario', '/glosario/', 'Términos jurídicos en lenguaje claro')]
 if TEMAS:
-    escribe('index.html', pagina('Leyes de Bolivia, al pie de la letra', 'Tu lugar: el repositorio jurídico que necesitas. Normas bolivianas completas, jurisprudencia, temas de interés y guías en lenguaje claro.',
-        f'''<section class="hero portada"><div class="cont"><h1>Leyes de Bolivia, al pie de la letra</h1><p class="lema">Tu lugar: el repositorio jurídico que necesitas.</p>
+    escribe('index.html', pagina('Tu lugar: el repositorio jurídico que necesitas', 'Tu lugar: el repositorio jurídico que necesitas. Normas bolivianas completas, jurisprudencia, temas de interés y guías en lenguaje claro.',
+        f'''<section class="hero portada"><div class="cont"><h1 class="lema">Tu lugar: el repositorio jurídico que necesitas.</h1>
 <form class="buscador grande" role="search" action="/buscar/" method="get">{ico("search", 20)}<input type="search" name="q" aria-label="Buscar en todo el sitio" placeholder="Busca un tema, una norma o un artículo" autocomplete="off"><button type="submit">Buscar</button></form>
 <p class="atajos">Consultas frecuentes: {" ".join(f'<a href="{url_tema(t)}">{E(t["titulo"].split(":")[0])}</a>' for t in TEMAS[:5])}</p></div></section>
 <div class="cont pag portada-pag">

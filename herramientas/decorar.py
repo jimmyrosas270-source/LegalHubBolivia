@@ -75,6 +75,7 @@ for dp, _, fs in os.walk(OUT):
         # 4. recuadros y etiquetas de materia
         doc = ETQ_MAT.sub(lambda m: f'<span class="etq" data-mc="{slug(html.unescape(m.group(1)))}">{m.group(1)}</span>', doc)
         doc = re.sub(r'(<a class="materia[^"]*" href="([^"]+)")(?! data-mc)', _mc, doc)
+        doc = re.sub(r'<h2><a href="/guias/([a-z-]+)/">', lambda m: f'<h2><a href="/guias/{m.group(1)}/" data-mc="{m.group(1)}">' if m.group(1) in MAT_SLUGS else m.group(0), doc)
         if doc != antes:
             open(p, 'w', encoding='utf-8').write(doc)
             n_dec += 1
