@@ -2,7 +2,7 @@
 titulo: El aguinaldo de Navidad y el segundo aguinaldo
 materia: Laboral
 publico: Trabajadores y empleadores del sector privado
-actualizada: 17/11/2026
+actualizada: 21/11/2026
 resumen: El aguinaldo es un pago anual obligatorio. La ley dice que debe pagarse antes del 25 de diciembre, y en la práctica el plazo exigido es el 20. Si no se paga, la ley manda pagarlo doble. El segundo aguinaldo «Esfuerzo por Bolivia» no se paga todos los años: depende de cuánto haya crecido la economía.
 articulos:
 - /biblioteca/ley-de-18-de-diciembre-de-1944/ | Ley de 18 de diciembre de 1944 (PDF) | Artículos 1 a 3
@@ -23,6 +23,8 @@ articulos:
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-150/ | Artículo 150 | Código Procesal del Trabajo
 - /leyes/laboral/codigo-procesal-del-trabajo/articulo-202/ | Artículo 202 | Código Procesal del Trabajo
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=112 | Auto Supremo 496/2022 | Resúmenes de Jurisprudencia TSJ 2022
+- /biblioteca/auto-supremo-050-2014/ | Auto Supremo 050/2014 (PDF) | Pago doble en el sector público
+- /leyes/laboral/codigo-procesal-del-trabajo/articulo-64/ | Artículo 64 | Código Procesal del Trabajo
 - /jurisprudencia/resumenes-de-jurisprudencia-tsj-2022/leer/#page=136 | Auto Supremo 484/2022 | Resúmenes de Jurisprudencia TSJ 2022
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 20 y 21
 ---
@@ -62,6 +64,17 @@ El Auto Supremo 496/2022, de 15 de agosto, de la Sala Social y Administrativa Pr
 - La empresa se quejó de que la multa no había sido pedida en la demanda. El Tribunal respondió que la sanción es una consecuencia de no pagar a tiempo y que correspondía aplicarla aunque no se hubiera solicitado. Es una idea parecida a la del artículo 202, inciso c, del Código Procesal del Trabajo, que obliga a incluir en la sentencia lo que el trabajador no reclamó y apareció en el proceso.
 - El recurso de la empresa fue declarado infundado.
 - Los precedentes que cita el resumen están los tres en la Biblioteca: la [ley de 18 de diciembre de 1944](/biblioteca/ley-de-18-de-diciembre-de-1944/leer/) (artículo 1), la [ley de 11 de junio de 1947](/biblioteca/ley-de-11-de-junio-de-1947/leer/) y el [Decreto Supremo 28448](/biblioteca/decreto-supremo-28448/leer/), de 22 de noviembre de 2005.
+
+
+**También en el sector público.** En el [Auto Supremo 050/2014, de 11 de abril](/biblioteca/auto-supremo-050-2014/leer/#page=5), la Sala Social y Administrativa Liquidadora Segunda del Tribunal Supremo resolvió el caso de un trabajador eventual de una prefectura, contratado con contratos cortos sucesivos:
+
+- La prefectura alegaba que un decreto supremo de 1983 prohibía el pago doble del aguinaldo en el sector público. El Tribunal aplicó la ley de 1944, porque una ley prevalece sobre un decreto, y dijo que esa ley no se limita al sector privado.
+- Trató el aguinaldo y las vacaciones como derechos consolidados de todo trabajador, público o privado.
+- Por la primacía de la realidad, tuvo por continuo el trabajo, a pesar de los contratos cortos.
+- El aguinaldo de la última gestión no estaba en la demanda, pero se concedió: en materia laboral el juez puede otorgar derechos no pedidos que se discutieron y probaron en el proceso ([Código Procesal del Trabajo, artículo 64](/leyes/laboral/codigo-procesal-del-trabajo/articulo-64/)).
+- El recurso de la prefectura fue declarado infundado (pág. 6).
+
+Los servidores públicos tienen además normas propias; si el caso es del sector público, conviene revisarlas con un profesional. [VERIFICAR]
 
 !! Un auto resuelve un caso concreto. Que el Tribunal haya aplicado el pago doble en ese caso no garantiza el mismo resultado en otro; depende de los hechos y de la prueba.
 

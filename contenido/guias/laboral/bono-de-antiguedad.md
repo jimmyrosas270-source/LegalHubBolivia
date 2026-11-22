@@ -17,6 +17,7 @@ articulos:
 - /biblioteca/decreto-supremo-23474/ | Decreto Supremo 23474 (PDF) | Artículo único
 - /biblioteca/decreto-supremo-1592/ | Decreto Supremo 1592 (PDF) | Artículo 11
 - /biblioteca/guia-de-derechos-laborales-2020/ | Guía de Derechos Laborales 2020 (PDF) | Págs. 16 y 17
+- /biblioteca/auto-supremo-207-2008/ | Auto Supremo 207/2008 (PDF) | Empresa productiva y servuctos
 - /biblioteca/auto-supremo-473-2021/ | Auto Supremo 473/2021 (PDF) | Bono de antigüedad y contratos por gestión
 ---
 ## Qué es
@@ -49,12 +50,15 @@ La fórmula, entonces, es: porcentaje de la escala × base. Por ejemplo, con 10 
 
 ## Empresa productiva y no productiva
 
-Los decretos de 1992 y 1993 usan la expresión «empresas productivas» sin definirla. El Decreto Supremo 24067 (1995, artículo 11) solo define «empresas» para el sector público: las entidades con patrimonio propio, autonomía de gestión administrativa y financiera y creadas legalmente como tales, productoras de bienes o proveedoras de servicios, cuyo bono se calcula sobre tres salarios mínimos nacionales y con la escala del Decreto Supremo 21060. Los materiales de apoyo atribuyen a un auto supremo de 2014 (AS 050/2014), que no está en el sitio, estos criterios: [VERIFICAR]
+Los decretos de 1992 y 1993 usan la expresión «empresas productivas» sin definirla. El Decreto Supremo 24067 (1995, artículo 11) solo define «empresas» para el sector público: las entidades con patrimonio propio, autonomía de gestión administrativa y financiera y creadas legalmente como tales, productoras de bienes o proveedoras de servicios, cuyo bono se calcula sobre tres salarios mínimos nacionales y con la escala del Decreto Supremo 21060. La Corte Suprema dio un criterio en el [Auto Supremo 207/2008, de 18 de junio](/biblioteca/auto-supremo-207-2008/leer/#page=3), de su Sala Social y Administrativa Segunda. Un banco sostenía que la base de tres salarios mínimos solo valía para la industria. La Corte no le dio la razón:
 
-- Una empresa es **productiva** cuando crea o transforma bienes materiales, o cuando obtiene ganancias con un aparato productivo, incluso si lo que vende es un servicio convertido en un producto con componentes físicos o tecnológicos (los autos lo llaman «servucto»).
-- Es **no productiva** la que presta solo servicios intangibles, sin transformar nada ni generar un producto.
+- Los decretos de 1992 y 1993 se dictaron para mejorar el poder adquisitivo de los salarios, así que **«productiva» no quiere decir solo manufacturera**.
+- Es productiva **toda empresa que obtiene utilidades y ganancias con su aparato productivo**, es decir, con los medios con que produce bienes o servicios. Lo que resulta pueden ser productos o «servuctos», una palabra que la Corte tomó de la administración de empresas para decir que la frontera entre el producto físico y el servicio se va borrando.
+- El banco no fabricaba nada, pero prestaba servicios al público y obtenía utilidades. Por eso le correspondía la base de tres salarios mínimos, y la Corte confirmó la reliquidación (pág. 3 del PDF).
 
-La frontera entre las dos se decide caso por caso, y los materiales de apoyo advierten que el concepto de «servucto» es impreciso. El [Auto Supremo 473/2021](/biblioteca/auto-supremo-473-2021/leer/#page=2), que sí está en la Biblioteca, menciona el AS 050/2014 solo porque una de las partes lo citó para hablar de la interrupción del tiempo de servicio; no reproduce su contenido. Hay además una lectura según la cual, con ese concepto, la distinción deja de importar y la base sería siempre de tres salarios mínimos. Cuál se aplica en un caso concreto debe confirmarlo un profesional. [VERIFICAR]
+La propia Corte reconoció que algunos fallos anteriores, a los que llamó aislados, habían entendido «productiva» como solo manufacturera. Con este criterio, la base de un salario mínimo quedaría sobre todo para quien no busca utilidades. Si una entidad sin fines de lucro o una institución pública está en ese caso es algo que el auto no resuelve y debe verse caso por caso. [VERIFICAR] Un auto resuelve un caso concreto; la copia de la Biblioteca es una transcripción, no la impresión oficial del Tribunal.
+
+Los materiales de apoyo atribuían este criterio a un «AS 050/2014». El [Auto Supremo 050/2014](/biblioteca/auto-supremo-050-2014/) que está en la Biblioteca (11 de abril de 2014, Sala Social y Administrativa Liquidadora Segunda del Tribunal Supremo) trata otro tema: el aguinaldo y las vacaciones de un trabajador eventual del sector público (ver [El aguinaldo](/guias/laboral/aguinaldos/)). El [Auto Supremo 473/2021](/biblioteca/auto-supremo-473-2021/leer/#page=2) menciona un AS 050/2014 «de 28 de abril» sobre la interrupción del tiempo de servicio: por la fecha, sería un auto de otra sala con el mismo número, que no está en el sitio. [VERIFICAR]
 
 ## Contratos por gestión y bono de antigüedad
 

@@ -167,7 +167,7 @@ Es un porcentaje que sube con los años, de 5 % con 2 a 4 años hasta 50 % desde
 
 ### ¿Qué diferencia hay entre empresa productiva y no productiva para el bono de antigüedad?
 
-Define la base de cálculo: tres salarios mínimos para la empresa productiva, y uno para las demás. Los decretos no definen «empresa productiva». Según los materiales de apoyo, es productiva la que crea o transforma bienes materiales, o vende servicios convertidos en productos; es no productiva la que presta solo servicios intangibles, y hay una lectura que lleva siempre a tres salarios mínimos. Ver [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/). [VERIFICAR]
+Define la base de cálculo: tres salarios mínimos para la empresa productiva y uno para las demás ([Decretos Supremos 23113 y 23474](/biblioteca/decreto-supremo-23474/)). Los decretos no definen «empresa productiva». La Corte Suprema, en el [Auto Supremo 207/2008](/biblioteca/auto-supremo-207-2008/leer/#page=3), entendió que no es solo la manufacturera, sino toda empresa que obtiene utilidades con su aparato productivo, aunque preste servicios, y aplicó la base de tres salarios mínimos a un banco. Un auto resuelve un caso concreto. Ver [El bono de antigüedad](/guias/laboral/bono-de-antiguedad/).
 
 ### ¿Puedo reclamar el bono de antigüedad si ya dejé de trabajar?
 

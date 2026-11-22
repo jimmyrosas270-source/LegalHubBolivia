@@ -325,11 +325,12 @@
   },
   {
    "termino": "Empresa productiva",
-   "definicion": "Empresa que crea o transforma bienes materiales, o que obtiene ganancias con un aparato productivo. Para el bono de antigüedad, la base de cálculo es mayor que en las no productivas.",
+   "definicion": "Para el bono de antigüedad, la empresa que obtiene utilidades con su aparato productivo, sea que fabrique bienes o preste servicios (Auto Supremo 207/2008). Su base de cálculo es de tres salarios mínimos, mayor que la de las demás.",
    "grupo": "Laboral",
    "ver": [
     "/guias/laboral/bono-de-antiguedad/|Guía",
-    "/preguntas/laboral/#p40|Pregunta frecuente"
+    "/preguntas/laboral/#p40|Pregunta frecuente",
+    "/biblioteca/auto-supremo-207-2008/|Auto Supremo 207/2008"
    ]
   },
   {
