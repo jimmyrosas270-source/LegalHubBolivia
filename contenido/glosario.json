@@ -665,6 +665,329 @@
     "/guias/laboral/preaviso-y-despido/|Guía",
     "/biblioteca/sentencia-constitucional-plurinacional-0009-2017/|Sentencia Constitucional Plurinacional 0009/2017"
    ]
+  },
+  {
+   "termino": "Comerciante",
+   "definicion": "Persona que se dedica habitualmente a una actividad comercial con fines de lucro, aunque la ejerza por medio de otra persona.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-4/|Artículo 4, Código de Comercio",
+    "/temas/comerciantes-y-sociedades/|Tema: Comerciantes y sociedades"
+   ]
+  },
+  {
+   "termino": "Acto de comercio",
+   "definicion": "Operación que el Código de Comercio considera comercial, como comprar para revender, prestar dinero a interés como actividad o transportar personas o cosas por un precio.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-6/|Artículo 6, Código de Comercio"
+   ]
+  },
+  {
+   "termino": "Registro de Comercio",
+   "definicion": "Registro donde se matriculan los comerciantes y se inscriben los actos y contratos que la ley señala, como la constitución de sociedades.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-27/|Artículo 27, Código de Comercio",
+    "/leyes/comercial/codigo-de-comercio/articulo-29/|Artículo 29, Código de Comercio",
+    "/temas/comerciantes-y-sociedades/|Tema: Comerciantes y sociedades"
+   ]
+  },
+  {
+   "termino": "Sociedad colectiva",
+   "definicion": "Sociedad comercial en la que todos los socios responden por las deudas de la sociedad de forma solidaria e ilimitada, también con sus bienes personales.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-173/|Artículo 173, Código de Comercio",
+    "/guias/comercial/tipos-de-sociedades-comerciales/|Guía: Los tipos de sociedades comerciales"
+   ]
+  },
+  {
+   "termino": "Sociedad de responsabilidad limitada (SRL)",
+   "definicion": "Sociedad comercial cuyo capital se divide en cuotas; los socios responden hasta el monto de sus aportes y no pueden ser más de veinticinco.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-195/|Artículo 195, Código de Comercio",
+    "/leyes/comercial/codigo-de-comercio/articulo-196/|Artículo 196, Código de Comercio",
+    "/guias/comercial/tipos-de-sociedades-comerciales/|Guía: Los tipos de sociedades comerciales"
+   ]
+  },
+  {
+   "termino": "Sociedad anónima (S.A.)",
+   "definicion": "Sociedad comercial cuyo capital está representado por acciones; cada socio responde hasta el monto de las acciones que suscribió.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-217/|Artículo 217, Código de Comercio",
+    "/guias/comercial/tipos-de-sociedades-comerciales/|Guía: Los tipos de sociedades comerciales"
+   ]
+  },
+  {
+   "termino": "Título valor",
+   "definicion": "Documento necesario para ejercer el derecho literal y autónomo que está escrito en él, como la letra de cambio, el pagaré o el cheque.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-491/|Artículo 491, Código de Comercio",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Letra de cambio",
+   "definicion": "Título valor con el que el girador ordena al girado pagar una suma de dinero a otra persona en una fecha; debe cumplir los requisitos que fija el Código.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-541/|Artículo 541, Código de Comercio",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Pagaré",
+   "definicion": "Título valor en el que el deudor promete pagar una suma de dinero a la orden de otra persona; es nulo si se otorga al portador o en blanco.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-592/|Artículo 592, Código de Comercio",
+    "/leyes/comercial/codigo-de-comercio/articulo-595/|Artículo 595, Código de Comercio",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Endoso",
+   "definicion": "Firma con la que el tenedor de un título valor lo transmite a otra persona; se escribe en el título o en una hoja adherida y puede ser en propiedad, en cobranza o en garantía.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-522/|Artículo 522, Código de Comercio",
+    "/leyes/comercial/codigo-de-comercio/articulo-527/|Artículo 527, Código de Comercio"
+   ]
+  },
+  {
+   "termino": "Endoso en blanco",
+   "definicion": "Endoso que solo lleva la firma del endosante, sin el nombre de quien recibe el título; quien lo tiene puede completarlo con su nombre o volver a transmitirlo.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-524/|Artículo 524, Código de Comercio"
+   ]
+  },
+  {
+   "termino": "Protesto",
+   "definicion": "Acto ante notario que prueba que una letra de cambio o un pagaré se presentó a tiempo y no fue aceptado o pagado; sin él, por regla general, no hay acción ejecutiva.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-569/|Artículo 569, Código de Comercio",
+    "/leyes/comercial/codigo-de-comercio/articulo-570/|Artículo 570, Código de Comercio",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Cheque cruzado",
+   "definicion": "Cheque con dos líneas paralelas en diagonal en el anverso; solo puede cobrarse a través de un banco.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-623/|Artículo 623, Código de Comercio"
+   ]
+  },
+  {
+   "termino": "Cheque postdatado",
+   "definicion": "Cheque con una fecha posterior a la de su entrega; igual se paga al presentarlo, porque el cheque es pagadero a la vista.",
+   "grupo": "Comercial",
+   "ver": [
+    "/leyes/comercial/codigo-de-comercio/articulo-606/|Artículo 606, Código de Comercio",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Cheque en descubierto",
+   "definicion": "Delito de girar un cheque sin fondos suficientes y no pagarlo dentro de las 72 horas de haber sido avisado; también lo es usar un cheque como garantía.",
+   "grupo": "Comercial",
+   "ver": [
+    "/biblioteca/codigo-penal/leer/#page=47|Artículo 204, Código Penal",
+    "/temas/letra-de-cambio-pagare-y-cheque/|Tema: Letra de cambio, pagaré y cheque"
+   ]
+  },
+  {
+   "termino": "Consumidor financiero",
+   "definicion": "Persona que usa los productos o servicios de un banco u otra entidad financiera; la Ley 393 le reconoce derechos como la información clara y el trato digno.",
+   "grupo": "Comercial",
+   "ver": [
+    "/biblioteca/ley-393-de-servicios-financieros/leer/#page=20|Artículo 74, Ley 393",
+    "/temas/tus-derechos-ante-el-banco/|Tema: Tus derechos ante el banco"
+   ]
+  },
+  {
+   "termino": "Tasa de interés anual efectiva",
+   "definicion": "Tasa que muestra el costo total de un crédito, porque incluye todos los cobros, recargos y comisiones de la entidad financiera.",
+   "grupo": "Comercial",
+   "ver": [
+    "/biblioteca/ley-393-de-servicios-financieros/leer/#page=18|Artículo 63, Ley 393",
+    "/temas/tus-derechos-ante-el-banco/|Tema: Tus derechos ante el banco"
+   ]
+  },
+  {
+   "termino": "Defensoría del Consumidor Financiero",
+   "definicion": "Unidad de la ASFI que defiende a los consumidores financieros y atiende sus reclamos en segunda instancia, después del reclamo ante la entidad.",
+   "grupo": "Comercial",
+   "ver": [
+    "/biblioteca/ley-393-de-servicios-financieros/leer/#page=20|Artículo 73, Ley 393",
+    "/temas/tus-derechos-ante-el-banco/|Tema: Tus derechos ante el banco"
+   ]
+  },
+  {
+   "termino": "Conciliación",
+   "definicion": "Medio voluntario para resolver un conflicto con ayuda de un conciliador imparcial, antes o durante un juicio.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=7|Artículo 20, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Acta de conciliación",
+   "definicion": "Documento que firman las partes al llegar a un acuerdo en la conciliación; las obliga desde que se firma y, si no se cumple, puede ejecutarse ante un juez.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=9|Artículo 33, Ley 708",
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=10|Artículo 34, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Arbitraje",
+   "definicion": "Medio para resolver un conflicto fuera del juicio, en el que un árbitro único o un tribunal arbitral decide la controversia.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=11|Artículo 39, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Cláusula arbitral",
+   "definicion": "Acuerdo escrito dentro de un contrato por el que las partes se obligan a llevar a arbitraje los conflictos de ese contrato.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=12|Artículo 42, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Convenio arbitral",
+   "definicion": "Acuerdo escrito, en un documento separado y posterior al contrato, por el que las partes se obligan a ir a arbitraje.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=12|Artículo 43, Ley 708"
+   ]
+  },
+  {
+   "termino": "Laudo arbitral",
+   "definicion": "Decisión que dicta el árbitro o el tribunal arbitral; una vez ejecutoriado vale como sentencia con autoridad de cosa juzgada.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=30|Artículo 104, Ley 708",
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=32|Artículo 109, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Recurso de nulidad del laudo",
+   "definicion": "Única vía para impugnar un laudo arbitral; se presenta dentro de diez días desde la notificación y solo por las causales que señala la ley.",
+   "grupo": "Conciliación y arbitraje",
+   "ver": [
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=32|Artículos 111 y 112, Ley 708",
+    "/biblioteca/ley-708-de-conciliacion-y-arbitraje/leer/#page=33|Artículo 113, Ley 708",
+    "/temas/conciliacion-y-arbitraje/|Tema: Conciliación y arbitraje"
+   ]
+  },
+  {
+   "termino": "Solar campesino",
+   "definicion": "Lugar donde viven el campesino y su familia; es indivisible y patrimonio familiar inembargable.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=36|Artículo 41, Ley 1715",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Pequeña propiedad",
+   "definicion": "Propiedad agraria que es la fuente de subsistencia del titular y su familia; es indivisible, patrimonio familiar inembargable y no se revierte.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=36|Artículo 41, Ley 1715",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-394/|Artículo 394, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Función social",
+   "definicion": "La que cumplen el solar campesino, la pequeña propiedad y las tierras comunitarias cuando sirven al bienestar familiar o al desarrollo de sus dueños o comunidades.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=10|Artículo 2, Ley 1715",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-397/|Artículo 397, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Función económico social",
+   "definicion": "Uso sostenible de la tierra en actividades productivas o de conservación; se verifica en el propio predio y su incumplimiento es causal de reversión.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=10|Artículo 2, Ley 1715 (con la Ley 3545)",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-397/|Artículo 397, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Saneamiento",
+   "definicion": "Trámite técnico y jurídico del INRA que regulariza y perfecciona el derecho de propiedad agraria; termina con la resolución final y el título ejecutorial.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=51|Artículo 64, Ley 1715",
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=169|Artículo 263, Decreto Supremo 29215",
+    "/guias/agraria/saneamiento-y-reversion-de-tierras/|Guía: El saneamiento de tierras paso a paso"
+   ]
+  },
+  {
+   "termino": "Título ejecutorial",
+   "definicion": "Documento que otorga el derecho de propiedad agraria al terminar el saneamiento o la distribución de tierras; lo otorga el Presidente y se inscribe en Derechos Reales.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=217|Artículos 398 y 399, Decreto Supremo 29215",
+    "/guias/agraria/saneamiento-y-reversion-de-tierras/|Guía: El saneamiento de tierras paso a paso"
+   ]
+  },
+  {
+   "termino": "Reversión",
+   "definicion": "Retorno de una tierra al dominio del Estado, sin indemnización, cuando no cumple total o parcialmente la función económico social.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=43|Artículos 51 y 52, Ley 1715 (con la Ley 3545)",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-401/|Artículo 401, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Expropiación agraria",
+   "definicion": "Pérdida de la propiedad agraria por utilidad pública o por incumplimiento de la función social en pequeñas propiedades, con pago de una justa indemnización.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=47|Artículo 58, Ley 1715 (con la Ley 3545)",
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-401/|Artículo 401, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Latifundio",
+   "definicion": "Tenencia improductiva de la tierra, la que no cumple la función económico social, la que se explota con servidumbre o la que pasa la superficie máxima; la Constitución lo prohíbe.",
+   "grupo": "Agraria",
+   "ver": [
+    "/leyes/constitucional/constitucion-politica-del-estado/articulo-398/|Artículo 398, Constitución",
+    "/temas/tierra-y-propiedad-agraria/|Tema: La tierra"
+   ]
+  },
+  {
+   "termino": "Indivisión forzosa",
+   "definicion": "Regla por la que una propiedad agraria heredada no puede dividirse en partes menores que la pequeña propiedad.",
+   "grupo": "Agraria",
+   "ver": [
+    "/biblioteca/normativa-agraria-en-la-era-de-la-reconduccion-comunitaria-inra/leer/#page=40|Artículo 48, Ley 1715"
+   ]
   }
  ]
 }
