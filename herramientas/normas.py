@@ -39,8 +39,10 @@ COLECCIONES = [{
     'archivo': 'codigo-de-comercio.txt',
     'materia': 'comercial',
     'materia_nombre': 'Comercial',
-    'materia_url': '/biblioteca/comercial/',
+    'materia_url': '/leyes/comercial/',
     'unica': True,
+    'etiqueta': 'Código',
+    'materia_titulo': 'Normativa comercial',
     'slug': 'codigo-de-comercio',
     'codigo': 'cco',
     'titulo': 'Código de Comercio',
@@ -236,7 +238,25 @@ def construir_normas():
         # tarjeta en la portada de la materia
         pm = os.path.join(OUT, 'leyes', C['materia'], 'index.html')
         if unica:
-            pass
+            # página de la materia en Normativa (/leyes/<materia>/): si no viene en la base, se crea con la tarjeta de la norma;
+            # después construir.py le pone la portada y «También en la Biblioteca (PDF)», como en Laboral
+            n0 = normas[0]
+            arts0 = [it for it in n0['items'] if 'label' in it]
+            n_a = sum(1 for it in arts0 if it['label'].lower().startswith('art'))
+            otros = len(arts0) - n_a
+            detalle = f'{n_a:,} artículos'.replace(',', '.') + (f' · {otros} disposiciones transitorias' if otros else '')
+            tarj = (f'<article class="tarjeta"><div class="entre"><span class="etq">{E(C.get("etiqueta") or n0["tipo"])}</span><span class="tag ver">Verificar</span></div>'
+                    f'<h2 class="h-norma"><a href="{base}">{E(n0["titulo"])}</a></h2><p class="sec">{E(n0["epigrafe"] or _fecha_larga(n0["fecha"]))}</p><p>{detalle}</p>'
+                    f'<small>Revisada: {HOY} · Versión 1</small><p><a class="btn" href="{base}">Ver artículos</a></p></article>')
+            if os.path.isfile(pm):
+                doc = open(pm, encoding='utf-8').read()
+                if base not in doc and '</h1>' in doc:
+                    doc = doc.replace('</h1>', '</h1>' + tarj, 1)
+                    open(pm, 'w', encoding='utf-8').write(doc)
+            else:
+                cuerpo_m = (f'<div class="cont pag estrecha">{migas([("Inicio", "/"), ("Normativa", "/leyes/"), (mat_n, "")])}'
+                            f'<h1>{E(C.get("materia_titulo") or "Normativa " + mat_n.lower())}</h1><p class="entrada">1 norma cargada por artículos</p>{tarj}</div>')
+                escribe(html_de(f'/leyes/{C["materia"]}/'), pagina(C.get('materia_titulo') or mat_n, f'Normas de la materia {mat_n.lower()} por artículos: {n0["titulo"]}.', cuerpo_m, 'Normativa'))
         elif os.path.isfile(pm):
             doc = open(pm, encoding='utf-8').read()
             tarj = (f'<article class="tarjeta"><div class="entre"><span class="etq">Normas históricas</span><span class="tag ver">Verificar</span></div>'
@@ -244,7 +264,7 @@ def construir_normas():
                     f'<small>Revisada: {HOY} · Versión 1</small><p><a class="btn" href="{base}">Ver las normas</a></p></article>')
             if 'class="vacio"' in doc and base not in doc:
                 doc = doc.replace('<div class="vacio">', tarj + '<div class="vacio">', 1)
-                doc = doc.replace('3 normas cargadas', f'3 normas cargadas y 1 colección de {len(normas)} normas históricas')
+                doc = doc.replace('3 normas cargadas</p>', '3 normas cargadas y colecciones de normas históricas</p>')
                 open(pm, 'w', encoding='utf-8').write(doc)
             else:
                 AVISOS.append(f'Portada de /leyes/{C["materia"]}/: no se pudo insertar la tarjeta de «{C["titulo"]}».')

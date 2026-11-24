@@ -613,8 +613,23 @@ if os.path.isfile(p):
     for m in ORDEN_MATERIAS:
         k = sum(1 for d in DOCS if d['materia'] == m)
         off = f'<div class="materia off"><b>{E(m)}</b><small>Próximamente</small></div>'
-        if k and off in doc:
-            doc = doc.replace(off, f'<a class="materia" href="/biblioteca/{slug(m)}/"><b>{E(m)}</b><small>{plural(k, "documento", "documentos")} en PDF (Biblioteca)</small></a>')
+        con_pag = os.path.isfile(os.path.join(OUT, 'leyes', slug(m), 'index.html'))
+        en_pdf = f'{plural(k, "documento", "documentos")} en PDF (Biblioteca)'
+        if con_pag:
+            tarjeta_m = f'<a class="materia" href="/leyes/{slug(m)}/" data-mc="{slug(m)}"><b>{E(m)}</b><small>Normas por artículos y {en_pdf}</small></a>'
+        elif k:
+            tarjeta_m = f'<a class="materia" href="/biblioteca/{slug(m)}/" data-mc="{slug(m)}"><b>{E(m)}</b><small>{en_pdf}</small></a>'
+        else:
+            continue
+        if off in doc:
+            doc = doc.replace(off, tarjeta_m)
+        elif f'href="/leyes/{slug(m)}/"' not in doc and f'href="/biblioteca/{slug(m)}/"' not in doc and '<div class="rejilla r4">' in doc:
+            # materias que la base no trae (Agraria, Tributario, Comercial...): se añaden al final de la rejilla
+            i = doc.index('<div class="rejilla r4">')
+            j = doc.index('</div>', i)
+            doc = doc[:j] + tarjeta_m + doc[j:]
+    doc = doc.replace('Por ahora están cargadas las materias constitucional y laboral.',
+                      'Constitucional, laboral y comercial tienen normas por artículos; las demás materias están en PDF en la Biblioteca.')
     open(p, 'w', encoding='utf-8').write(doc)
 print(f'Portadas propias en Normativa: {n_tapas}. Migas corregidas: {n_migas}.')
 
