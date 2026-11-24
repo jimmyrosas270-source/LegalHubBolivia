@@ -34,6 +34,22 @@ COLECCIONES = [{
     'intro': ('Normas que el editor tiene solo como copia escaneada, transcritas palabra por palabra y revisadas contra la imagen. '
               'Se conservan las erratas del original. Cada artículo puede buscarse y enlazarse; la copia escaneada está en la Biblioteca.'),
     'pdf_titulo': 'Resolución Bi-Ministerial 002/15',
+}, {
+    # 'unica': la colección es una sola norma; su página es la de la colección (/leyes/comercial/codigo-de-comercio/)
+    'archivo': 'codigo-de-comercio.txt',
+    'materia': 'comercial',
+    'materia_nombre': 'Comercial',
+    'materia_url': '/biblioteca/comercial/',
+    'unica': True,
+    'slug': 'codigo-de-comercio',
+    'codigo': 'cco',
+    'titulo': 'Código de Comercio',
+    'rango': '1977',
+    'alias': 'Código de Comercio|CCo|CCom|C. Com.|Código mercantil|Decreto Ley 14379|DL 14379',
+    'intro': '',
+    'pdf_titulo': '',
+    'fuente': ('Texto de los artículos tomado de una edición anotada no oficial (se publican solo los artículos, sin las notas, concordancias ni comentarios de esa edición). '
+               'Puede no incluir todas las modificaciones posteriores. Verifique en la Gaceta Oficial de Bolivia.'),
 }]
 
 
@@ -79,6 +95,8 @@ def _leer_coleccion(ruta):
             if 'label' in it:
                 m = re.search(r'(\d+|[úu]nico)', it['label'], re.I)
                 it['num'] = m.group(1).lower().replace('ú', 'u') if m else str(len(arts))
+                if m and m.group(1).isdigit() and not it['label'].lower().startswith('art'):
+                    it['num'] = slug(it['label'])  # «Disposición transitoria 1» → disposicion-transitoria-1 (no choca con articulo-1)
         normas.append(n)
     return normas
 
@@ -112,8 +130,10 @@ def construir_normas():
             continue
         normas = _leer_coleccion(ruta_txt)
         base = f'/leyes/{C["materia"]}/{C["slug"]}/'
+        unica = C.get('unica', False)
+        mat_n, mat_u = C.get('materia_nombre', 'Laboral'), C.get('materia_url', f'/leyes/{C["materia"]}/')
         pdf_slug = slug(C['pdf_titulo'])
-        hay_pdf = any(d['slug'] == pdf_slug for d in DOCS)
+        hay_pdf = bool(C['pdf_titulo']) and any(d['slug'] == pdf_slug for d in DOCS)
         enlace_pdf = (f'<p class="botones"><a class="btn sec" href="/biblioteca/{pdf_slug}/">Ver el archivo original (PDF)</a></p>' if hay_pdf else '')
         vistos = set()
         # ---- portada de la colección
@@ -129,19 +149,20 @@ def construir_normas():
                             f'<h2 class="h-norma"><a href="{base}{n["slug"]}/">{E(n["titulo"])}</a></h2>{epi}<p>{cuenta}</p>'
                             f'<p><a class="btn" href="{base}{n["slug"]}/">{"Ver artículos" if arts else "Leer"}</a></p></article>')
         n_arts = sum(1 for n in normas for it in n['items'] if 'label' in it)
-        migas_c = migas([('Inicio', '/'), ('Normativa', '/leyes/'), ('Laboral', f'/leyes/{C["materia"]}/'), (C['titulo'], base)])
+        migas_c = migas([('Inicio', '/'), ('Normativa', '/leyes/'), (mat_n, mat_u), (C['titulo'], base)])
         cuerpo = (f'<div class="cont pag estrecha">{migas_c}<h1>{E(C["titulo"])}</h1>'
                   f'<p class="entrada">{len(normas)} normas, de {C["rango"]} · {n_arts} artículos</p><p>{E(C["intro"])}</p>{enlace_pdf}'
                   f'<div class="alerta">{ico("info")}<div>El texto sigue el archivo del editor y puede traer errores de transcripción de la fuente. Las normas más antiguas pueden estar derogadas o modificadas: '
                   f'no se afirma su vigencia. Antes de citar, verifica en la publicación oficial.</div></div>{"".join(tarjetas)}</div>')
-        escribe(html_de(base), pagina(C['titulo'], f'{len(normas)} leyes y decretos de {C["rango"]} que modifican o complementan la Ley General del Trabajo, por artículos.', cuerpo, 'Normativa'))
+        if not unica:
+          escribe(html_de(base), pagina(C['titulo'], f'{len(normas)} leyes y decretos de {C["rango"]} que modifican o complementan la Ley General del Trabajo, por artículos.', cuerpo, 'Normativa'))
         # ---- cada norma
         for n in normas:
-            ruta_n = f'{base}{n["slug"]}/'
+            ruta_n = base if unica else f'{base}{n["slug"]}/'
             arts = [it for it in n['items'] if 'label' in it]
             total_arts += len(arts)
             fecha_txt = _fecha_larga(n['fecha'])
-            ruta_migas = [('Inicio', '/'), ('Normativa', '/leyes/'), ('Laboral', f'/leyes/{C["materia"]}/'), (C['titulo'], base), (n['titulo'], ruta_n)]
+            ruta_migas = [('Inicio', '/'), ('Normativa', '/leyes/'), (mat_n, mat_u)] + ([] if unica else [(C['titulo'], base)]) + [(n['titulo'], ruta_n)]
             epi = E(n['epigrafe']) if n['epigrafe'] else ''
             pre = ''.join(f'<p>{E(p)}</p>' for p in n['pre'])
             if not arts:  # norma sin artículos: el texto va en la propia página
@@ -177,7 +198,8 @@ def construir_normas():
             cuerpo_n = (f'<div class="cont pag"><nav class="migas" aria-label="Migas de pan">{miga_html}</nav>'
                         f'<div class="dos"><div><span class="etq">{E(n["tipo"])}</span><h1>{E(n["titulo"])}</h1>{fecha_p}'
                         f'<p class="botones"><a class="btn" href="{ruta_n}articulo-{arts[0]["num"]}/">Empezar por el {E(arts[0]["label"].lower()) if arts[0]["label"].lower().startswith("art") else "primer artículo"}</a>'
-                        f'<a class="btn sec" href="{base}">Volver a la colección</a></p>{enc}'
+                        + ('' if unica else f'<a class="btn sec" href="{base}">Volver a la colección</a>') + f'</p>{enc}'
+                        + (f'<div class="alerta">{ico("info")}<div>{E(C["fuente"])}</div></div>' if C.get('fuente') else '') +
                         f'<section id="indice" class="tarjeta indice-norma"><h2>Índice</h2>{"".join(idx_html)}</section>{cierre_html}</div>'
                         f'<aside>{_sobre()}</aside></div></div>')
             escribe(html_de(ruta_n), pagina(n['titulo'], (n['epigrafe'] or f'{n["titulo"]}: índice de artículos.')[:155], cuerpo_n, 'Normativa'))
@@ -204,16 +226,18 @@ def construir_normas():
                 art_migas = miga_html.replace(f'<span aria-current="page">{E(n["titulo"])}</span>', f'<a href="{ruta_n}">{E(n["titulo"])}</a><span aria-hidden="true">›</span><span aria-current="page">{E(it["label"])}</span>')
                 cuerpo_a = (f'<div class="cont pag"><nav class="migas" aria-label="Migas de pan">{art_migas}</nav>'
                             f'<div class="art"><div class="centro">{BARRA_ART.format(idx=ruta_n)}{ruta_h}'
-                            f'<article class="legal"><div class="entre"><span class="etq">Texto legal literal</span><span class="tag ver">Verificar</span></div><h1>{E(it["label"])}</h1>{texto}<footer>{E(FUENTE)}</footer></article>'
+                            f'<article class="legal"><div class="entre"><span class="etq">Texto legal literal</span><span class="tag ver">Verificar</span></div><h1>{E(it["label"])}</h1>{texto}<footer>{E(C.get("fuente") or FUENTE)}</footer></article>'
                             f'<nav class="vecinos" aria-label="Textos contiguos">{vec}</nav></div><aside class="lateral">{_sobre()}</aside></div></div>')
                 desc = ' '.join(it['paras'])[:155]
                 escribe(html_de(f'{ruta_n}articulo-{it["num"]}/'), pagina(f'{it["label"]} · {n["titulo"]}', desc, cuerpo_a, 'Normativa'))
                 indice.append({'n': int(it['num']) if it['num'].isdigit() else 1, 'u': f'{ruta_n}articulo-{it["num"]}/', 't': ' '.join(it['paras']),
-                               'k': n['titulo'], 'c': C['codigo'], 'r': it['label'], 'x': 1})
+                               'k': n['titulo'], 'c': C['codigo'], 'r': it['label'], 'x': 1, **({'m': C['alias']} if C.get('alias') else {})})
         resumen.append((C, len(normas), n_arts, base))
         # tarjeta en la portada de la materia
         pm = os.path.join(OUT, 'leyes', C['materia'], 'index.html')
-        if os.path.isfile(pm):
+        if unica:
+            pass
+        elif os.path.isfile(pm):
             doc = open(pm, encoding='utf-8').read()
             tarj = (f'<article class="tarjeta"><div class="entre"><span class="etq">Normas históricas</span><span class="tag ver">Verificar</span></div>'
                     f'<h2 class="h-norma"><a href="{base}">{E(C["titulo"])}</a></h2><p class="sec">{len(normas)} normas · {C["rango"]}</p><p>{n_arts} artículos</p>'

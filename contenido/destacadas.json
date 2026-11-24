@@ -36,6 +36,7 @@
    {"archivo": "ley-1715.pdf", "portada": {"tipo": "Ley N.º 1715", "lineas": ["Servicio", "Nacional de", "Reforma Agraria"], "pie": "1996 · Texto original", "color": "bosque"}}
   ],
   "Comercial": [
+   {"ruta": "/leyes/comercial/codigo-de-comercio/", "titulo": "Código de Comercio", "sub": "Decreto Ley 14379 de 25 de febrero de 1977", "detalle": "1.693 artículos y 5 disposiciones transitorias", "inicio": true, "portada": {"tipo": "Decreto Ley N.º 14379", "lineas": ["Código", "de Comercio"], "pie": "1977", "color": "tinta"}},
    {"archivo": "ley-393-servicios-financieros.pdf", "portada": {"tipo": "Ley N.º 393", "lineas": ["Ley de", "Servicios", "Financieros"], "pie": "2013", "color": "tinta"}}
   ],
   "Tributario": [

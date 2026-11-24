@@ -50,6 +50,7 @@ _ALIAS = {
     'ley-2341.pdf': ['Procedimiento administrativo'],
     'ley-483-notariado.pdf': ['Ley del notariado', 'Notariado'],
     'ley-1715.pdf': ['Ley 1715 texto original'],
+    '/leyes/comercial/codigo-de-comercio/': ['CCo', 'CCom', 'Código mercantil', 'Decreto Ley 14379', 'DL 14379'],
     'compilacion-normativa-agraria-inra.pdf': ['Normativa agraria', 'Compilación agraria', 'Reforma agraria', 'INRA'],
     'ley-393-servicios-financieros.pdf': ['Ley de servicios financieros', 'Ley de bancos', 'Servicios financieros'],
     'ley-708-conciliacion-y-arbitraje.pdf': ['Ley de conciliación y arbitraje', 'Arbitraje', 'Conciliación y arbitraje'],
@@ -233,8 +234,8 @@ def _partes(nombre, registros):
         escribe(f'buscar/{nombre}-{i}.json', json.dumps(parte, ensure_ascii=False, separators=(',', ':')))
     return len(partes)
 
-JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',cpl:'Artículos de compilaciones',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
-var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cmp','trn','tem','gui','glo','pre','aut','bib','cpl','pdf','jur'];
+JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',cco:'Código de Comercio',cpl:'Artículos de compilaciones',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
+var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cco','cmp','trn','tem','gui','glo','pre','aut','bib','cpl','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
 function limpio(t){return ' '+norm(t||'').replace(/[^a-z0-9ñ]+/g,' ').trim()+' '}
 function puntaje(a,s,ws){if(a.c!=='bib'&&a.c!=='ley'&&a.c!=='mat')return 0;var al=(a.a||'').split('|').map(function(x){return limpio(x).trim()}).filter(Boolean),tit=limpio(a.r).trim(),tn=limpio((a.r||'')+' '+(a.a||'').replace(/\|/g,' ')),q=limpio(s).trim(),p;
