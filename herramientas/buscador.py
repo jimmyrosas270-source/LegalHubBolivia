@@ -3,8 +3,10 @@
 
 - buscar/indice.json: además de los artículos, guías, preguntas, glosario, fichas de la
   Biblioteca y autos supremos.
-- buscar/pdf.json: el texto de cada página de los PDF (Biblioteca y revistas), con enlace
-  al visor en esa página. Se descarga solo cuando alguien busca.
+- buscar/pdf-1.json, pdf-2.json...: el texto de cada página de los PDF de la Biblioteca, con enlace
+  al visor en esa página, repartido en partes de hasta TOPE_PARTE (3 MB). Se descargan juntas solo
+  cuando alguien busca; la búsqueda es la misma que con un solo archivo.
+- buscar/extensos-1.json...: revistas y documentos de más de PAGINAS_EXTENSO páginas (solo con filtro).
 """
 import glob as _glob
 import subprocess as _sp
@@ -47,10 +49,14 @@ _ALIAS = {
     'ley-1178.pdf': ['SAFCO', 'Ley SAFCO'],
     'ley-2341.pdf': ['Procedimiento administrativo'],
     'ley-483-notariado.pdf': ['Ley del notariado', 'Notariado'],
+    'ley-1715.pdf': ['Ley INRA', 'INRA', 'Reforma agraria'],
+    'ley-393-servicios-financieros.pdf': ['Ley de servicios financieros', 'Ley de bancos', 'Servicios financieros'],
+    'ley-708-conciliacion-y-arbitraje.pdf': ['Ley de conciliación y arbitraje', 'Arbitraje', 'Conciliación y arbitraje'],
     'materia:Constitucional': ['Derecho constitucional', 'Constitución'],
     'materia:Laboral': ['Trabajo', 'Derecho del trabajo'],
     'materia:Familia': ['Familias', 'Derecho de familia', 'Niñez'],
     'materia:Tributario': ['Tributaria', 'Impuestos'],
+    'materia:Comercial': ['Derecho mercantil', 'Mercantil'],
     'materia:Penal': ['Delitos'],
     'materia:Procesal penal': ['Procedimiento penal'],
     'materia:Procesal civil': ['Procedimiento civil'],
@@ -159,10 +165,12 @@ def indice_ampliado():
                 destino.append({'n': 0, 'u': f'/{ruta_s}/{d["slug"]}/leer/#page={n}', 'r': f'{d["titulo"]} · pág. {n}',
                                 'k': 'Texto del PDF · ' + ('Biblioteca' if ruta_s == 'biblioteca' else 'Jurisprudencia'),
                                 'c': 'pdf' if ruta_s == 'biblioteca' else 'jur', 't': pg})
-    escribe('buscar/pdf.json', json.dumps(paginas, ensure_ascii=False, separators=(',', ':')))
+    # el texto se reparte en varios archivos pequeños (pdf-1.json, pdf-2.json...) que el buscador descarga juntos:
+    # la búsqueda es la misma, pero ningún archivo pasa de TOPE_PARTE y el índice puede crecer sin límite práctico
+    global HAY_EXTENSOS, PARTES_PDF, PARTES_EXT
+    PARTES_PDF = _partes('pdf', paginas)
     # los documentos muy extensos van aparte: solo se descargan al filtrar por «Texto de los PDF» o «revistas»
-    escribe('buscar/extensos.json', json.dumps(extensos, ensure_ascii=False, separators=(',', ':')))
-    global HAY_EXTENSOS
+    PARTES_EXT = _partes('extensos', extensos)
     HAY_EXTENSOS = bool(nombres_ext)
     if nombres_ext:
         print(f'Buscador: {len(nombres_ext)} documento(s) en buscar/extensos.json (revistas y documentos extensos): {", ".join(nombres_ext)}.')
@@ -186,6 +194,26 @@ def indice_ampliado():
 # se buscan con el filtro «Texto de los PDF» o «Texto de las revistas», y dentro de su propio visor.
 PAGINAS_EXTENSO = 500
 HAY_EXTENSOS = False
+# Tamaño máximo de cada parte del índice de texto de los PDF (en bytes, sin comprimir).
+TOPE_PARTE = 3_000_000
+PARTES_PDF = PARTES_EXT = 0
+
+
+def _partes(nombre, registros):
+    """Escribe buscar/<nombre>-1.json, -2.json... (cada uno <= TOPE_PARTE) y devuelve cuántas partes hay."""
+    partes, actual, peso = [], [], 2
+    for r in registros:
+        t = len(json.dumps(r, ensure_ascii=False, separators=(',', ':')).encode('utf-8')) + 1
+        if actual and peso + t > TOPE_PARTE:
+            partes.append(actual)
+            actual, peso = [], 2
+        actual.append(r)
+        peso += t
+    if actual:
+        partes.append(actual)
+    for i, parte in enumerate(partes, 1):
+        escribe(f'buscar/{nombre}-{i}.json', json.dumps(parte, ensure_ascii=False, separators=(',', ':')))
+    return len(partes)
 
 JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
 var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cmp','trn','tem','gui','glo','pre','aut','bib','pdf','jur'];
@@ -211,8 +239,9 @@ lista.forEach(function(a){a._s=puntaje(a,s,palabras.length?palabras:[s])});
 var ordena=function(l){return l.map(function(a,i){return [a,i]}).sort(function(x,y){return (y[0]._s>0)-(x[0]._s>0)||y[0]._s-x[0]._s||rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]})};
 lista=ordena(lista);var nn=0;lista.forEach(function(a){if(a._s>0){nn++;if(nn>6)a._s=0}});if(nn>6)lista=ordena(lista);
 est.textContent=lista.length?(lista.length+(lista.length===1?' resultado':' resultados')+(lista.length>60?'; se muestran los primeros 60':'')):'Sin resultados. Prueba con otra palabra o con el número del artículo.';pinta(lista,palabras);if(!fn)resumen(lista)}
+function junta(nom,k){var ps=[];for(var i=1;i<=k;i++){ps.push(fetch('/buscar/'+nom+'-'+i+'.json').then(function(r){return r.json()}).catch(function(){return []}))}return Promise.all(ps).then(function(xs){return [].concat.apply([],xs)})}
 if(q){est.textContent='Buscando…';var quiere=!fn||fn==='pdf'||fn==='jur';
-Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?fetch('/buscar/pdf.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([]),fn==='pdf'||fn==='jur'?fetch('/buscar/extensos.json').then(function(r){return r.json()}).catch(function(){return []}):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de las revistas de jurisprudencia ni de los documentos muy extensos. Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
+Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?junta('pdf',NPDF):Promise.resolve([]),fn==='pdf'||fn==='jur'?junta('extensos',NEXT):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de las revistas de jurisprudencia ni de los documentos muy extensos. Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
 """
 
 
@@ -228,6 +257,7 @@ def parchar_sitio_js():
         AVISOS.append('No se pudo ampliar la búsqueda en assets/sitio.js (cambió la base).')
         return
     js = JS_BUSQUEDA.replace('if(!fn){var nt', 'if(!fn&&' + ('true' if HAY_EXTENSOS else 'false') + '){var nt')
+    js = js.replace('function junta(', f'var NPDF={PARTES_PDF},NEXT={PARTES_EXT};function junta(', 1)
     open(p, 'w', encoding='utf-8').write(t[:i] + js + t[j:])
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()

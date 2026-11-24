@@ -31,6 +31,12 @@
   "Civil": [
    {"archivo": "codigo-civil.pdf", "inicio": true, "portada": {"tipo": "Decreto Ley N.º 12760", "lineas": ["Código", "Civil"], "pie": "1975 · Actualizado a 2024", "color": "bosque"}}
   ],
+  "Agraria": [
+   {"archivo": "ley-1715.pdf", "portada": {"tipo": "Ley N.º 1715", "lineas": ["Servicio", "Nacional de", "Reforma Agraria"], "pie": "1996 · Texto original", "color": "bosque"}}
+  ],
+  "Comercial": [
+   {"archivo": "ley-393-servicios-financieros.pdf", "portada": {"tipo": "Ley N.º 393", "lineas": ["Ley de", "Servicios", "Financieros"], "pie": "2013", "color": "tinta"}}
+  ],
   "Tributario": [
    {"archivo": "ley-843.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Compilación hasta 2003", "color": "bosque"}}
   ],
