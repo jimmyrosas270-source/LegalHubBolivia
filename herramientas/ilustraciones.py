@@ -4,7 +4,7 @@ Lo ejecuta construir.py. Cada tema elige una clave en su encabezado («imagen: n
 la ilustración toma el color de la materia del tema. Motivo escalonado como en las portadas.
 
 Claves disponibles: ninez, mujer, beneficios, asistencia, usucapion, propiedad, denuncia,
-discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos. Una clave desconocida usa «defensa».
+discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos, tierra, negocio, titulos, arbitraje, banco. Una clave desconocida usa «defensa».
 """
 
 COLOR_MATERIA = {
@@ -156,6 +156,36 @@ def _fig_ilus(clave, c):
                   f'<path d="M166 72l-8 30 22 10-14 26 10 30M158 102l-50 6M180 112l44-14M166 138l-58 20" fill="none" stroke="{_W}" stroke-width="4" stroke-linejoin="round"/>')
         aviso = f'<path d="M300 64l56 100h-112z" fill="{_OC}"/><rect x="295" y="98" width="10" height="36" rx="5" fill="{_W}"/><circle cx="300" cy="148" r="6" fill="{_W}"/>'
         return vidrio + aviso
+    if clave == 'tierra':
+        sol = f'<circle cx="300" cy="70" r="30" fill="{_OC}"/>'
+        surcos = ''.join(f'<path d="M{40 + i * 8} 200C{120 + i * 6} {150 - i * 6} {250 + i * 4} {150 - i * 6} {360 - i * 4} {200 - i * 2}" fill="none" stroke="{_W}" stroke-width="5" opacity="{.9 - i * .15}"/>' for i in range(5))
+        brote = (f'<path d="M150 150v-44" stroke="{_W}" stroke-width="5" stroke-linecap="round"/><path d="M150 118c-22 0-30-14-30-24 16 0 30 8 30 24zM150 108c20 0 28-12 28-22-16 0-28 8-28 22z" fill="{_W}"/>'
+                 f'<path d="M210 140v-30" stroke="{_OC}" stroke-width="4" stroke-linecap="round"/><path d="M210 120c-14 0-20-9-20-16 10 0 20 5 20 16zM210 114c13 0 18-8 18-14-10 0-18 5-18 14z" fill="{_OC}"/>')
+        return sol + surcos + brote
+    if clave == 'negocio':
+        local = (f'<rect x="96" y="92" width="190" height="104" fill="{_W}"/><path d="M84 92h214l-14-36H98z" fill="{_OC}"/>'
+                 + ''.join(f'<path d="M{98 + i * 31} 92a15.5 14 0 0031 0" fill="{_W if i % 2 else _OC}" opacity=".95"/>' for i in range(6))
+                 + f'<rect x="114" y="116" width="70" height="52" rx="3" fill="{c}" opacity=".3"/><rect x="206" y="116" width="58" height="80" rx="3" fill="{c}" opacity=".55"/>')
+        letrero = f'<rect x="300" y="60" width="62" height="40" rx="6" fill="{_W}"/><rect x="312" y="74" width="38" height="6" rx="3" fill="{c}"/><rect x="312" y="86" width="26" height="5" rx="2.5" fill="{c}" opacity=".5"/>'
+        return local + letrero
+    if clave == 'titulos':
+        cheque = (f'<g transform="rotate(-6 200 120)"><rect x="70" y="70" width="250" height="110" rx="10" fill="{_W}"/>'
+                  f'<rect x="88" y="88" width="90" height="8" rx="4" fill="{c}" opacity=".5"/><rect x="232" y="86" width="70" height="22" rx="4" fill="{_OC}"/>'
+                  f'<rect x="88" y="120" width="200" height="6" rx="3" fill="{c}" opacity=".35"/><path d="M200 160c10-14 18 8 28-4s14 6 24-2" fill="none" stroke="{c}" stroke-width="3"/>'
+                  f'<path d="M88 166h80" stroke="{c}" stroke-width="2" opacity=".4"/></g>')
+        sello = f'<circle cx="330" cy="168" r="30" fill="none" stroke="{_OC}" stroke-width="6"/><path d="M316 168l10 10 18-20" fill="none" stroke="{_OC}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>'
+        return cheque + sello
+    if clave == 'arbitraje':
+        mesa = f'<rect x="90" y="150" width="220" height="14" rx="5" fill="{_W}"/><rect x="120" y="164" width="12" height="40" fill="{_W}" opacity=".7"/><rect x="268" y="164" width="12" height="40" fill="{_W}" opacity=".7"/>'
+        gente = _pers_ilus(112, 96, 15, 54) + _pers_ilus(288, 96, 15, 54) + _pers_ilus(200, 78, 17, 72, _OC)
+        burbuja = f'<path d="M150 46h100a12 12 0 0112 12v22a12 12 0 01-12 12h-40l-14 14v-14h-46a12 12 0 01-12-12V58a12 12 0 0112-12z" fill="{_W}"/><path d="M176 70l14 12 34-26" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>'
+        return mesa + gente + burbuja
+    if clave == 'banco':
+        edif = (f'<path d="M90 92L200 44l110 48z" fill="{_W}"/><rect x="96" y="92" width="208" height="12" fill="{_W}"/>'
+                + ''.join(f'<rect x="{112 + i * 46}" y="110" width="18" height="70" rx="3" fill="{_W}"/>' for i in range(5))
+                + f'<rect x="86" y="182" width="228" height="16" rx="3" fill="{_W}"/><circle cx="200" cy="74" r="10" fill="{_OC}"/>')
+        moneda = f'<circle cx="330" cy="168" r="28" fill="{_OC}"/><text x="330" y="179" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="{c}">Bs</text>'
+        return edif + moneda
     # defensa (y valor por defecto): escudo con balanza
     return (f'<path d="M200 40l70 24v58c0 50-34 80-70 94-36-14-70-44-70-94V64z" fill="{_W}"/>'
             f'<path d="M200 74v96M160 92h80M178 182h44" stroke="{c}" stroke-width="7" stroke-linecap="round"/>'

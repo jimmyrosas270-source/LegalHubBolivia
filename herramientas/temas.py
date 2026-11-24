@@ -166,7 +166,7 @@ for t in TEMAS:
 # Enlace «Explicado en un tema» en los artículos de la Constitución y de las leyes por artículos que cita cada tema
 n_rel = 0
 for t in TEMAS:
-    rutas = set(re.findall(r'\]\((/leyes/[^)#\s]+)\)', t['cuerpo']))
+    rutas = set(re.findall(r'\]\((/leyes/[^)#\s]+/articulo-[^)#\s]+)\)', t['cuerpo']))  # solo páginas de artículo
     rutas |= {x.split('|')[0].strip() for x in (t['meta'].get('normas') or []) if x.strip().startswith('/leyes/')}
     for ruta in sorted(rutas):
         if insertar_en_articulo(ruta, f'data-tema="{t["slug"]}"',

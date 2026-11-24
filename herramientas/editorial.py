@@ -31,7 +31,10 @@ def leer_md(ruta):
             elif ':' in l:
                 clave, v = l.split(':', 1)
                 clave = clave.strip().lower()
-                meta[clave] = v.strip()
+                v = v.strip()
+                if len(v) > 1 and v[0] == v[-1] == '"':  # «titulo: "Algo: con dos puntos"» → sin comillas
+                    v = v[1:-1]
+                meta[clave] = v
             i += 1
         i += 1
     return meta, '\n'.join(lineas[i:])
