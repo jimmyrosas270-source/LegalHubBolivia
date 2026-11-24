@@ -121,4 +121,8 @@
 .indice-autos ol{padding-left:22px;margin:8px 0 0}
 .indice-autos li{margin:0 0 10px;line-height:1.45}
 .indice-autos li small{color:var(--sec)}
+.indice-comp details{margin-top:6px}
+.indice-comp details summary{font-size:.92em}
+.arts-comp{display:flex;flex-wrap:wrap;gap:4px 6px;margin:6px 0 0}
+.arts-comp a{display:inline-block;min-width:2.4em;text-align:center;padding:4px 2px;border:1px solid var(--linea,#D5DAD4);border-radius:6px;text-decoration:none;font-size:.88em}
 .tapa img.ancha{object-fit:contain;object-position:center;background:#fff}

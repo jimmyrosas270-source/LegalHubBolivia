@@ -482,7 +482,7 @@ def escribe_fichas(S, DOCS, subtitulo, url, pdf_url):
 <div class="ficha-pdf"><a class="tapa grande" href="{url(d, "leer/")}" aria-label="Abrir en el visor">{tapa_doc(d, "Primera página de " + d["titulo"]) if ruta_s == "biblioteca" else f'<img src="/{ruta_s}/portadas/{d["slug"]}.jpg" alt="Primera página de {E(d["titulo"])}" width="260" height="336"{d.get("cls", "")}>'}<span>{ico("book", 18)}Leer</span></a>
 <div class="ficha-acc"><p class="botones"><a class="btn" href="{url(d, "leer/")}">{ico("book", 20)}&nbsp;Leer en línea</a>{f'<a class="btn sec" href="{pdf_url(d)}" download="{d["slug"]}.pdf">{ico("dl", 20)}&nbsp;Descargar PDF ({tam(d["mb"])})</a>' if DESCARGAS else ''}</p>
 <form class="buscador" action="{url(d, "leer/")}" method="get" role="search">{ico("search", 20)}<input type="search" name="buscar" placeholder="Buscar dentro de este documento" aria-label="Buscar dentro de este documento"{'' if d['con_texto'] else ' disabled'}><button type="submit"{'' if d['con_texto'] else ' disabled'}>Buscar</button></form>{escaneado}</div></div>
-{desc}{indice_autos(d) if ruta_s == 'jurisprudencia' else ''}</div>
+{desc}{indice_autos(d) if ruta_s == 'jurisprudencia' else indice_compilacion(d)}</div>
 <aside>{sobre}{alerta()}</aside></div></div>''', S['nombre']))
         escribe(f'{ruta_s}/{d["slug"]}/leer/index.html', f'''<!doctype html>
 <html lang="es">

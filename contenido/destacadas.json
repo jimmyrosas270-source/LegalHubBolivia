@@ -32,6 +32,7 @@
    {"archivo": "codigo-civil.pdf", "inicio": true, "portada": {"tipo": "Decreto Ley N.º 12760", "lineas": ["Código", "Civil"], "pie": "1975 · Actualizado a 2024", "color": "bosque"}}
   ],
   "Agraria": [
+   {"archivo": "compilacion-normativa-agraria-inra.pdf", "portada": {"tipo": "INRA · Compilación", "lineas": ["Normativa", "Agraria"], "pie": "Ley 1715 y 3545 · Reglamento · Decretos", "color": "verde"}},
    {"archivo": "ley-1715.pdf", "portada": {"tipo": "Ley N.º 1715", "lineas": ["Servicio", "Nacional de", "Reforma Agraria"], "pie": "1996 · Texto original", "color": "bosque"}}
   ],
   "Comercial": [

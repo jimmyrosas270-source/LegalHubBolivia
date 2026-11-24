@@ -60,6 +60,35 @@ def tarjeta_auto(a, con_materia=False):
             f'<p class="libro-acc"><a href="{u}">{"Leer el resumen" if resumen else "Leer el auto"} (pág. {a["pagina"]})</a>{guias}</p></article>')
 
 
+# Compilaciones: un PDF de la Biblioteca que reúne varias normas (contenido/compilaciones/<archivo>.json).
+# Su ficha muestra las normas que contiene y, de cada una, el índice de artículos con la página del visor;
+# el buscador del sitio encuentra cada norma y cada artículo («Ley 1715 art 2», «DS 29215 artículo 300»).
+COMPILACIONES = {}
+for _f in sorted(glob.glob(os.path.join(RAIZ, 'contenido', 'compilaciones', '*.json'))):
+    _c = json.load(open(_f, encoding='utf-8'))
+    COMPILACIONES[_c['archivo']] = _c
+
+
+def indice_compilacion(d):
+    """Índice de las normas de una compilación (en su ficha de la Biblioteca)."""
+    c = COMPILACIONES.get(d['archivo'])
+    if not c:
+        return ''
+    base = f'/biblioteca/{d["slug"]}/leer/#page='
+    filas = []
+    for n in c['normas']:
+        arts = ''
+        if n['articulos']:
+            enl = ' '.join(f'<a href="{base}{a["pagina"]}" title="{E(("Artículo " + str(a["n"]) + (": " + a["titulo"] if a["titulo"] else "") + " · pág. " + str(a["pagina"])))}">{a["n"]}</a>'
+                           for a in n['articulos'])
+            arts = f'<details><summary>Ir a un artículo ({len(n["articulos"])})</summary><p class="arts-comp">{enl}</p></details>'
+        filas.append(f'<li><a href="{base}{n["pagina"]}"><b>{E(n["titulo"])}</b></a> <small>· {E(n["fecha"])} · págs. {n["pagina"]} a {n["hasta"]}</small>'
+                     f'<br>{E(n["descripcion"])}{arts}</li>')
+    return (f'<section class="tarjeta indice-autos indice-comp" id="normas-que-contiene"><h2>Normas que contiene ({len(c["normas"])})</h2>'
+            f'<p class="sec">Cada enlace abre el visor en la página donde empieza la norma o el artículo. Descripciones propias, no son texto legal. '
+            f'También puedes buscar en el sitio, por ejemplo «Ley 1715 art 2» o «DS 29215 artículo 300».</p><ol>{"".join(filas)}</ol></section>')
+
+
 def indice_autos(d):
     """Índice desplegable de los autos de una publicación de Jurisprudencia (en su ficha)."""
     lista = orden_autos([a for a in AUTOS if a['revista'] == d['slug']])

@@ -49,7 +49,8 @@ _ALIAS = {
     'ley-1178.pdf': ['SAFCO', 'Ley SAFCO'],
     'ley-2341.pdf': ['Procedimiento administrativo'],
     'ley-483-notariado.pdf': ['Ley del notariado', 'Notariado'],
-    'ley-1715.pdf': ['Ley INRA', 'INRA', 'Reforma agraria'],
+    'ley-1715.pdf': ['Ley 1715 texto original'],
+    'compilacion-normativa-agraria-inra.pdf': ['Normativa agraria', 'Compilación agraria', 'Reforma agraria', 'INRA'],
     'ley-393-servicios-financieros.pdf': ['Ley de servicios financieros', 'Ley de bancos', 'Servicios financieros'],
     'ley-708-conciliacion-y-arbitraje.pdf': ['Ley de conciliación y arbitraje', 'Arbitraje', 'Conciliación y arbitraje'],
     'materia:Constitucional': ['Derecho constitucional', 'Constitución'],
@@ -116,6 +117,23 @@ def indice_ampliado():
             nuevos.append({'n': 0, 'u': f'/{ruta_s}/{d["slug"]}/', 'r': d['titulo'], 'c': 'bib', 'a': alias, 'p': prio.get(d['archivo'], 0),
                            'k': f'{"Biblioteca" if ruta_s == "biblioteca" else "Jurisprudencia"} · {d.get("tipo") or "PDF"} · {d.get("materia", "")}'.rstrip(' ·'),
                            't': f'{d["titulo"]}. {d.get("tipo", "")} {d.get("numero", "")}, {d.get("fecha", "")}. {d.get("descripcion", "")} {alias.replace("|", ". ")}'})
+    # normas reunidas en una compilación (p. ej. «Normativa Agraria» del INRA): cada norma y cada artículo, con enlace al visor
+    for arch_, comp_ in COMPILACIONES.items():
+        d_ = next((x for x in DOCS if x['archivo'] == arch_), None)
+        if not d_:
+            continue
+        base_ = f'/biblioteca/{d_["slug"]}/leer/#page='
+        for n_ in comp_['normas']:
+            nombre_ = f'{n_["tipo"]} {n_["numero"]}'.strip()
+            alias = '|'.join(x for x in [nombre_, *n_['alias']] if x)
+            nuevos.append({'n': 0, 'u': base_ + str(n_['pagina']), 'r': n_['titulo'], 'c': 'bib', 'a': alias, 'p': 2 if n_['clave'] == '1715' else 1,
+                           'k': f'En la compilación «{d_["titulo"]}» · págs. {n_["pagina"]} a {n_["hasta"]} · {d_.get("materia", "")}',
+                           't': f'{n_["titulo"]}. {n_["fecha"]}. {n_["descripcion"]} {alias.replace("|", ". ")}'})
+            for a_ in n_['articulos']:
+                nuevos.append({'n': a_['n'], 'x': 1, 'u': base_ + str(a_['pagina']), 'c': 'cpl', 'm': alias,
+                               'r': f'{nombre_} · Artículo {a_["n"]}' + (f' ({a_["titulo"]})' if a_['titulo'] else ''),
+                               'k': f'{n_["titulo"]} · {d_["titulo"]}, pág. {a_["pagina"]}',
+                               't': a_['texto']})
     # normas por artículos (Constitución, LGT, Reglamento, Código Procesal del Trabajo)
     for m_, lista_ in DESTACADAS.items():
         for x in lista_:
@@ -215,8 +233,8 @@ def _partes(nombre, registros):
         escribe(f'buscar/{nombre}-{i}.json', json.dumps(parte, ensure_ascii=False, separators=(',', ':')))
     return len(partes)
 
-JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
-var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cmp','trn','tem','gui','glo','pre','aut','bib','pdf','jur'];
+JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',cpl:'Artículos de compilaciones',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
+var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cmp','trn','tem','gui','glo','pre','aut','bib','cpl','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
 function limpio(t){return ' '+norm(t||'').replace(/[^a-z0-9ñ]+/g,' ').trim()+' '}
 function puntaje(a,s,ws){if(a.c!=='bib'&&a.c!=='ley'&&a.c!=='mat')return 0;var al=(a.a||'').split('|').map(function(x){return limpio(x).trim()}).filter(Boolean),tit=limpio(a.r).trim(),tn=limpio((a.r||'')+' '+(a.a||'').replace(/\|/g,' ')),q=limpio(s).trim(),p;
@@ -234,7 +252,8 @@ function resumen(lista){var cu={};lista.forEach(function(a){cu[a.c]=(cu[a.c]||0)
 var nav=d.createElement('nav');nav.className='por-tipo';nav.setAttribute('aria-label','Resultados por sección');nav.innerHTML='<b>Ver solo:</b>'+ks.map(function(c){return '<a href="/buscar/?q='+encodeURIComponent(q)+'&n='+c+'">'+esc(NOMBRE[c]||c)+' <small>('+cu[c]+')</small></a>'}).join('');var otros=R.querySelector('.res-sec + .res.norma ~ .res-sec');if(otros){R.insertBefore(nav,otros)}else{R.parentNode.insertBefore(nav,R)}}
 function busca(datos){var s=norm(q.trim());if(!s){est.textContent='';return}if(fn){datos=datos.filter(function(a){return a.c===fn})}
 var num=s.match(/^(?:art(?:iculo)?\.?\s*)?(\d{1,4})$/);var palabras=s.split(/\s+/).filter(Boolean);var lista;
-if(num){var soloArt=/^art/.test(s);lista=datos.filter(function(a){return (a.n===+num[1]&&(!a.x||fn===a.c))||(!soloArt&&puntaje(a,s,[s])>0)});palabras=[]}else{lista=datos.filter(function(a){var n=norm(a.t+' '+(a.r||'')+' '+(a.a||''));return palabras.every(function(w){return n.indexOf(w)>=0})})}
+var na=num?null:s.match(/^(.+?)\s+art(?:iculo|\.)?\s*(\d{1,4})$/);if(na){var pw=na[1].split(/\s+/).filter(Boolean),nn_=+na[2];lista=datos.filter(function(a){if(a.n!==nn_)return false;var h=norm((a.r||'')+' '+(a.a||'')+' '+(a.m||'')+' '+(a.r?'':(a.k||'')));return pw.every(function(w){return h.indexOf(w)>=0})});if(lista.length){palabras=[];num=null}else{lista=null;na=null}}
+if(na){}else if(num){var soloArt=/^art/.test(s);lista=datos.filter(function(a){return (a.n===+num[1]&&(!a.x||fn===a.c))||(!soloArt&&puntaje(a,s,[s])>0)});palabras=[]}else{lista=datos.filter(function(a){var n=norm(a.t+' '+(a.r||'')+' '+(a.a||''));return palabras.every(function(w){return n.indexOf(w)>=0})})}
 lista.forEach(function(a){a._s=puntaje(a,s,palabras.length?palabras:[s])});
 var ordena=function(l){return l.map(function(a,i){return [a,i]}).sort(function(x,y){return (y[0]._s>0)-(x[0]._s>0)||y[0]._s-x[0]._s||rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]})};
 lista=ordena(lista);var nn=0;lista.forEach(function(a){if(a._s>0){nn++;if(nn>6)a._s=0}});if(nn>6)lista=ordena(lista);
