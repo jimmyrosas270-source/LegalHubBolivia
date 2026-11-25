@@ -210,6 +210,497 @@
         "Este artículo dice que solo el Estado podrá actuar como intermediario entre patronos y trabajadores. El artículo 23 del Reglamento (en este sitio) permite que el Ministerio de Trabajo autorice a las empresas a usar intermediarios para contratar trabajadores mientras el Estado organice servicios oficiales de enganche.",
         "El Decreto Supremo 0521, de 26 de mayo de 2010 (en la Biblioteca), incluye el enganche entre las figuras que no pueden usarse para evadir la normativa laboral en tareas propias y permanentes del giro del establecimiento. Cómo se aplican hoy los tres textos debe confirmarse en una fuente oficial. [VERIFICAR CON FUENTE OFICIAL] Ver la guía «Subcontratación, tercerización y enganche»."
       ]
+    },
+    {
+      "id": "cco-art-1",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-1/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si un asunto comercial no tiene una regla propia en este Código, primero se busca una regla parecida dentro del mismo Código y, si no la hay, se aplica el Código Civil.",
+        "Los materiales de apoyo recuerdan que el derecho comercial nació como un derecho especial para los comerciantes y que hoy abarca también la industria y los servicios, no solo la compra y venta."
+      ]
+    },
+    {
+      "id": "cco-art-3",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-3/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: cuando un trámite comercial no tiene un procedimiento propio en este Código o en una ley especial, se sigue el procedimiento civil. El Código menciona el Código de Procedimiento Civil, que hoy fue reemplazado por el Código Procesal Civil (Ley 439) [VERIFICAR].",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1299, p. 158) [VERIFICAR]: los jueces deben seguir las formas de procedimiento que fijan las leyes; no pueden inventar trámites."
+      ]
+    },
+    {
+      "id": "cco-art-5",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-5/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: puede ser comerciante cualquier persona mayor de edad con capacidad para obligarse, y también una sociedad comercial. Las empresas extranjeras que operan en Bolivia quedan sujetas a este Código.",
+        "Los materiales de apoyo explican que todo el sistema del Código gira alrededor de la figura del comerciante: muchos actos son comerciales justamente porque los hace un comerciante."
+      ]
+    },
+    {
+      "id": "cco-art-9",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-9/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si una compraventa u otro acto es comercial solo para una de las partes (por ejemplo, una tienda que vende a un particular), el contrato completo se rige por el Código de Comercio, también para el particular.",
+        "Los materiales de apoyo señalan que este artículo evita discusiones sobre qué ley aplicar cuando una parte es comerciante y la otra no."
+      ]
+    },
+    {
+      "id": "cco-art-13",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-13/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: un menor emancipado o habilitado de por lo menos dieciocho años puede ejercer el comercio y, en lo comercial, se lo trata como mayor de edad: no puede alegar su minoría para perjudicar a quien contrató de buena fe.",
+        "Los materiales de apoyo advierten que el Código no distingue bien entre emancipación y habilitación, y que para vender o hipotecar inmuebles el menor emancipado podía necesitar autorización judicial según la ley de familia de entonces. Hoy la mayoría de edad es a los dieciocho años y rige el Código de las Familias: conviene verificar cómo se aplica esta regla [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-19",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-19/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: no pueden ejercer el comercio quienes tienen una prohibición legal o judicial, los quebrados no rehabilitados, los administradores de sociedades con quiebra culpable o fraudulenta mientras dure su condena y los servidores públicos en actividades ligadas a su cargo.",
+        "Los materiales de apoyo distinguen entre incapacidad (falta un requisito para ser comerciante) y prohibición (la persona es capaz, pero la ley le impide comerciar por su situación o su cargo).",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 866, p. 49) [VERIFICAR]: para que una persona pierda el ejercicio de sus derechos por incapacidad hace falta una sentencia que la declare en interdicción."
+      ]
+    },
+    {
+      "id": "cco-art-23",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-23/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: quien comercia sin tener capacidad no se vuelve comerciante. Los padres, tutores o curadores responden con su propio patrimonio por los daños que el incapaz cause con esa actividad a terceros de buena fe, si pudieron evitarlo y no lo hicieron.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 540, p. 21 y N° 792, p. 23) [VERIFICAR]: quien era capaz al contratar no puede luego pedir la nulidad alegando la incapacidad de la otra parte; ese reclamo solo le corresponde al incapaz o a su representante."
+      ]
+    },
+    {
+      "id": "cco-art-25",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-25/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el comerciante tiene tres grandes grupos de deberes: inscribirse e inscribir sus actos en el Registro de Comercio, llevar contabilidad y conservar sus libros y documentos. Además debe cumplir sus impuestos y no competir deslealmente.",
+        "Los materiales de apoyo explican que estos deberes existen por la función social del comercio: protegen a los clientes, a los acreedores y al Estado. El incumplimiento puede traer sanciones administrativas o, en una quiebra, agravar la responsabilidad del comerciante [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-63",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-63/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en un juicio entre un comerciante y un particular, los libros del comerciante no bastan por sí solos para probar que el particular le debe algo; hacen falta otras pruebas (documentos firmados, testigos, confesión).",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 746, p. 24) [VERIFICAR]: los pagos respaldados con documentos privados reconocidos y con los libros comerciales sí deben tomarse en cuenta.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 804, p. 18) [VERIFICAR]: la palabra «cancelado» escrita en un documento de deuda, si se reconoce, prueba el pago y le quita fuerza ejecutiva al documento."
+      ]
+    },
+    {
+      "id": "cco-art-86",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-86/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el factor (el encargado o gerente de un negocio) responde ante el dueño por los daños que cause con dolo, por descuido o por no seguir las instrucciones recibidas.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 542, p. 7) [VERIFICAR]: el dependiente que por descuido permitió que se sustrajera dinero del negocio debe reparar ese daño a su principal.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1265, p. 17) [VERIFICAR]: el dolo no se presume; quien lo alega debe probarlo."
+      ]
+    },
+    {
+      "id": "cco-art-126",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-126/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: no se pueden crear sociedades comerciales «a medida»; solo valen los seis tipos que enumera el Código. Una sociedad que no se ajuste a uno de ellos tiene problemas de validez.",
+        "Los materiales de apoyo explican que esta regla (llamada tipicidad) da seguridad a quienes contratan con la sociedad, porque el tipo les dice cómo responden los socios por las deudas."
+      ]
+    },
+    {
+      "id": "cco-art-128",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-128/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: para constituir o modificar una sociedad comercial hace falta escritura pública ante notario; solo la asociación accidental puede hacerse en documento privado. Si un socio se niega a firmar la escritura, cualquier otro puede pedir al juez, en proceso sumario, que se otorgue e inscriba.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 746, p. 30) [VERIFICAR]: no basta alegar que la sociedad se formó de palabra; su existencia debe acreditarse por escrito.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 515, p. 5 y N° 562, p. 8) [VERIFICAR]: una escritura pública con un defecto grave puede valer como documento privado si las partes la firmaron."
+      ]
+    },
+    {
+      "id": "cco-art-133",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-133/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: la sociedad existe como persona distinta de sus socios desde que se inscribe en el Registro de Comercio. Desde ese momento tiene su propio patrimonio, sus propias deudas y puede demandar y ser demandada.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 673, p. 14) [VERIFICAR]: las deudas de la sociedad se cobran a la sociedad y no a sus administradores.",
+        "Los materiales de apoyo citan además un criterio antiguo según el cual los bienes de la sociedad no responden por las deudas personales de los socios; al acreedor del socio solo le alcanza lo que a ese socio le toque en la liquidación [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-138",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-138/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si un socio entró a la sociedad engañado, por error o bajo presión y el juez lo declara, el contrato se anula solo para ese socio; se anula para todos si su participación era indispensable para la sociedad.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 889, p. 14 y N° 956, p. 140) [VERIFICAR]: para anular un contrato por dolo hay que probar que los engaños de la otra parte fueron tales que sin ellos no se habría contratado.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 640, p. 13) [VERIFICAR]: el dolo puede probarse con testigos, indicios y presunciones."
+      ]
+    },
+    {
+      "id": "cco-art-143",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-143/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: cuando una sociedad reduce su capital, sus acreedores pueden oponerse ante el juez dentro de los treinta días siguientes a la publicación de la reducción. Entonces la reducción solo puede hacerse si la sociedad les paga o les garantiza lo que les debe, o si el juez rechaza la oposición en sentencia ejecutoriada.",
+        "Los materiales de apoyo relacionan esta regla con el principio de que los bienes del deudor son la garantía común de sus acreedores: la sociedad no puede achicar esa garantía en perjuicio de ellos [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-144",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-144/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: dos esposos solo pueden ser socios entre sí, o junto con otras personas, en sociedades donde la responsabilidad es limitada (anónima, en comandita por acciones o de responsabilidad limitada). Si están en una sociedad colectiva o en comandita simple, tienen seis meses para transformarla o para que uno ceda su parte; si no lo hacen, el contrato social se anula y la sociedad se liquida.",
+        "Los materiales de apoyo explican que la regla busca que una sociedad no sirva para alterar el régimen de bienes del matrimonio ni para trasladar riesgos de un esposo al otro. Debe leerse junto con el Código de las Familias [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-159",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-159/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el socio que no entrega su aporte en las condiciones y plazos pactados queda en mora. La sociedad puede cobrárselo por la vía ejecutiva o excluirlo, y además pedir los daños e intereses.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 454, p. 8) [VERIFICAR]: cuando lo que se debe es una suma de dinero, el daño por el retraso se repara pagando los intereses legales.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 668, p. 15) [VERIFICAR]: si el socio entregó menos de lo prometido como aporte, el juez puede rescindir el contrato social con daños e intereses."
+      ]
+    },
+    {
+      "id": "cco-art-163",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-163/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: la sociedad queda obligada por los actos que sus administradores o representantes hagan dentro del objeto social y según el contrato o los estatutos.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 648, p. 21) [VERIFICAR]: la demanda contra una sociedad anónima se notifica a su gerente.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 709, p. 5) [VERIFICAR]: el socio administrador puede hacer los actos propios de su administración aunque otros socios se opongan, siempre que no haya fraude y respete sus instrucciones."
+      ]
+    },
+    {
+      "id": "cco-art-173",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-173/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en la sociedad colectiva cada socio puede ser obligado a pagar todas las deudas de la sociedad con sus bienes personales.",
+        "Los materiales de apoyo explican que por eso este tipo de sociedad suele formarse entre familiares o personas de mucha confianza, y que hoy se usa poco frente a la sociedad de responsabilidad limitada."
+      ]
+    },
+    {
+      "id": "cco-art-195",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-195/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en la sociedad de responsabilidad limitada (SRL) cada socio arriesga solo lo que aportó. Su participación se llama cuota y no puede convertirse en acciones ni en títulos valores.",
+        "Los materiales de apoyo explican que la SRL nació para las empresas pequeñas y medianas: une la confianza entre pocos socios con la protección del patrimonio personal."
+      ]
+    },
+    {
+      "id": "cco-art-217",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-217/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en la sociedad anónima el capital se divide en acciones y cada accionista responde solo hasta el valor de las acciones que suscribió.",
+        "Los materiales de apoyo señalan que es la forma propia de las grandes empresas, porque permite reunir capital de muchas personas que no necesitan conocerse entre sí."
+      ]
+    },
+    {
+      "id": "cco-art-302",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-302/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: una decisión de la junta de accionistas que viole el Código, los estatutos o el orden público puede ser impugnada. Pueden hacerlo los directores, administradores, síndicos, la autoridad de control o el accionista que no participó o que dejó constancia de su desacuerdo. La demanda va contra la sociedad dentro de los sesenta días.",
+        "Los materiales de apoyo explican que hay que distinguir la validez de la junta (si se convocó y reunió bien), la del acuerdo (si su contenido es legal) y la de cada voto."
+      ]
+    },
+    {
+      "id": "cco-art-366",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-366/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: la asociación accidental o de cuentas en participación (por ejemplo, dos personas que se juntan para un negocio puntual) no necesita escritura pública ni inscripción, y su existencia puede probarse con cualquier medio.",
+        "Los materiales de apoyo explican que no crea una persona jurídica nueva: frente a terceros actúa solo el gestor, y los demás participantes se entienden con él según lo pactado."
+      ]
+    },
+    {
+      "id": "cco-art-378",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-378/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: una sociedad se disuelve por acuerdo de los socios, por vencer su plazo, por cumplirse su objeto o hacerse imposible, por grandes pérdidas y por las demás causas de la lista.",
+        "Los materiales de apoyo aclaran que la disolución no hace desaparecer a la sociedad de inmediato: empieza la liquidación, en la que se terminan los negocios pendientes, se paga a los acreedores y recién después se reparte lo que quede entre los socios."
+      ]
+    },
+    {
+      "id": "cco-art-541",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-541/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: una letra de cambio debe tener todos los datos que enumera este artículo; si le falta alguno que la ley no supla, no vale como letra de cambio.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1308, p. 66) [VERIFICAR]: no es válida la letra de cambio firmada para pagar una deuda de juego de azar, porque su causa es ilícita."
+      ]
+    },
+    {
+      "id": "cco-art-550",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-550/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: quien acepta una letra (el girado que la firma como aceptante) se convierte en el principal obligado a pagarla al vencimiento, aunque el girador haya muerto o quebrado.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1297, p. 50) [VERIFICAR]: al aceptante prácticamente solo se le admite la defensa de que la letra es falsa. Hoy las defensas posibles están en el artículo 584."
+      ]
+    },
+    {
+      "id": "cco-art-569",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-569/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el protesto es el acta notarial que prueba que la letra se presentó a tiempo y no se aceptó o no se pagó. Salvo que la ley diga otra cosa, nada lo reemplaza.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1338, p. 14) [VERIFICAR]: un protesto mal hecho deja a la letra sin fuerza ejecutiva.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: un protesto hecho en el extranjero necesita estar debidamente legalizado para valer en Bolivia."
+      ]
+    },
+    {
+      "id": "cco-art-581",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-581/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: la acción ejecutiva es directa cuando se cobra al aceptante o a sus avalistas, y de regreso cuando se cobra al girador o a los endosantes.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 643, p. 11 y N° 1202, p. 39) [VERIFICAR]: la letra protestada permite demandar por la vía ejecutiva; si no se protestó cuando correspondía, pierde esa fuerza (ver también el artículo 588)."
+      ]
+    },
+    {
+      "id": "cco-art-582",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-582/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: además del importe de la letra, el tenedor puede cobrar los intereses moratorios desde el vencimiento, los gastos del protesto y otros gastos legítimos.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Labor Judicial 1977, p. 215) [VERIFICAR]: los materiales de apoyo mencionan un interés legal del seis por ciento anual para los juicios, con base en normas antiguas y en el Código Civil. Hay que verificar la tasa aplicable hoy."
+      ]
+    },
+    {
+      "id": "cco-art-584",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-584/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: quien es demandado por una letra solo puede defenderse con las excepciones de esta lista: que la firma no es suya, falta de personería, que a la letra le faltan requisitos, que fue alterada, que ya se pagó o hubo quita, entre otras.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: la excepción de falsedad de la firma debe probarla quien la alega.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: el juez debe revisar desde el inicio que quien demanda en nombre de otro tenga poder suficiente; si no lo hace, la ejecución puede caer."
+      ]
+    },
+    {
+      "id": "cco-art-588",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-588/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si la letra no se presentó a tiempo o no se protestó en plazo, el tenedor pierde la acción ejecutiva contra el girador y los endosantes. Aún puede cobrar, pero por la vía ordinaria que corresponda.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 1205, p. 36) [VERIFICAR]: la letra no protestada carece de fuerza ejecutiva."
+      ]
+    },
+    {
+      "id": "cco-art-592",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-592/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el pagaré es una promesa de pago; debe decir que es pagaré, la suma, a quién se paga, el vencimiento, el lugar y la fecha y llevar la firma del deudor.",
+        "Los materiales de apoyo citan un criterio antiguo que veía el pagaré como un documento entre comerciantes; hoy lo usa cualquier persona y se rige por este Código [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-600",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-600/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el cheque es una orden de pago a la vista contra un banco y debe tener los datos de este artículo, entre ellos la firma de puño y letra del girador.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 817, p. 35) [VERIFICAR]: el cheque debe pagarse al presentarlo, dentro del plazo legal."
+      ]
+    },
+    {
+      "id": "cco-art-640",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-640/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: comete delito quien gira un cheque sabiendo que no será pagado porque no tiene autorización, no tiene fondos, retiró los fondos, la cuenta está cerrada o el cheque tiene defectos que el tenedor no puede corregir. También quien usa el cheque como garantía sabiendo que no hay fondos.",
+        "Los materiales de apoyo recogen criterios antiguos según los cuales el cheque dado como garantía de un préstamo, con conocimiento del acreedor, no era estafa sino una deuda civil. Hoy el Código Penal (artículo 204) castiga expresamente usar el cheque como garantía y declara nulo ese cheque, así que esos criterios ya no deben seguirse [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-788",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-788/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en los negocios comerciales, si hay varios deudores se presume que cada uno debe el total (solidaridad), salvo que el contrato diga otra cosa. En el Código Civil es al revés: la solidaridad no existe salvo pacto expreso o disposición de la ley (Código Civil, artículo 435).",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 436, p. 659) [VERIFICAR]: hay solidaridad cuando varios se obligan a lo mismo de modo que cada uno puede ser demandado por el total."
+      ]
+    },
+    {
+      "id": "cco-art-792",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-792/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: nadie puede quedarse con un beneficio a costa de otro sin una razón jurídica que lo justifique; quien lo hace debe devolverlo.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 619, p. 9) [VERIFICAR]: quien recibe algo que no se le debía tiene que devolverlo o, si ya no existe, pagar su valor."
+      ]
+    },
+    {
+      "id": "cco-art-794",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-794/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si el contrato no fija fecha de pago, la obligación se puede exigir de inmediato, presentando el documento al deudor, salvo que la ley diga otra cosa.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 752, p. 20) [VERIFICAR]: así se ha aplicado esta regla a las obligaciones comerciales sin plazo."
+      ]
+    },
+    {
+      "id": "cco-art-798",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-798/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si en un préstamo comercial no se pactó el interés, se aplica el interés bancario corriente y, desde el vencimiento, el moratorio bancario. Esas tasas se prueban con una certificación de la autoridad que supervisa a los bancos (hoy la ASFI) [VERIFICAR].",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 594, p. 3 y N° 775, p. 40) [VERIFICAR]: los intereses de mora corren desde que el deudor cae en mora, por ejemplo desde que se le requiere el pago."
+      ]
+    },
+    {
+      "id": "cco-art-801",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-801/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: la cláusula penal es una multa pactada para el caso de incumplimiento. Una vez pactada, ninguna de las partes puede echarse atrás del contrato, y la multa nunca puede ser mayor que la obligación principal.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: la multa pactada corre desde que el deudor cae en mora, en general después de un requerimiento del acreedor.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 651, p. 19) [VERIFICAR]: no se cobra la multa si el incumplimiento se debió a causas ajenas a la voluntad de las partes."
+      ]
+    },
+    {
+      "id": "cco-art-803",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-803/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en los contratos se presume la buena fe. Obligan no solo a lo que dicen sus cláusulas, sino también a lo que corresponde según la ley, la costumbre o la equidad.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: es válido y obligatorio el pacto de no abrir un negocio igual durante un tiempo para no perjudicar a quien compró el establecimiento."
+      ]
+    },
+    {
+      "id": "cco-art-805",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-805/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si en un contrato bilateral una parte no cumple, la otra puede pedir el cumplimiento o la resolución, con daños y perjuicios (Código Civil, artículo 568). Las partes también pueden pactar que el contrato se resuelva solo, sin juez, si una obligación concreta no se cumple.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 393 y N° 580, p. 2) [VERIFICAR]: sin ese pacto expreso, el incumplimiento no resuelve el contrato automáticamente; hace falta pedirlo al juez."
+      ]
+    },
+    {
+      "id": "cco-art-810",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-810/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el acreedor que tiene en su poder bienes de su deudor puede retenerlos hasta que le paguen o le den garantía suficiente. Mientras los retiene, debe cuidarlos como un depositario.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 636, p. 4) [VERIFICAR]: no se puede retener si el derecho del acreedor está en discusión."
+      ]
+    },
+    {
+      "id": "cco-art-849",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-849/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el vendedor responde si la mercadería tenía defectos ocultos anteriores a la venta o si un tercero le quita al comprador lo comprado (evicción). El comprador puede pedir que se deje sin efecto la venta o que se rebaje el precio, más daños si el vendedor conocía o debía conocer el defecto. El plazo para reclamar es de un año desde la entrega.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: el comprador puede hacer valer esta garantía demandando o como defensa si lo demandan a él."
+      ]
+    },
+    {
+      "id": "cco-art-999",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-999/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: si al contratar un seguro se declaran datos falsos o se ocultan hechos importantes de mala fe, el seguro es nulo y el asegurado pierde las primas pagadas.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 493, p. 3) [VERIFICAR]: el dolo debe probarse; no se presume."
+      ]
+    },
+    {
+      "id": "cco-art-1238",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-1238/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el mandato general sirve para los actos ordinarios del negocio encargado; para actos fuera de lo ordinario hace falta un mandato especial que los mencione.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 634, p. 4) [VERIFICAR]: si el poder no dice expresamente que se puede hipotecar, el apoderado no puede constituir una hipoteca."
+      ]
+    },
+    {
+      "id": "cco-art-1240",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-1240/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: fuera de su remuneración, el mandatario no puede quedarse con ninguna ganancia del negocio que se le encargó: todo beneficio es del mandante.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo (Gaceta Judicial N° 387, p. 193) [VERIFICAR]: el mandatario debe rendir cuentas de todo lo que recibió y pagar intereses por las sumas que usó para sí."
+      ]
+    },
+    {
+      "id": "cco-art-1487",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-1487/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: el comerciante o la sociedad que ya no puede pagar sus deudas puede pedir al juez un concurso preventivo para negociar un convenio con sus acreedores y evitar la quiebra.",
+        "Este procedimiento pudo ser modificado o reemplazado por leyes posteriores sobre reestructuración de empresas; verifique la norma vigente antes de usarlo [VERIFICAR]."
+      ]
+    },
+    {
+      "id": "cco-art-1628",
+      "ruta": "/leyes/comercial/codigo-de-comercio/articulo-1628/",
+      "publicar": true,
+      "estado_revision": "Pendiente de revisión legal humana",
+      "texto": [
+        "En palabras simples: en la quiebra, el juez dicta la sentencia de grados y preferencia, que fija en qué orden y cuánto se paga a cada acreedor con los bienes del quebrado.",
+        "Criterio de jurisprudencia citado en los materiales de apoyo [VERIFICAR]: esa sentencia solo ordena la prelación de los créditos; las discusiones de fondo sobre si un crédito existe se resuelven en el juicio que corresponda."
+      ]
     }
   ]
 }
