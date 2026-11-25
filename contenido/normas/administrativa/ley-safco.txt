@@ -1,0 +1,408 @@
+=== Ley de Administración y Control Gubernamentales (SAFCO)
+slug: ley-safco
+tipo: Ley
+fecha: 1990-07-20
+epigrafe: Ley 1178 de 20 de julio de 1990
+
+§ CAPÍTULO I · FINALIDAD Y ÁMBITO DE APLICACIÓN
+
+@ Artículo 1
+La presente ley regula los sistemas de Administración y de Control de los recursos del Estado y su relación con los sistemas nacionales de Planificación e Inversión Pública, con el objeto de:
+
+a) Programar, organizar, ejecutar y controlar la captación y el uso eficaz y eficiente de los recur- sos públicos para el cumplimiento y ajuste oportuno de las políticas, los programas, la pres- tación de servicios y los proyectos del Sector Público;
+
+b) Disponer de información útil, oportuna y confiable asegurando la razonabilidad de los infor- mes y estados financieros;
+
+c) Lograr que todo servidor público, sin distinción de jerarquía, asuma plena responsabilidad por sus actos rindiendo cuenta no sólo de los objetivos a que se destinaron los recursos públicos que le fueron confiados sino también de la forma y resultado de su aplicación,
+
+d) Desarrollar la capacidad administrativa para impedir o identificar y comprobar el manejo inco- rrecto de los recursos del Estado.
+
+@ Artículo 2
+Los sistemas que se regulan son:
+
+a) Para programar y organizar las actividades:
+
+- Programación de Operaciones.
+
+- Organización Administrativa.
+
+- Presupuesto.
+
+b) Para ejecutar las actividades programadas:
+
+- Administración de Personal.
+
+- Administración de Bienes y Servicios.
+
+- Tesorería y Crédito Público.
+
+- Contabilidad Integrada.
+
+c) Para controlar la gestión del Sector Público:
+
+- Control Gubernamental, integrado por el Control Interno y el Control Externo Posterior.
+
+@ Artículo 3
+Los sistemas de Administración y de Control se aplicarán en todas las entidades del Sector Público, sin excepción, entendiéndose por tales la Presidencia y Vicepresidencia de la República, los ministerios, las unidades administrativas de la Contraloría General de la República y de las Cortes Electorales; el Banco Central de Bolivia, las Superintendencias de Bancos y de Seguros, las Corporaciones de Desarrollo y las entidades estatales de intermediación financiera; las Fuerzas Armadas y de la Policía Nacional; los gobiernos departamentales, las universidades y las municipalidades; las instituciones, organismos y empresas de los gobiernos nacional, departa- mental y local, y toda otra persona jurídica donde el Estado tenga la mayoría del patrimonio.
+
+@ Artículo 4
+Los Poderes Legislativo y Judicial aplicarán a sus unidades administrativas las mismas normas contempladas en la presente Ley, conforme a sus propios objetivos, planes y políticas, en el marco de la independencia y coordinación de poderes.
+
+@ Artículo 5
+Toda persona no comprendida en los artículos 30 y 40, cualquiera sea su naturaleza jurídica, que reciba recursos del Estado para su inversión o funcionamiento, se beneficie de subsidios, sub- venciones, ventajas o exenciones, o preste servicios públicos no sujetos a la libre competencia, según la reglamentación y con las excepciones por cuantía que la misma señale, informará a la entidad pública competente sobre el destino, forma y resultados del manejo de los recursos y privilegios públicos y le presentará estados financieros debidamente auditados. También podrá exigirse opinión calificada e independiente sobre la efectividad de algunos o todos los sistemas de administración y control que utiliza.
+
+§ CAPÍTULO II · SISTEMAS DE ADMINISTRACIÓN Y DE CONTROL
+
+@ Artículo 6
+El Sistema de Programación de Operaciones traducirá los objetivos y planes estratégicos de cada entidad, concordantes con los planes y políticas generados por el Sistema Nacional de Planificación, en resultados concretos a alcanzar en el corto y mediano plazo; en tareas especí- ficas a ejecutar; en procedimientos a emplear y en medios y recursos a utilizar, todo ello en fun- ción del tiempo y del espacio. Esta programación será de carácter integral, incluyendo tanto las operaciones de funcionamiento como las de ejecución de preinversión e inversión. El proceso de programación de inversiones deberá corresponder a proyectos compatibilizados con las polí- ticas sectoriales y regionales, de acuerdo con las normas del Sistema Nacional de Inversión Pública.
+
+@ Artículo 7
+El Sistema de Organización Administrativa se definirá y ajustará en función de la Programación de Operaciones. Evitará la duplicidad de objetivos y atribuciones mediante la adecuación, fusión o supresión de las entidades, en seguimiento de los siguientes preceptos:
+
+a) Se centralizará en la entidad cabeza de sector de los diferentes niveles de gobierno, las fun- ciones de adoptar políticas, emitir normas y vigilar su ejecución y cumplimiento; y se descon- centrará o descentralizará la ejecución de las políticas y el manejo de los sistemas de admi- nistración.
+
+b) Toda entidad pública organizará internamente, en función de sus objetivos y la naturaleza de sus actividades, los sistemas de administración y control interno de que trata esta ley.
+
+@ Artículo 8
+El Sistema de Presupuesto preverá, en función de las prioridades de la política gubernamental, los montos y fuentes de los recursos financieros para cada gestión anual y su asignación a los requerimientos monetarios de la Programación de Operaciones y de la Organización Administrativa adoptada. Se sujetará a los siguientes preceptos generales:
+
+a) Las entidades gubernamentales que cuenten con recursos provenientes de tributación, aportes a la seguridad social y otros aportes, regalías o transferencias de los tesoros del Estado, sujetarán sus gastos totales a la disponibilidad de sus recursos, a las condiciones del financiamiento debidamente contraído y a los límites legales presupuestarios, no pudiendo transferir gastos de inversión a funcionamiento. Las entidades con autonomía de gestión y de patrimonio cuyos ingresos provengan exclusivamente por venta de bienes o por presta- ción de servicios, financiarán con tales ingresos sus costos de funcionamiento, el aporte pro- pio del financiamiento para sus inversiones y el servicio de su deuda. Sus presupuestos de gastos son indicativos de sus operaciones de funcionamiento e inversión.
+
+b) Los presupuestos de gastos del Banco Central y de las entidades públicas de intermedia- ción financiera sometidas al programa monetario del Gobierno y a la vigilancia de la Superintendencia de Bancos, son indicativos de sus operaciones de funcionamiento y de inversión no financiera.
+
+c) La ejecución de los presupuestos de gastos de las entidades señaladas en los incisos b) y
+
+c) de este artículo, está sujeta, según reglamentación, al cumplimiento de las políticas y nor- mas gubernamentales relacionadas con la naturaleza de sus actividades, incluyendo las refe- ridas a las modificaciones, traspasos y transferencias dentro de sus presupuestos, así como a la disponibilidad de sus ingresos efectivos después de atender y prever el cumplimiento de sus obligaciones, reservas, aumentos de capital, rédito sobre patrimonio neto y otras con- tribuciones obligatorias. No se permitirá la transferencia de gastos de inversión o exceden- tes de ingresos presupuestados a gastos de funcionamiento.
+
+@ Artículo 9
+El Sistema de Administración de Personal, en procura de la eficiencia en la función pública, deter- minará los puestos de trabajo efectivamente necesarios, los requisitos y mecanismos para pro- veerlos, implantará regímenes de evaluación y retribución del trabajo, desarrollará las capacida- des y aptitudes de los servidores y establecerá los procedimientos para el retiro de los mismos.
+
+@ Artículo 10
+El Sistema de Administración de Bienes y Servicios establecerá la forma de contratación, mane- jo y disposición de bienes y servicios. Se sujetará a los siguientes preceptos:
+
+a) Previamente exigirá la disponibilidad de los fondos que compromete o definirá las condicio- nes de financiamiento requeridas; diferenciará las atribuciones de solicitar, autorizar el inicio y llevar a cabo el proceso de contratación; simplificará los trámites e identificará a los respon- sables de la decisión de contratación con relación a la calidad, oportunidad y competitividad del precio del suministro, incluyendo los efectos de los términos de pago.
+
+b) Las entidades emplearán los bienes y los servicios que contraten, en los fines previstos en la Programación de Operaciones y realizarán el mantenimiento preventivo y la salvaguardia de los activos, identificando a los responsables de su manejo.
+
+c) La reglamentación establecerá mecanismos para la baja o venta oportuna de los bienes tomando en cuenta las necesidades específicas de las entidades propietarias. La venta de acciones de sociedades de economía mixta y la transferencia o liquidación de empresas del Estado, se realizará previa autorización legal específica o genérica, con la debida publicidad previa, durante y posterior a estas operaciones.
+
+@ Artículo 11
+El Sistema de Tesorería y Crédito Público manejará los ingresos, el financiamiento o crédito públi- co y programará los compromisos, obligaciones y pagos para ejecutar el presupuesto de gas- tos. Aplicará los siguientes preceptos generales:
+
+a) Toda deuda pública interna o externa con plazo igual o mayor a un año será contraída por la máxima autoridad del Sistema de Tesorería del Estado, por cuenta del Tesoro Nacional o de la entidad beneficiaria que asume la responsabilidad del servicio de la deuda respectiva.
+
+NOTA: ARTÍCULO 125 DE LA LEY Nº 1834 DE MERCADO DE VALORES. COMPLEMENTACIÓN DEL ART. II DE LA LEY Nº 1178.- Añádase a la redacción del inciso a) del artículo 11 de la Ley 1178 de 20 de julio de 1990, el texto siguiente:
+
+INCISO a) SEGUNDO PÁRRAFO: “Las disposiciones del párrafo anterior no serán aplicables a las entidades públicas que de acuerdo a Reglamento, contraigan obligaciones a través del merca- do de valores nacional o extranjero, siendo dichas instituciones las únicas responsables del cum- plimiento de las obligaciones contraídas. Las obligaciones así adquiridas deberán estar consig- nadas en sus respectivos presupuestos aprobados mediante Ley del Presupuesto General de la Nación”.
+
+b) Las deudas públicas con plazo inferior al año serán contraídas por cada entidad con suje- ción a la programación financiera fijada por la máxima autoridad del Sistema de Tesorería del Estado.
+
+c) Serán de cumplimiento obligatorio por las entidades del Sector Público, las políticas y nor- mas establecidas por la máxima autoridad del Sistema de Tesorería del Estado para el mane- jo de fondos, valores y endeudamiento.
+
+@ Artículo 12
+El Sistema de Contabilidad Integrada incorporará las transacciones presupuestarias, financieras y patrimoniales en un sistema común, oportuno y confiable, destino y fuente de los datos expre- sados en términos monetarios. Con base en los datos financieros y no financieros generará infor- mación relevante y útil para la toma de decisión por las autoridades que regulan la marcha del Estado y de cada una de sus entidades, asegurando que:
+
+a) El sistema contable específico para cada entidad o conjunto de entidades similares, respon- da a la naturaleza de las mismas y a sus requerimientos operativos y gerenciales respetan- do los principios y normas de aplicación general;
+
+b) La Contabilidad Integrada identifique, cuando sea relevante, el costo de las acciones del Estado y mida los resultados obtenidos.
+
+@ Artículo 13
+El Control Gubernamental tendrá por objetivo mejorar la eficiencia en la captación y uso de los recursos públicos y en las operaciones del Estado; la confiabilidad de la información que se genere sobre los mismos; los procedimientos para que toda autoridad y ejecutivo rinda cuenta oportuna de los resultados de su gestión; y la capacidad administrativa para impedir o identificar y comprobar el manejo inadecuado de los recursos del Estado.
+
+El Control Gubernamental se aplicará sobre el funcionamiento de los sistemas de administración de los recursos públicos y estará integrado por:
+
+a) El Sistema de Control Interno que comprenderá los instrumentos de control previo y poste- rior incorporados en el plan de organización y en los reglamentos y manuales de procedi- mientos de cada entidad, y la auditoria interna; y
+
+b) El Sistema de Control Externo Posterior que se aplicará por medio de la auditoria externa de las operaciones ya ejecutadas.
+
+@ Artículo 14
+Los procedimientos de control interno previo se aplicarán por todas las unidades de la entidad antes de la ejecución de sus operaciones y actividades o de que sus actos causen efecto.
+
+Comprende la verificación del cumplimiento de las normas que los regulan y los hechos que los respaldan, así como de su conveniencia y oportunidad en función de los fines y programas de la entidad. Se prohíbe el ejercicio de controles previos por los responsables de la auditoria interna y por parte de personas, de unidades o de entidades diferentes o externas a la unidad ejecuto- ra de las operaciones. Tampoco podrá crearse una unidad especial que asuma la dirección o centralización del ejercicio de controles previos.
+
+El control interno posterior será practicado:
+
+a) Por los responsables superiores, respecto de los resultados alcanzados por las operaciones y actividades bajo su directa competencia; y
+
+b) Por la unidad de auditoria interna.
+
+@ Artículo 15
+La auditoria interna se practicará por una unidad especializada de la propia entidad, que realiza- rá las siguientes actividades en forma separada, combinada o integral: evaluar el grado de cum- plimiento y eficacia de los sistemas de administración y de los instrumentos de control interno incorporados a ellos; determinar la confiabilidad de los registros y estados financieros; y analizar los resultados y la eficiencia de las operaciones. La Unidad de auditoría interna no participará en ninguna otra operación ni actividad administrativa y dependerá de la máxima autoridad ejecutiva de la entidad, sea ésta colegiada o no, formulando y ejecutando con total independencia el pro- grama de sus actividades.
+
+Todos sus informes serán remitidos inmediatamente después de concluidos a la máxima autori- dad colegiada, si la hubiera; a la máxima autoridad del ente que ejerce tuición sobre la entidad auditada; y a la Contraloría General de la República.
+
+@ Artículo 16
+La auditoría externa será independiente e imparcial, y en cualquier momento podrá examinar las operaciones o actividades ya realizadas por la entidad, a fin de calificar la eficacia de los sistemas de administración y control interno; opinar sobre la confiabilidad de los registros contables y ope- rativos; dictaminar sobre la razonabilidad de los estados financieros; y evaluar los resultados de eficiencia y economía de las operaciones. Estas actividades de auditoría externa posterior podrán ser ejecutadas en forma separada, combinada o integral, y sus recomendaciones, discu- tidas y aceptadas por la entidad auditada, son de obligatorio cumplimiento.
+
+§ CAPÍTULO III · RELACIÓN CON LOS SISTEMAS NACIONALES DE PLANIFICACIÓN E INVERSIÓN PÚBLICA
+
+@ Artículo 17
+Los sistemas nacionales de Planificación e Inversión Pública definirán las estrategias y políticas gubernamentales que serán ejecutadas mediante los sistemas de Administración y Control que regula la presente ley.
+
+@ Artículo 18
+Para el funcionamiento anual de los sistemas de Programación de Operaciones, Organización Administrativa, Presupuesto y Tesorería y Crédito Público, los sistemas nacionales de Planificación e Inversión Pública compatibilizarán e integrarán los objetivos y planes estratégicos de cada enti- dad y los proyectos de inversión pública que deberán ejecutar, con los planes de mediano y largo plazo, la política monetaria, los ingresos alcanzados y el financiamiento disponible, mante- niéndose el carácter unitario e integral de la formulación del presupuesto, de la tesorería y del crédito público.
+
+@ Artículo 19
+Los sistemas de Control Interno y de Control Externo Posterior, además de procurar la eficiencia de los sistemas de administración, evaluarán el resultado de la gestión tomando en cuenta, entre otros criterios, las políticas gubernamentales definidas por los sistemas nacionales de Planificación e Inversión Pública.
+
+§ CAPÍTULO IV · ATRIBUCIONES INSTITUCIONALES
+
+@ Artículo 20
+Todos los sistemas de que trata la presente Ley serán regidos por órganos rectores, cuyas atri- buciones básicas son:
+
+a) Emitir las normas y reglamentos básicos para cada sistema;
+
+b) Fijar los plazos y condiciones para elaborar las normas secundarias o especializadas y la implantación progresiva de los sistemas;
+
+c) Compatibilizar o evaluar, según corresponda, las disposiciones específicas que elaborará cada entidad o grupo de entidades que realizan actividades similares, en función de su natu- raleza y la normatividad básica; y
+
+d) Vigilar el funcionamiento adecuado de los sistemas específicos desconcentrados o descen- tralizados e integrar la información generada por los mismos.
+
+@ Artículo 21
+El órgano rector de los Sistemas Nacionales de Planificación e Inversión Pública es el Ministerio de Planeamiento y Coordinación, el cual además velará por la integración de las normas y pro- cedimientos de dichos sistemas con los Sistemas de Administración y Control Gubernamentales.
+
+Asimismo, tendrá las siguientes atribuciones y responsabilidades:
+
+a) Fijar el marco de mediano y largo plazo para formular los programas de operación y los pre- supuestos de las entidades públicas, en base a los lineamientos de política económica y social, desarrollados por los Sistemas de Planificación e Inversión Pública.
+
+b) Asegurar la compatibilidad de los objetivos y planes estratégicos de las entidades públicas con los objetivos y planes estratégicos nacionales y con el Plan de Inversiones Públicas.
+
+c) Elaborar, con base en la generación contínua de iniciativas, el Plan de Inversiones Públicas que contendrá los proyectos de preinversión e inversión aprobados por las instancias sec- toriales y regionales.
+
+d) Negociar, en nombre del Estado y en el marco de la política de crédito público fijada por el Ministerio de Finanzas, la obtención de todo financiamiento externo, cualquiera sea su moda- lidad, origen y destino. En lo concerniente a la promoción del financiamiento proveniente de relaciones bilaterales, contará con el apoyo del Ministerio de Relaciones Exteriores y Culto.
+
+e) Procesar ante las autoridades que corresponda, el compromiso que el Estado asume por intermedio del Ministerio de Finanzas en la concertación de todo financiamiento externo, y perfeccionar los convenios bilaterales con el apoyo del Ministerio de Relaciones Exteriores y Culto.
+
+f) Programar, por años de ejecución, el Plan de Inversiones Públicas Financiado, evaluar su eje- cución y mantenerlo actualizado con base en la información generada por los Sistemas de Administración y Control.
+
+@ Artículo 22
+El Ministerio de Finanzas es la autoridad fiscal y órgano rector de los sistemas de Programación de Operaciones; Organización Administrativa; Presupuesto; Administración de Personal;
+
+Administración de Bienes y Servicios; Tesorería y Crédito Público; y Contabilidad Integrada. Estos sistemas se implantarán bajo la dirección y supervisión del Ministerio de Finanzas que participa- rá en el diseño de la política económica y será responsable de desarrollar la política fiscal y de crédito público del Gobierno.
+
+NOTA: ARTÍCULO 27 DE LA LEY Nº 1788.- Se derogan las siguientes disposiciones legales: b) Artículos 21 y 22 de la Ley 1178 de 20 de julio de 1990.
+
+@ Artículo 23
+La Contraloría General de la República es el órgano rector del sistema de Control Gubernamental, el cual se implantará bajo su dirección y supervisión. La Contraloría General de la República emi- tirá las normas básicas de control interno y externo; evaluará la eficacia de los sistemas de con- trol interno; realizará y supervisará el control externo y ejercerá la supervigilancia normativa de los sistemas contables del Sector Público a cargo de la Contaduría General del Estado del Ministerio de Finanzas. En igual forma promoverá el establecimiento de los sistemas de contabilidad y con- trol interno y conducirá los programas de capacitación y especialización de servidores públicos en el manejo de los sistemas de que trata esta ley.
+
+@ Artículo 24
+El Banco Central de Bolivia es la única autoridad monetaria del país y el órgano rector de todo sistema de captación de recursos e intermediación financiera y como tal es el responsable del manejo de las reservas monetarias. Además de normar y reglamentar las disposiciones legales referidas al funcionamiento de dichos sistemas, propondrá y acordará con los órganos pertinen- tes del Poder Ejecutivo la política monetaria, bancaria y crediticia y la ejecutará en forma autóno- ma, pudiendo negar crédito fiscal o crédito al sistema financiero cuando éste sobrepase los lími- tes fijados en el Programa Monetario. Las entidades del Sector Público no Financiero efectuarán sus operaciones con el Banco Central de Bolivia únicamente por intermedio del Tesoro General de la Nación.
+
+NOTA: ARTÍCULO 90º DE LA LEY Nº 1670.- Se deroga 1. La Ley Nº 1178 de 20 de julio de 1990, en su Artículo 24.
+
+@ Artículo 25
+El Directorio del Banco Central de Bolivia estará constituido por el Presidente del Banco y cinco directores, que serán designados de la siguiente manera:
+
+a) El Presidente del Banco Central de Bolivia será designado por el Presidente de la República de una terna propuesta por la Cámara de Diputados. Durará en sus funciones cuatro años y podrá ser reelecto. Ejercerá las funciones de Presidente del Directorio, con derecho a voto, más un voto dirimidor en caso de empate.
+
+b) Tres directores serán designados por el Presidente de la República y confirmados o negados por la Cámara de Senadores. Durarán en sus funciones cuatro años y podrán ser nuevamente designados por períodos similares. No obstante, estos directores serán designados por prime- ra vez a partir de la aplicación de la presente Ley, por períodos de uno, dos y tres años, res- pectivamente y podrán ser después designados por otros períodos de cuatro años.
+
+c) Dos directores que serán designados por los Ministros de Finanzas y de Planeamiento y Coordinación, en representación de dichos Ministerios, no debiendo ejercer ninguna otra función pública.
+
+d) En caso de renuncia o inhabilitación tanto del Presidente como de cualquiera de los direc- tores mencionados en los incisos anteriores, se designará otro en la misma forma prevista en el presente artículo, quien ejercerá sus funciones hasta la conclusión del período del reemplazado y podrá ser después designado por otros períodos de cuatro años.
+
+NOTA: ARTÍCULO 169 DE LA LEY Nº 1488.- Queda derogado el artículo 25º de la Ley 1178 de 20 de julio de 1990.
+
+@ Artículo 26
+La Superintendencia de Bancos es el Órgano Rector del sistema de control de toda captación de recursos del público y de intermediación financiera del país, incluyendo el Banco Central de Bolivia. A este efecto normará el control interno y externo de estas actividades y, sin perjuicio de las facultades de la Contraloría General de la República, ejercerá o supervisará el control exter- no, determinando, y en su caso exigiendo, el cumplimiento de las disposiciones legales, normas técnicas y reglamentarias por todas las entidades públicas, privadas y mixtas que realicen en el territorio de la República intermediación en la oferta y demanda de recursos financieros así como sobre las personas naturales o jurídicas que ejecuten actividades auxiliares del sistema financie- ro. En base a ello deberá opinar sobre la eficacia de las normas y reglamentos dictados por el Banco Central para el funcionamiento de los sistemas de captación e intermediación financiera y, en su caso elevará al Banco Central recomendaciones concretas al respecto.
+
+La Superintendencia de Bancos, de acuerdo con el Banco Central de Bolivia, podrá incorporar al ámbito de su competencia a otras personas o entidades que realicen operaciones financieras, existentes o por crearse, cuando lo justifiquen razones de política monetaria y crediticia.
+
+NOTA: ARTÍCULO 90º DE LA LEY Nº 1670.
+
+5. Se aclara que la Ley Nº 1178 de 20 de julio de 1990, en su artículo 26, en lo relati- vo a la facultad conferida a la Superintendencia de Bancos de opinar sobre la efi- cacia de las normas y reglamentos dictados por el BCB, no es vinculante para éste
+
+@ Artículo 27
+Cada entidad del Sector Público elaborará en el marco de las normas básicas dictadas por los órganos rectores, los reglamentos específicos para el funcionamiento de los sistemas de Administración y Control Interno regulados por la presente Ley y los sistemas de Planificación e Inversión Pública. Corresponde a la máxima autoridad de la entidad la responsabilidad de su implantación. Al efecto:
+
+a) Cualquier tuición que corresponda ejercer a una entidad pública respecto de otras com- prenderá la promoción y vigilancia de la implantación y funcionamiento de los sistemas de Planificación e Inversión, Administración y Control Interno. En el caso de la Programación de Operaciones de inversión pública, el ejercicio de la competencia sectorial o tuición sobre otra entidad comprenderá la evaluación de los correspondientes proyectos, previa a su inclusión en el Programa de Inversiones Públicas.
+
+b) La tuición incluye la facultad de ejercer el control externo posterior, sin perjuicio de la atribu- ción de la Contraloría, así como la obligación de efectuar oportunamente el control externo posterior de las entidades cuyo reducido número de operaciones y monto de recursos administrados no justifican el funcionamiento de una unidad de auditoría interna propia.
+
+c) Toda entidad, funcionario o persona que recaude, reciba, pague o custodie fondos, valores o bienes del Estado, tiene la obligación de rendir cuenta de la administración a su cargo por intermedio del sistema contable especificando la documentación sustentatoria y las condi- ciones de su archivo.
+
+d) Con fines de control externo posterior, las entidades sujetas al Control Gubernamental debe- rán enviar a la Contraloría copia de sus contratos y de la documentación sustentatoria correspondiente dentro de los cinco días de haber sido perfeccionados.
+
+e) Dentro de los tres meses de concluido el ejercicio fiscal, cada entidad con patrimonio pro- pio y autonomía financiera entregará obligatoriamente a la entidad que ejerce tuición sobre ella y a la Contaduría General del Estado, y pondrá a disposición de la Contraloría General de la República, los estados financieros de la gestión anterior, junto con las notas que corres- pondieren y el informe del auditor interno.
+
+f) La máxima autoridad colegiada, si la hubiera, y el ejecutivo superior de cada entidad respon- derán ante la Contraloría General de la República por el respeto a la independencia de la uni- dad de auditoría interna, y ésta por la imparcialidad y calidad profesional de su trabajo.
+
+g) Las unidades jurídicas de las entidades del Sector Público son responsables de la efectivi- dad en el cumplimiento de las obligaciones relativas a la defensa de los intereses del Estado.
+
+Deberán elevar informes periódicos a la Contraloría sobre el estado de los procesos admi- nistrativos, requerimientos de pago y las acciones judiciales a su cargo, de conformidad con las disposiciones de la presente Ley.
+
+§ CAPÍTULO V · RESPONSABILIDAD POR LA FUNCIÓN PÚBLICA
+
+@ Artículo 28
+Todo servidor público responderá de los resultados emergentes del desempeño de las funcio- nes, deberes y atribuciones asignados a su cargo. A este efecto:
+
+a) La responsabilidad administrativa, ejecutiva, civil y penal se determinará tomando en cuenta los resultados de la acción u omisión.
+
+b) Se presume la licitud de las operaciones y actividades realizadas por todo servidor público, mientras no se demuestre lo contrario.
+
+c) El término “servidor público” utilizado en la presente Ley, se refiere a los dignatarios, funcio- narios y toda otra persona que preste servicios en relación de dependencia con autorida- des estatales, cualquiera sea la fuente de su remuneración.
+
+d) Los términos “autoridad” y “ejecutivo” se utilizan en la presente ley como sinónimos y se refieren a los servidores públicos que por su jerarquía y funciones son los principales res- ponsables de la administración de las entidades de las que formen parte.
+
+@ Artículo 29
+La responsabilidad es administrativa cuando la acción u omisión contraviene el ordenamiento jurí- dico-administrativo y las normas que regulan la conducta funcionaria del servidor público. Se determinará por proceso interno de cada entidad que tomará en cuenta los resultados de la auditoría si la hubiere. La autoridad competente aplicará, según la gravedad de la falta, las san- ciones de: multa hasta un veinte por ciento de la remuneración mensual; suspensión hasta un máximo de treinta días; o destitución.
+
+@ Artículo 30
+La responsabilidad es ejecutiva cuando la autoridad o ejecutivo no rinda las cuentas a que se refiere el inciso c) del artículo 1º y el artículo 28º de la presente Ley; cuando incumpla lo previs- to en el primer párrafo y los incisos d), e), o f) del artículo 27º de la presente Ley; o cuando se encuentre que las deficiencias o negligencia de la gestión ejecutiva son de tal magnitud que no permiten lograr, dentro de las circunstancias existentes, resultados razonables en términos de efi- cacia, eficiencia y economía. En estos casos, se aplicará la sanción prevista en el inciso g) del artí- culo 42º de la presente Ley.
+
+@ Artículo 31
+La responsabilidad es civil cuando la acción u omisión del servidor público o de las personas naturales o jurídicas privadas cause daño al Estado valuable en dinero. Su determinación se suje- tará a los siguientes preceptos:
+
+a) Será civilmente corresponsable el superior jerárquico que hubiere autorizado el uso indebi- do de bienes, servicios y recursos del Estado o cuando dicho uso fuere posibilitado por las deficiencias de los sistemas de administración y control interno factibles de ser implantados en la entidad.
+
+b) Incurrirán en responsabilidad civil las personas naturales o jurídicas que no siendo servido- res públicos, se beneficiaren indebidamente con recursos públicos o fueren causantes de daño al patrimonio del Estado y de sus entidades.
+
+c) Cuando varias personas resultaren responsables del mismo acto o del mismo hecho que hubiese causado daño al Estado, serán solidariamente responsables.
+
+@ Artículo 32
+La entidad estatal condenada judicialmente al pago de daños y perjuicios a favor de entidades públicas o de terceros, repetirá el pago contra la autoridad que resultare responsable de los actos o hechos que motivaron la sanción.
+
+@ Artículo 33
+No existirá responsabilidad administrativa, ejecutiva ni civil cuando se pruebe que la decisión hubiese sido tomada en procura de mayor beneficio y en resguardo de los bienes de la entidad, dentro de los riesgos propios de operación y las circunstancias imperantes al momento de la decisión, o cuando situaciones de fuerza mayor originaron la decisión o incidieron en el resulta- do final de la operación.
+
+@ Artículo 34
+La responsabilidad es penal cuando la acción u omisión del servidor público y de los particula- res, se encuentra tipificada en el Código Penal.
+
+@ Artículo 35
+Cuando los actos o hechos examinados presenten indicios de responsabilidad civil o penal, el servidor público o auditor los trasladará a conocimiento de la unidad legal pertinente y ésta mediante la autoridad legal competente solicitará directamente al juez que corresponda, las medidas precautorias y preparatorias de demanda a que hubiere lugar o denunciará los hechos ante el Ministerio Público.
+
+@ Artículo 36
+Todo servidor público o ex - servidor público de las entidades del Estado y personas privadas con relaciones contractuales con el Estado cuyas cuentas y contratos estén sujetos al control posterior, auditoría interna o externa, quedan obligados a exhibir la documentación o información necesarias para el examen y facilitar las copias requeridas, con las limitaciones contenidas en los artículos 510, 520 y 560 del Código de Comercio.
+
+Las autoridades de las entidades del Sector Público asegurarán el acceso de los ex - servidores públicos a la documentación pertinente que les fuera exigida por el control posterior. Los que incumplieren lo dispuesto en el presente artículo, serán pasibles a las sanciones establecidas en los artículos 1540, 1600 y 1610 del Código Penal, respectivamente.
+
+@ Artículo 37
+El Control Posterior Interno o Externo no modificará los actos administrativos que hubieren pues- to término a los reclamos de los particulares y se concretará a determinar la responsabilidad de la autoridad que los autorizó expresamente o por omisión, si la hubiere.
+
+@ Artículo 38
+Los profesionales y demás servidores públicos son responsables por los informes y documen- tos que suscriban. También serán responsables los abogados por el patrocinio legal del Sector Público cuando la tramitación de la causa la realicen con vicios procedimentales o cuando los recursos se declaren improcedentes por aspectos formales.
+
+@ Artículo 39
+El juez o tribunal que conozca la causa al momento del pago del daño civil actualizará el monto de la deuda considerando, para el efecto, los parámetros que el Banco Central de Bolivia aplica en el mantenimiento de valor de los activos financieros en moneda nacional. Los procesos admi- nistrativos y judiciales previstos en esta ley, en ninguno de sus grados e instancias darán lugar a condena de costas y honorarios profesionales, corriendo éstos a cargo de las respectivas par- tes del proceso.
+
+@ Artículo 40
+Las acciones judiciales y obligaciones emergentes de la responsabilidad civil establecida en la presente Ley, prescribirán en diez años computables a partir del día del hecho que da lugar a la acción o desde la última actuación procesal. El plazo de la prescripción se suspenderá o se inte- rrumpirá de acuerdo con las causas y en la forma establecida en el Código Civil. Para la iniciación de acciones por hechos o actos ocurridos antes de la vigencia de la presente ley, este término de prescripción se computará a partir de la fecha de dicha vigencia.
+
+§ CAPÍTULO VI · DEL FUNCIONAMIENTO DE LA CONTRALORÍA GENERAL DE LA REPÚBLICA
+
+@ Artículo 41
+La Contraloría General de la República ejercerá el Control Externo Posterior con autonomía ope- rativa, técnica y administrativa. A fin de asegurar su independencia e imparcialidad respecto a la administración del Estado, el presupuesto de la Contraloría, elaborado por ésta y sustentado en su programación de operaciones, será incorporado sin modificación por el Ministerio de Finanzas al proyecto de Presupuesto General de la Nación, para su consideración por el Congreso Nacional. Una vez aprobado, el Ministerio de Finanzas efectuará los desembolsos que requiera la Contraloría de conformidad con los programas de caja elaborados por la misma.
+
+@ Artículo 42
+Para el ejercicio del Control Externo Posterior se establecen las siguientes facultades:
+
+a) La Contraloría podrá contratar los servicios de firmas o profesionales calificados e indepen- dientes u ordenar a las entidades del Sector Público y a las personas comprendidas en el artículo 50 de la presente Ley, la contratación de dichos servicios, señalando los alcances del trabajo, cuando requiera asesoría o auditoría externa especializada o falten los recursos profesionales necesarios para ejecutar los trabajos requeridos. En todos los casos la contra- tación se sujetará al reglamento que al efecto expida la Contraloría General.
+
+b) Todo informe de auditoría interna o externa será enviado a la Contraloría inmediatamente de ser concluido, en la forma y con la documentación que señale la reglamentación.
+
+c) La Contraloría podrá conocer los programas, las labores y papeles de trabajo de las audito- rías que realicen las entidades públicas y las firmas o profesionales independientes, sin afec- tar la responsabilidad de los mismos.
+
+d) La Contraloría podrá examinar en cualquier momento los registros y operaciones realizadas por las entidades sujetas al Control Gubernamental.
+
+e) En caso de incumplimiento de los plazos y condiciones para la implantación progresiva de los sistemas en alguna de las entidades, el Contralor General de la República podrá ordenar:
+
+- Congelamiento de cuentas corrientes bancarias de la entidad;
+
+- Suspensión de entrega de fondos por los tesoros del Estado o por cualquier organismo financiador.
+
+f) En caso de incumplimiento de la presente Ley por el servidor público, el Contralor General de la República de oficio o a petición fundamentada de los Órganos Rectores o de las auto- ridades que ejercen tuición, podrá recomendar al máximo ejecutivo de la entidad o a la auto- ridad superior, imponga la sanción que corresponda según el artículo 29º de la presente Ley, sin perjuicio de la responsabilidad ejecutiva, civil y penal a que hubiere lugar.
+
+g) En caso de responsabilidad ejecutiva determinada por el Contralor General de la República, éste podrá recomendar a la máxima dirección colegiada, siempre que no estuviere involu- crada en las deficiencias observadas, y a la autoridad superior que ejerce tuición sobre la entidad, la suspensión o destitución del principal ejecutivo y, si fuere el caso, de la dirección colegiada, sin perjuicio de la responsabilidad civil o penal a que hubiere lugar, informando a las respectivas comisiones del H. Congreso Nacional.
+
+h) Para el caso previsto en la última parte del artículo 36º de la presente ley, dentro de las vein- ticuatro horas de la solicitud del Contralor acompañada de copia de la advertencia previa, el Fiscal del Distrito en lo Penal expedirá mandamiento de apremio de acuerdo al Código Penal y su Procedimiento.
+
+@ Artículo 43
+Sin perjuicio de las acciones judiciales que seguirán oportunamente las entidades públicas con- tra quienes incumplan las obligaciones contraídas, a pedido de la entidad o de oficio la Contraloría General de la República con fundamento en los informes de auditoría podrá emitir dictamen sobre las responsabilidades, de acuerdo con los siguientes preceptos:
+
+a) El dictamen del Contralor General de la República y los informes y documentos que lo sus- tentan, constituirán prueba preconstituida para la acción administrativa, ejecutiva y civil a que hubiere lugar.
+
+b) Con el dictamen de responsabilidad se notificará a los presuntos responsables y se remitirá a la entidad, de oficio, un ejemplar de todo lo actuado, para que cumpla lo dictaminado y, si fuera el caso, requiera el pago de la obligación determinada concediendo al deudor diez días para efectuarlo, bajo conminatoria de iniciarse en su contra la acción legal que corres- ponda.
+
+c) En caso de que la entidad pertinente no hubiese iniciado el proceso administrativo o la acción judicial dentro de los veinte días de recibido el dictamen, el Contralor General de la República o quien represente a la Contraloría en cada capital de departamento en su caso, instruirá a quien corresponda la destitución del ejecutivo y del asesor legal principal inicián- dose contra ellos la acción judicial a que hubiere lugar, subsistiendo la obligación de las nue- vas autoridades por los procesos que originaron la destitución de sus antecesores, bajo apercibimiento de iguales sanciones.
+
+@ Artículo 44
+La Contraloría General de la República podrá demandar y actuar en procesos administrativos, coactivos fiscales, civiles y penales relacionados con daños económicos al Estado. Su represen- tación será ejercida por el Contralor General de la República o por quienes representen a la Contraloría en cada capital de departamento, los que tendrán poder para delegar estas facul- tades.
+
+@ Artículo 45
+La Contraloría General de la República propondrá al Poder Ejecutivo, para su vigencia mediante Decreto Supremo, la reglamentación concerniente al Capítulo V “Responsabilidad por la Función Pública” y al ejercicio de las atribuciones que le han sido asignadas en esta ley.
+
+@ Artículo 46
+La Contraloría General de la República sólo ejercerá las funciones que corresponden a su natu- raleza de Órgano Superior de Control Gubernamental Externo Posterior conforme se establece en la presente ley. Al efecto, coordinará con el Poder Ejecutivo la eliminación o transferencia de cualquier otra competencia o actividad que haya venido ejerciendo.
+
+§ CAPÍTULO VII · DE LA JURISDICCIÓN COACTIVA FISCAL
+
+@ Artículo 47
+Créase la jurisdicción coactiva fiscal para el conocimiento de todas las demandas que se inter- pongan con ocasión de los actos de los servidores públicos, de los distintos entes de derecho público o de las personas naturales o jurídicas privadas que hayan suscrito contratos administra- tivos con el Estado, por los cuales se determinen responsabilidades civiles definidas en el artícu- lo 31º de la presente Ley. Son contratos administrativos aquellos que se refieren a contratación de obras, provisión de materiales, bienes y servicios y otros de similar naturaleza.
+
+@ Artículo 48
+No corresponden a la jurisdicción coactiva fiscal las cuestiones de índole civil no contempladas en el artículo 47º ni las de carácter penal, comercial o tributario atribuidas a la jurisdicción ordi- naria y tributaria y aquellas otras que, aunque relacionadas con actos de la administración públi- ca, se atribuyen por ley a otras jurisdicciones.
+
+@ Artículo 49
+Los conflictos de competencia que se suscitaren entre la jurisdicción coactiva fiscal y otras juris- dicciones o tribunales serán resueltos conforme se determine en la ley a que se refiere el artícu- lo 51º de la presente Ley.
+
+@ Artículo 50
+La jurisdicción coactiva fiscal es improrrogable en razón de la competencia territorial e indelega- ble. Su ejercicio por autoridades administrativas u otras, dará lugar a la nulidad de pleno derecho de sus actuaciones y resoluciones.
+
+@ Artículo 51
+El Tribunal Coactivo Fiscal formará parte del Poder Judicial. Su organización y el Procedimiento Coactivo Fiscal serán determinados mediante ley expresa, cuyo proyecto deberá ser presenta- do por el Poder Ejecutivo dentro de las treinta primeras sesiones de la próxima Legislatura Ordinaria.
+
+@ Artículo 52
+Se eleva a rango de Ley el Decreto Ley 14933 de 29 de septiembre de 1977, sólo en lo corres- pondiente al Procedimiento Coactivo Fiscal, que regirá en tanto entre en vigencia la ley a que se refiere el Artículo anterior, salvo los casos en apelación que serán conocidos por el Tribunal Fiscal de la Nación.
+
+§ CAPÍTULO VIII · ABROGACIONES Y DEROGACIONES
+
+@ Artículo 53
+Se abrogan las siguientes disposiciones:
+
+- Ley Orgánica de la Contraloría General de la República de 5 de mayo de 1928.
+
+- Ley de Presupuesto, Contabilidad y Tesoro, D.S. 08321 de 9 de abril de 1968.
+
+- Sistema Financiero Nacional, D.L. 09428 de 28 de octubre de 1970.
+
+- Principios y Normas de Contabilidad Fiscal, D.S. 12329 de 1º de abril de 1975.
+
+- Control Previo Externo, Ley 493 de 29 de diciembre de 1979.
+
+- D.L. 18953 de 19 de mayo de 1982.
+
+@ Artículo 54
+Se derogan las siguientes disposiciones:
+
+- Ley Orgánica de Presupuesto de 27 de abril de 1928, excepto los artículos 7º , 47º , 48º , 49º , 50º y 51º - - Ley Orgánica de la Contraloría General de la República con excepción de los artículos 3º , 4º sin el inciso b) y 5º ; asimismo la Ley del Sistema de Control Fiscal, con excep- ción del artículo 77º , correspondientes al D.L. 14933 de 29 de septiembre de 1977.
+
+@ Artículo 55
+Se derogan las disposiciones contrarias a la presente Ley contenidas en las que se indican y en toda otra norma legal:
+
+- Organización del Instituto Superior de Administración Pública, D.S. 06991 de 10 de diciembre de 1964.
+
+- Ley de Organización Administrativa del Poder Ejecutivo, D.L. 10460 de 15 de septiem- bre de 1972.
+
+- Ley Orgánica del Ministerio de Planeamiento, D.L. 11847 de 3 de octubre de 1974.
+
+- Ley del Sistema de Personal y de Carrera Administrativa, D.L. 11049 de 24 de agosto de 1973 y las modificaciones introducidas por el D.S. 18850 de 5 de febrero de 1982.
+
+- Ley del Sistema Nacional de Planeamiento, D.S. 11848 de 3 de octubre de 1974.
+
+- Ley del Sistema Nacional de Proyectos, D.L. 11849 de 3 de octubre de 1974.
+
+- Ley Orgánica del Banco Central de Bolivia, D.L. 14791 de 1º de agosto de 1977.
+
+- Imprescriptibilidad de las deudas al Estado, D.L. 16390 de 30 de abril de 1979.
+
+- Dolarización de acreencias del Estado, D.S. 20928 de 18 de julio de 1985.
+
+- Decreto Supremo 22106 de 29 de diciembre de 1988.
+
+- Decreto Supremo 22165 de 5 de abril de 1989.
+
+Pase al Poder Ejecutivo para fines constitucionales.
+
+Es dada en la Sala de Sesiones del Honorable Congreso Nacional, a los nueve días del mes de julio de mil novecientos noventa años.
+
+Fdo. Gonzalo Valda Cárdenas, Fernando Kieffer Guzmán, José Luis Carvajal Palma, Leopoldo Fernandez Ferreira, Enrique Toro Tejada, Luis Morgan López Baspineiro.

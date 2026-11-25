@@ -32,6 +32,7 @@ def _frontmatter(t):
 
 
 # Siglas y nombres con que la gente busca cada norma (además del título, el tipo y el número del catálogo).
+_ALIAS_COL = {f'/leyes/{c["materia"]}/{c["slug"]}/': c['alias'].split('|') for c in COLECCIONES if c.get('alias')}
 _ALIAS = {
     '/leyes/constitucional/constitucion-politica-del-estado/': ['CPE', 'Constitución', 'Constitución Política', 'Constitución de Bolivia', 'Carta Magna'],
     '/leyes/laboral/ley-general-del-trabajo/': ['LGT', 'Ley del Trabajo', 'Ley laboral'],
@@ -140,7 +141,7 @@ def indice_ampliado():
         for x in lista_:
             if not x.get('ruta'):
                 continue
-            alias = '|'.join([x.get('titulo', ''), x.get('sub', ''), *_ALIAS.get(x['ruta'], [])])
+            alias = '|'.join([x.get('titulo', ''), x.get('sub', ''), *_ALIAS.get(x['ruta'], []), *_ALIAS_COL.get(x['ruta'], [])])
             nuevos.append({'n': 0, 'u': x['ruta'], 'r': x.get('titulo', ''), 'c': 'ley', 'a': alias, 'p': prio.get(x['ruta'], 0) + 1,
                            'k': f'Norma por artículos · {m_} · {x.get("detalle", "")}'.rstrip(' ·'),
                            't': f'{x.get("titulo", "")}. {alias.replace("|", ". ")}'})
@@ -234,8 +235,8 @@ def _partes(nombre, registros):
         escribe(f'buscar/{nombre}-{i}.json', json.dumps(parte, ensure_ascii=False, separators=(',', ':')))
     return len(partes)
 
-JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',cco:'Código de Comercio',cpl:'Artículos de compilaciones',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
-var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cco','cmp','trn','tem','gui','glo','pre','aut','bib','cpl','pdf','jur'];
+JS_BUSQUEDA = r"""var NOMBRE={ley:'Normas por artículos',mat:'Materias',tem:'Temas de interés',glo:'Glosario',gui:'Guías',pre:'Preguntas',aut:'Autos supremos',cpe:'Constitución',lgt:'Ley General del Trabajo',rgl:'Reglamento de la LGT',cpt:'Código Procesal del Trabajo',cmp:'Normas modificatorias',trn:'Normas transcritas',cco:'Código de Comercio',nar:'Leyes y códigos por artículos',cpl:'Artículos de compilaciones',bib:'Fichas de la Biblioteca',pdf:'Texto de los PDF',jur:'Revistas de jurisprudencia'};
+var ORDEN=['ley','mat','cpe','lgt','rgl','cpt','cco','nar','cmp','trn','tem','gui','glo','pre','aut','bib','cpl','pdf','jur'];
 function rango(c){var i=ORDEN.indexOf(c);return i<0?ORDEN.length:i}
 function limpio(t){return ' '+norm(t||'').replace(/[^a-z0-9ñ]+/g,' ').trim()+' '}
 function puntaje(a,s,ws){if(a.c!=='bib'&&a.c!=='ley'&&a.c!=='mat')return 0;var al=(a.a||'').split('|').map(function(x){return limpio(x).trim()}).filter(Boolean),tit=limpio(a.r).trim(),tn=limpio((a.r||'')+' '+(a.a||'').replace(/\|/g,' ')),q=limpio(s).trim(),p;
@@ -253,7 +254,7 @@ function resumen(lista){var cu={};lista.forEach(function(a){cu[a.c]=(cu[a.c]||0)
 var nav=d.createElement('nav');nav.className='por-tipo';nav.setAttribute('aria-label','Resultados por sección');nav.innerHTML='<b>Ver solo:</b>'+ks.map(function(c){return '<a href="/buscar/?q='+encodeURIComponent(q)+'&n='+c+'">'+esc(NOMBRE[c]||c)+' <small>('+cu[c]+')</small></a>'}).join('');var otros=R.querySelector('.res-sec + .res.norma ~ .res-sec');if(otros){R.insertBefore(nav,otros)}else{R.parentNode.insertBefore(nav,R)}}
 function busca(datos){var s=norm(q.trim());if(!s){est.textContent='';return}if(fn){datos=datos.filter(function(a){return a.c===fn})}
 var num=s.match(/^(?:art(?:iculo)?\.?\s*)?(\d{1,4})$/);var palabras=s.split(/\s+/).filter(Boolean);var lista;
-var na=num?null:s.match(/^(.+?)\s+art(?:iculo|\.)?\s*(\d{1,4})$/);if(na){var pw=na[1].split(/\s+/).filter(Boolean),nn_=+na[2];lista=datos.filter(function(a){if(a.n!==nn_)return false;var h=norm((a.r||'')+' '+(a.a||'')+' '+(a.m||'')+' '+(a.r?'':(a.k||'')));return pw.every(function(w){return h.indexOf(w)>=0})});if(lista.length){palabras=[];num=null}else{lista=null;na=null}}
+var na=num?null:s.match(/^(.+?)\s+art(?:iculo|\.)?\s*(\d{1,4})(?:\s*(bis|ter|quater))?$/);if(na){var pw=na[1].split(/\s+/).filter(Boolean),nn_=+na[2],sf=na[3]||'',fr=' '+na[1].replace(/[^a-z0-9ñ]+/g,' ').trim()+' ';var hx=function(a){return ' '+norm((a.r||'')+' '+(a.a||'')+' '+(a.m||MALIAS[a.u.split('/').slice(0,4).join('/')+'/']||'')+' '+(a.r?'':(a.k||''))).replace(/[^a-z0-9ñ]+/g,' ')+' '};lista=datos.filter(function(a){if(a.n!==nn_)return false;var r=norm(a.r||'');if(sf?r.indexOf(sf)<0:/ (bis|ter|quater)\b/.test(r))return false;var h=hx(a);return pw.every(function(w){return h.indexOf(w)>=0})});var ex=lista.filter(function(a){return hx(a).indexOf(fr)>=0});if(ex.length)lista=ex;if(lista.length){palabras=[];num=null}else{lista=null;na=null}}
 if(na){}else if(num){var soloArt=/^art/.test(s);lista=datos.filter(function(a){return (a.n===+num[1]&&(!a.x||fn===a.c))||(!soloArt&&puntaje(a,s,[s])>0)});palabras=[]}else{lista=datos.filter(function(a){var n=norm(a.t+' '+(a.r||'')+' '+(a.a||''));return palabras.every(function(w){return n.indexOf(w)>=0})})}
 lista.forEach(function(a){a._s=puntaje(a,s,palabras.length?palabras:[s])});
 var ordena=function(l){return l.map(function(a,i){return [a,i]}).sort(function(x,y){return (y[0]._s>0)-(x[0]._s>0)||y[0]._s-x[0]._s||rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]})};
@@ -278,6 +279,12 @@ def parchar_sitio_js():
         return
     js = JS_BUSQUEDA.replace('if(!fn){var nt', 'if(!fn&&' + ('true' if HAY_EXTENSOS else 'false') + '){var nt')
     js = js.replace('function junta(', f'var NPDF={PARTES_PDF},NEXT={PARTES_EXT};function junta(', 1)
+    malias = {f'/leyes/{c["materia"]}/{c["slug"]}/': c['alias'] for c in COLECCIONES if c.get('alias')}
+    malias.update({'/leyes/constitucional/constitucion-politica-del-estado/': 'CPE|Constitución Política del Estado|Constitución',
+                   '/leyes/laboral/ley-general-del-trabajo/': 'LGT|Ley General del Trabajo',
+                   '/leyes/laboral/reglamento-de-la-ley-general-del-trabajo/': 'Reglamento de la Ley General del Trabajo|Decreto Supremo 224|DS 224',
+                   '/leyes/laboral/codigo-procesal-del-trabajo/': 'CPT|Código Procesal del Trabajo'})
+    js = js.replace('function junta(', 'var MALIAS=' + json.dumps(malias, ensure_ascii=False) + ';function junta(', 1)
     open(p, 'w', encoding='utf-8').write(t[:i] + js + t[j:])
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()

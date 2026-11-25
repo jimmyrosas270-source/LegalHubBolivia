@@ -54,6 +54,45 @@ COLECCIONES = [{
                'Puede no incluir todas las modificaciones posteriores. Verifique en la Gaceta Oficial de Bolivia.'),
 }]
 
+# Leyes y códigos principales por artículos (24 nov 2026). Texto sacado del PDF de la Biblioteca con
+# herramientas/apoyo/por_articulos/extraer.py, que comprueba que cada renglón esté tal cual en el PDF.
+_MATERIA_NOMBRE = {'civil': 'Civil', 'procesal-civil': 'Procesal civil', 'penal': 'Penal', 'procesal-penal': 'Procesal penal', 'familia': 'Familia',
+                   'constitucional': 'Constitucional', 'laboral': 'Laboral', 'administrativa': 'Administrativa',
+                   'personas-con-discapacidad': 'Personas con discapacidad', 'comercial': 'Comercial'}
+# (archivo .txt, materia, etiqueta, título del PDF en la Biblioteca, alias para el buscador, nota de la fuente)
+_PRINCIPALES = [
+    ('codigo-civil', 'civil', 'Código', 'Código Civil', 'Código Civil|CC|Decreto Ley 12760|DL 12760',
+     'compilación actualizada a 2024; los paréntesis con artículos citados al final de algunos párrafos son concordancias del compilador'),
+    ('ley-de-conciliacion-y-arbitraje', 'civil', 'Ley', 'Ley 708 de Conciliación y Arbitraje', 'Ley 708|Ley de Conciliación y Arbitraje|Arbitraje', ''),
+    ('codigo-procesal-civil', 'procesal-civil', 'Código', 'Código Procesal Civil', 'Código Procesal Civil|CPC|Ley 439', 'edición de la Gaceta Oficial; puede no incluir reformas posteriores'),
+    ('codigo-penal', 'penal', 'Código', 'Código Penal', 'Código Penal|CP|Decreto Ley 10426', 'edición actualizada 2025, con notas de modificación de la edición'),
+    ('ley-348', 'penal', 'Ley', 'Ley 348', 'Ley 348|Ley integral para garantizar a las mujeres una vida libre de violencia|Vida libre de violencia', ''),
+    ('codigo-de-procedimiento-penal', 'procesal-penal', 'Código', 'Código de Procedimiento Penal', 'Código de Procedimiento Penal|CPP|Ley 1970',
+     'edición actualizada 2025, con notas de modificación de la edición'),
+    ('codigo-de-las-familias', 'familia', 'Código', 'Código de las Familias y del Proceso Familiar', 'Código de las Familias|Código de Familia|Ley 603', ''),
+    ('codigo-nina-nino-y-adolescente', 'familia', 'Código', 'Código Niña, Niño y Adolescente', 'Código Niña, Niño y Adolescente|CNNA|Ley 548', 'puede no incluir la reforma de la Ley 1371 de 2021'),
+    ('codigo-procesal-constitucional', 'constitucional', 'Código', 'Código Procesal Constitucional', 'Código Procesal Constitucional|Ley 254', ''),
+    ('ley-del-organo-judicial', 'constitucional', 'Ley', 'Ley 025', 'Ley 025|Ley 25|Ley del Órgano Judicial', ''),
+    ('codigo-de-seguridad-social', 'laboral', 'Código', 'Código de Seguridad Social', 'Código de Seguridad Social|CSS',
+     'texto de la base de datos legislativa; se quitaron sus recuadros de referencia; varios artículos están derogados o modificados'),
+    ('ley-de-procedimiento-administrativo', 'administrativa', 'Ley', 'Ley 2341', 'Ley 2341|Ley de Procedimiento Administrativo', ''),
+    ('ley-safco', 'administrativa', 'Ley', 'Ley 1178', 'Ley 1178|SAFCO|Ley SAFCO', ''),
+    ('ley-223', 'personas-con-discapacidad', 'Ley', 'Ley 223', 'Ley 223|Ley General para Personas con Discapacidad', ''),
+    ('ley-de-servicios-financieros', 'comercial', 'Ley', 'Ley 393 de Servicios Financieros', 'Ley 393|Ley de Servicios Financieros|Ley de bancos', ''),
+]
+for _arch, _mat, _etq, _pdf, _alias, _nota in _PRINCIPALES:
+    COLECCIONES.append({
+        'archivo': _arch + '.txt', 'materia': _mat, 'materia_nombre': _MATERIA_NOMBRE[_mat], 'materia_url': f'/leyes/{_mat}/', 'unica': True,
+        'etiqueta': _etq, 'slug': _arch, 'codigo': 'nar', 'titulo': _pdf, 'rango': '', 'alias': _alias, 'intro': '', 'pdf_titulo': _pdf,
+        'fuente': ('Texto de los artículos tomado del PDF de esta norma en la Biblioteca' + (f' ({_nota})' if _nota else '')
+                   + '. No es la publicación oficial: verifique en la Gaceta Oficial de Bolivia.'),
+    })
+
+
+def _url_item(num):
+    """articulo-12, articulo-91-bis; las disposiciones usan su propio nombre (disposicion-transitoria-primera)."""
+    return f'articulo-{num}' if num[:1].isdigit() or num in ('unico', 'unica') else num
+
 
 def _leer_coleccion(ruta):
     txt = open(ruta, encoding='utf-8').read().replace('\r\n', '\n')
@@ -97,8 +136,12 @@ def _leer_coleccion(ruta):
             if 'label' in it:
                 m = re.search(r'(\d+|[úu]nico)', it['label'], re.I)
                 it['num'] = m.group(1).lower().replace('ú', 'u') if m else str(len(arts))
-                if m and m.group(1).isdigit() and not it['label'].lower().startswith('art'):
-                    it['num'] = slug(it['label'])  # «Disposición transitoria 1» → disposicion-transitoria-1 (no choca con articulo-1)
+                if not it['label'].lower().startswith('art'):
+                    it['num'] = slug(it['label'])  # «Disposición transitoria primera» → disposicion-transitoria-primera (no choca con articulo-N)
+                else:
+                    mb = re.match(r'Art\w*\s+(\d+)\s*(bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies)?\s*(?:\((\d+)\))?', it['label'], re.I)
+                    if mb and (mb.group(2) or mb.group(3)):
+                        it['num'] = '-'.join(x for x in (mb.group(1), slug(mb.group(2) or ''), mb.group(3)) if x)  # 91-bis
         normas.append(n)
     return normas
 
@@ -125,6 +168,7 @@ def construir_normas():
     indice = []
     total_arts = 0
     resumen = []
+    pag_mat = {}
     for C in COLECCIONES:
         ruta_txt = os.path.join(RAIZ, 'contenido', 'normas', C['materia'], C['archivo'])
         if not os.path.isfile(ruta_txt):
@@ -189,7 +233,7 @@ def construir_normas():
                     vuelca()
                     idx_html.append(f'<div class="idx n1"><b>{E(it["sec"])}</b></div>')
                 else:
-                    lote.append(f'<a href="{ruta_n}articulo-{it["num"]}/">{E(it["label"])}</a>')
+                    lote.append(f'<a href="{ruta_n}{_url_item(it["num"])}/">{E(it["label"])}</a>')
             vuelca()
             enc = ''
             if pre:
@@ -199,7 +243,7 @@ def construir_normas():
             fecha_p = f'<p class="entrada">{E(epi) if epi else E(fecha_txt)}</p>'
             cuerpo_n = (f'<div class="cont pag"><nav class="migas" aria-label="Migas de pan">{miga_html}</nav>'
                         f'<div class="dos"><div><span class="etq">{E(n["tipo"])}</span><h1>{E(n["titulo"])}</h1>{fecha_p}'
-                        f'<p class="botones"><a class="btn" href="{ruta_n}articulo-{arts[0]["num"]}/">Empezar por el {E(arts[0]["label"].lower()) if arts[0]["label"].lower().startswith("art") else "primer artículo"}</a>'
+                        f'<p class="botones"><a class="btn" href="{ruta_n}{_url_item(arts[0]["num"])}/">Empezar por el {E(arts[0]["label"].lower()) if arts[0]["label"].lower().startswith("art") else "primer artículo"}</a>'
                         + ('' if unica else f'<a class="btn sec" href="{base}">Volver a la colección</a>') + f'</p>{enc}'
                         + (f'<div class="alerta">{ico("info")}<div>{E(C["fuente"])}</div></div>' if C.get('fuente') else '') +
                         f'<section id="indice" class="tarjeta indice-norma"><h2>Índice</h2>{"".join(idx_html)}</section>{cierre_html}</div>'
@@ -211,9 +255,9 @@ def construir_normas():
                 sig = arts[k + 1] if k + 1 < len(arts) else None
                 vec = ''
                 if prev:
-                    vec += f'<a href="{ruta_n}articulo-{prev["num"]}/">{ico("chevl", 18)}{E(prev["label"])}</a>'
+                    vec += f'<a href="{ruta_n}{_url_item(prev["num"])}/">{ico("chevl", 18)}{E(prev["label"])}</a>'
                 if sig:
-                    vec += f'<a href="{ruta_n}articulo-{sig["num"]}/">{E(sig["label"])}{ico("chev", 18)}</a>'
+                    vec += f'<a href="{ruta_n}{_url_item(sig["num"])}/">{E(sig["label"])}{ico("chev", 18)}</a>'
                 if not vec:
                     vec = f'<a href="{ruta_n}">{ico("chevl", 18)}Volver a la norma</a>'
                 # sección a la que pertenece
@@ -231,32 +275,29 @@ def construir_normas():
                             f'<article class="legal"><div class="entre"><span class="etq">Texto legal literal</span><span class="tag ver">Verificar</span></div><h1>{E(it["label"])}</h1>{texto}<footer>{E(C.get("fuente") or FUENTE)}</footer></article>'
                             f'<nav class="vecinos" aria-label="Textos contiguos">{vec}</nav></div><aside class="lateral">{_sobre()}</aside></div></div>')
                 desc = ' '.join(it['paras'])[:155]
-                escribe(html_de(f'{ruta_n}articulo-{it["num"]}/'), pagina(f'{it["label"]} · {n["titulo"]}', desc, cuerpo_a, 'Normativa'))
-                indice.append({'n': int(it['num']) if it['num'].isdigit() else 1, 'u': f'{ruta_n}articulo-{it["num"]}/', 't': ' '.join(it['paras']),
-                               'k': n['titulo'], 'c': C['codigo'], 'r': it['label'], 'x': 1, **({'m': C['alias']} if C.get('alias') else {})})
+                escribe(html_de(f'{ruta_n}{_url_item(it["num"])}/'), pagina(f'{it["label"]} · {n["titulo"]}', desc, cuerpo_a, 'Normativa'))
+                indice.append({'n': int(re.match(r'\d+', it['num']).group()) if re.match(r'\d+', it['num']) else 0, 'u': f'{ruta_n}{_url_item(it["num"])}/',
+                               # las normas que también están en PDF en la Biblioteca ya tienen su texto completo en el índice de los PDF:
+                               # aquí basta el comienzo del artículo (así el índice general pesa menos)
+                               't': ' '.join(it['paras'])[:180 if C['codigo'] == 'nar' else None],
+                               'k': n['titulo'], 'c': C['codigo'], 'r': it['label'], 'x': 1})  # los alias de la norma van en MALIAS (buscador.py)
         resumen.append((C, len(normas), n_arts, base))
         # tarjeta en la portada de la materia
         pm = os.path.join(OUT, 'leyes', C['materia'], 'index.html')
         if unica:
-            # página de la materia en Normativa (/leyes/<materia>/): si no viene en la base, se crea con la tarjeta de la norma;
-            # después construir.py le pone la portada y «También en la Biblioteca (PDF)», como en Laboral
+            # tarjeta para la página de la materia en Normativa (/leyes/<materia>/); las páginas se escriben al final,
+            # con todas las normas de la materia; construir.py les pone la portada y «También en la Biblioteca (PDF)»
             n0 = normas[0]
             arts0 = [it for it in n0['items'] if 'label' in it]
             n_a = sum(1 for it in arts0 if it['label'].lower().startswith('art'))
             otros = len(arts0) - n_a
-            detalle = f'{n_a:,} artículos'.replace(',', '.') + (f' · {otros} disposiciones transitorias' if otros else '')
+            detalle = f'{n_a:,} artículos'.replace(',', '.') + (f' · {otros} disposiciones' if otros else '')
             tarj = (f'<article class="tarjeta"><div class="entre"><span class="etq">{E(C.get("etiqueta") or n0["tipo"])}</span><span class="tag ver">Verificar</span></div>'
                     f'<h2 class="h-norma"><a href="{base}">{E(n0["titulo"])}</a></h2><p class="sec">{E(n0["epigrafe"] or _fecha_larga(n0["fecha"]))}</p><p>{detalle}</p>'
                     f'<small>Revisada: {HOY} · Versión 1</small><p><a class="btn" href="{base}">Ver artículos</a></p></article>')
-            if os.path.isfile(pm):
-                doc = open(pm, encoding='utf-8').read()
-                if base not in doc and '</h1>' in doc:
-                    doc = doc.replace('</h1>', '</h1>' + tarj, 1)
-                    open(pm, 'w', encoding='utf-8').write(doc)
-            else:
-                cuerpo_m = (f'<div class="cont pag estrecha">{migas([("Inicio", "/"), ("Normativa", "/leyes/"), (mat_n, "")])}'
-                            f'<h1>{E(C.get("materia_titulo") or "Normativa " + mat_n.lower())}</h1><p class="entrada">1 norma cargada por artículos</p>{tarj}</div>')
-                escribe(html_de(f'/leyes/{C["materia"]}/'), pagina(C.get('materia_titulo') or mat_n, f'Normas de la materia {mat_n.lower()} por artículos: {n0["titulo"]}.', cuerpo_m, 'Normativa'))
+            pag_mat.setdefault(C['materia'], {'C': C, 'mat_n': mat_n, 'tarjetas': [], 'bases': []})
+            pag_mat[C['materia']]['tarjetas'].append(tarj)
+            pag_mat[C['materia']]['bases'].append(base)
         elif os.path.isfile(pm):
             doc = open(pm, encoding='utf-8').read()
             tarj = (f'<article class="tarjeta"><div class="entre"><span class="etq">Normas históricas</span><span class="tag ver">Verificar</span></div>'
@@ -268,6 +309,24 @@ def construir_normas():
                 open(pm, 'w', encoding='utf-8').write(doc)
             else:
                 AVISOS.append(f'Portada de /leyes/{C["materia"]}/: no se pudo insertar la tarjeta de «{C["titulo"]}».')
+    # ---- páginas de materia en Normativa para las normas «unica»
+    for mat, P in pag_mat.items():
+        pm = os.path.join(OUT, 'leyes', mat, 'index.html')
+        if os.path.isfile(pm):
+            doc = open(pm, encoding='utf-8').read()
+            nuevas = ''.join(t for t, b in zip(P['tarjetas'], P['bases']) if b not in doc)
+            k = doc.rfind('</article>')
+            if nuevas and k > 0:
+                doc = doc[:k + len('</article>')] + nuevas + doc[k + len('</article>'):]
+                open(pm, 'w', encoding='utf-8').write(doc)
+            elif nuevas:
+                AVISOS.append(f'Portada de /leyes/{mat}/: no se pudo insertar la tarjeta de las normas por artículos.')
+        else:
+            C, mat_n = P['C'], P['mat_n']
+            n = len(P['tarjetas'])
+            cuerpo_m = (f'<div class="cont pag estrecha">{migas([("Inicio", "/"), ("Normativa", "/leyes/"), (mat_n, "")])}'
+                        f'<h1>Normativa {E(mat_n.lower())}</h1><p class="entrada">{n} {"norma cargada" if n == 1 else "normas cargadas"} por artículos</p>{"".join(P["tarjetas"])}</div>')
+            escribe(html_de(f'/leyes/{mat}/'), pagina(f'Normativa {mat_n.lower()}', f'Normas de la materia {mat_n.lower()} por artículos.', cuerpo_m, 'Normativa'))
     # ---- índice de búsqueda, filtro y script
     if indice:
         pi = os.path.join(OUT, 'buscar', 'indice.json')
