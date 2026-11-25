@@ -49,9 +49,11 @@ COLECCIONES = [{
     'rango': '1977',
     'alias': 'Código de Comercio|CCo|CCom|C. Com.|Código mercantil|Decreto Ley 14379|DL 14379',
     'intro': '',
-    'pdf_titulo': '',
-    'fuente': ('Texto de los artículos tomado de una edición anotada no oficial (se publican solo los artículos, sin las notas, concordancias ni comentarios de esa edición). '
-               'Puede no incluir todas las modificaciones posteriores. Verifique en la Gaceta Oficial de Bolivia.'),
+    'pdf_titulo': 'Código de Comercio',
+    'fuente': ('Texto del Código tomado, tal cual, de la edición publicada por la Autoridad de Supervisión del Sistema Financiero (ASFI). '
+               'Los paréntesis que citan otros artículos o leyes al final de muchos párrafos son concordancias de esa edición, no parte del texto de 1977. Solo se corrigieron erratas tipográficas evidentes de esa edición (un número en lugar de una letra, como «1imitada») y unas pocas palabras que no tienen sentido en su artículo; cada una de estas últimas se indica en la nota editorial del artículo. '
+               'Los artículos modificados o derogados por las Leyes 779, 1834 y 1883 muestran el texto nuevo y, aparte, el anterior. Verifique en la Gaceta Oficial de Bolivia.'),
+    'edicion': 'edición de la ASFI',
 }]
 
 # Leyes y códigos principales por artículos (24 nov 2026). Texto sacado del PDF de la Biblioteca con
@@ -164,6 +166,11 @@ def _sobre(estado_extra=''):
             f'<dt>Última revisión</dt><dd>{HOY}</dd><dt>Versión</dt><dd>1</dd><dt>Fuente</dt><dd>{E(FUENTE)}</dd></dl></section>{estado_extra}{alerta()}')
 
 
+_pm = os.path.join(RAIZ, 'contenido', 'normas', 'modificaciones.json')
+MODIFICACIONES = _json.load(open(_pm, encoding='utf-8')) if os.path.isfile(_pm) else {}
+MODIFICACIONES = {k: v for k, v in MODIFICACIONES.items() if not k.startswith('_')}
+
+
 def construir_normas():
     indice = []
     total_arts = 0
@@ -269,17 +276,40 @@ def construir_normas():
                         sec = it2['sec']
                 ruta_h = f'<div class="ruta"><span>{E(n["titulo"])}</span>' + (f'<b>{E(sec)}</b>' if sec else '') + '</div>'
                 texto = ''.join(f'<p>{E(p)}</p>' for p in it['paras'])
+                etq_txt, pie, ant, aviso_mod, paras_idx = 'Texto legal literal', E(C.get('fuente') or FUENTE), '', '', it['paras']
+                for md in MODIFICACIONES.get(n['slug'], {}).get(it['num'], []):
+                    # artículo modificado o derogado por una norma posterior (contenido/normas/modificaciones.json):
+                    # el texto que da esa norma va como principal y el de la edición publicada, aparte y rotulado
+                    ref = f'{md["donde"]} de la {md["norma"]}'
+                    enl = f' <a href="{md["pdf"]}">Ver la {E(md["norma"].split(" de ")[0])} en la Biblioteca</a>.' if md.get('pdf') else ''
+                    if md['tipo'] == 'deroga':
+                        aviso_mod = f'<div class="alerta">{ico("info")}<div>Este artículo fue derogado por {E(ref)}.{enl} Abajo se conserva su texto, solo como referencia.</div></div>'
+                        etq_txt = 'Texto derogado · ya no está vigente'
+                        continue
+                    if md['tipo'] == 'elimina':
+                        nuevos = [p for p in it['paras'] if re.sub(r'\W+', '', p.lower()) != re.sub(r'\W+', '', md['quitar'].lower())]
+                        if len(nuevos) == len(it['paras']):
+                            AVISOS.append(f'{n["titulo"]}, {it["label"]}: no se encontró el párrafo que elimina la {md["norma"]}.')
+                    else:
+                        nuevos = md['texto']
+                    ant = (f'<article class="legal ant"><div class="entre"><span class="etq gris">Texto anterior literal · {E(C.get("edicion", "edición publicada"))}, ya reemplazado</span></div>'
+                           f'<h2 class="rot">Texto anterior</h2>{texto}<footer>{pie}</footer></article>')
+                    aviso_mod = f'<div class="alerta">{ico("info")}<div>{E(md.get("explica") or ("Texto modificado por " + ref + "."))}{enl} El texto anterior se muestra abajo, aparte.</div></div>'
+                    texto = ''.join(f'<p>{E(p)}</p>' for p in nuevos)
+                    paras_idx = nuevos
+                    etq_txt = f'Texto legal literal · según la {md["norma"].split(" de ")[0]}'
+                    pie = E(f'Texto del artículo según {ref}, tomado del PDF de esa ley en la Biblioteca. Verifique en la Gaceta Oficial de Bolivia.')
                 art_migas = miga_html.replace(f'<span aria-current="page">{E(n["titulo"])}</span>', f'<a href="{ruta_n}">{E(n["titulo"])}</a><span aria-hidden="true">›</span><span aria-current="page">{E(it["label"])}</span>')
                 cuerpo_a = (f'<div class="cont pag"><nav class="migas" aria-label="Migas de pan">{art_migas}</nav>'
                             f'<div class="art"><div class="centro">{BARRA_ART.format(idx=ruta_n)}{ruta_h}'
-                            f'<article class="legal"><div class="entre"><span class="etq">Texto legal literal</span><span class="tag ver">Verificar</span></div><h1>{E(it["label"])}</h1>{texto}<footer>{E(C.get("fuente") or FUENTE)}</footer></article>'
-                            f'<nav class="vecinos" aria-label="Textos contiguos">{vec}</nav></div><aside class="lateral">{_sobre()}</aside></div></div>')
-                desc = ' '.join(it['paras'])[:155]
+                            f'{aviso_mod}<article class="legal"><div class="entre"><span class="etq">{E(etq_txt)}</span><span class="tag ver">Verificar</span></div><h1>{E(it["label"])}</h1>{texto}<footer>{pie}</footer></article>'
+                            f'<nav class="vecinos" aria-label="Textos contiguos">{vec}</nav>{ant}</div><aside class="lateral">{_sobre()}</aside></div></div>')
+                desc = ' '.join(paras_idx)[:155]
                 escribe(html_de(f'{ruta_n}{_url_item(it["num"])}/'), pagina(f'{it["label"]} · {n["titulo"]}', desc, cuerpo_a, 'Normativa'))
                 indice.append({'n': int(re.match(r'\d+', it['num']).group()) if re.match(r'\d+', it['num']) else 0, 'u': f'{ruta_n}{_url_item(it["num"])}/',
                                # las normas que también están en PDF en la Biblioteca ya tienen su texto completo en el índice de los PDF:
                                # aquí basta el comienzo del artículo (así el índice general pesa menos)
-                               't': ' '.join(it['paras'])[:180 if C['codigo'] == 'nar' else None],
+                               't': ' '.join(paras_idx)[:180 if C['codigo'] == 'nar' else None],
                                'k': n['titulo'], 'c': C['codigo'], 'r': it['label'], 'x': 1})  # los alias de la norma van en MALIAS (buscador.py)
         resumen.append((C, len(normas), n_arts, base))
         # tarjeta en la portada de la materia

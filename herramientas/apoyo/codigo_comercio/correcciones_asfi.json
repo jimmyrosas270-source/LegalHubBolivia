@@ -1,0 +1,19 @@
+{
+ "_nota": "Palabras de la edición de la ASFI que no cuadran con el sentido del artículo y que otra edición del Código (y, cuando se indica, el texto de estudio de la materia) traen de otra forma. Se corrigen por pedido del titular (25 nov 2026); cada artículo lleva una nota editorial que dice qué decía la edición de la ASFI. asfi.py las aplica y notas_cco.py redacta las notas.",
+ "28": [["comprendidas en el artículo 59,", "comprendidas en el artículo 5,", false]],
+ "142": [["en el Reglamento de Comercio", "en el Registro de Comercio", false]],
+ "222": [["5) Ventas o beneficios", "5) Ventajas o beneficios", true]],
+ "332": [["Los accionistas minoristas tienen", "Los accionistas minoritarios tienen", false]],
+ "378": [["serán limitada y solidariamente", "serán ilimitada y solidariamente", false]],
+ "640": [["sabiendo que el girador no los pagará", "sabiendo que el girado no los pagará", true], ["garantía, siendo que no existen fondos", "garantía, sabiendo que no existen fondos", true]],
+ "888": [["vehículos o impedimentos,", "vehículos o implementos,", false]],
+ "966": [["o lo estuvieran adecuadamente a su naturaleza", "o lo estuvieran inadecuadamente a su naturaleza", true]],
+ "979": [["a pagar la primera.", "a pagar la prima.", true]],
+ "1088": [["las cosas devengadas", "las costas devengadas", true]],
+ "1122": [["el consentimiento propio del asegurado", "el consentimiento previo del asegurado", true]],
+ "1391": [["la retención pactada", "la retribución pactada", true]],
+ "1447": [["contraidas por el fiador,", "contraidas por el fiado,", true]],
+ "1518": [["composición del archivo y pasivo", "composición del activo y pasivo", true]],
+ "1589": [["no efectuarán el trámite", "no afectarán el trámite", false]],
+ "1656": [["estado de casación de pagos", "estado de cesación de pagos", true]]
+}
