@@ -1,0 +1,70 @@
+---
+titulo: Libros de comercio, contabilidad y competencia desleal
+materia: Comercial
+publico: Comerciantes, contadores y estudiantes
+actualizada: 25/11/2026
+resumen: Qué libros debe llevar un comerciante, cómo se legalizan, qué está prohibido en ellos, cuánto tiempo se guardan, cuándo se pueden revisar, qué valor tienen como prueba y qué actos son competencia desleal.
+articulos:
+- /leyes/comercial/codigo-de-comercio/articulo-36/ | Artículos 36 a 38 | Código de Comercio · Contabilidad y libros obligatorios
+- /leyes/comercial/codigo-de-comercio/articulo-40/ | Artículos 40 y 41 | Código de Comercio · Legalización y prohibiciones
+- /leyes/comercial/codigo-de-comercio/articulo-52/ | Artículo 52 | Código de Comercio · Conservación
+- /leyes/comercial/codigo-de-comercio/articulo-54/ | Artículo 54 | Código de Comercio · Auditoría
+- /leyes/comercial/codigo-de-comercio/articulo-57/ | Artículos 57 a 60 | Código de Comercio · Examen y exhibición
+- /leyes/comercial/codigo-de-comercio/articulo-62/ | Artículos 62 a 64 | Código de Comercio · Valor probatorio
+- /leyes/comercial/codigo-de-comercio/articulo-66/ | Artículos 66 a 71 | Código de Comercio · Competencia desleal
+---
+## La contabilidad es obligatoria
+
+Todo comerciante debe llevar una contabilidad acorde con el tamaño y la naturaleza de su negocio, que muestre su situación y respalde cada operación con documentos ([artículo 36](/leyes/comercial/codigo-de-comercio/articulo-36/)). La lleva un **contador habilitado**, pero la responsabilidad sigue siendo del comerciante ([artículo 38](/leyes/comercial/codigo-de-comercio/articulo-38/)).
+
+Los libros obligatorios son tres ([artículo 37](/leyes/comercial/codigo-de-comercio/articulo-37/)):
+
+1. **Diario**: las operaciones día por día.
+2. **Mayor**: los movimientos agrupados por cuenta.
+3. **Inventarios y Balances**: lo que se tiene, lo que se debe y el resultado del ejercicio.
+
+Se pueden llevar libros auxiliares y legalizarlos para que también sirvan como prueba.
+
+## Cómo se legalizan
+
+Antes de usarlos, los libros se presentan **encuadernados y foliados a un notario**, que pone un acta en el primer folio y sella todas las hojas. También se aceptan registros hechos por medios mecánicos o electrónicos en hojas sueltas, que luego se encuadernan, con autorización del Registro de Comercio ([artículo 40](/leyes/comercial/codigo-de-comercio/articulo-40/)).
+
+## Lo que no se puede hacer en los libros
+
+Alterar el orden de las fechas, dejar espacios en blanco, escribir entre líneas, raspar, tachar o arrancar hojas. Un error se corrige con un **nuevo asiento** que lo explique ([artículo 41](/leyes/comercial/codigo-de-comercio/articulo-41/)).
+
+> Los libros y papeles de comercio se conservan al menos cinco años desde su cierre o desde el último asiento, salvo que una norma especial fije otro plazo (Código de Comercio, artículo 52).
+
+## Auditoría
+
+El balance debe ser auditado cuando lo exigen la ley o los estatutos, cuando lo pide quien tiene derecho, cuando la empresa emite valores de oferta pública o cuando lo ordena la autoridad a pedido fundado de un interesado ([artículo 54](/leyes/comercial/codigo-de-comercio/articulo-54/)).
+
+## La reserva de los libros
+
+La contabilidad revela secretos del negocio. Por eso:
+
+- Un juez o una autoridad solo pueden ordenar **de oficio** revisar los libros para definir impuestos en controversia, para controlar sociedades por acciones, bancos y aseguradoras, y en los procesos civiles según su ley ([artículo 57](/leyes/comercial/codigo-de-comercio/articulo-57/)).
+- La entrega o el examen general de los libros procede en casos de **sucesión, cesación de pagos, quiebra y liquidación** ([artículo 58](/leyes/comercial/codigo-de-comercio/articulo-58/)).
+- Fuera de esos casos, la **exhibición** solo procede a pedido de quien tiene interés o responsabilidad en el asunto ([artículo 59](/leyes/comercial/codigo-de-comercio/articulo-59/)), y se hace donde están los libros, ante el comerciante, sin obligarlo a trasladarlos ([artículo 60](/leyes/comercial/codigo-de-comercio/articulo-60/)).
+
+## Los libros como prueba
+
+- **Entre comerciantes**, los libros llevados en forma son plena prueba. Quien los presenta acepta lo que le favorece y lo que lo perjudica. Si solo una parte lleva sus libros en regla, se está a los de ella ([artículo 62](/leyes/comercial/codigo-de-comercio/articulo-62/)).
+- **Contra un no comerciante**, los libros del comerciante solo son un principio de prueba que debe completarse con otras ([artículo 63](/leyes/comercial/codigo-de-comercio/articulo-63/)).
+- Quien lleva **doble contabilidad** para defraudar no puede usar sus libros a su favor: hacen prueba en su contra ([artículo 64](/leyes/comercial/codigo-de-comercio/articulo-64/)).
+
+## Competencia desleal
+
+La libertad de comercio no autoriza a competir con trampas. La competencia desleal se sanciona según el Código Penal ([artículo 66](/leyes/comercial/codigo-de-comercio/articulo-66/)). El Código menciona, entre otros actos ([artículo 69](/leyes/comercial/codigo-de-comercio/articulo-69/)):
+
+- Usar nombres, marcas o signos ajenos, o parecidos al punto de confundir.
+- Desacreditar los productos o el negocio de otro.
+- Usar indebidamente denominaciones de origen o hacer publicidad engañosa.
+- Sobornar a empleados ajenos o atraer al personal técnico de la competencia con maniobras.
+- Desorganizar el mercado con medios dolosos.
+
+El perjudicado puede pedir al juez, por la **vía sumaria**, que ordene cesar el acto, destruir los medios usados, publicar una rectificación y pagar los daños; si afecta a un grupo de comerciantes, puede demandar la cámara respectiva ([artículo 70](/leyes/comercial/codigo-de-comercio/articulo-70/)). Si el infractor no cesa en el plazo fijado, puede ser multado ([artículo 71](/leyes/comercial/codigo-de-comercio/articulo-71/)).
+
+Además, los productos hechos en el país deben llevar la leyenda **«Hecho en Bolivia»** ([artículo 67](/leyes/comercial/codigo-de-comercio/articulo-67/)).
+
+!! Las normas tributarias pueden exigir otros registros, plazos de conservación más largos o formatos electrónicos. Consulte la normativa del Servicio de Impuestos Nacionales [VERIFICAR].

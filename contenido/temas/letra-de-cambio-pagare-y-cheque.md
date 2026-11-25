@@ -3,7 +3,7 @@ titulo: "Letra de cambio, pagaré y cheque"
 materia: Comercial
 imagen: titulos
 orden: 24
-actualizada: 24/11/2026
+actualizada: 25/11/2026
 resumen: Qué debe contener cada título, cuándo hay que presentarlo y protestarlo, cuánto tiempo hay para cobrarlo y qué pasa con un cheque sin fondos o postdatado.
 tarjetas:
 - Una letra de cambio a la que le falta un requisito obligatorio no vale como letra de cambio, salvo los casos que el Código salva. | La letra de cambio | Código de Comercio, art. 541
@@ -20,6 +20,9 @@ normas:
 - /leyes/comercial/codigo-de-comercio/articulo-592/ | Código de Comercio, artículos 592 a 599 | Pagaré
 - /leyes/comercial/codigo-de-comercio/articulo-600/ | Código de Comercio, artículos 600 y siguientes | Cheque
 guias:
+- /guias/comercial/endoso-aval-y-protesto/ | Endoso, aval y protesto de los títulos valores
+- /guias/comercial/clases-de-cheques/ | El cheque y sus clases
+- /guias/comercial/otros-titulos-valores/ | Otros títulos valores
 - /guias/procesal-civil/proceso-ejecutivo/ | El proceso ejecutivo
 ---
 ## Qué es un título valor

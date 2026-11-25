@@ -3,11 +3,12 @@ titulo: "Comerciantes y sociedades: lo básico para emprender"
 materia: Comercial
 imagen: negocio
 orden: 23
-actualizada: 24/11/2026
+actualizada: 25/11/2026
 resumen: Quién es comerciante, qué obligaciones tiene, qué es el Registro de Comercio, qué libros debe llevar y qué tipos de sociedades comerciales permite el Código de Comercio.
 tarjetas:
 - Comerciante es quien se dedica habitualmente a una actividad comercial con fines de lucro, aunque la ejerza a través de otra persona. | Quién es comerciante | Código de Comercio, art. 4
 - Todo comerciante debe matricularse en el Registro de Comercio. | Las obligaciones del comerciante | Código de Comercio, art. 25
+- Desde el 1 de abril de 2022 el Registro de Comercio está a cargo del SEPREC. | El Registro de Comercio | Decreto Supremo 4596
 - Los libros obligatorios del comerciante son el Diario, el Mayor y el de Inventarios y Balances. | La contabilidad | Código de Comercio, art. 37
 - Los libros y papeles de comercio deben conservarse por lo menos cinco años. | La contabilidad | Código de Comercio, art. 52
 - Una sociedad comercial adquiere personalidad jurídica desde su inscripción en el Registro de Comercio. | Las sociedades comerciales | Código de Comercio, art. 133
@@ -19,7 +20,13 @@ normas:
 - /leyes/comercial/codigo-de-comercio/articulo-36/ | Código de Comercio, artículos 36 a 65 | Contabilidad
 - /leyes/comercial/codigo-de-comercio/articulo-126/ | Código de Comercio, artículos 126 y siguientes | Sociedades comerciales
 guias:
+- /guias/comercial/historia-y-fuentes-del-derecho-comercial/ | El derecho comercial, su historia y sus fuentes
+- /guias/comercial/registro-de-comercio-y-seprec/ | El Registro de Comercio, el SEPREC y la matrícula
+- /guias/comercial/libros-de-comercio-y-competencia-desleal/ | Libros de comercio, contabilidad y competencia desleal
+- /guias/comercial/auxiliares-del-comercio/ | Los auxiliares del comercio
 - /guias/comercial/tipos-de-sociedades-comerciales/ | Los tipos de sociedades comerciales
+- /guias/comercial/sociedad-anonima-acciones-juntas-y-directorio/ | La sociedad anónima
+- /guias/comercial/disolucion-liquidacion-transformacion-y-fusion/ | Disolución, liquidación, transformación y fusión
 ---
 ## Quién es comerciante
 
@@ -45,7 +52,7 @@ Todo comerciante debe ([artículo 25](/leyes/comercial/codigo-de-comercio/articu
 
 El Registro de Comercio lleva la **matrícula** de los comerciantes y la **inscripción** de los actos y contratos que la ley señala ([artículo 27](/leyes/comercial/codigo-de-comercio/articulo-27/)). Deben inscribirse, por ejemplo, el régimen de bienes del matrimonio cuando uno de los esposos es comerciante, los poderes de los administradores y la constitución de sociedades ([artículo 29](/leyes/comercial/codigo-de-comercio/articulo-29/)).
 
-!! El Código dice que el registro depende de un ministerio con un nombre que ya no existe. Consulta qué entidad lleva hoy el Registro de Comercio antes de hacer un trámite [VERIFICAR].
+Desde el **1 de abril de 2022** el Registro de Comercio lo lleva el **Servicio Plurinacional de Registro de Comercio (SEPREC)**, bajo tuición del Ministerio de Desarrollo Productivo y Economía Plural ([Ley 1398](/biblioteca/ley-1398/) y [Decreto Supremo 4596](/biblioteca/decreto-supremo-4596/)). El SEPREC otorga y renueva cada año la matrícula de comercio. Ver la guía [El Registro de Comercio, el SEPREC y la matrícula](/guias/comercial/registro-de-comercio-y-seprec/).
 
 ## La contabilidad
 
@@ -59,7 +66,7 @@ Una sociedad comercial solo puede tomar uno de estos tipos ([artículo 126](/ley
 
 La sociedad tiene personalidad jurídica desde que se **inscribe** en el Registro de Comercio ([artículo 133](/leyes/comercial/codigo-de-comercio/articulo-133/)). El documento de constitución debe indicar, entre otros datos, los socios, el nombre, el domicilio, el objeto, el capital y los aportes ([artículo 127](/leyes/comercial/codigo-de-comercio/articulo-127/)).
 
-En la [guía sobre los tipos de sociedades](/guias/comercial/tipos-de-sociedades-comerciales/) se comparan la colectiva, la SRL y la anónima.
+En la [guía sobre los tipos de sociedades](/guias/comercial/tipos-de-sociedades-comerciales/) se explican los seis tipos.
 
 ## Competencia leal
 
