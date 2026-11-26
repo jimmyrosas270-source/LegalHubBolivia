@@ -47,6 +47,8 @@ Clases:
 
 > Cuando la sociedad emite nuevas acciones, los accionistas tienen preferencia para suscribirlas en proporción a las que ya tienen; la oferta se publica en la Gaceta Electrónica del Registro de Comercio y hay treinta días para ejercer ese derecho (Código de Comercio, artículo 255, según la Ley 779).
 
+> La sociedad anónima no puede emitir acciones por menos de su valor nominal, pero sí con prima, por encima de ese valor (Código de Comercio, artículo 241).
+
 ## Derechos del accionista
 
 Votar en las juntas, ser elegido para los órganos de la sociedad, cobrar dividendos cuando hay utilidades, recibir su parte si la sociedad se liquida, suscribir con preferencia nuevas acciones, pedir informes en la junta ([artículo 300](/leyes/comercial/codigo-de-comercio/articulo-300/)), impugnar resoluciones ilegales ([artículo 302](/leyes/comercial/codigo-de-comercio/articulo-302/)) y vender sus acciones.
@@ -70,6 +72,8 @@ Reglas clave:
 ## El directorio y los gerentes
 
 La administración está a cargo de un **directorio** de al menos **tres** y como máximo **doce** miembros, accionistas o no, elegidos por la junta ([artículo 307](/leyes/comercial/codigo-de-comercio/articulo-307/)). Los accionistas con al menos el 20 % del capital con voto pueden elegir un tercio de los directores ([artículo 316](/leyes/comercial/codigo-de-comercio/articulo-316/)). Los directores dan fianza ([artículo 312](/leyes/comercial/codigo-de-comercio/articulo-312/)) y responden con todos sus bienes, solidariamente, por mal desempeño, por violar la ley o los estatutos, por dolo o culpa grave y por repartir utilidades indebidas ([artículo 321](/leyes/comercial/codigo-de-comercio/articulo-321/)). El directorio puede nombrar **gerentes** para la gestión diaria ([artículo 327](/leyes/comercial/codigo-de-comercio/articulo-327/)) y debe publicar la **memoria anual** ([artículo 331](/leyes/comercial/codigo-de-comercio/articulo-331/)).
+
+> Con todo el capital presente, la junta de accionistas puede reunirse sin convocatoria previa (Código de Comercio, artículo 299).
 
 ## Los síndicos
 

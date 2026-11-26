@@ -26,6 +26,8 @@ En una venta a distancia hay que decidir **quién paga el transporte y el seguro
 
 > En la venta CIF, el vendedor debe asegurar la mercadería por su valor más un diez por ciento, o lo que se pacte, a favor del comprador (Código de Comercio, artículo 859).
 
+> En la venta FAS el vendedor cumple poniendo la mercadería al costado del medio de transporte: no tiene que cargarla (Código de Comercio, artículo 854).
+
 ## Obligaciones en la venta CIF
 
 - **Vendedor**: contratar el transporte y pagar el flete, tomar el seguro, entregar los documentos (conocimiento de embarque o carta de porte, póliza, factura), pagar los impuestos de exportación y conseguir los certificados necesarios ([artículo 859](/leyes/comercial/codigo-de-comercio/articulo-859/)).
@@ -37,6 +39,8 @@ En una venta a distancia hay que decidir **quién paga el transporte y el seguro
 - En la **venta contra documentos**, el vendedor cumple entregando los títulos de la mercadería, de transporte y de seguro en el plazo pactado ([artículo 850](/leyes/comercial/codigo-de-comercio/articulo-850/)).
 - Si el precio se paga **por medio de un banco**, el vendedor solo puede accionar contra el comprador después de que el banco rechace el pago ([artículo 865](/leyes/comercial/codigo-de-comercio/articulo-865/)).
 - El **crédito documentario** o carta de crédito es la herramienta bancaria más usada para estos pagos ([artículo 1394](/leyes/comercial/codigo-de-comercio/articulo-1394/)); se explica en la guía [Contratos bancarios](/guias/comercial/contratos-bancarios/).
+
+> Si el vendedor CIF no contrata el seguro como se pactó, responde como si él fuera el asegurador (Código de Comercio, artículo 861).
 
 ## Reclamos
 

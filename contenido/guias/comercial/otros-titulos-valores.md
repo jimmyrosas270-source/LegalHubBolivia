@@ -26,6 +26,8 @@ Se crean por decisión de la sociedad, aprobada en junta extraordinaria, y se in
 
 !! La Ley 1834 del Mercado de Valores derogó algunos artículos de este capítulo (por ejemplo, el 647 sobre el monto máximo de la emisión). Para bonos de oferta pública rigen esa ley y la normativa de la autoridad de supervisión [VERIFICAR].
 
+> Mientras haya bonos en circulación, la sociedad no puede cambiar su objeto, su domicilio o su nombre sin el consentimiento de la asamblea de tenedores (Código de Comercio, artículo 648).
+
 ## Cédulas hipotecarias
 
 Quien puede disponer de un inmueble, con la intervención de un **banco autorizado**, constituye un crédito hipotecario sobre él y crea cédulas que representan partes de ese crédito ([artículo 682](/leyes/comercial/codigo-de-comercio/articulo-682/)). El banco recibe los pagos del deudor como depositario ([artículo 686](/leyes/comercial/codigo-de-comercio/articulo-686/)), y las acciones para cobrar las cédulas prescriben en **diez años** ([artículo 688](/leyes/comercial/codigo-de-comercio/articulo-688/)).
@@ -38,6 +40,8 @@ Cuando se depositan mercaderías en un **almacén general de depósito** autoriz
 - El **bono de prenda** (o warrant), que incorpora un **crédito con prenda** sobre esas mercaderías: sirve para conseguir un préstamo dándolas en garantía ([artículo 691](/leyes/comercial/codigo-de-comercio/articulo-691/)).
 
 > Para retirar las mercaderías hay que presentar juntos el certificado y el bono de prenda; si el bono circula por separado, hay que pagar antes al almacén el crédito garantizado (Código de Comercio, artículo 700).
+
+> Las acciones para cobrar las cédulas hipotecarias prescriben en diez años (Código de Comercio, artículo 688).
 
 ## Factura cambiaria
 

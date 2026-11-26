@@ -40,6 +40,8 @@ El texto completo, en la edición publicada por la ASFI, está en la [Biblioteca
 - **Vocación internacional**: el comercio cruza fronteras y sus reglas tienden a parecerse en todos los países.
 - **Constante cambio**: aparecen contratos nuevos (leasing, factoraje, fideicomiso, titularización) que luego regulan leyes especiales.
 
+> En materia comercial se puede contratar de palabra o por escrito, salvo que la ley exija una forma especial (Código de Comercio, artículo 787).
+
 ## Qué se aplica y en qué orden
 
 Cuando un asunto comercial no tiene una regla expresa, primero se busca una regla parecida en el mismo Código y, si no la hay, se aplica el **Código Civil** ([artículo 1](/leyes/comercial/codigo-de-comercio/articulo-1/)). Los usos y costumbres comerciales sirven para llenar vacíos e interpretar, siempre que no contradigan la ley.
@@ -54,6 +56,8 @@ En la historia hubo dos maneras de decidir qué es comercial: por la persona (lo
 - Son comerciales también los actos que un comerciante realiza en relación con su negocio ([artículo 7](/leyes/comercial/codigo-de-comercio/articulo-7/)).
 - **No** son comerciales, entre otros, la venta que hace el agricultor de su propia cosecha, el trabajo de profesionales, artesanos y artistas, y la compra para consumo propio ([artículo 8](/leyes/comercial/codigo-de-comercio/articulo-8/)).
 - Si un acto es comercial solo para una de las partes (**acto mixto**), el contrato entero se rige por el Código de Comercio ([artículo 9](/leyes/comercial/codigo-de-comercio/articulo-9/)).
+
+> Las empresas estatales no son empresas comerciales, pero cuando hacen actos de comercio con particulares quedan sujetas al Código de Comercio (Código de Comercio, artículo 10).
 
 ## Relación con otras ramas
 

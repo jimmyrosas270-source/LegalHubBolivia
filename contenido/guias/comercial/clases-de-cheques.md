@@ -29,6 +29,8 @@ A diferencia de la letra de cambio, el cheque **no se acepta**, siempre es **a l
 
 > La muerte o la incapacidad del girador no autorizan al banco a negar el pago del cheque (Código de Comercio, artículo 614).
 
+> Un cheque con fecha adelantada se paga cuando se presenta, aunque todavía no haya llegado la fecha escrita en él (Código de Comercio, artículo 606).
+
 ## Cuándo el banco debe rechazarlo y quién responde
 
 El banco **debe rechazar** el cheque si no hay fondos ni autorización para girar en descubierto, si le faltan requisitos, si está alterado, si recibió aviso de robo o extravío, o si fue notificado de la quiebra del girador, entre otros casos ([artículo 620](/leyes/comercial/codigo-de-comercio/articulo-620/)).
@@ -45,6 +47,8 @@ El banco **debe rechazar** el cheque si no hay fondos ni autorización para gira
 - **De viajero**: lo emiten bancos autorizados y se cobra en sus oficinas o corresponsales del país o del exterior; el beneficiario firma al recibirlo y otra vez al cobrarlo ([artículos 632](/leyes/comercial/codigo-de-comercio/articulo-632/) y [633](/leyes/comercial/codigo-de-comercio/articulo-633/)). Las acciones contra el banco prescriben en diez años ([artículo 638](/leyes/comercial/codigo-de-comercio/articulo-638/)).
 - **Con talón para recibo**: lleva un talón que el tenedor firma al cobrar, y no es negociable ([artículo 639](/leyes/comercial/codigo-de-comercio/articulo-639/)).
 - **No negociable**: con la frase «no negociable» o «intransferible», solo puede endosarse a un banco para su cobro ([artículo 603](/leyes/comercial/codigo-de-comercio/articulo-603/)).
+
+> El cruce de un cheque no se puede borrar: una vez cruzado, solo puede cobrarlo un banco (Código de Comercio, artículos 623 y 625).
 
 ## El cheque sin fondos
 

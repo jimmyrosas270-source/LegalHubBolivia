@@ -35,6 +35,8 @@ Alterar el orden de las fechas, dejar espacios en blanco, escribir entre líneas
 
 > Los libros y papeles de comercio se conservan al menos cinco años desde su cierre o desde el último asiento, salvo que una norma especial fije otro plazo (Código de Comercio, artículo 52).
 
+> La contabilidad la lleva un contador habilitado, pero la responsabilidad sigue siendo del comerciante (Código de Comercio, artículo 38).
+
 ## Auditoría
 
 El balance debe ser auditado cuando lo exigen la ley o los estatutos, cuando lo pide quien tiene derecho, cuando la empresa emite valores de oferta pública o cuando lo ordena la autoridad a pedido fundado de un interesado ([artículo 54](/leyes/comercial/codigo-de-comercio/articulo-54/)).
@@ -52,6 +54,8 @@ La contabilidad revela secretos del negocio. Por eso:
 - **Entre comerciantes**, los libros llevados en forma son plena prueba. Quien los presenta acepta lo que le favorece y lo que lo perjudica. Si solo una parte lleva sus libros en regla, se está a los de ella ([artículo 62](/leyes/comercial/codigo-de-comercio/articulo-62/)).
 - **Contra un no comerciante**, los libros del comerciante solo son un principio de prueba que debe completarse con otras ([artículo 63](/leyes/comercial/codigo-de-comercio/articulo-63/)).
 - Quien lleva **doble contabilidad** para defraudar no puede usar sus libros a su favor: hacen prueba en su contra ([artículo 64](/leyes/comercial/codigo-de-comercio/articulo-64/)).
+
+> No se puede obligar al comerciante a trasladar sus libros: la exhibición se hace donde están, en su presencia (Código de Comercio, artículo 60).
 
 ## Competencia desleal
 

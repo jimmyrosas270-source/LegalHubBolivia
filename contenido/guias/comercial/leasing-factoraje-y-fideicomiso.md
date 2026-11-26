@@ -25,11 +25,15 @@ Lo que dice la Ley 393:
 - Puede recaer sobre muebles, inmuebles, marcas, patentes, software y otros intangibles, siempre que estén claramente detallados (artículo 128).
 - El precio de la opción de compra se fija en el contrato y **no puede pasar del 20 %** del valor del bien, o debe poder determinarse con pautas pactadas (artículo 130).
 
+> En el arrendamiento financiero, el precio de la opción de compra no puede pasar del veinte por ciento del valor del bien (Ley 393, artículo 130).
+
 ## Factoraje (factoring)
 
 Una empresa que vendió a plazo y tiene **facturas por cobrar** las transfiere a una entidad de factoraje, que le **adelanta el dinero** descontando un costo y luego cobra al deudor. Así la empresa obtiene liquidez sin esperar el vencimiento. Se parece al **descuento bancario** ([artículo 1324](/leyes/comercial/codigo-de-comercio/articulo-1324/)), y suele hacerse con **facturas cambiarias** ([artículo 717](/leyes/comercial/codigo-de-comercio/articulo-717/)).
 
 La Ley 393 incluye el factoraje entre las operaciones que pueden realizar las entidades financieras y las **empresas de factoraje**, como empresas de servicios financieros complementarios. Sus reglas de detalle están en la ley y en la normativa de la ASFI [VERIFICAR].
+
+> El arrendamiento financiero se rige solo por la Ley 393 y sus reglamentos, no por las reglas del alquiler civil (Ley 393, artículo 127).
 
 ## Fideicomiso
 

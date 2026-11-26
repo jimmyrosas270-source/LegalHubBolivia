@@ -42,6 +42,8 @@ Clases de endoso ([artículo 527](/leyes/comercial/codigo-de-comercio/articulo-5
 2. **En cobranza** («al cobro»): no transfiere la propiedad; solo autoriza a cobrar y protestar ([artículo 529](/leyes/comercial/codigo-de-comercio/articulo-529/)).
 3. **En garantía** («en prenda»): da un derecho de prenda sobre el título ([artículo 530](/leyes/comercial/codigo-de-comercio/articulo-530/)).
 
+> Un endoso hecho después del vencimiento o del protesto vale solo como una cesión común (Código de Comercio, artículo 531).
+
 ## El aval
 
 Con el **aval**, un tercero o un firmante (que no sea el girador) garantiza el pago total o parcial de una letra ([artículo 558](/leyes/comercial/codigo-de-comercio/articulo-558/)). Se escribe en el anverso o en hoja adherida con la expresión «por aval» y la firma; una firma suelta en el anverso, sin otro sentido, se entiende como aval ([artículo 559](/leyes/comercial/codigo-de-comercio/articulo-559/)). Si no indica cantidad, garantiza todo ([artículo 560](/leyes/comercial/codigo-de-comercio/articulo-560/)).
@@ -68,6 +70,8 @@ El **pagaré** se protesta igual que la letra ([artículo 598](/leyes/comercial/
 - Se puede demandar a todos o a cualquiera, sin seguir el orden de las firmas ([artículo 585](/leyes/comercial/codigo-de-comercio/articulo-585/)).
 - **No hace falta reconocer firmas** para la vía ejecutiva ([artículo 587](/leyes/comercial/codigo-de-comercio/articulo-587/)).
 - Contra la acción solo se admiten las defensas que enumera el Código ([artículo 584](/leyes/comercial/codigo-de-comercio/articulo-584/)).
+
+> Para cobrar una letra por la vía ejecutiva no hace falta que los firmantes reconozcan sus firmas (Código de Comercio, artículo 587).
 
 ## Caducidad y prescripción
 

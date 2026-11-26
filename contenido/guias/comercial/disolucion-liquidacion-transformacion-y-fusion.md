@@ -26,6 +26,8 @@ Una sociedad se disuelve por ([artículo 378](/leyes/comercial/codigo-de-comerci
 
 La **prórroga** debe acordarse e inscribirse antes de que venza el plazo ([artículo 379](/leyes/comercial/codigo-de-comercio/articulo-379/)). La disolución declarada por el juez tiene efecto desde el día en que se produjo la causa ([artículo 380](/leyes/comercial/codigo-de-comercio/articulo-380/)), y frente a terceros cuenta desde su inscripción en el Registro de Comercio y, en las sociedades por acciones, desde su publicación ([artículo 381](/leyes/comercial/codigo-de-comercio/articulo-381/)). En caso de duda sobre si existe una causa, se prefiere que la sociedad siga ([artículo 383](/leyes/comercial/codigo-de-comercio/articulo-383/)).
 
+> Si hay duda sobre si existe una causa de disolución, se prefiere que la sociedad siga funcionando (Código de Comercio, artículo 383).
+
 ## La liquidación
 
 La sociedad disuelta **sigue existiendo, pero solo para liquidarse**: cobrar, pagar, vender sus bienes y repartir lo que quede ([artículo 384](/leyes/comercial/codigo-de-comercio/articulo-384/)).
@@ -38,6 +40,8 @@ La sociedad disuelta **sigue existiendo, pero solo para liquidarse**: cobrar, pa
 6. **Balance final** y proyecto de reparto, que aprueban los socios; se puede impugnar en quince días ([artículo 394](/leyes/comercial/codigo-de-comercio/articulo-394/)). Aprobados, se inscriben y se ejecutan ([artículo 395](/leyes/comercial/codigo-de-comercio/articulo-395/)).
 7. Lo que los socios no cobren se deposita en un banco a su nombre dentro de los sesenta días ([artículo 396](/leyes/comercial/codigo-de-comercio/articulo-396/)).
 8. Se cancela la inscripción en el Registro de Comercio: desde ese momento la sociedad se extingue ([artículo 397](/leyes/comercial/codigo-de-comercio/articulo-397/)).
+
+> Lo que los socios no cobren en la liquidación se deposita en un banco a su nombre dentro de los sesenta días (Código de Comercio, artículo 396).
 
 ## La transformación
 

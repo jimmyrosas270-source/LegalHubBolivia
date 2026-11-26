@@ -38,6 +38,8 @@ Suele hablarse de **sociedades de personas** (colectiva, comandita simple), dond
 
 > En una sociedad colectiva, cada socio puede terminar pagando con su propio patrimonio las deudas de la sociedad (Código de Comercio, artículo 173).
 
+> Una SRL no puede tener más de veinticinco socios (Código de Comercio, artículo 196).
+
 ## Cómo se constituye
 
 - El contrato debe indicar, entre otros datos, los socios, el nombre y domicilio, un **objeto preciso**, el capital y el aporte de cada uno, el plazo, la administración y el reparto de utilidades ([artículo 127](/leyes/comercial/codigo-de-comercio/articulo-127/)).
@@ -49,6 +51,8 @@ Más detalle en la guía [El Registro de Comercio, el SEPREC y la matrícula](/g
 ## Si no se inscribe: la sociedad irregular
 
 La sociedad que no se constituyó en regla, o que funciona **de hecho**, existe solo para responder ante terceros. Quienes actúan por ella responden con **todos sus bienes y solidariamente**, y cualquier socio puede pedir que se disuelva ([artículos 134](/leyes/comercial/codigo-de-comercio/articulo-134/) y [135](/leyes/comercial/codigo-de-comercio/articulo-135/)).
+
+> Quien permite que su nombre figure en la razón social de una sociedad colectiva sin ser socio responde como si lo fuera (Código de Comercio, artículo 174).
 
 ## Pactos prohibidos
 

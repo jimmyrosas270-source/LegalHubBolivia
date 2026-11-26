@@ -28,6 +28,8 @@ Para la Ley 1834 son valores los **títulos valores** del Código de Comercio, l
 - **Primario**: donde los valores se colocan **por primera vez** entre el público (artículo 4).
 - **Secundario**: donde se negocian después los valores ya colocados (artículo 5). Da **liquidez**: el inversionista puede vender antes del vencimiento.
 
+> En el mercado secundario se negocian valores ya colocados: es lo que permite al inversionista vender antes del vencimiento (Ley 1834, artículo 5).
+
 ## Bursátil y extrabursátil
 
 - **Bursátil**: las operaciones se hacen en una **bolsa de valores**, con valores inscritos en el Registro del Mercado de Valores y por intermediarios autorizados.
@@ -56,6 +58,8 @@ Consiste en reunir activos (cartera de créditos, flujos de caja, contratos, inm
 - Quien aporta los activos es la **empresa originadora** (artículo 77).
 - El patrimonio autónomo **no responde** por las deudas de la originadora ni de la sociedad de titularización (artículos 76 y 80).
 - Los valores emitidos pueden ser de contenido crediticio, de participación o mixtos, y tienen fuerza ejecutiva (artículo 83). Los de contenido crediticio y mixtos necesitan calificación de riesgo (artículo 84).
+
+> El patrimonio autónomo de una titularización no responde por las deudas de la empresa que aportó los activos ni de la sociedad que lo administra (Ley 1834, artículos 76 y 80).
 
 ## Información y transparencia
 

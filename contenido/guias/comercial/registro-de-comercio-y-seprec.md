@@ -23,6 +23,8 @@ El Código de Comercio creó un Registro de Comercio público ([artículo 27](/l
 
 > Para obtener la matrícula de comercio no se exige un registro previo en ninguna otra entidad (Decreto Supremo 4596, artículo 11).
 
+> Donde las normas anteriores decían «FUNDEMPRESA», hoy se entiende «SEPREC» (Decreto Supremo 4596).
+
 ## Qué hace el SEPREC
 
 Según el Decreto Supremo 4596 (artículo 6), entre otras tareas:
@@ -52,6 +54,8 @@ La **Ley 779, de 21 de enero de 2016**, de Desburocratización para la Creación
 La misma ley creó la **Gaceta Electrónica del Registro de Comercio**, definida como el **único medio válido de publicidad** de los actos de comercio. Sustituye a las publicaciones en periódicos para la constitución de sociedades, aumentos y reducciones de capital, convocatorias a juntas, memoria anual, disolución, venta de empresas, cambio de domicilio, publicaciones de la quiebra y otros actos (por ejemplo, [artículos 132](/leyes/comercial/codigo-de-comercio/articulo-132/), [288](/leyes/comercial/codigo-de-comercio/articulo-288/), [331](/leyes/comercial/codigo-de-comercio/articulo-331/), [452](/leyes/comercial/codigo-de-comercio/articulo-452/) y [1494](/leyes/comercial/codigo-de-comercio/articulo-1494/)).
 
 La Ley 779 dice que lo referido a la Gaceta Electrónica entra en vigencia desde su reglamentación por el Ministerio de Desarrollo Productivo y Economía Plural.
+
+> Con la Ley 779, el Registro de Comercio debe aprobar o rechazar la inscripción de una sociedad en un máximo de cuarenta y ocho horas (Código de Comercio, artículo 131).
 
 ## La Ley 779 en otros temas
 

@@ -31,6 +31,8 @@ Es quien **administra un negocio o un establecimiento por cuenta de su dueño**,
 
 > Si el dueño, con sus actos u omisiones graves, hace creer que alguien es su representante, responde por lo que esa persona haga aunque nunca le haya dado poder (Código de Comercio, artículo 87).
 
+> Si el factor hace negocios del mismo tipo que los de su patrón sin autorización, el dueño puede quedarse con las ganancias y dejarle las pérdidas (Código de Comercio, artículo 80).
+
 ## Los dependientes
 
 El dueño responde por los actos de sus dependientes cuando les dio facultad o cuando son propios de sus funciones ([artículo 90](/leyes/comercial/codigo-de-comercio/articulo-90/)). El **vendedor de mostrador** puede cobrar las ventas hechas en el local y dar factura a nombre del dueño ([artículo 91](/leyes/comercial/codigo-de-comercio/articulo-91/)). El **viajante** promueve ventas o toma pedidos en otras plazas; cualquier otra facultad debe constar por escrito ([artículo 93](/leyes/comercial/codigo-de-comercio/articulo-93/)).
@@ -60,6 +62,8 @@ Cómo funciona un remate:
 4. El martillero rinde cuentas en **tres días** y paga al dueño en **cinco** ([artículo 119](/leyes/comercial/codigo-de-comercio/articulo-119/)).
 
 Si no hay arancel, su comisión no puede pasar del **10 %** de lo vendido ([artículo 120](/leyes/comercial/codigo-de-comercio/articulo-120/)). Adjudicar a quien no hizo su postura de viva voz se multa con una suma igual al valor del bien ([artículo 118](/leyes/comercial/codigo-de-comercio/articulo-118/)).
+
+> Si en un remate el ganador no paga el saldo en tres días, pierde lo depositado, que se reparten por mitades el dueño de los bienes y el martillero (Código de Comercio, artículo 115).
 
 ## El comisionista
 

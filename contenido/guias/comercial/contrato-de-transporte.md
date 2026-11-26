@@ -19,6 +19,8 @@ Intervienen el **transportador**, el **pasajero** o el **remitente** (cargador) 
 
 Antes de operar, las empresas de transporte deben dar una **fianza** o contratar un **seguro de responsabilidad** ([artículos 930](/leyes/comercial/codigo-de-comercio/articulo-930/) y [931](/leyes/comercial/codigo-de-comercio/articulo-931/)). En el transporte de personas, el damnificado o sus herederos pueden reclamar **directamente** a la aseguradora ([artículo 934](/leyes/comercial/codigo-de-comercio/articulo-934/)). Si el transporte lo hacen varios transportadores en tramos, cada uno responde por la parte que ejecutó ([artículo 936](/leyes/comercial/codigo-de-comercio/articulo-936/)).
 
+> En el transporte de personas, el damnificado o sus herederos pueden reclamar directamente a la aseguradora de la empresa (Código de Comercio, artículo 934).
+
 ## Transporte de personas
 
 - La empresa responde por las **lesiones o la muerte** del pasajero durante el viaje, tenga o no seguro, desde que se hace cargo de él ([artículo 939](/leyes/comercial/codigo-de-comercio/articulo-939/)).
@@ -39,6 +41,8 @@ Antes de operar, las empresas de transporte deben dar una **fianza** o contratar
 ## Cuándo no responde el transportador
 
 Entre otros casos, por los daños que resulten del vicio propio de la cosa, del transporte en vehículos inadecuados pedido por escrito por el remitente pese a la advertencia, o de la carga y descarga hechas por el propio remitente o destinatario ([artículos 966](/leyes/comercial/codigo-de-comercio/articulo-966/) y [967](/leyes/comercial/codigo-de-comercio/articulo-967/)).
+
+> El remitente puede cambiar de destinatario mientras la carga está en camino (Código de Comercio, artículo 953).
 
 ## Plazos para reclamar
 

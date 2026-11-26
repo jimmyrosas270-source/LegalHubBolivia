@@ -24,6 +24,8 @@ El Código de Comercio regula los **contratos** que celebran los bancos con sus 
 - En la **caja de ahorro**, los intereses se capitalizan cada 30 de junio y 31 de diciembre, salvo un plazo menor autorizado ([artículo 1365](/leyes/comercial/codigo-de-comercio/articulo-1365/)). Los menores pueden tener cuentas de ahorro ([artículo 1364](/leyes/comercial/codigo-de-comercio/articulo-1364/)). Las cuentas inactivas por más de cinco años se clausuran y el saldo queda a disposición del titular ([artículo 1369](/leyes/comercial/codigo-de-comercio/articulo-1369/)).
 - Los depósitos abandonados prescriben **a favor del Estado** a los **diez años** desde la última operación (en los depósitos a plazo, desde el vencimiento) ([artículo 1308](/leyes/comercial/codigo-de-comercio/articulo-1308/)).
 
+> Las cajas de ahorro capitalizan sus intereses cada 30 de junio y 31 de diciembre, salvo que se autorice un plazo menor (Código de Comercio, artículo 1365).
+
 ## Cuenta corriente bancaria
 
 El cliente entrega dinero, cheques u otros valores y el banco los devuelve cuando el cliente gira **cheques** ([artículo 1346](/leyes/comercial/codigo-de-comercio/articulo-1346/)). El banco debe comprobar la identidad y capacidad de quien abre la cuenta ([artículo 1349](/leyes/comercial/codigo-de-comercio/articulo-1349/)); las cuentas a nombre de varias personas pueden manejarse en forma conjunta o indistinta ([artículo 1352](/leyes/comercial/codigo-de-comercio/articulo-1352/)); el titular tiene derecho a recibir su estado de cuenta ([artículo 1354](/leyes/comercial/codigo-de-comercio/articulo-1354/)). Una orden judicial de **retención** alcanza el saldo al momento de la notificación y lo que se deposite después, hasta el monto ordenado ([artículo 1358](/leyes/comercial/codigo-de-comercio/articulo-1358/)).
@@ -36,6 +38,8 @@ El cliente entrega dinero, cheques u otros valores y el banco los devuelve cuand
 - **Préstamo de dinero**: se perfecciona con la entrega del dinero ([artículo 1331](/leyes/comercial/codigo-de-comercio/articulo-1331/)) y el prestatario puede devolverlo por anticipado ([artículo 1335](/leyes/comercial/codigo-de-comercio/articulo-1335/)).
 
 > Las entidades bancarias deben guardar secreto sobre las operaciones y la información de sus clientes, y responden por los daños si lo violan (Código de Comercio, artículo 1307).
+
+> El banco no puede terminar una apertura de crédito antes de su plazo, salvo que ocurra una causa de extinción del crédito (Código de Comercio, artículo 1314).
 
 ## Reserva y confidencialidad según la Ley 393
 

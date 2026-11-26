@@ -32,6 +32,8 @@ La **Ley 1883, de 25 de junio de 1998**, regula a las entidades aseguradoras y r
 
 !! La Ley 1883 menciona a la «Superintendencia de Pensiones, Valores y Seguros». La supervisión de los seguros la ejerce hoy otra autoridad, y la ley pudo tener reformas posteriores [VERIFICAR].
 
+> Si al contratar un seguro el riesgo ya había desaparecido o el siniestro ya había ocurrido, el contrato es nulo (Código de Comercio, artículo 981).
+
 ## Lo que debe declarar el asegurado
 
 - Debe declarar con verdad todo lo que importa para medir el riesgo ([artículo 992](/leyes/comercial/codigo-de-comercio/articulo-992/)).
@@ -71,6 +73,8 @@ Se **pierde** la indemnización si el siniestro se provocó con dolo o si se ocu
 - Salvo pacto, no cubren el **vicio propio** de la cosa ni daños por guerra, terremotos y otras convulsiones de la naturaleza o riesgos nucleares ([artículos 1046](/leyes/comercial/codigo-de-comercio/articulo-1046/) y [1047](/leyes/comercial/codigo-de-comercio/articulo-1047/)).
 - **Infraseguro**: si la suma asegurada es menor que el valor real, se indemniza en proporción y el resto lo soporta el asegurado, salvo que se haya pactado un seguro «a primer riesgo» ([artículo 1056](/leyes/comercial/codigo-de-comercio/articulo-1056/)).
 - Incluyen, entre otros, los seguros de incendio, transporte, responsabilidad civil, agrícolas y ganaderos, riesgos comerciales y daños indirectos (pérdida de beneficios) ([artículos 1087](/leyes/comercial/codigo-de-comercio/articulo-1087/), [1111](/leyes/comercial/codigo-de-comercio/articulo-1111/) y [1114](/leyes/comercial/codigo-de-comercio/articulo-1114/)).
+
+> Si aseguras un bien por menos de su valor real, en un siniestro te indemnizarán solo en proporción (Código de Comercio, artículo 1056).
 
 ## Seguros de personas
 

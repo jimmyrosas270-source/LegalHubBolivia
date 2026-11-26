@@ -30,6 +30,8 @@ En lo que el Código de Comercio no regula, se aplican los principios y normas d
 
 Los plazos en días corren desde el día siguiente; los de meses o años vencen el mismo día del mes o año que corresponda, y si vencen en feriado pasan al siguiente día hábil ([artículo 791](/leyes/comercial/codigo-de-comercio/articulo-791/)).
 
+> La cláusula penal pactada en un contrato comercial no puede ser mayor que la prestación principal (Código de Comercio, artículo 801).
+
 ## Oferta y aceptación
 
 - La **oferta** debe tener los elementos esenciales del negocio y un plazo; una vez comunicada, no se puede retirar sin indemnizar ([artículo 826](/leyes/comercial/codigo-de-comercio/articulo-826/)).
@@ -55,6 +57,8 @@ Todo vendedor debe dar **factura**, con fecha, nombres de las partes, condicione
 - **A prueba o sobre muestras**: se perfecciona cuando el comprador da su conformidad o la mercadería coincide con la muestra ([artículo 835](/leyes/comercial/codigo-de-comercio/articulo-835/)).
 - **A plazos con reserva de propiedad**: el vendedor sigue siendo dueño hasta el pago total; frente a terceros, la reserva vale desde su inscripción en el registro que corresponda ([artículo 839](/leyes/comercial/codigo-de-comercio/articulo-839/)).
 - **Ventas internacionales**: el Código regula las cláusulas EX, FOB, FAS, C y F, CIF y COD (ver la guía [Ventas con cláusulas FOB, CIF y otras](/guias/comercial/ventas-fob-cif-y-otras-clausulas/)).
+
+> Si el vendedor garantizó el buen funcionamiento, el comprador tiene treinta días desde que descubre el defecto para reclamar (Código de Comercio, artículo 838).
 
 ## El préstamo comercial
 

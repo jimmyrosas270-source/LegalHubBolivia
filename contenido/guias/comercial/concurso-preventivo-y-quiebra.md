@@ -38,6 +38,8 @@ La quiebra de una sociedad arrastra la de sus **socios con responsabilidad ilimi
 
 !! Verifique si este procedimiento fue modificado o complementado por normas posteriores sobre reestructuración voluntaria de empresas [VERIFICAR].
 
+> Durante el concurso preventivo se suspenden los intereses de las deudas anteriores a su apertura (Código de Comercio, artículo 1511).
+
 ## La declaración de quiebra
 
 - Puede pedirla un **acreedor**, probando que el deudor es comerciante, que su crédito es válido y exigible y que hay cesación de pagos ([artículo 1544](/leyes/comercial/codigo-de-comercio/articulo-1544/)). El deudor tiene **tres días** para contestar y puede abrirse prueba por quince días ([artículo 1545](/leyes/comercial/codigo-de-comercio/articulo-1545/)).
@@ -64,6 +66,8 @@ La quiebra de una sociedad arrastra la de sus **socios con responsabilidad ilimi
 - **Fraudulenta**: con dolo, como esconder bienes, inventar deudas o favorecer a algunos acreedores ([artículo 1657](/leyes/comercial/codigo-de-comercio/articulo-1657/)). Lo es también la de corredores y comisionistas que hicieron negocios por su cuenta en contra de lo que la ley les prohíbe ([artículo 1658](/leyes/comercial/codigo-de-comercio/articulo-1658/)).
 
 En las sociedades se califica la conducta de cada director, administrador o representante ([artículo 1659](/leyes/comercial/codigo-de-comercio/articulo-1659/)). La quiebra culpable y la fraudulenta tienen además consecuencias penales.
+
+> Si un corredor o un comisionista quiebra después de hacer negocios por su cuenta que la ley le prohíbe, su quiebra se califica como fraudulenta (Código de Comercio, artículo 1658).
 
 ## Rehabilitación
 
