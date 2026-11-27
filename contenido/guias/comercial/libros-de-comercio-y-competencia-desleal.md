@@ -2,7 +2,7 @@
 titulo: Libros de comercio, contabilidad y competencia desleal
 materia: Comercial
 publico: Comerciantes, contadores y estudiantes
-actualizada: 25/11/2026
+actualizada: 27/11/2026
 resumen: Qué libros debe llevar un comerciante, cómo se legalizan, qué está prohibido en ellos, cuánto tiempo se guardan, cuándo se pueden revisar, qué valor tienen como prueba y qué actos son competencia desleal.
 articulos:
 - /leyes/comercial/codigo-de-comercio/articulo-36/ | Artículos 36 a 38 | Código de Comercio · Contabilidad y libros obligatorios
@@ -71,4 +71,18 @@ El perjudicado puede pedir al juez, por la **vía sumaria**, que ordene cesar el
 
 Además, los productos hechos en el país deben llevar la leyenda **«Hecho en Bolivia»** ([artículo 67](/leyes/comercial/codigo-de-comercio/articulo-67/)).
 
-!! Las normas tributarias pueden exigir otros registros, plazos de conservación más largos o formatos electrónicos. Consulte la normativa del Servicio de Impuestos Nacionales [VERIFICAR].
+## Lo que exige además el Código Tributario
+
+El Código de Comercio permite que una norma especial fije otro plazo de conservación ([artículo 52](/leyes/comercial/codigo-de-comercio/articulo-52/)), y la tributaria lo hace:
+
+- El contribuyente debe **respaldar** sus operaciones gravadas con libros, registros generales y especiales, facturas, notas fiscales y otros documentos, según las normas respectivas (Código Tributario, Ley 2492, artículo 70, numeral 4).
+- Mientras el tributo no prescriba, incluida la ampliación del plazo, debe **conservar en orden, en su domicilio tributario**, los libros de contabilidad, registros especiales, declaraciones, comprobantes y la información en medios electrónicos, y mostrarlos cuando la Administración Tributaria los pida. También debe permitir la revisión de los sistemas informáticos con los que lleva su contabilidad (artículo 70, numeral 8).
+- Las facultades de la Administración Tributaria para fiscalizar, determinar la deuda e imponer sanciones prescriben a los **ocho años**, y el plazo sube a **diez** si el contribuyente no se inscribió, se inscribió en un régimen que no le correspondía, cometió delitos tributarios u operó con países de baja o nula tributación (artículo 59, según la Ley 812 de 2016). El plazo se cuenta desde el primer día del año siguiente al vencimiento del pago (artículo 60).
+
+En la práctica, los papeles que respaldan impuestos deben guardarse por ese plazo más largo, no solo por los cinco años del Código de Comercio.
+
+> Para el Código Tributario, el plazo para fiscalizar impuestos es de ocho años y sube a diez si el contribuyente no se inscribió o eligió un régimen que no le correspondía (Ley 2492, artículo 59).
+
+> Cobrar una deuda tributaria ya determinada no prescribe nunca (Código Tributario, Ley 2492, artículo 59, parágrafo IV).
+
+!! El Código Tributario no está publicado todavía en la Biblioteca: los artículos citados se tomaron de su texto ordenado al 30 de septiembre de 2025 y deben contrastarse con la Gaceta Oficial [VERIFICAR CON FUENTE OFICIAL].

@@ -107,3 +107,11 @@ norma: /leyes/comercial/codigo-de-comercio/articulo-390/ | Código de Comercio, 
 ### V | En la fusión, las sociedades que se unen se disuelven sin liquidarse.
 La sociedad nueva o la absorbente recibe todos sus derechos y obligaciones.
 norma: /leyes/comercial/codigo-de-comercio/articulo-405/ | Código de Comercio, art. 405
+
+### F | Si un comerciante guarda sus libros y comprobantes cinco años, ya cumplió con todas sus obligaciones de conservación.
+Cinco años es el mínimo del Código de Comercio; para lo que respalda impuestos, el Código Tributario exige conservarlos mientras el tributo no prescriba (ocho años, o diez en ciertos casos).
+norma: /guias/comercial/libros-de-comercio-y-competencia-desleal/ | Código Tributario, arts. 59 y 70 (guía)
+
+### V | No emitir factura fiscal puede llevar a la clausura del local.
+El Código Tributario sanciona esa contravención con clausura de seis días la primera vez, que se duplica en cada reincidencia hasta cuarenta y ocho.
+norma: /temas/comprar-y-vender-ofertas-facturas-y-reclamos/ | Código Tributario, art. 164 (tema)

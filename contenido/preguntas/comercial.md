@@ -46,3 +46,11 @@ Puede pedir un **concurso preventivo** dentro de los diez días de conocer la ce
 ### ¿El banco puede dar información de mis cuentas a otras personas?
 
 No, salvo las excepciones de la ley: la información de sus operaciones se da a usted, a quien usted autorice o a su representante. La reserva no rige, por ejemplo, ante una orden judicial o un requerimiento fiscal motivados dentro de un proceso ([Ley 393](/biblioteca/ley-393-de-servicios-financieros/), artículos 472 y 473; [artículo 1307](/leyes/comercial/codigo-de-comercio/articulo-1307/) del Código).
+
+### ¿Cuánto tiempo debo guardar mis libros, facturas y comprobantes?
+
+El Código de Comercio pide al menos cinco años ([artículo 52](/leyes/comercial/codigo-de-comercio/articulo-52/)), pero para lo que respalda impuestos manda el Código Tributario: se conservan mientras el tributo no prescriba, que es en ocho años, o diez en ciertos casos (Ley 2492, artículos 59 y 70). Ver [Libros de comercio, contabilidad y competencia desleal](/guias/comercial/libros-de-comercio-y-competencia-desleal/).
+
+### ¿Qué pasa si no doy factura fiscal?
+
+Es una contravención tributaria que se sanciona con la clausura del local: seis días la primera vez y el doble en cada reincidencia, hasta cuarenta y ocho días (Código Tributario, Ley 2492, artículos 160 y 164). Ver [Comprar y vender: la factura](/temas/comprar-y-vender-ofertas-facturas-y-reclamos/).

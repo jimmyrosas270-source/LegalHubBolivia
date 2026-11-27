@@ -1380,6 +1380,30 @@
     "/leyes/comercial/codigo-de-comercio/articulo-1544/|Artículo 1544, Código de Comercio",
     "/leyes/comercial/codigo-de-comercio/articulo-1654/|Artículo 1654, Código de Comercio"
    ]
+  },
+  {
+   "termino": "Deberes formales (tributarios)",
+   "definicion": "Obligaciones que el Código Tributario impone al contribuyente además de pagar: inscribirse, fijar domicilio, respaldar sus operaciones con libros y facturas, conservarlos y mostrarlos cuando la Administración Tributaria los pida. Su incumplimiento se sanciona con multa.",
+   "grupo": "Comercial",
+   "ver": [
+    "/guias/comercial/libros-de-comercio-y-competencia-desleal/|Libros de comercio y Código Tributario"
+   ]
+  },
+  {
+   "termino": "Prescripción tributaria",
+   "definicion": "Pérdida, por el paso del tiempo, de las facultades de la Administración Tributaria para fiscalizar, determinar la deuda o sancionar: ocho años, o diez en ciertos casos, según el Código Tributario. Cobrar una deuda ya determinada no prescribe.",
+   "grupo": "Comercial",
+   "ver": [
+    "/guias/comercial/libros-de-comercio-y-competencia-desleal/|Libros de comercio y Código Tributario"
+   ]
+  },
+  {
+   "termino": "Clausura (sanción tributaria)",
+   "definicion": "Cierre temporal del local donde se hace la actividad, que el Código Tributario impone a quien no emite factura fiscal: seis días la primera vez y el doble en cada reincidencia, hasta cuarenta y ocho días.",
+   "grupo": "Comercial",
+   "ver": [
+    "/temas/comprar-y-vender-ofertas-facturas-y-reclamos/|Comprar y vender: la factura"
+   ]
   }
  ]
 }
