@@ -7,11 +7,7 @@ Claves disponibles: ninez, mujer, beneficios, asistencia, usucapion, propiedad, 
 discriminacion, discapacidad, animales, divorcio, defensa, herencia, alquiler, deudas, juicio, cobro, desalojo, contrato, compraventa, danos, tierra, negocio, titulos, arbitraje, banco. Una clave desconocida usa «defensa».
 """
 
-COLOR_MATERIA = {
-    'Constitucional': '#24497F', 'Laboral': '#1F5B44', 'Familia': '#6B3A7D', 'Civil': '#1E6B73',
-    'Procesal civil': '#154C52', 'Penal': '#A3241B', 'Procesal penal': '#741B14', 'Administrativa': '#4A5868',
-    'Agraria': '#5A6B1F', 'Tributario': '#8A5A0F', 'Personas con discapacidad': '#3B4FA3', 'Comercial': '#5B4636', 'Otras': '#55615A',
-}
+# COLOR_MATERIA (color de cada materia) está en portadas.py: lo usan también las portadas de las normas.
 _OC = '#E0B04A'
 _W = '#FFFFFF'
 

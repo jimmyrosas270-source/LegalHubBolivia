@@ -40,3 +40,16 @@ body.lhb-abierto{overflow:hidden}
 .res.con-tapa{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:start}
 .res.con-tapa img{grid-row:1/span 3;width:44px;height:57px;border-radius:4px;object-fit:cover;box-shadow:0 1px 3px rgba(0,0,0,.25)}
 @media (max-width:640px){.lhb-dest{flex-direction:column}.lhb-dest img{width:72px;height:93px}}
+/* aviso «¿No encontraste la norma?» en /buscar/ (solo después de buscar) */
+.aviso-falta{background:#FBF3DC;border:1px solid var(--ocre);border-left:5px solid var(--ocre);border-radius:12px;padding:16px 18px;font-size:15px;line-height:1.5}
+.aviso-falta>b{font-family:var(--serif);font-size:18px;display:block;margin-bottom:6px}
+.aviso-falta p{margin:0 0 12px}
+.aviso-falta p.sec{margin:12px 0 0;font-size:13.5px}
+.aviso-falta .btn-rep{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--verde);color:#fff;text-decoration:none;font-weight:600}
+.aviso-falta .btn-rep:hover{background:var(--tinta);color:#fff}
+@media (min-width:1080px){
+.pag.estrecha.con-lateral{max-width:1120px;display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:36px;align-items:start}
+.pag.estrecha.con-lateral>*{grid-column:1;min-width:0}
+.pag.estrecha.con-lateral>.aviso-falta{grid-column:2;grid-row:1/span 30;position:sticky;top:20px;align-self:start;margin-top:72px}}
+.aviso-falta-corto{display:none;font-size:14px;margin:0;color:var(--sec)}
+@media (max-width:1079px){.pag.con-lateral>.aviso-falta{order:5}.pag.con-lateral>.aviso-falta-corto{display:block}}

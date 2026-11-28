@@ -5,6 +5,19 @@ Se ejecuta dentro de construir.py (exec), después de definir E, slug e ico.
 Las portadas son SVG en línea: usan las tipografías que ya carga la página.
 """
 
+# Color de cada materia: temas, ilustraciones, buscador y portadas de las normas usan el mismo.
+COLOR_MATERIA = {
+    'Constitucional': '#24497F', 'Laboral': '#1F5B44', 'Familia': '#6B3A7D', 'Civil': '#1E6B73',
+    'Procesal civil': '#154C52', 'Penal': '#A3241B', 'Procesal penal': '#741B14', 'Administrativa': '#4A5868',
+    'Agraria': '#5A6B1F', 'Tributario': '#8A5A0F', 'Personas con discapacidad': '#3B4FA3', 'Comercial': '#5B4636', 'Otras': '#55615A',
+}
+
+
+def _mezcla(hexa, blanco=.72):
+    c = [int(hexa[i:i + 2], 16) for i in (1, 3, 5)]
+    return '#' + ''.join(f'{round(x + (255 - x) * blanco):02X}' for x in c)
+
+
 COLORES = {  # fondo, texto, acento, texto secundario
     'tinta':   ('#16211C', '#F5F6F3', '#E0B04A', '#C9D3CC'),
     'verde':   ('#1F5B44', '#FFFFFF', '#E0B04A', '#D5E6DC'),
@@ -28,7 +41,10 @@ def _escalones(y, ancho, color, op, alto=4):
 
 
 def portada_svg(p, aria):
-    fondo, texto, acento, suave = COLORES.get(p.get('color', 'verde'), COLORES['verde'])
+    if p.get('materia') in COLOR_MATERIA:  # la portada toma el color de la materia de la norma (pedido del titular, 27 nov)
+        fondo, texto, acento, suave = COLOR_MATERIA[p['materia']], '#FFFFFF', '#E0B04A', _mezcla(COLOR_MATERIA[p['materia']])
+    else:
+        fondo, texto, acento, suave = COLORES.get(p.get('color', 'verde'), COLORES['verde'])
     lineas = p.get('lineas') or [aria]
     largo = max(len(x) for x in lineas)
     tam = min(31, round(222 / (largo * 0.54), 1), round(160 / (len(lineas) * 1.13), 1))
@@ -54,6 +70,10 @@ def portada_svg(p, aria):
 
 _dest = json.load(open(os.path.join(RAIZ, 'contenido', 'destacadas.json'), encoding='utf-8'))['materias']
 DESTACADAS = {m: [x for x in lista if x.get('ruta') or x.get('archivo')] for m, lista in _dest.items()}
+for _m, _lista in _dest.items():
+    for _x in _lista:
+        if _x.get('portada'):
+            _x['portada'].setdefault('materia', _m)
 PORTADA_PDF = {x['archivo']: x['portada'] for lista in DESTACADAS.values() for x in lista if x.get('archivo') and x.get('portada')}
 PORTADA_RUTA = {x['ruta']: x for lista in DESTACADAS.values() for x in lista if x.get('ruta') and x.get('portada')}
 
