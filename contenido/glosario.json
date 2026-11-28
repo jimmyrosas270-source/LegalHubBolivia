@@ -1404,6 +1404,14 @@
    "ver": [
     "/temas/comprar-y-vender-ofertas-facturas-y-reclamos/|Comprar y vender: la factura"
    ]
+  },
+  {
+   "termino": "Omisión de pago (tributaria)",
+   "definicion": "Contravención de quien no paga o paga de menos un tributo, no hace las retenciones o percepciones a que está obligado u obtiene indebidamente exenciones o beneficios fiscales. Desde la Ley 1448 de 2022 se sanciona con una multa del sesenta por ciento del tributo omitido actualizado (Código Tributario, artículo 165).",
+   "grupo": "Comercial",
+   "ver": [
+    "/biblioteca/ley-1448/leer/#page=1|Ley 1448, artículo 2, parágrafo III"
+   ]
   }
  ]
 }

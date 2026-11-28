@@ -51,7 +51,9 @@
    {"archivo": "ley-393-servicios-financieros.pdf", "portada": {"tipo": "Ley N.º 393", "lineas": ["Ley de", "Servicios", "Financieros"], "pie": "2013", "color": "tinta"}}
   ],
   "Tributario": [
-   {"archivo": "ley-843.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Compilación hasta 2003", "color": "bosque"}}
+   {"archivo": "ley-843.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Compilación hasta 2003", "color": "bosque"}},
+   {"archivo": "ley-843-texto-original-1986.pdf", "portada": {"tipo": "Ley N.º 843", "lineas": ["Ley de", "Reforma", "Tributaria"], "pie": "1986 · Texto original", "color": "tinta"}},
+   {"archivo": "ley-1448.pdf", "portada": {"tipo": "Ley N.º 1448", "lineas": ["Modifica el", "Código Tributario", "y la Ley 843"], "pie": "2022", "color": "verde"}}
   ],
   "Penal": [
    {"ruta": "/leyes/penal/codigo-penal/", "titulo": "Código Penal", "sub": "Decreto Ley 10426, edición 2025", "detalle": "Por artículos", "portada": {"tipo": "Decreto Ley N.º 10426", "lineas": ["Código", "Penal"], "pie": "1972 · Edición 2025", "color": "kantuta"}},

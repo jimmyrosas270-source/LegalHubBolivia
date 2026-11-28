@@ -1,0 +1,42 @@
+/* Buscador rápido (herramientas/rapido.css, se añade al final de assets/estilos.css) */
+.lhb-anc{position:relative}
+.lhb-sug{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:40;background:#fff;border:1px solid var(--linea);border-radius:14px;box-shadow:0 14px 40px rgba(22,33,28,.18);max-height:min(70vh,560px);overflow:auto;padding:6px;text-align:left;color:var(--tinta)}
+.lhb-sug[hidden]{display:none}
+.lhb-h{font-size:11.5px;font-weight:700;letter-spacing:1.1px;text-transform:uppercase;color:var(--sec);padding:10px 10px 4px}
+.lhb-it{display:flex;gap:12px;align-items:flex-start;padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--tinta);scroll-margin:6px}
+.lhb-it.activo,.lhb-it:hover{background:var(--menta);color:var(--tinta)}
+.lhb-it img{flex:none;width:40px;height:52px;border-radius:4px;object-fit:cover;box-shadow:0 1px 3px rgba(0,0,0,.25);background:var(--papel)}
+.lhb-ic{flex:none;width:40px;height:40px;border-radius:10px;background:var(--papel);color:var(--verde);display:flex;align-items:center;justify-content:center}
+.lhb-tx{display:flex;flex-direction:column;min-width:0;gap:1px}
+.lhb-tx b{font-family:var(--serif);font-size:16px;font-weight:600;line-height:1.3}
+.lhb-tx small{font-size:13px;color:var(--sec);line-height:1.35;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.lhb-prev{font-size:14px;line-height:1.45;color:var(--tinta);margin-top:4px;padding:6px 10px;border-left:3px solid var(--ocre);background:#FBF7EC;border-radius:0 8px 8px 0}
+.lhb-todo{border-top:1px solid var(--linea);margin-top:6px;padding-top:12px;border-radius:0 0 10px 10px}
+.lhb-nota{font-size:13px;color:var(--sec);margin:6px 10px 8px}
+.lhb-nota kbd{font:600 12px var(--sans);border:1px solid var(--linea);border-bottom-width:2px;border-radius:5px;padding:0 5px;background:var(--papel)}
+.lhb-ej{display:flex;flex-wrap:wrap;gap:8px;padding:4px 10px 6px}
+.lhb-chip{border:1px solid var(--linea);background:var(--papel);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;color:var(--tinta);cursor:pointer}
+.lhb-chip:hover{border-color:var(--verde);color:var(--verde)}
+/* ventana de la lupa de la cabecera */
+.lhb-modal{position:fixed;inset:0;z-index:60;background:rgba(22,33,28,.45);display:flex;justify-content:center;align-items:flex-start;padding:9vh 16px 16px}
+.lhb-modal[hidden]{display:none}
+.lhb-caja{width:100%;max-width:680px;background:#fff;border-radius:16px;box-shadow:0 24px 60px rgba(0,0,0,.3);padding:12px;display:flex;flex-direction:column;max-height:82vh}
+.lhb-caja .buscador{max-width:none;height:54px}
+.lhb-x{background:var(--papel)!important;color:var(--sec)!important;font-size:12px!important;padding:0 10px!important}
+.lhb-lista{overflow:auto;margin-top:6px}
+.lhb-lista .lhb-sug{position:static;box-shadow:none;border:0;max-height:none;padding:0}
+body.lhb-abierto{overflow:hidden}
+@media (max-width:640px){.lhb-modal{padding:0}.lhb-caja{max-width:none;height:100%;max-height:none;border-radius:0}.lhb-sug{max-height:65vh}}
+/* página de resultados: artículo o norma destacada, y portadas */
+.lhb-dest-cont:empty{display:none}
+.lhb-dest{display:flex;gap:18px;align-items:flex-start;background:#fff;border:1.5px solid var(--verde);border-radius:14px;padding:16px 18px;margin:0 0 16px}
+.lhb-dest img{flex:none;width:96px;height:124px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.25);object-fit:cover}
+.lhb-dest h2{font-family:var(--serif);font-size:22px;margin:4px 0 6px}
+.lhb-dest h2 a{color:var(--tinta);text-decoration:none}
+.lhb-txt{font-family:var(--serif);font-size:17px;line-height:1.6;white-space:pre-line;margin:6px 0 10px}
+.lhb-acc{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:8px 0 0}
+.lhb-acc .btn{min-height:40px}
+.lhb-tip{margin-top:8px}
+.res.con-tapa{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:start}
+.res.con-tapa img{grid-row:1/span 3;width:44px;height:57px;border-radius:4px;object-fit:cover;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+@media (max-width:640px){.lhb-dest{flex-direction:column}.lhb-dest img{width:72px;height:93px}}

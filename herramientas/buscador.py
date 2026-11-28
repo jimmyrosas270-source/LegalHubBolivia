@@ -46,6 +46,8 @@ _ALIAS = {
     'codigo-nina-nino-y-adolescente-ley-548.pdf': ['CNNA', 'Código del Niño', 'Código Niño Niña Adolescente'],
     'ley-254-codigo-procesal-constitucional.pdf': ['CPCo', 'Procesal constitucional'],
     'ley-843.pdf': ['Ley de impuestos', 'Reforma tributaria'],
+    'ley-843-texto-original-1986.pdf': ['Ley 843 original', 'Ley de Reforma Tributaria'],
+    'ley-1448.pdf': ['Ley 1448'],
     'ley-348.pdf': ['Ley de violencia contra la mujer', 'Ley integral contra la violencia'],
     'ley-1178.pdf': ['SAFCO', 'Ley SAFCO'],
     'ley-2341.pdf': ['Procedimiento administrativo'],
@@ -198,7 +200,7 @@ def indice_ampliado():
     p = os.path.join(OUT, 'buscar', 'index.html')
     doc = open(p, encoding='utf-8').read()
     doc = doc.replace('Escribe un número de artículo o una o varias palabras. Se busca en el texto literal de las normas cargadas.',
-                      'Escribe el nombre de una norma (por ejemplo «procesal civil», «Constitución» o «Ley 348»), un tema o un número de artículo. Primero aparece la norma; después, los artículos y lo demás.')
+                      'Escribe una norma («Constitución», «código penal», «Ley 348»), un artículo con su norma («art 24 CPE», «artículo 138 del Código Civil», «CPP 233») o un tema («despido», «usucapión»). Mientras escribes aparecen sugerencias: con Enter se abre la que está marcada.')
     extra = ('<option value="ley">Normas por artículos</option><option value="mat">Materias</option><option value="tem">Temas de interés</option><option value="gui">Guías</option><option value="pre">Preguntas frecuentes</option><option value="glo">Glosario</option>'
              '<option value="bib">Fichas de la Biblioteca y Jurisprudencia</option><option value="aut">Autos supremos</option>'
              '<option value="pdf">Texto de los PDF de la Biblioteca</option><option value="jur">Texto de las revistas de jurisprudencia</option>')
@@ -249,20 +251,22 @@ if(!(a._s>0)&&vistos&&!otros){otros=true;var h3=d.createElement('h2');h3.classNa
 var t=a.t,n=norm(t),p=0;for(var i=0;i<palabras.length;i++){var k=n.indexOf(palabras[i]);if(k>=0){p=k;break}}
 var ini=Math.max(0,p-70),frag=(ini>0?'…':'')+t.slice(ini,ini+220)+(ini+220<t.length?'…':'');var h=esc(frag);
 palabras.forEach(function(w){if(w.length<3)return;var nf=norm(frag),out='',pos=0,k;while((k=nf.indexOf(w,pos))>=0){out+=esc(frag.slice(pos,k))+'<mark>'+esc(frag.slice(k,k+w.length))+'</mark>';pos=k+w.length}if(out){h=out+esc(frag.slice(pos))}});
-var e=d.createElement('a');e.className='res'+(a._s>0?' norma':'');e.href=a.u;e.innerHTML='<b>'+esc(a.r||('Artículo '+a.n))+'</b><small>'+esc(a.k)+'</small>'+(a._s>0&&a.c!=='bib'?'':'<span>'+h+'</span>');R.appendChild(e)})}
+var e=d.createElement('a');e.className='res'+(a._s>0?' norma':'');e.href=a.u;e.innerHTML='<b>'+esc(a.r||('Artículo '+a.n))+'</b><small>'+esc(a.k)+'</small>'+(a._s>0&&a.c!=='bib'?'':'<span>'+h+'</span>');var im=window.LHB&&(a._s>0||a.n||a.c==='pdf')?LHB.tapa(a.u):'';if(im){e.classList.add('con-tapa');e.insertAdjacentHTML('afterbegin','<img src="'+esc(im)+'" alt="" loading="lazy" width="44" height="57">')}R.appendChild(e)})}
 function resumen(lista){var cu={};lista.forEach(function(a){cu[a.c]=(cu[a.c]||0)+1});var ks=Object.keys(cu).sort(function(x,y){return rango(x)-rango(y)});if(ks.length<2)return;
 var nav=d.createElement('nav');nav.className='por-tipo';nav.setAttribute('aria-label','Resultados por sección');nav.innerHTML='<b>Ver solo:</b>'+ks.map(function(c){return '<a href="/buscar/?q='+encodeURIComponent(q)+'&n='+c+'">'+esc(NOMBRE[c]||c)+' <small>('+cu[c]+')</small></a>'}).join('');var otros=R.querySelector('.res-sec + .res.norma ~ .res-sec');if(otros){R.insertBefore(nav,otros)}else{R.parentNode.insertBefore(nav,R)}}
 function busca(datos){var s=norm(q.trim());if(!s){est.textContent='';return}if(fn){datos=datos.filter(function(a){return a.c===fn})}
+var HL=!!window.LHB,RF=HL?LHB.ref(q):null;if(!fn&&HL){var cont=d.createElement('div');cont.className='lhb-dest-cont';R.parentNode.insertBefore(cont,R);LHB.destacado(cont,q)}
+
 var num=s.match(/^(?:art(?:iculo)?\.?\s*)?(\d{1,4})$/);var palabras=s.split(/\s+/).filter(Boolean);var lista;
 var na=num?null:s.match(/^(.+?)\s+art(?:iculo|\.)?\s*(\d{1,4})(?:\s*(bis|ter|quater))?$/);if(na){var pw=na[1].split(/\s+/).filter(Boolean),nn_=+na[2],sf=na[3]||'',fr=' '+na[1].replace(/[^a-z0-9ñ]+/g,' ').trim()+' ';var hx=function(a){return ' '+norm((a.r||'')+' '+(a.a||'')+' '+(a.m||MALIAS[a.u.split('/').slice(0,4).join('/')+'/']||'')+' '+(a.r?'':(a.k||''))).replace(/[^a-z0-9ñ]+/g,' ')+' '};lista=datos.filter(function(a){if(a.n!==nn_)return false;var r=norm(a.r||'');if(sf?r.indexOf(sf)<0:/ (bis|ter|quater)\b/.test(r))return false;var h=hx(a);return pw.every(function(w){return h.indexOf(w)>=0})});var ex=lista.filter(function(a){return hx(a).indexOf(fr)>=0});if(ex.length)lista=ex;if(lista.length){palabras=[];num=null}else{lista=null;na=null}}
-if(na){}else if(num){var soloArt=/^art/.test(s);lista=datos.filter(function(a){return (a.n===+num[1]&&(!a.x||fn===a.c))||(!soloArt&&puntaje(a,s,[s])>0)});palabras=[]}else{lista=datos.filter(function(a){var n=norm(a.t+' '+(a.r||'')+' '+(a.a||''));return palabras.every(function(w){return n.indexOf(w)>=0})})}
-lista.forEach(function(a){a._s=puntaje(a,s,palabras.length?palabras:[s])});
-var ordena=function(l){return l.map(function(a,i){return [a,i]}).sort(function(x,y){return (y[0]._s>0)-(x[0]._s>0)||y[0]._s-x[0]._s||rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]})};
+if(RF&&RF.tipo==='articulo'&&RF.existe){var tu=LHB.urlArt(RF.x,RF.clave);lista=datos.filter(function(a){return a.u===tu}).concat(datos.filter(function(a){return a.n===+RF.num&&a.u!==tu&&!a.x&&(RF.suf?norm(a.r||'').indexOf(RF.suf)>=0:!/ (bis|ter|quater)\b/.test(norm(a.r||'')))}));palabras=[];num=null}else if(na){}else if(num){var soloArt=/^art/.test(s);lista=datos.filter(function(a){return (a.n===+num[1]&&(!a.x||fn===a.c))||(!soloArt&&puntaje(a,s,[s])>0)});palabras=[]}else{lista=datos.filter(function(a){var n=norm(a.t+' '+(a.r||'')+' '+(a.a||''));return palabras.every(function(w){return n.indexOf(w)>=0})})}
+var TIT={tem:1,gui:1,glo:1,pre:1};lista.forEach(function(a){a._s=puntaje(a,s,palabras.length?palabras:[s]);a._t=0;if(palabras.length){var tt=TIT[a.c]?norm(a.r||''):(/^\s*\(/.test(a.t||'')?norm(a.t.slice(0,a.t.indexOf(')')+1)):'');if(tt&&palabras.every(function(w){return tt.indexOf(w)>=0}))a._t=TIT[a.c]&&a.c!=='pre'?2:1}});
+var ordena=function(l){return l.map(function(a,i){return [a,i]}).sort(function(x,y){return (y[0]._s>0)-(x[0]._s>0)||y[0]._s-x[0]._s||(y[0]._t||0)-(x[0]._t||0)||rango(x[0].c)-rango(y[0].c)||x[1]-y[1]}).map(function(x){return x[0]})};
 lista=ordena(lista);var nn=0;lista.forEach(function(a){if(a._s>0){nn++;if(nn>6)a._s=0}});if(nn>6)lista=ordena(lista);
 est.textContent=lista.length?(lista.length+(lista.length===1?' resultado':' resultados')+(lista.length>60?'; se muestran los primeros 60':'')):'Sin resultados. Prueba con otra palabra o con el número del artículo.';pinta(lista,palabras);if(!fn)resumen(lista)}
 function junta(nom,k){var ps=[];for(var i=1;i<=k;i++){ps.push(fetch('/buscar/'+nom+'-'+i+'.json').then(function(r){return r.json()}).catch(function(){return []}))}return Promise.all(ps).then(function(xs){return [].concat.apply([],xs)})}
 if(q){est.textContent='Buscando…';var quiere=!fn||fn==='pdf'||fn==='jur';
-Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),quiere?junta('pdf',NPDF):Promise.resolve([]),fn==='pdf'||fn==='jur'?junta('extensos',NEXT):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[1],x[2]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de las revistas de jurisprudencia ni de los documentos muy extensos. Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
+Promise.all([fetch('/buscar/indice.json').then(function(r){return r.json()}),window.LHB?LHB.carga():null,quiere?junta('pdf',NPDF):Promise.resolve([]),fn==='pdf'||fn==='jur'?junta('extensos',NEXT):Promise.resolve([])]).then(function(x){busca(x[0].concat(x[2],x[3]));if(!fn){var nt=d.createElement('p');nt.className='sec';nt.innerHTML='La búsqueda general no incluye el texto de las revistas de jurisprudencia ni de los documentos muy extensos. Para buscar también ahí: <a href="/buscar/?q='+encodeURIComponent(q)+'&n=jur">texto de las revistas de jurisprudencia</a> o <a href="/buscar/?q='+encodeURIComponent(q)+'&n=pdf">texto de los PDF de la Biblioteca</a>.';R.parentNode.appendChild(nt)}}).catch(function(){est.textContent='No se pudo cargar el índice de búsqueda.'})}
 """
 
 
@@ -295,3 +299,4 @@ def parchar_sitio_js():
 
 indice_ampliado()
 parchar_sitio_js()
+exec(open(os.path.join(HERR, 'rapido.py'), encoding='utf-8').read())
